@@ -1,6 +1,6 @@
 # Redland Renovations
 
-This website has been built to improve the existing website for Redland Renovations, which serves as the portfolio and point of contact for a property renovation company in Bristol, UK.
+This website has been built to improve the existing website for Redland Renovations, which serves as a portfolio and point of contact for a property renovation company in Bristol, UK.
 
 
 ![Responsive Mockup](link)
