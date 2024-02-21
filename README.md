@@ -6,11 +6,30 @@ This website has been built to improve the existing website for Redland Renovati
 
 ### User stories
 
-As a user from all different age groups and technical abilities I want the website to be intuitive, acessible and easy to navigate. 
+As a user from all different age groups and technical abilities, I want the website to be intuitive, accessible, and easy to navigate. 
 
 - A. First Time Visitor Goals
+  1. As a first-time user, I would like to quickly identify the nature of the business and specialization of the company when visiting the page for the first time.
+  2. Determine the areas where the company is located and operates.
+  3. Determine what kind of services the company provides and the scope of works undertaken.
+  4. Browse the company's photos of the previously completed works.
+  5. Easily find the essential company's requisites.
+  6. Easily contact the company.
+
 - B. Returning Visitor Goals
-- C. Frequent User Goals 
+   1. As a Ruturning Visitor, I would like to quickly access the Call-to-Action.
+   
+- C. Frequent User Goals
+   1. As a Frequent User, I would like to easily navigate through the website to access various pages and return to the Home page if needed.
+
+- D. Website Owner Goals
+  1. As a website owner, I would like to be able to introduce the company to potential customers.
+  2. Provide essential company's requisites.
+  3. Provide convenient point of contact for my customers.
+  4. Demonstrate company's previously completed works.
+  5. Improve the image of company's online presence.
+  6. Capture the leads.
+
 
 ## UX Planes
 
