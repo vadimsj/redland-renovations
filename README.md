@@ -6,31 +6,37 @@ This website has been built to improve the existing website for Redland Renovati
 
 ### User stories
 
+As a user from all different age groups and technical abilities I want the website to be intuitive, acessible and easy to navigate. 
+
+- A. First Time Visitor Goals
+- B. Returning Visitor Goals
+- C. Frequent User Goals 
+
 ## UX Planes
 
-### Strategy
+- Strategy
 
-### Project Goals
+- Project Goals
 
-### Customer Goals
+- Customer Goals
 
-### Company Goals
+- Company Goals
 
-### Scope
+- Scope
 
-### Structure
+- Structure
 
-### Skeleton
+- Skeleton
 
-### Wireframes
+- Wireframes
 
-### Surface
+- Surface
 
-#### Color Scheme
+  - Color Scheme
 
-#### Typography
+  - Typography
 
-#### Imagery
+  - Imagery
 
 ## Features 
 
