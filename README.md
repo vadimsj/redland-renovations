@@ -8,15 +8,13 @@
 
 ### User stories
 
-As a user from all different age groups and technical abilities, I want the website to be intuitive, accessible, and easy to navigate. 
-
 - A. First Time Visitor Goals
 
     As a first-time user, I would like to:
   1. Quickly identify the nature of the business and specialization of the company when visiting the page for the first time.
   2. Determine the areas where the company is located and operates.
   3. Determine what kind of services the company provides and the scope of works undertaken.
-  4. Browse the company's photos of the previously completed works.
+  4. Browse the company's portfolio of the previously completed works.
   5. Easily find the essential company's requisites.
   6. Easily contact the company.
 
@@ -32,38 +30,18 @@ As a user from all different age groups and technical abilities, I want the webs
 
 - D. Website Owner Goals
 
-    As a website owner, I would like to be able to:
-  1. Introduce the company to potential customers.
+    As a website owner, I would like to:
+  1. Introduce the company to the website visitors.
   2. Provide essential company's requisites.
-  3. Demonstrate company's previously completed works.
-  4. Provide convenient point of contact for my customers.
+  3. Demonstrate company's portfolio previously completed works.
+  4. Provide convenient point of contact for customers.
   5. Improve the image of company's online presence.
-  6. Capture the leads from incoming enquitries.
+  6. Capture the leads from incoming enquiries.
 
 
 ## UX Planes
 
 - Strategy
-  - Redland Renovations is a business website that serves as a portfolio and point of contact for customers of the home renovation company in Bristol.
-  - The website provides users with all the essential company's requisites, an easy-to-browse portfolio, and a convenient way to contact the company.
-  - The website serves as a landing page for the company, introducing the company and directing and encouraging website visitors to make contact.
-  - The website captures leads from incoming inquiries and saves them into Google Sheets.
-  
-     - Project Goals
-        - Design a website that is simple yet intuitive to use and accessible to audience of all ages and technical abilities.
-        - Build a website that can be accessed from all devices.
-        - Improve on to current website's visitor to lead conversion rate.
-
-     - Customer Goals
-        - Being able to learn all essential information about the company through a quick scan of the page.
-        - Browse the company's portfolio of completed works and view detailed images.
-        - Conveniently contact the company in the preferred way.
-
-     - Company Goals
-        - Improve the image of copmany's online presence.
-        - Demonstrate a portfolio of completed works.
-        - Provide point of contact for customers.
-        - Grow customer base and increase sales.
 
 - Scope
     - Due to constraints of using HTML5 and CSS3, only ensure a simple but accessible layout.
