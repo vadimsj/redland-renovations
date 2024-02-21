@@ -34,20 +34,34 @@ As a user from all different age groups and technical abilities, I want the webs
 ## UX Planes
 
 - Strategy
+  - Redland Renovations is a business website that serves as a portfolio and point of contact for customers of the home renovation company in Bristol.
+  - Website is simple yet smart and accessible to audience of all ages and technical abilities.
+  
+     - Project Goals
+        - The website should be intuitive and easy to use for users of all age groups and technical abilities.
+        - Customers should be able to access the website from all devices.
 
-- Project Goals
+     - Customer Goals
+        - Quickly receive an introduction and essential information about the company.
+        - Browse and view the company's portfolio.
+        - Conveniently csontact the company.
 
-- Customer Goals
-
-- Company Goals
+     - Comapny Goals
+        - Improve the image of copmany's online presence.
+        - Demonstrate a portfolio of completed works.
+        - Provide point of contact for customers
+        - Capture leads and increase sales.
 
 - Scope
+    - Due to constraints of using HTML5 and CSS3, only ensure a simple but accessible layout.
+    - The website should be static but responsive.
+    -  Website should be accessible on various devices.
 
 - Structure
 
 - Skeleton
 
-- Wireframes
+  - Wireframes
 
 - Surface
 
