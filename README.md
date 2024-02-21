@@ -2,8 +2,35 @@
 
 This website has been built to improve the existing website for Redland Renovations, which serves as a portfolio and point of contact for a property renovation company in Bristol, UK.
 
+## User Eperience (UX)
 
-![Responsive Mockup](link)
+### User stories
+
+## UX Planes
+
+### Strategy
+
+### Project Goals
+
+### Customer Goals
+
+### Company Goals
+
+### Scope
+
+### Structure
+
+### Skeleton
+
+### Wireframes
+
+### Surface
+
+#### Color Scheme
+
+#### Typography
+
+#### Imagery
 
 ## Features 
 
