@@ -2,7 +2,7 @@
 
 - This website has been built to improve the existing website for Redland Renovations, which serves as a portfolio and point of contact for a property renovation company in Bristol, UK.
 
-- The website is designed as a landing page with a single main Call-to-Action for its visitors, which is to contact the company.
+- The website is designed as a landing page with a single main call-to-action for its visitors, which is to contact the company.
 
 ## User Eperience (UX)
 
@@ -11,37 +11,46 @@
 - A. First Time Visitor Goals
 
     As a first-time user, I would like to:
-  1. Quickly identify the nature of the business and specialization of the company when visiting the page for the first time.
-  2. Determine the areas where the company is located and operates.
-  3. Determine what kind of services the company provides and the scope of works undertaken.
-  4. Browse the company's portfolio of the previously completed works.
-  5. Easily find the essential company's requisites.
-  6. Easily contact the company.
+  1. Quickly identify the nature of the business and specialization of the company.
+  2. Determine the company's location and areas of operation.
+  3. Determine the types of services the company offers and the scope of work undertaken.
+  4. Explore the company's portfolio showcasing previously completed projects.
+  5. Easily locate essential information about the company.
+  6. Contact the company in the preferred way.
 
 - B. Returning Visitor Goals
 
     As a Ruturning Visitor, I would like to:
-   1. Quickly access the Call-to-Action.
+   1. Easily navigate through the website to access different pages and return to the home page if needed.
+    2. Quickly access the call-to-action.
    
 - C. Frequent User Goals
 
     As a Frequent User, I would like to:
-   1. Easily navigate through the website to access various pages and return to the Home page if needed.
+   1. Easily navigate through the website to access different pages and return to the home page if needed.
+    2. Quickly access the call-to-action.
 
 - D. Website Owner Goals
 
     As a website owner, I would like to:
   1. Introduce the company to the website visitors.
-  2. Provide essential company's requisites.
-  3. Demonstrate company's portfolio previously completed works.
+  2. Present essential company information in a convenient format.
+  3. Showcase the company's portfolio of previously completed works.
   4. Provide convenient point of contact for customers.
-  5. Improve the image of company's online presence.
-  6. Capture the leads from incoming enquiries.
+  5. Capture the leads from incoming inquiries.
 
 
 ## UX Planes
 
 - Strategy
+  - Project Goals
+    - Design a website that is simple yet intuitive to use and accessible to audience of all ages and technical abilities.
+    - Build a website that can be accessed from all devices.
+    - Improve the current website's conversion rate of visitors into leads.
+
+  - Company Goals
+    - Enhance the company's online presence and business image.
+    - Expand the customer base and boost sales.
 
 - Scope
     - Due to constraints of using HTML5 and CSS3, only ensure a simple but accessible layout.
