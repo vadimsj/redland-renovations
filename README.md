@@ -46,8 +46,8 @@
   - Project Goals
     - Design a website that is simple yet intuitive to use and accessible to audience of all ages and technical abilities.
     - Build a fully responsive website accessible from all devices.
-    - Optimise accessibility of the website.
-    - Optimise the website to enhance lead conversion.
+    - Optimize accessibility of the website.
+    - Optimize the website to enhance lead conversion.
 
   - Company Goals
     - Improve the online presence and corporate image of the company.
