@@ -57,10 +57,22 @@
 
 - Scope
     - Due to constraints of using HTML5 and CSS3, only ensure a simple but accessible layout.
-    - The website should be static but responsive.
-    -  Website should be accessible on various devices.
+    - Feature requirements:
+      - The website is static but responsive.
+      - The website is intuitive and user-friendly.
+      -  Website is accessible on various devices.
+      - Website is accessible to audience of all ages and technical abilities.
+
+   -  Contents requirements:
+      -  Key information about the company is easily accessible.
+      -  The website is visually engaging, featuring a multitude of images across its pages.
+      - Content is presented in a format that is easy for users to understand and absorb.
+
 
 - Structure
+  - The website is designed as a single landing page.
+  - The website also features a navigation bar for quick and easy browsing.
+  - The website is structured to direct visitors towards primary call to action.
 
 - Skeleton
 
