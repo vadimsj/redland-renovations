@@ -75,7 +75,7 @@
   - The website is designed as a single landing page.
   - The website is structured to direct visitors towards the primary call to action.
 
-  - The website includes the following pages:
+  - The website is divided on the following sections or pages:
     -  Home
     -  Services
     -  Gallery
