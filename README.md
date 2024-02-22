@@ -4,8 +4,6 @@
 
 - The purpose of the website is to convert prospective visitors into leads and capture their contact details.
 
-- The website is designed as a landing page with a single main call-to-action for its visitors, which is to contact the company.
-
 ## User Eperience (UX)
 
 ### User stories
@@ -24,13 +22,13 @@
 
     As a Ruturning visitor, I would like to:
    1. Easily navigate through the website to access different pages and return to the home page if needed.
-    2. Quickly access the call-to-action.
+    2. Quickly contact the company or request a callback.
    
 - C. Frequent User Goals
 
     As a Frequent User, I would like to:
    1. Easily navigate through the website to access different pages and return to the home page if needed.
-    2. Quickly access the call-to-action.
+    2. Quickly contact the company or request a callback.
 
 - D. Website Owner Goals
 
@@ -73,9 +71,10 @@
 
 - Structure
   - The website is designed as a single landing page.
-  - The website is structured to direct visitors towards the primary call to action.
+  - The website has single primary call-to-action for its visitors. 
+  - The website is structured to direct visitors towards the primary call-to-action.
 
-  - The website is divided on the following sections or pages:
+  - The website is divided into the following sections or pages:
     -  Home
     -  Services
     -  Gallery
