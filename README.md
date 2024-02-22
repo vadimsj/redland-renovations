@@ -72,7 +72,7 @@
 - Structure
   - The website is designed as a single landing page.
   - The website has single primary call-to-action for its visitors. 
-  - The website is structured to direct visitors towards the primary call-to-action.
+  - The website is structured to guide visitors towards the primary call-to-action.
 
   - The website is divided into the following sections or pages:
     -  Home
@@ -90,13 +90,30 @@
 
   - Wireframes
 
-  ![Wireframe](assets/docs/redland-renovations-wireframes.png)
+  ![Wireframes](assets/docs/redland-renovations-wireframes.png)
 
 - Surface
 
   - Color Scheme
 
   - Typography
+    - Headings are formatted using the 'Suez One' font, a serif typeface.
+
+        ![Font for headings](assets/docs/font-preview-suez-one-serif.png)
+
+        Link to google fonts: https://fonts.google.com/specimen/Suez+One?query=suez
+
+    - The remaining text content is formatted using the 'Inter' font, a sans-serif typeface.
+  
+        ![Font for headings](assets/docs/font-preview-inter-sans-serif.png)
+
+        Link to google fonts: https://fonts.google.com/specimen/Inter?preview.text=Inter&query=Inter&stroke=Sans+Serif
+
+    - Code to connect google fonts in HTML:
+    ```html
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Suez+One&display=swap" rel="stylesheet">
 
   - Imagery
 
