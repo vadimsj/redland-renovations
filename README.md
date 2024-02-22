@@ -69,8 +69,8 @@
       -  The website is visually engaging, featuring a multitude of images across its pages.
       - Content is presented in a format that is easy for users to understand and absorb.
       - The website is presented in a professional yet friendly manner.
-      - The website is meant to serve as intruductory presentation of the business, nudging visitors to contact he company for further information.
-
+      - The website has only essential content and serves solely as an introductory presentation.
+      - The website instills confidence and prompts visitors to initiate contact with the company.
 
 - Structure
   - The website is designed as a single landing page.
