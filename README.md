@@ -35,7 +35,7 @@
 - D. Website Owner Goals
 
     As a website owner, I would like to:
-  1. Introduce the company to the website visitors.
+  1. Introduce the company and it's services to the website visitors.
   2. Present essential company information in a user-friendly format.
   3. Showcase the company's portfolio of previously completed works.
   4. Offer a convenient means for customers to get in touch.
