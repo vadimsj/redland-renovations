@@ -62,7 +62,7 @@
       -  Website is accessible on various devices.
       - Website is accessible to audience of all ages and technical abilities.
 
-   -  Contents requirements:
+   -  Content requirements:
       -  Key information about the company is easily accessible.
       -  The website is visually engaging, featuring a multitude of images across its pages.
       - Content is presented in a format that is easy for users to understand and absorb.
