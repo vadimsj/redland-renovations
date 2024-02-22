@@ -57,6 +57,7 @@
 
 - Scope
     - Due to constraints of using HTML5 and CSS3, only ensure a simple but accessible layout.
+  
     - Feature requirements:
       - The website is static but responsive.
       - The website is intuitive and user-friendly.
@@ -67,12 +68,24 @@
       -  Key information about the company is easily accessible.
       -  The website is visually engaging, featuring a multitude of images across its pages.
       - Content is presented in a format that is easy for users to understand and absorb.
+      - The website is presented in a professional yet friendly manner.
 
 
 - Structure
   - The website is designed as a single landing page.
-  - The website also features a navigation bar for quick and easy browsing.
   - The website is structured to direct visitors towards primary call to action.
+
+  - The website includes the following pages:
+    -  Home
+    -  Services
+    -  Gallery
+    -  About Us
+    -  Contact
+
+  - The website features a navigation bar with the following links:
+    - Services
+    - Gallery
+    - Contact
 
 - Skeleton
 
