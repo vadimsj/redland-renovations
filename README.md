@@ -12,8 +12,8 @@
 
     As a first-time visitor, I would like to:
   1. Quickly identify the nature of the business and specialization of the company.
-  2. Determine the company's location and areas of operation.
-  3. Determine the types of services the company offers and the scope of work undertaken.
+  2. Determine where the company is located and its areas of operation.
+  3. Determine what services the company offers and the scope of work undertaken.
   4. Explore the company's portfolio showcasing previously completed projects.
   5. Easily locate essential information about the company.
   6. Contact the company in the preferred way.
