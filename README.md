@@ -95,6 +95,7 @@
 - Surface
 
   - Color Scheme
+        ![Color scheme](assets/docs/color-scheme-preview.png)
 
   - Typography
     - Headings are formatted using the 'Suez One' font, a serif typeface.
@@ -109,7 +110,7 @@
 
         Link to google fonts: https://fonts.google.com/specimen/Inter?preview.text=Inter&query=Inter&stroke=Sans+Serif
 
-    - Code to connect google fonts in HTML:
+    - Code to link google fonts in HTML:
     ```html
      <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
