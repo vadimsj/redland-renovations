@@ -12,7 +12,7 @@
 
 - A. First Time Visitor Goals
 
-    As a first-time user, I would like to:
+    As a first-time visitor, I would like to:
   1. Quickly identify the nature of the business and specialization of the company.
   2. Determine the company's location and areas of operation.
   3. Determine the types of services the company offers and the scope of work undertaken.
@@ -22,7 +22,7 @@
 
 - B. Returning Visitor Goals
 
-    As a Ruturning Visitor, I would like to:
+    As a Ruturning visitor, I would like to:
    1. Easily navigate through the website to access different pages and return to the home page if needed.
     2. Quickly access the call-to-action.
    
@@ -47,11 +47,12 @@
 - Strategy
   - Project Goals
     - Design a website that is simple yet intuitive to use and accessible to audience of all ages and technical abilities.
-    - Build a website that can be accessed from all devices.
-    - Improve the current website's conversion rate of visitors into leads.
+    - Build a fully responsive website accessible from all devices.
+    - Optimise accessibility of the website.
+    - Optimise the website to enhance lead conversion.
 
   - Company Goals
-    - Enhance the company's online presence and business image.
+    - Improve the online presence and corporate image of the company.
     - Expand the customer base and boost sales.
 
 - Scope
