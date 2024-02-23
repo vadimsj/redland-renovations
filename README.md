@@ -2,9 +2,11 @@
 
 - This website has been built to improve the existing website for Redland Renovations, which serves as a portfolio and point of contact for a property renovation company in Bristol, UK.
 
--  The website intended to function as an introductory presentation of the business for prospective visitors. It features essential information about the company and aims to motivate visitors to reach out.
+-  The website intended to function as an introductory presentation of the business for prospective visitors.
 
-- The purpose of the website is to convert prospective visitors into leads and capture their contact details.
+-  It features essential information about the company and aims to motivate visitors to reach out.
+
+- The main purpose of the website is to convert prospective visitors into leads and capture their contact details.
 
 ## User Eperience (UX)
 
