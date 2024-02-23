@@ -1,9 +1,48 @@
+:root{
+    --theme-color-light: #fff;
+    --theme-color-light-alt: #cd6123;
+    --theme-color-dark: #eee;
+    --theme-color-dark-alt: #000;
+    --text-color: #000;
+    --text-color-alt: #fff;
+    --text-color-alt2: #808a99;
+    --border-color-light: #b8c0cc;
+    --font-family-h: 'Suez One', serif;
+    --font-family-txt: 'Inter', sans-serif;
+    --font-size-h-xs: ;
+    --font-size-h-s: 24px;
+    --font-size-h-m: ;
+    --font-size-h-l: ;
+    --font-size-s: 16px;
+    --font-size-m: ;
+    --font-size-l: ;
+    --line-height: 1.6;
+    --line-height-h: 1.2;
+
+}
+
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+
+}
+
+body {
+    font-size: var(--font-size-s);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100svh;
 }
 
 section:nth-child(odd) {
     background-color: #eee;
+}
+
+.logo {
+    width: 500px;
 }
