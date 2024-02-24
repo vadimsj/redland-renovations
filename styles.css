@@ -171,12 +171,12 @@ transition: transform 0.3s ease-in-out;
     
     .section {
         height: 90vh;
-        padding: 3rem 7rem 3rem;
+        padding: 3rem 7rem 0rem;
       }
     
     .btn {
         font-size: var(--font-size-l);
-        margin-top: 5rem;
+        margin-top: 3rem;
     }
 
     .logo {
