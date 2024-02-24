@@ -64,10 +64,10 @@
   
     - Feature requirements:
       - Website is static but responsive.
-      - The website is intuitive and user-friendly.
+      - Website is intuitive and user-friendly.
       -  Website is accessible on various devices.
       - Website is accessible to audience of all ages and technical abilities.
-      - The website is built mobile first approach
+      - Website is developed with a mobile-first approach.
 
    -  Content requirements:
       -  Key information about the company is easily accessible.
