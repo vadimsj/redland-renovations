@@ -103,6 +103,10 @@ html {
         color: var(--text-color-alt);
         
     }
+
+    .contact-us__form {
+        margin-top: 2rem;
+    }
     
     /* -- Typography -- */
     
@@ -138,6 +142,34 @@ html {
         font-size: var(--font-size-s);
         line-height: var(--line-height);
     }
+
+    label {
+        align-self: flex-start;
+    }
+    
+    input, textarea {
+        width: 100%;
+        max-width: var(--min-width);
+        border-radius: 4px;
+        border-width: 1px;
+        border-color: var(--border-color-light);
+        border-style: solid;
+        outline: none;
+        padding: 1em;
+    }
+    
+    textarea {
+        height: 7.5rem;
+    }
+    
+    textarea::placeholder {
+        font-family: var(--font-family-txt);
+    }
+    
+    input:focus, textarea:focus {
+        border-color: var(--text-color-alt2);
+    }
+    
 
     /* --- Buttons -- */
     
@@ -179,6 +211,10 @@ html {
 .btn--primary-cta:focus .btn__icon,
 .btn--primary-cta:active .btn__icon { 
     color: var(--theme-color-dark);
+}
+
+.btn--submit-msg {
+    width: auto;
 }
 
 /* --- Media queries ---- */
