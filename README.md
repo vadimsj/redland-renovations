@@ -63,32 +63,33 @@
     - Due to constraints of using HTML5 and CSS3, only ensure a simple but accessible layout.
   
     - Feature requirements:
-      - The website is static but responsive.
+      - Website is static but responsive.
       - The website is intuitive and user-friendly.
       -  Website is accessible on various devices.
       - Website is accessible to audience of all ages and technical abilities.
+      - The website is built mobile first approach
 
    -  Content requirements:
       -  Key information about the company is easily accessible.
-      -  The website is visually engaging, featuring a multitude of images across its pages.
+      -  Website is visually engaging, featuring a multitude of images across its pages.
       - Content is presented in a format that is easy for users to understand and absorb.
-      - The website is presented in a professional yet friendly manner.
-      - The website has only essential content and serves solely as an introductory presentation.
-      - The website instills confidence and prompts visitors to initiate contact with the company.
+      - Website is presented in a professional yet friendly manner.
+      - Website has only essential content and serves solely as an introductory presentation.
+      - Website instills confidence and prompts visitors to initiate contact with the company.
 
 - Structure
-  - The website is designed as a single landing page.
-  - The website has single primary call-to-action for its visitors. 
-  - The website is structured to guide visitors towards the primary call-to-action.
+  - Website is designed as a single landing page.
+  - Website has single primary call-to-action for its visitors. 
+  - Website is structured to guide visitors towards the primary call-to-action.
 
-  - The website is divided into the following sections or pages:
+  - Website is divided into the following sections or pages:
     -  Home
     -  Services
     -  Gallery
     -  About Us
     -  Contact
 
-  - The website features a navigation bar with the following links:
+  - Website features a navigation bar with the following links:
     - Services
     - Gallery
     - Contact
@@ -111,7 +112,7 @@
 
         Link to google fonts: https://fonts.google.com/specimen/Suez+One?query=suez
 
-    - The remaining text content is formatted using the 'Inter' font, a sans-serif typeface.
+    -  Text content is formatted using the 'Inter' font, a sans-serif typeface.
   
         ![Font for headings](assets/docs/font-preview-inter-sans-serif.png)
 
@@ -158,13 +159,13 @@
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://
+The live link can be found here - https://vadimsj.github.io/redland-renovations
 
 ## Credits 
 
 ### Content 
 
-- The text for the Home page was taken from 
+- Text for the Home page was taken from 
 - Instructions on how to implement ... on the ... page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
