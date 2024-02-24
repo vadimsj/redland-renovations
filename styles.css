@@ -144,11 +144,26 @@ h1 {
     }
 
     .main {
+        margin-top: 11rem;
         padding: 5rem;
+      }
+    
+    .section {
+        padding: 0 7.5rem 3rem;
+        height: 90vh;
       }
 
     .btn {
         font-size: var(--font-size-l);
         margin-top: 5rem;
+    }
+
+    .home__image {
+        max-height: 80%;
+        width: 50%;
+        margin-left: 7.5rem;
+        margin-top: 10rem;
+
+
     }
 }
