@@ -122,28 +122,34 @@ h1 {
     text-align: center;
 }
 
+
+/* Effet on main cta button to move the icon on hover" */
 .btn__icon {
 transition: transform 0.3s ease-in-out;
 
-}
-
-.btn--primary-cta {
-    position: relative;
-}
-
-.btn--primary-cta:focus,
-.btn--primary-cta:active {
-    color: var(--theme-color-dark);
 }
 
 .btn--primary-cta:hover .btn__icon {
     transform: translateX(+7px);
 }
 
+.btn--primary-cta {
+    position: relative;
+}
+/* --- */
+
+.btn--primary-cta:focus,
+.btn--primary-cta:active {
+    color: var(--theme-color-dark);
+}
+
 .btn--primary-cta:focus .btn__icon,
 .btn--primary-cta:active .btn__icon { 
     color: var(--theme-color-dark);
 }
+
+
+
 
 @media (min-width: 600px) {
 
