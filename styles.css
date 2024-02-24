@@ -9,7 +9,7 @@
     --border-color-light: #b8c0cc;
     --font-family-h: 'Suez One', serif;
     --font-family-txt: 'Inter', sans-serif;
-    --font-size-h-xs: ;
+    --font-size-h-xs: 16px;
     --font-size-h-s: 24px;
     --font-size-h-m: ;
     --font-size-h-l: 36px;
@@ -54,12 +54,22 @@ html {
         flex-direction: column;
         align-items: center;
         min-height: 90vh;
-        padding: 1rem;
+        padding: 1rem 1rem 0;
     }
     
-    .section__services {
+    .section__services,
+    .section__about-us,
+    .section__contact-us { 
+        min-height: auto;
         justify-content: space-between;
     }
+
+    .contact-us__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
 
     .logo {
         width: 13rem;
@@ -86,8 +96,9 @@ html {
         display: flex;
         flex-direction: column;
         align-items: center;
+        text-align: center;
         width: 100vw;
-        padding: 2rem;
+        padding: 1rem 2rem;
         background-color: var(--theme-color-dark-alt);
         color: var(--text-color-alt);
         
@@ -111,6 +122,12 @@ html {
     
     h1 {
         font-size: var(--font-size-h-s);
+    }
+
+    h2 {
+        font-size: var(--font-size-h-xs);
+        font-family: var(--font-family-txt);
+        margin: 0;
     }
     
     p,
