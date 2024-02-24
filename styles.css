@@ -32,92 +32,109 @@ html {
     scroll-behavior: smooth;
   }
 
-body {
-    font-family: var(--font-family-txt);
-    font-size: var(--font-size-s);
-    line-height: var(--line-height);
-}
+  /* --- Layout --- */
+  
+  .header__nav { 
+      position: fixed;
+      z-index: 5;
+      width: 100%;
+      padding: 1rem;
+      background-color: var(--theme-color-light);
+      box-shadow: 0 4px 6px #0000001a;
+    }
     
-nav { 
-    position: fixed;
-    z-index: 5;
-    width: 100%;
-    padding: 1rem;
-    background-color: var(--theme-color-light);
-    box-shadow: 0 4px 6px #0000001a;
-}
-
-section:nth-child(odd) {
-    background-color: #eee;
-}
-
-
-.section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-    padding: 1rem;
-}
-
-article {
-    background-color: #808a99;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    text-align: center;
-    text-wrap: balance; /* currently limited support */
-    font-family: var(--font-family-h);
-    font-weight: 400;
-    line-height: var(--line-height-h);
-    margin-bottom: 1rem;
-}
-
-h1 {
-    font-size: var(--font-size-h-s);
-}
-
-.logo {
-    width: 13rem;
-    margin-top: 1rem;
+    /* This code alternates background color for sections */
+    .section:nth-child(odd) {
+        background-color: #eee;
+    }
     
-}
-
-.home__image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.home {
-    justify-content: space-around;
-}
-
-.main { 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 80%;
-    margin-top: 7rem;
-    font-weight: 600;
-}
-
-.btn {
     
-    display: block;
-    width: 26ch;
-    margin: 2rem;
-    padding: .6em 1.25em;
-    border-radius: 15px;
-    border-width: 0;
-    background-color: var(--theme-color-light-alt);
-    color: var(--theme-color-light);
-    font-size: var(--font-size-s);
+    .section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 90vh;
+        padding: 1rem;
+    }
+    
+    .section__services {
+        justify-content: space-between;
+    }
+
+    .logo {
+        width: 13rem;
+        margin-top: 1rem;
+        
+    }
+    
+    .home__image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .main { 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 80%;
+        margin-top: 7rem;
+        font-weight: 600;
+    }
+    
+    .aside {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        padding: 2rem;
+        background-color: var(--theme-color-dark-alt);
+        color: var(--text-color-alt);
+        
+    }
+    
+    /* -- Typography -- */
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        text-align: center;
+        text-wrap: balance; /* currently limited support */
+        font-family: var(--font-family-h);
+        font-weight: 400;
+        line-height: var(--line-height-h);
+        margin-bottom: 1rem;
+    }
+    
+    h1 {
+        font-size: var(--font-size-h-s);
+    }
+    
+    p,
+    a,
+    ul,
+    label {
+        font-family: var(--font-family-txt);
+        font-size: var(--font-size-s);
+        line-height: var(--line-height);
+    }
+
+    /* --- Buttons -- */
+    
+    .btn {
+        
+        display: block;
+        width: 26ch;
+        margin: 2rem;
+        padding: .6em 1.25em;
+        border-radius: 15px;
+        border-width: 0;
+        background-color: var(--theme-color-light-alt);
+        color: var(--theme-color-light);
+        font-size: var(--font-size-s);
     text-decoration: none;
     text-align: center;
 }
@@ -125,8 +142,7 @@ h1 {
 
 /* Effet on main cta button to move the icon on hover" */
 .btn__icon {
-transition: transform 0.3s ease-in-out;
-
+    transition: transform 0.3s ease-in-out;
 }
 
 .btn--primary-cta:hover .btn__icon {
@@ -148,8 +164,7 @@ transition: transform 0.3s ease-in-out;
     color: var(--theme-color-dark);
 }
 
-
-
+/* --- Media queries ---- */
 
 @media (min-width: 600px) {
 
