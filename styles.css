@@ -152,6 +152,7 @@ transition: transform 0.3s ease-in-out;
 @media (min-width: 1250px) {
     #home {
       flex-direction: row-reverse;
+      justify-content: space-around;
     }
     
     body {
@@ -163,17 +164,16 @@ transition: transform 0.3s ease-in-out;
     }
 
     .main {
-        justify-content: ;
         margin-top: 11rem;
         padding: 5rem;
         max-width: 45%;
       }
     
     .section {
-        padding: 0 7.5rem 3rem;
         height: 90vh;
+        padding: 3rem 7rem 3rem;
       }
-
+    
     .btn {
         font-size: var(--font-size-l);
         margin-top: 5rem;
@@ -181,16 +181,6 @@ transition: transform 0.3s ease-in-out;
 
     .logo {
         width: 13rem;
-        margin-left: 5rem;
-        
-    }
-
-    .home__image {
-        object-fit: ;
-        max-height: auto;
-        width: auto;
-
-
-
+        margin-left: 6rem;
     }
 }
