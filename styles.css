@@ -38,7 +38,7 @@ html {
       position: fixed;
       z-index: 5;
       width: 100%;
-      padding: 1rem;
+      padding: 0;
       background-color: var(--theme-color-light);
       box-shadow: 0 4px 6px #0000001a;
     }
@@ -64,16 +64,11 @@ html {
         justify-content: space-between;
     }
 
-    .contact-us__form {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
     
-
+    
     .logo {
         width: 13rem;
-        margin-top: 1rem;
+        margin: .5rem .5rem;
         
     }
     
@@ -103,11 +98,26 @@ html {
         color: var(--text-color-alt);
         
     }
+    
+    .section__contact-us {
+        background-color: var(--theme-color-dark);
+    }
 
     .contact-us__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         margin-top: 2rem;
     }
-    
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 1rem 3rem 5rem;
+    }
+
     /* -- Typography -- */
     
     h1,
@@ -147,7 +157,8 @@ html {
         align-self: flex-start;
     }
     
-    input, textarea {
+    input, 
+    textarea {
         width: 100%;
         max-width: var(--min-width);
         border-radius: 4px;
@@ -179,10 +190,11 @@ html {
         width: 26ch;
         margin: 2rem;
         padding: .6em 1.25em;
-        border-radius: 15px;
+        border-radius: 0;
         border-width: 0;
-        background-color: var(--theme-color-light-alt);
-        color: var(--theme-color-light);
+        border: 2px solid var(--theme-color-light-alt);
+        background-color: var(--theme-color-light);
+        color: var(--theme-color-light-alt);
         font-size: var(--font-size-s);
     text-decoration: none;
     text-align: center;
