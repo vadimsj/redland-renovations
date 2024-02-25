@@ -9,9 +9,9 @@
     --border-color-light: #b8c0cc;
     --font-family-h: 'Suez One', serif;
     --font-family-txt: 'Inter', sans-serif;
-    --font-size-h-xs: 16px;
-    --font-size-h-s: 24px;
-    --font-size-h-m: ;
+    --font-size-h-xs: 14px;
+    --font-size-h-s: 18px;
+    --font-size-h-m: 24px;
     --font-size-h-l: 36px;
     --font-size-s: 18px;
     --font-size-m: ;
@@ -129,12 +129,16 @@ html {
     h6 {
         text-align: center;
         text-wrap: balance; /* currently limited support */
-        font-family: var(--font-family-h);
         font-weight: 400;
         line-height: var(--line-height-h);
     }
     
-    h2,
+    h1,
+    h2 {
+        font-family: var(--font-family-h);
+    }
+
+
     h3,
     h4,
     h5,
@@ -143,12 +147,15 @@ html {
     }
     
     h1 {
-        font-size: var(--font-size-h-s);
+        font-size: var(--font-size-h-m);
     }
     
     h2 {
+        font-size: var(--font-size-h-s);
+    }
+
+    h3 {
         font-size: var(--font-size-h-xs);
-        margin: 0;
     }
 
     a,
@@ -156,13 +163,14 @@ html {
     ul,
     label {
         font-family: var(--font-family-txt);
-        font-size: var(--font-size-s);
+        font-size: var(--font-size-xs);
         line-height: var(--line-height);
     }
 
     a {
         color: var(--text-color);
         text-decoration:none;
+        font-size: var(--font-size-h-xs);
         font-weight: 700;
     }
     
