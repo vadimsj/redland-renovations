@@ -267,7 +267,6 @@ html {
     text-align: center;
 }
 
-
 /* Effet on main cta button to move the icon on hover" */
 .btn__icon {
     transition: transform 0.3s ease-in-out;
@@ -294,6 +293,7 @@ html {
 
 .btn--submit-msg {
     width: auto;
+    margin-bottom: 3rem;
 }
 
 /* --- Media queries ---- */
