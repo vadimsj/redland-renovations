@@ -215,14 +215,14 @@ html {
 }
 /* --- */
 
-.btn--primary-cta:focus,
-.btn--primary-cta:active {
-    color: var(--theme-color-dark);
+.btn:active {
+    color: var(--theme-color-dark-alt);
+    border-color: var(--theme-color-dark-alt);
 }
 
 .btn--primary-cta:focus .btn__icon,
 .btn--primary-cta:active .btn__icon { 
-    color: var(--theme-color-dark);
+    color: var(--theme-color-dark-alt;)
 }
 
 .btn--submit-msg {
