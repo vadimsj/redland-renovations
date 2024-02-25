@@ -99,6 +99,11 @@ html {
         
     }
     
+    .aside__a {
+        color: var(--text-color);
+        filter: invert(100%);
+    }
+
     .section__contact-us {
         background-color: var(--theme-color-dark);
     }
@@ -143,9 +148,22 @@ html {
         font-family: var(--font-family-txt);
         margin: 0;
     }
+
+    a {
+        color: var(--text-color);
+        text-decoration:none;
+    }
     
-    p,
+    a:hover {
+        color: var(--theme-color-light-alt);
+    }
+    
+    a:active {
+        color: var(--text-color-alt2);
+    }
+    
     a,
+    p,
     ul,
     label {
         font-family: var(--font-family-txt);
