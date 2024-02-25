@@ -68,6 +68,10 @@ html {
         justify-content: space-between;
     }
 
+    .section__services {
+        padding: 2rem 5rem;
+    }
+
     .section__contact-us {
         background-color: var(--theme-color-dark);
         text-align: center;
@@ -320,6 +324,5 @@ html {
 
     .logo {
         width: 13rem;
-        
     }
 }
