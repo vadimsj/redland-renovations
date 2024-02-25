@@ -108,6 +108,10 @@ html {
         margin-top: 5rem;
         font-weight: 600;
     }
+
+    .gallery {
+        padding: 1rem 2rem;
+    }
     
     .aside {
         display: flex;
