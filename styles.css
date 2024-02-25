@@ -213,6 +213,10 @@ html {
     input:focus, textarea:focus {
         border-color: var(--text-color-alt2);
     }
+
+    .nobreak {
+        white-space: nowrap;
+    }
     
 
     /* --- Buttons -- */
