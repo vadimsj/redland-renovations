@@ -18,7 +18,7 @@
     --font-size-l: 20px;
     --line-height: 1.6;
     --line-height-h: 1.2;
-
+    --line-height-xl: 2;
 }
 
 * {
@@ -69,7 +69,7 @@ html {
     }
 
     .section__services {
-        padding: 2rem 5rem;
+        padding: 1rem 5rem 0;
     }
 
     .section__contact-us {
@@ -172,6 +172,7 @@ html {
     
     h2 {
         font-size: var(--font-size-h-s);
+        margin: 1rem;
     }
 
     h3 {
@@ -180,11 +181,16 @@ html {
 
     a,
     p,
-    ul,
     label {
         font-family: var(--font-family-txt);
         font-size: var(--font-size-xs);
         line-height: var(--line-height);
+    }
+    
+    ul {
+        line-height: var(--line-height-xl);
+        font-family: var(--font-family-txt);
+        font-size: var(--font-size-xs);
     }
 
     a {
@@ -279,7 +285,7 @@ html {
 
 .btn--primary-cta:focus .btn__icon,
 .btn--primary-cta:active .btn__icon { 
-    color: var(--theme-color-dark-alt;)
+    color: var(--theme-color-dark-alt);
 }
 
 .btn--submit-msg {
