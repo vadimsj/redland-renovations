@@ -68,7 +68,11 @@ html {
         justify-content: space-between;
     }
 
-    .section__services {
+    .section__services,
+    .section__services,
+    .section__about-us,
+    .gallery,
+    .section__contact-us {
         padding: 1rem 5rem 0;
     }
 
@@ -110,7 +114,7 @@ html {
     }
 
     .gallery {
-        padding: 1rem 2rem;
+        padding: 2rem;
     }
     
     .aside {
@@ -120,7 +124,7 @@ html {
         text-align: center;
         width: 100vw;
         margin-top: 2rem;
-        padding: 1rem 2rem;
+        padding: 2rem;
         background-color: var(--theme-color-dark-alt);
         color: var(--text-color-alt);
         
@@ -295,7 +299,7 @@ html {
 
 .btn--submit-msg {
     width: auto;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
 }
 
 /* --- Media queries ---- */
