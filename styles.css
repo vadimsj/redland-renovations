@@ -89,7 +89,7 @@ html {
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        padding: 1rem 2rem 0;
+        padding: 2rem 2rem 0;
     }
 
     .logo {
@@ -218,6 +218,10 @@ html {
     
     .a--alt {
         color: var(--text-color-alt);
+    }
+
+    p {
+        margin-bottom: 2rem;
     }
     
     label {
