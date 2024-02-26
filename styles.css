@@ -38,7 +38,7 @@ html {
   
   .header__nav { 
       position: fixed;
-      z-index: 5;
+      z-index: 1;
       width: 100%;
       padding: 0;
       border: none;
@@ -48,8 +48,7 @@ html {
     }
 
     .header__nav.scrolled {
-        border: 1px solid #ddd;
-        border-top: none;
+        border: none;
         box-shadow: 0 4px 6px #0000001a;
     }
     
@@ -63,7 +62,6 @@ html {
         display: flex;
         flex-direction: column;
         align-items: center;
-        min-height: auto;
         background-color: var(--theme-color-light);
     }
 
@@ -111,7 +109,11 @@ html {
 
     .logo {
         width: 10rem;
+    }
+    
+    .logo--navbar-logo {
         margin: 1rem 1rem .5rem;
+
     }
     
     .home__image {
@@ -291,8 +293,8 @@ html {
         background-color: var(--theme-color-light);
         color: var(--theme-color-light-alt);
         font-size: var(--font-size-s);
-    text-decoration: none;
-    text-align: center;
+        text-decoration: none;
+        text-align: center;
 }
 
 /* Effet on main cta button to move the icon on hover" */
@@ -346,23 +348,36 @@ html {
   font-size: var(--font-size-h-l);
     }
 
+    .header__nav {
+        border: none;
+        box-shadow: 0 4px 6px #0000001a;
+    }
+
     .main {
-        margin-top: 11rem;
-        padding: 5rem;
+        margin-top: 1rem;
+        padding: 6rem 5rem 0rem;
         max-width: 45%;
       }
     
     .section {
-        padding: 3rem 7rem 0rem;
+        padding: 0 0 0 5rem;;
       }
     
     .btn {
         font-size: var(--font-size-l);
-        margin-top: 3rem;
+        margin: 3rem;
+    }
+
+    .btn--primary-cta {
+        p;
     }
 
     .logo {
         width: 13rem;
+    }
+
+    .logo--navbar-logo {
+        margin: 1rem 6rem;
     }
 }
 
