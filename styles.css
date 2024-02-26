@@ -181,7 +181,7 @@ html {
     
     h1 {
         font-size: var(--font-size-h-m);
-        margin: 1rem 0;
+        margin: 1rem 0 2rem;
     }
     
     h2 {
