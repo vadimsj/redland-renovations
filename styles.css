@@ -128,7 +128,7 @@ html {
         align-items: center;
         text-align: center;
         width: 100vw;
-        margin-top: 4rem;
+        margin-top: 5rem;
         padding: 2rem;
         background-color: var(--theme-color-dark-alt);
         color: var(--text-color-alt);
