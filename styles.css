@@ -1,3 +1,5 @@
+/* -- Global styles -- */
+
 :root{
     --theme-color-light: #fff;
     --theme-color-light-alt: #cd6123;
@@ -25,7 +27,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    scroll-margin-top: 4.5rem;
+    scroll-margin-top: 4rem;
 }
 
 html {
@@ -39,8 +41,16 @@ html {
       z-index: 5;
       width: 100%;
       padding: 0;
+      border: none;
+      box-shadow: none;
       background-color: var(--theme-color-light);
-      box-shadow: 0 4px 6px #0000001a;
+      transition: border 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+    }
+
+    .header__nav.scrolled {
+        border: 1px solid #ddd;
+        box-shadow: 0 4px 6px #0000001a;
     }
     
     /* This code alternates background color for sections */
@@ -349,3 +359,5 @@ html {
         width: 13rem;
     }
 }
+
+
