@@ -10,7 +10,7 @@
     --font-family-h: 'Suez One', serif;
     --font-family-txt: 'Inter', sans-serif;
     --font-size-h-xs: 14px;
-    --font-size-h-s: 18px;
+    --font-size-h-s: 22px;
     --font-size-h-m: 24px;
     --font-size-h-l: 36px;
     --font-size-s: 18px;
@@ -56,10 +56,6 @@ html {
         min-height: 90vh;
     }
 
-    .section__home {
-        justify-content: space-between;
-        padding: 1rem;
-    }
     
     .section__services,
     .section__about-us,
@@ -67,12 +63,21 @@ html {
         min-height: auto;
         justify-content: space-between;
     }
-
+    
     .section__services,
     .section__services,
     .section__about-us,
     .gallery {
         padding: 2rem 5rem 0;
+    }
+    
+    .section__home {
+        justify-content: space-between;
+        padding: 1rem;
+    }
+
+    .section__services {
+        font-weight: 700;
     }
 
     .section__contact-us {
