@@ -228,12 +228,13 @@ html {
     textarea {
         width: 100%;
         max-width: var(--min-width);
+        padding: .5em;
         border-radius: 4px;
         border-width: 1px;
         border-color: var(--border-color-light);
         border-style: solid;
         outline: none;
-        padding: 1em;
+        font-size: var(--font-size-h-s);
     }
     
     textarea {
