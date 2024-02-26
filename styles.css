@@ -49,6 +49,7 @@ html {
 
     .header__nav.scrolled {
         border: 1px solid #ddd;
+        border-top: none;
         box-shadow: 0 4px 6px #0000001a;
     }
     
