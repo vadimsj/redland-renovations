@@ -249,7 +249,7 @@ html {
     input::placeholder,
     textarea::placeholder {
         font-family: var(--font-family-txt);
-        font-size: var(--font-size-h-s);
+        font-size: var(--font-size-h-xs);
     }
     
     input:focus, textarea:focus {
