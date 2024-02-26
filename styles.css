@@ -63,7 +63,7 @@ html {
         display: flex;
         flex-direction: column;
         align-items: center;
-        min-height: 90vh;
+        min-height: auto;
         background-color: var(--theme-color-light);
     }
 
@@ -71,7 +71,7 @@ html {
     .section__services,
     .section__about-us,
     .section__contact-us { 
-        min-height: auto;
+        
         justify-content: space-between;
     }
     
@@ -353,7 +353,6 @@ html {
       }
     
     .section {
-        height: 90vh;
         padding: 3rem 7rem 0rem;
       }
     
