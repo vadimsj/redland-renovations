@@ -180,6 +180,11 @@ body {
         font-size: var(--font-size-xs);
     }
 
+    h4,
+    h5 {
+        font-size: var(--font-size-h-xs);
+    }
+
     a,
     p,
     label {
