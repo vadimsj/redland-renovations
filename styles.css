@@ -12,10 +12,11 @@
     --border-color-light: #b8c0cc;
     --font-family-h: 'Suez One', serif;
     --font-family-txt: 'Inter', sans-serif;
+    --font-size-h-xs: 16px;
     --font-size-h-s: 22px;
     --font-size-h-m: 24px;
     --font-size-h-l: 36px;
-    --font-size-xs: 16px;
+    --font-size-xs: 14px;
     --font-size-s: 18px;
     --font-size-m: 20px;
     --line-height: 1.6;
@@ -177,7 +178,7 @@ h2 {
 }
 
 h3 {
-    font-size: var(--font-size-xs);
+    font-size: var(--font-size-h-xs);
 }
 
 h4,
@@ -246,7 +247,7 @@ textarea {
 input::placeholder,
 textarea::placeholder {
     font-family: var(--font-family-txt);
-    font-size: var(--font-size-h-xs);
+    font-size: var(--font-size-xs);
 }
 
 input:focus, textarea:focus {
