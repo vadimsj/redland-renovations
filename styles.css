@@ -52,7 +52,7 @@ body {
     filter: saturate(0%) sepia(50%);
 }
 
-header__nav { 
+.header__nav { 
   position: fixed;
   z-index: 1;
   width: 100%;
