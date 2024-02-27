@@ -140,7 +140,7 @@ body {
     bottom: 0;
     z-index: -1;
     color: var(--text-color-alt3);
-    padding: 3rem 5rem 4rem;
+    padding: 3rem 5rem 2rem;
 }
 
 /* -- Typography -- */
@@ -181,10 +181,13 @@ h3 {
     font-size: var(--font-size-h-xs);
 }
 
-h4,
-h5 {
+h4 {
     font-size: var(--font-size-xs);
     margin: .2rem;
+}
+
+h5 {
+    margin: 3rem;
 }
 
 a,
