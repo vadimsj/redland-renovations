@@ -32,14 +32,26 @@
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
-  /* --- Layout --- */
+/* --- Layout --- */
 
-  body {
+body {
     min-width: 20rem;
-  }
-  
+}
+
+    .logo {
+        width: 10rem;
+    }
+    
+    .logo--navbar-logo {
+        margin: 1rem 1rem .5rem;
+    }
+
+    .logo--footer-logo {
+        filter: saturate(0%) sepia(50%);
+    }
+
   .header__nav { 
       position: fixed;
       z-index: 1;
@@ -55,6 +67,21 @@ html {
         box-shadow: 0 4px 6px #0000001a;
     }
     
+    .main { 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 80%;
+        margin: 5rem auto 0;
+        font-weight: 600;
+    }
+    
+    .home__image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    } 
+    
     .section {
         display: flex;
         flex-direction: column;
@@ -64,64 +91,28 @@ html {
         padding: 2rem 2rem 5rem;
     }
     
-    /* Feature to alternate background color for sections */
     .section:nth-child(odd) {
         background-color: var(--theme-color-dark);
-    }
+    } /* Setting to alternate background color for sections */
     
     .section__home {
         padding: 1rem;
     }
-
+    
     .section__services {
-        font-weight: 700;
+        font-weight: 600;
         padding: 2rem 4rem 4rem;
+    }
+
+    .section__about-us {
+        background-color: var(--theme-color-light-alt);
+        color: var(--text-color-alt);
     }
 
     .section__contact-us {
         background-color: var(--theme-color-dark);
         text-align: center;
         box-shadow: 0 4px 6px #0000001a;
-    }
-
-    .section__about-us {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        background-color: var(--theme-color-light-alt);
-        color: var(--text-color-alt);
-    }
-
-    .logo {
-        width: 10rem;
-    }
-    
-    .logo--navbar-logo {
-        margin: 1rem 1rem .5rem;
-    }
-
-    .logo--footer-logo {
-        filter: saturate(0%) sepia(50%);
-    }
-    
-    .home__image {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-    
-    .main { 
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        max-width: 80%;
-        margin-top: 5rem;
-        font-weight: 600;
-    }
-
-    .gallery {
-        padding: 2rem;
     }
     
     .aside {
@@ -142,15 +133,12 @@ html {
     }
     
     .footer {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        color: var(--text-color-alt3);
-        padding: 3rem 5rem 4rem;
         position: sticky;
         bottom: 0;
         z-index: -1;
+        text-align: center;
+        color: var(--text-color-alt3);
+        padding: 3rem 5rem 4rem;
     }
     
     /* -- Typography -- */
@@ -161,16 +149,14 @@ html {
     h4,
     h5,
     h6 {
-        text-align: center;
-        text-wrap: balance;
         font-weight: 400;
         line-height: var(--line-height-h);
+        text-wrap: balance;
     }
     
     h1,
     h2 {
         font-family: var(--font-family-h);
-        text-align: center;
     }
 
     h3,
@@ -265,7 +251,6 @@ html {
         white-space: nowrap;
     }
     
-
     /* --- Buttons -- */
     
     .btn { 
@@ -288,12 +273,12 @@ html {
     transition: transform 0.3s ease-in-out;
 }
 
-.btn--primary-cta:hover .btn__icon {
-    transform: translateX(+7px);
-}
-
 .btn--primary-cta {
     position: relative;
+}
+
+.btn--primary-cta:hover .btn__icon {
+    transform: translateX(+7px);
 }
 /* --- */
 
@@ -314,7 +299,6 @@ html {
     width: auto;
     margin-top: 3rem;
 }
-
 
 /* --- Media queries ---- */
 
