@@ -18,7 +18,6 @@
     --font-size-h-l: 36px;
     --font-size-s: 18px;
     --font-size-m: 20px;
-
     --line-height: 1.6;
     --line-height-h: 1.2;
     --line-height-xl: 2;
@@ -76,7 +75,7 @@ html {
 
     .section__services {
         font-weight: 700;
-        padding: 2rem 4rem 5rem;
+        padding: 2rem 4rem 4rem;
     }
 
     .section__contact-us {
@@ -140,7 +139,6 @@ html {
         flex-direction: column;
         align-items: center;
         margin-top: 2rem;
-
     }
     
     .footer {
@@ -174,7 +172,6 @@ html {
         font-family: var(--font-family-h);
         text-align: center;
     }
-
 
     h3,
     h4,
@@ -271,8 +268,7 @@ html {
 
     /* --- Buttons -- */
     
-    .btn {
-        
+    .btn { 
         display: block;
         width: 26ch;
         margin: 2rem;
@@ -316,7 +312,7 @@ html {
 
 .btn--submit-msg {
     width: auto;
-    margin: 3rem 2rem 5rem;
+    margin-top: 3rem;
 }
 
 
