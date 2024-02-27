@@ -229,7 +229,7 @@ p {
 
 label {
     align-self: flex-start;
-    margin-top: .5rem;
+    margin: .5rem .3rem 0;
 }
 
 input, 
