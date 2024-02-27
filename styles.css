@@ -360,13 +360,9 @@ html {
     }
 
     .main {
-        margin-top: 1rem;
-        padding: 6rem 5rem 0rem;
-        width: 50%;
-      }
-    
-    .section {
-        
+        margin-top: 6rem 5rem 0rem;
+        padding:6rem 5rem 0rem;
+        max-width: 50%;
       }
 
     .section__home {
@@ -376,10 +372,6 @@ html {
     .btn {
         font-size: var(--font-size-l);
         margin: 3rem;
-    }
-
-    .btn--primary-cta {
-        p;
     }
 
     .logo {
@@ -392,12 +384,7 @@ html {
     }
 
     .home__image {
-        margin: 6rem 0 1rem 5rem;
-       
+        margin: 6rem 1rem 1rem 5rem;
+        max-width: 50%;
+    }
 }
-
-
-
-
-
-
