@@ -243,6 +243,10 @@ html {
         color: var(--text-color-alt);
     }
     
+    p { 
+        max-width: 60ch;
+    }
+
     label {
         align-self: flex-start;
     }
@@ -356,12 +360,16 @@ html {
     .main {
         margin-top: 1rem;
         padding: 6rem 5rem 0rem;
-        max-width: 45%;
+        width: 50%;
       }
     
     .section {
-        padding:;
+        
       }
+
+    .section__home {
+        padding: 0;
+    }
     
     .btn {
         font-size: var(--font-size-l);
@@ -377,8 +385,13 @@ html {
     }
 
     .logo--navbar-logo {
-        margin: 1rem 6rem;
+        margin: 1rem 6rem 0rem;
+        width: 16rem;
     }
+
+    .home__image {
+        margin: 6rem 0 1rem 5rem;
+       
 }
 
 
