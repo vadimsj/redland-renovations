@@ -161,7 +161,7 @@ html {
         align-items: center;
         text-align: center;
         color: var(--text-color-alt3);
-        padding: 2rem 5rem 3rem;
+        padding: 3rem 5rem 4rem;
         position: sticky;
         bottom: 0;
         z-index: -1;
