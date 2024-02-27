@@ -12,10 +12,10 @@
     --border-color-light: #b8c0cc;
     --font-family-h: 'Suez One', serif;
     --font-family-txt: 'Inter', sans-serif;
-    --font-size-h-xs: 14px;
     --font-size-h-s: 22px;
     --font-size-h-m: 24px;
     --font-size-h-l: 36px;
+    --font-size-xs: 16px;
     --font-size-s: 18px;
     --font-size-m: 20px;
     --line-height: 1.6;
@@ -182,7 +182,7 @@ body {
 
     h4,
     h5 {
-        font-size: var(--font-size-h-xs);
+        font-size: var(--font-size-xs);
     }
 
     a,
@@ -203,7 +203,7 @@ body {
         font-size: var(--font-size-xs);
         font-weight: 700;
         color: var(--text-color);
-        text-decoration:none;
+        text-decoration: none;
     }
     
     a:hover {
@@ -235,7 +235,7 @@ body {
         border-color: var(--border-color-light);
         border-style: solid;
         outline: none;
-        font-size: var(--font-size-h-s);
+        font-size: var(--font-size-xs);
     }
     
     textarea {
