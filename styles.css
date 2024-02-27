@@ -8,6 +8,7 @@
     --text-color: #000;
     --text-color-alt: #fff;
     --text-color-alt2: #808a99;
+    --text-color-alt3: #626262;
     --border-color-light: #b8c0cc;
     --font-family-h: 'Suez One', serif;
     --font-family-txt: 'Inter', sans-serif;
@@ -159,8 +160,8 @@ html {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        color: var(--text-color-alt2);
-        padding: 5rem 5rem 7rem;
+        color: var(--text-color-alt3);
+        padding: 2rem 5rem 3rem;
         position: sticky;
         bottom: 0;
         z-index: -1;
