@@ -232,7 +232,7 @@ input,
 textarea {
     width: 100%;
     padding: .5em;
-    border-radius: 4px;
+    border-radius: 3px;
     border-width: 1px;
     border-color: var(--border-color-light);
     border-style: solid;
