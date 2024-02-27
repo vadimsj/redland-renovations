@@ -16,8 +16,8 @@
     --font-size-h-m: 24px;
     --font-size-h-l: 36px;
     --font-size-s: 18px;
-    --font-size-m: ;
-    --font-size-l: 20px;
+    --font-size-m: 20px;
+
     --line-height: 1.6;
     --line-height-h: 1.2;
     --line-height-xl: 2;
@@ -40,11 +40,10 @@ html {
       position: fixed;
       z-index: 1;
       width: 100%;
-      padding: 0;
       border: none;
       box-shadow: none;
       background-color: var(--theme-color-light);
-      transition: border 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+      transition: box-shadow 0.3s ease-in-out;
     }
 
     .header__nav.scrolled {
@@ -52,19 +51,17 @@ html {
         box-shadow: 0 4px 6px #0000001a;
     }
     
-    /* This code alternates background color for sections */
-    .section:nth-child(odd) {
-        background-color: #eee;
-    }
-    
-    
     .section {
         display: flex;
         flex-direction: column;
         align-items: center;
         background-color: var(--theme-color-light);
     }
-
+    
+    /* This code alternates background color for sections */
+    .section:nth-child(odd) {
+        background-color: var(--theme-color-dark);
+    }
     
     .section__services,
     .section__about-us,
@@ -97,14 +94,13 @@ html {
     }
 
     .section__about-us {
-        background-color: var(--theme-color-light-alt);
-        color: var(--text-color-alt);
-
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
         padding: 2rem 2rem 0;
+        background-color: var(--theme-color-light-alt);
+        color: var(--text-color-alt);
     }
 
     .logo {
@@ -161,8 +157,6 @@ html {
         align-items: center;
         text-align: center;
         padding: 5rem 5rem 7rem;
-
-        margin-top: auto;
         position: sticky;
         bottom: 0;
         z-index: -1;
@@ -177,7 +171,7 @@ html {
     h5,
     h6 {
         text-align: center;
-        text-wrap: balance; /* currently limited support */
+        text-wrap: balance;
         font-weight: 400;
         line-height: var(--line-height-h);
     }
@@ -219,16 +213,16 @@ html {
     }
     
     ul {
-        line-height: var(--line-height-xl);
         font-family: var(--font-family-txt);
         font-size: var(--font-size-xs);
+        line-height: var(--line-height-xl);
     }
 
     a {
-        color: var(--text-color);
-        text-decoration:none;
         font-size: var(--font-size-xs);
         font-weight: 700;
+        color: var(--text-color);
+        text-decoration:none;
     }
     
     a:hover {
@@ -254,7 +248,6 @@ html {
     input, 
     textarea {
         width: 100%;
-        max-width: var(--min-width);
         padding: .5em;
         border-radius: 4px;
         border-width: 1px;
@@ -336,27 +329,39 @@ html {
 
 /* --- Media queries ---- */
 
-@media (min-width: 600px) {
-
-}
-
 @media (min-width: 1250px) {
-    #home {
-      flex-direction: row-reverse;
-      justify-content: space-around;
-    }
-    
+
     body {
-    font-size: var(--font-size-l);
+    font-size: var(--m);
     }
 
     h1 {
-  font-size: var(--font-size-h-l);
+    font-size: var(--font-size-h-l);
     }
 
     .header__nav {
         border: none;
         box-shadow: 0 4px 6px #0000001a;
+    }
+    
+    .logo--navbar-logo {
+        margin: 1rem 6rem 0rem;
+        width: 16rem;
+    }
+    
+    .logo--footer-logo {
+        width: 13rem;
+    }
+    
+    .section__home {
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        padding: 0;
+    }
+    
+    .home__image {
+        margin: 6rem 1rem 1rem 5rem;
+        max-width: 50%;
     }
 
     .main {
@@ -365,26 +370,8 @@ html {
         max-width: 50%;
       }
 
-    .section__home {
-        padding: 0;
-    }
-    
     .btn {
-        font-size: var(--font-size-l);
+        font-size: var(--font-size-m);
         margin: 3rem;
-    }
-
-    .logo {
-        width: 13rem;
-    }
-
-    .logo--navbar-logo {
-        margin: 1rem 6rem 0rem;
-        width: 16rem;
-    }
-
-    .home__image {
-        margin: 6rem 1rem 1rem 5rem;
-        max-width: 50%;
     }
 }

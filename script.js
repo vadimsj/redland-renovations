@@ -1,5 +1,5 @@
 
-/* This function adds a border and shadow to nav bar when scrolled */
+/* Effect to add a shadow to the nav bar when scrolled */
 
 document.addEventListener('DOMContentLoaded', function() {
     var headerNav = document.querySelector('.header__nav');
