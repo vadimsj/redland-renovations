@@ -167,6 +167,7 @@ body {
     }
     
     h1 {
+        text-align: center;
         font-size: var(--font-size-h-m);
         margin: 1rem 0 2rem;
     }
