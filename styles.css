@@ -315,8 +315,10 @@ html {
 }
 /* --- */
 
-.btn:active,
-.btn:focus {
+.btn:hover {
+    cursor:pointer;
+}
+.btn:active {
     color: var(--theme-color-dark-alt);
     border-color: var(--theme-color-dark-alt);
 }
