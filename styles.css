@@ -112,7 +112,6 @@ body {
 
     .section__contact-us {
         background-color: var(--theme-color-dark);
-        text-align: center;
         box-shadow: 0 4px 6px #0000001a;
     }
     
@@ -120,7 +119,6 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        text-align: center;
         padding: 2rem;
         background-color: var(--theme-color-dark-alt);
         color: var(--text-color-alt);
@@ -137,11 +135,9 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        text-align: center;
         position: sticky;
         bottom: 0;
         z-index: -1;
-        text-align: center;
         color: var(--text-color-alt3);
         padding: 3rem 5rem 4rem;
     }
@@ -157,6 +153,7 @@ body {
         font-weight: 400;
         line-height: var(--line-height-h);
         text-wrap: balance;
+        text-align: center;
     }
     
     h1,
@@ -172,7 +169,6 @@ body {
     }
     
     h1 {
-        text-align: center;
         font-size: var(--font-size-h-m);
         margin: 1rem 0 2rem;
     }
