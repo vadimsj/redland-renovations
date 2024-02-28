@@ -92,10 +92,6 @@ body {
     padding: 2rem 2rem 5rem;
 }
 
-.gallery:nth-child(even) {
-    background-color: var(--theme-color-dark);
-} /* Setting to alternate background color for gallery sections */
-
 .section__home {
     padding: 1rem;
 }
@@ -104,6 +100,52 @@ body {
     font-weight: 600;
     padding: 2rem 4rem 4rem;
     background-color: var(--theme-color-dark);
+}
+
+.section__gallery {
+    padding: 2rem 5rem 5rem;
+}
+
+.section__gallery:nth-child(even) {
+    background-color: var(--theme-color-dark);
+} /* Setting to alternate background color for gallery sections */
+
+.section__gallery > p {
+    margin-bottom: 3rem;
+}
+
+.gallery__wrapper {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns:  repeat(auto-fit, minmax(20rem, 1fr));
+    grid-auto-flow: dense;
+}
+
+.gallery__frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.img--wide {
+    grid-column: span 2;
+}
+
+.img--tall {
+    grid-row: span 2;
+}
+
+.img--big {
+    grid-row: span 2;
+    grid-column: span 2;
 }
 
 .section__about-us {
@@ -279,7 +321,7 @@ input:focus, textarea:focus {
     text-align: center;
 }
 
-/* Effet on main cta button to move the icon on hover" */
+/* Effet on the main cta button to move the icon on hover" */
 .btn__icon {
     transition: transform 0.3s ease-in-out;
 }
@@ -317,11 +359,28 @@ input:focus, textarea:focus {
 @media (min-width: 1250px) {
 
     body {
-    font-size: var(--m);
+    font-size: var(--font-size-m) !important;
     }
 
     h1 {
     font-size: var(--font-size-h-l);
+    }
+
+    h2 {
+        font-size: var(--font-size-h-m);
+    }
+    
+    a,
+    p,
+    ul,
+    h3,
+    label {
+        font-size: var(--font-size-s);
+    }
+
+    h4,
+    h5 {
+        font-size: var(--font-size-xs);
     }
 
     .header__nav {
@@ -352,7 +411,7 @@ input:focus, textarea:focus {
     }
 
     .btn {
-        font-size: var(--font-size-m);
+        font-size: var(--font-size-s);
         margin: 3rem;
     }
 }
