@@ -103,7 +103,7 @@ body {
 }
 
 .section__gallery {
-    padding: 2rem 5rem 5rem;
+    padding: 2rem 1rem 5rem;
 }
 
 .section__gallery:nth-child(even) {
@@ -111,13 +111,14 @@ body {
 } /* Setting to alternate background color for gallery sections */
 
 .section__gallery > p {
-    margin-bottom: 3rem;
+    margin: 1rem 2rem 3rem;
 }
 
 .gallery__wrapper {
     display: grid;
     grid-gap: 1rem;
-    grid-template-columns:  repeat(auto-fit, minmax(20rem, 1fr));
+    grid-template-columns:  repeat(auto-fit, minmax(10rem, 1fr));
+    grid-auto-rows: 1fr;
     grid-auto-flow: dense;
 }
 
@@ -216,7 +217,7 @@ h1 {
 
 h2 {
     font-size: var(--font-size-h-s);
-    margin: 1rem auto 2rem;
+    margin: 1rem auto;
 }
 
 h3 {
@@ -391,6 +392,10 @@ input:focus, textarea:focus {
     .logo--navbar-logo {
         margin: 1rem 6rem 0rem;
         width: 16rem;
+    }
+
+    .section {
+        padding: 2rem 5rem;
     }
 
     .section__home {
