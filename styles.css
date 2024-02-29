@@ -118,21 +118,17 @@ body {
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
-    grid-auto-rows: 11rem;
     grid-auto-flow: dense;
 }
 
-.gallery__frame {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.gallery_frame {
+
 }
 
 .img {
     height: 100%;
     width: 100%;
     object-fit: cover;
-    vertical-align: middle;
     display: inline-block;
 }
 
