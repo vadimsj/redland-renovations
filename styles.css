@@ -117,8 +117,8 @@ body {
 .gallery__wrapper {
     display: grid;
     grid-gap: 1rem;
-    grid-template-columns:  repeat(auto-fit, minmax(10rem, 1fr));
-    grid-auto-rows: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    grid-auto-rows: 11rem;
     grid-auto-flow: dense;
 }
 
@@ -136,17 +136,13 @@ body {
     display: inline-block;
 }
 
-.img--wide {
-    grid-column: span 2;
-}
-
-.img--tall {
-    grid-row: span 2;
-}
-
 .img--big {
     grid-row: span 2;
     grid-column: span 2;
+}
+
+.img--last {
+
 }
 
 .section__about-us {
