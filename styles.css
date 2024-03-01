@@ -253,8 +253,6 @@ h4 {
 a,
 p,
 label,
-input, 
-textarea,
 ul {
     font-family: var(--font-family-txt);
     line-height: var(--line-height);
