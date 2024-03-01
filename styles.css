@@ -77,7 +77,11 @@ body {
 }
 
 .main > h1 {
-    margin: 2rem;
+    margin: 1rem auto;
+}
+
+.main > p {
+    margin: 1rem auto;
 }
 
 .home__image {
@@ -331,6 +335,7 @@ textarea {
 
 .btn--primary-cta {
     position: relative;
+    margin-bottom: 3rem;
 }
 
 .btn--primary-cta:hover .btn__icon {
