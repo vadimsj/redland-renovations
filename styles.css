@@ -77,8 +77,12 @@ body {
 }
 
 .main > p {
-    margin: 1rem auto;
+    margin: .5rem auto;
     font-weight: 600;
+}
+
+.main > h1 {
+    margin-top: 1rem;
 }
 
 .home__image {
