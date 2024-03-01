@@ -151,8 +151,13 @@ body {
     color: var(--text-color-alt);
 }
 
+.section__about-us > p,
+.section__contact-us > p {
+    margin: 1rem auto;
+}
+
 .section__about-us > p {
-    font-weight: 400;
+font-weight: 400;
 }
 
 .section__contact-us {
@@ -185,6 +190,14 @@ body {
     z-index: -1;
     color: var(--text-color-alt3);
     padding: 3rem 5rem 2rem;
+}
+
+.footer > h4 {
+    margin: .2rem;
+}
+
+.footer > h5 {
+    margin: 2rem auto 3rem;
 }
 
 /* -- Typography -- */
@@ -235,11 +248,6 @@ h3 {
 
 h4 {
     font-size: var(--font-size-xs);
-    margin: .2rem;
-}
-
-h5 {
-    margin: 2rem auto 3rem;
 }
 
 a,
