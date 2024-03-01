@@ -407,23 +407,27 @@ textarea {
         padding: 0;
     }
     
-    .section__gallery {
-        padding: 2rem 6rem 1rem;
-    }
-
     .home__image {
         margin: 6rem 1rem 1rem 6rem;
         max-width: 50%;
+    }
+    
+    .main {
+            margin-top: 6rem 5rem 0rem;
+            padding:6rem 5rem 0rem;
+            max-width: 50%;
+        }
+
+    .section__gallery {
+        padding: 2rem 6rem 1rem;
     }
 
     .gallery__wrapper {
         grid-gap: 1rem;
     }
 
-    .main {
-        margin-top: 6rem 5rem 0rem;
-        padding:6rem 5rem 0rem;
-        max-width: 50%;
+    .section__contact-us {
+        padding-bottom: 3rem;
     }
 
     .btn {
