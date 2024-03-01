@@ -225,8 +225,18 @@ ul,
 input, 
 textarea  {
     font-family: var(--font-family-txt);
-    font-size: var(--font-size-xs);
     line-height: var(--line-height);
+}
+
+a,
+p {
+    font-size: var(--font-size-s);
+}
+
+label,
+ul,
+input, 
+textarea  { font-size: var(--font-size-xs);
 }
 
 ul {
