@@ -123,7 +123,6 @@ body {
 
 .section__gallery > p {
     margin: 1rem 2rem 2em;
-    font-weight: 600;
 }
 
 .gallery__wrapper {
@@ -234,9 +233,9 @@ h5 {
 a,
 p,
 label,
-ul,
 input, 
-textarea  {
+textarea,
+ul {
     font-family: var(--font-family-txt);
     line-height: var(--line-height);
 }
@@ -256,7 +255,6 @@ textarea  { font-size: var(--font-size-xs);
 }
 
 a {
-    font-weight: 600;
     color: var(--text-color);
     text-decoration: none;
 }
