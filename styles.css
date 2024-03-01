@@ -47,7 +47,7 @@ body {
 }
 
 .logo--navbar-logo {
-    margin: 1rem 1rem .5rem;
+    margin: 1rem 5% .5rem;
 }
 
 .logo--footer-logo {
@@ -382,6 +382,13 @@ textarea {
 
 /* --- Media queries ---- */
 
+@media (min-width:600px) {
+    
+    .logo--navbar-logo {
+        width: 14rem;
+    }
+}
+
 @media (min-width:875px) {
     .gallery__wrapper {
         grid-template-columns: repeat(6, minmax(6rem, 1fr));
@@ -414,15 +421,15 @@ textarea {
     label {
         font-size: var(--font-size-s);
     }
-    
+
     .header__nav {
         border: none;
         box-shadow: 0 4px 6px #0000001a;
     }
-    
+        
     .logo--navbar-logo {
-        margin: 1rem 6rem 0rem;
         width: 16rem;
+        margin-bottom: 0;
     }
 
     .section__home {
