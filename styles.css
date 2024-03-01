@@ -16,9 +16,9 @@
     --font-size-h-s: 22px;
     --font-size-h-m: 24px;
     --font-size-h-l: 36px;
-    --font-size-xs: 14px;
+    --font-size-xs: 16px;
     --font-size-s: 18px;
-    --font-size-m: 20px;
+    --font-size-m: 22px;
     --line-height: 1.6;
     --line-height-h: 1.2;
     --line-height-xl: 2;
@@ -179,7 +179,6 @@ h2,
 h3,
 h4,
 h5 {
-    font-weight: 400;
     line-height: var(--line-height-h);
     text-wrap: balance;
     text-align: center;
@@ -221,20 +220,20 @@ h5 {
 
 a,
 p,
-label {
+label,
+ul,
+input, 
+textarea  {
     font-family: var(--font-family-txt);
     font-size: var(--font-size-xs);
     line-height: var(--line-height);
 }
 
 ul {
-    font-family: var(--font-family-txt);
-    font-size: var(--font-size-xs);
     line-height: var(--line-height-xl);
 }
 
 a {
-    font-size: var(--font-size-xs);
     font-weight: 600;
     color: var(--text-color);
     text-decoration: none;
@@ -270,7 +269,6 @@ textarea {
     border-color: var(--border-color-light);
     border-style: solid;
     outline: none;
-    font-size: var(--font-size-xs);
 }
 
 textarea {
@@ -331,7 +329,6 @@ input:focus, textarea:focus {
     border-color: var(--theme-color-dark-alt);
 }
 
-.btn--primary-cta:focus .btn__icon,
 .btn--primary-cta:active .btn__icon { 
     color: var(--theme-color-dark-alt);
 }
@@ -352,7 +349,7 @@ input:focus, textarea:focus {
 @media (min-width: 1250px) {
 
     body {
-    font-size: var(--font-size-m) !important;
+    font-size: var(--font-size-m);
     }
 
     h1 {
@@ -368,12 +365,12 @@ input:focus, textarea:focus {
     ul,
     h3,
     label {
-        font-size: var(--font-size-s);
+        font-size: var(--font-size-m);
     }
 
     h4,
     h5 {
-        font-size: var(--font-size-xs);
+        font-size: var(--font-size-s);
     }
 
     .header__nav {
