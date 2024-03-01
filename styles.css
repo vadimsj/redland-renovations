@@ -93,7 +93,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: var(--theme-color-light);
-    padding: 2rem 2rem 5rem;
+    padding: 2rem;
 }
 
 .section__home {
@@ -125,7 +125,7 @@ body {
 
 .gallery__wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
     grid-auto-flow: dense;
     grid-gap: .5rem;
 }
@@ -146,7 +146,6 @@ body {
 .section__about-us {
     background-color: var(--theme-color-light-alt);
     color: var(--text-color-alt);
-    padding-bottom: 5rem;
 }
 
 .section__contact-us {
