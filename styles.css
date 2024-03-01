@@ -276,10 +276,6 @@ a:active {
     color: var(--text-color-alt);
 }
 
-input {
-    font-weight: 600;
-}
-
 input::placeholder,
 textarea::placeholder {
     font-family: var(--font-family-txt);
