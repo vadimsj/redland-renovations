@@ -74,7 +74,10 @@ body {
     align-items: center;
     max-width: 80%;
     margin: 5rem auto 0;
-    font-weight: 600;
+}
+
+.main > h1 {
+    margin: 2rem;
 }
 
 .home__image {
@@ -195,9 +198,14 @@ h5 {
     font-family: var(--font-family-txt);
 }
 
+h4,
+h5 {
+    font-weight: 200;
+}
+
 h1 {
     font-size: var(--font-size-h-m);
-    margin: 1rem 0 2rem;
+    font-weight: 600;
 }
 
 h2 {
@@ -307,9 +315,6 @@ input:focus, textarea:focus {
     border: 2px solid var(--theme-color-light-alt);
     background-color: var(--theme-color-light);
     color: var(--theme-color-light-alt);
-    font-size: var(--font-size-s);
-    text-decoration: none;
-    text-align: center;
 }
 
 /* Effet on the main cta button to move the icon on hover" */
@@ -371,7 +376,7 @@ input:focus, textarea:focus {
     ul,
     h3,
     label {
-        font-size: var(--font-size-m);
+        font-size: var(--font-size-s);
     }
 
     h4,
