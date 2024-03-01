@@ -18,9 +18,9 @@
     --font-size-h-l: 36px;
     --font-size-xs: 14px;
     --font-size-s: 16px;
-    --font-size-m: 22px;
+    --font-size-m: 20px;
+    --font-size-l: 22px;
     --line-height: 1.6;
-    --line-height-h: 1.2;
     --line-height-xl: 2;
 }
 
@@ -106,7 +106,7 @@ body {
 }
 
 .section__gallery {
-    padding: 2rem 1rem 5rem;
+    padding: 2rem 1rem 1rem;
     align-items: center;
 }
 
@@ -115,14 +115,14 @@ body {
 } /* Setting to alternate background color for gallery sections */
 
 .section__gallery > p {
-    margin: 1rem 2rem 3rem;
+    margin: 1rem 2rem 3em;
 }
 
 .gallery__wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
     grid-auto-flow: dense;
-    grid-gap: 1rem;
+    grid-gap: .5rem;
 }
 
 .gallery__frame:first-child {
@@ -182,7 +182,6 @@ h2,
 h3,
 h4,
 h5 {
-    line-height: var(--line-height-h);
     text-wrap: balance;
     text-align: center;
 }
@@ -265,13 +264,27 @@ a:active {
     color: var(--text-color-alt);
 }
 
-p { 
-    max-width: 60ch;
+input::placeholder,
+textarea::placeholder {
+    font-family: var(--font-family-txt);
+    font-size: var(--font-size-xs);
+}
+
+input:focus, textarea:focus {
+    border-color: var(--text-color-alt2);
 }
 
 label {
     align-self: flex-start;
     margin: .5rem .3rem 0;
+}
+
+p { 
+    max-width: 60ch;
+}
+
+ul {
+    line-height: var(--line-height-xl);
 }
 
 input, 
@@ -287,16 +300,6 @@ textarea {
 
 textarea {
     height: 7.5rem;
-}
-
-input::placeholder,
-textarea::placeholder {
-    font-family: var(--font-family-txt);
-    font-size: var(--font-size-xs);
-}
-
-input:focus, textarea:focus {
-    border-color: var(--text-color-alt2);
 }
 
 .span--nobreak {
@@ -360,7 +363,7 @@ input:focus, textarea:focus {
 @media (min-width: 1250px) {
 
     body {
-    font-size: var(--font-size-m);
+    font-size: var(--font-size-l);
     }
 
     h1 {
@@ -371,6 +374,11 @@ input:focus, textarea:focus {
         font-size: var(--font-size-h-m);
     }
     
+    h4,
+    h5 {
+        font-size: var(--font-size-s);
+    }
+    
     a,
     p,
     ul,
@@ -378,12 +386,7 @@ input:focus, textarea:focus {
     label {
         font-size: var(--font-size-s);
     }
-
-    h4,
-    h5 {
-        font-size: var(--font-size-s);
-    }
-
+    
     .header__nav {
         border: none;
         box-shadow: 0 4px 6px #0000001a;
@@ -407,6 +410,10 @@ input:focus, textarea:focus {
     .home__image {
         margin: 6rem 1rem 1rem 5rem;
         max-width: 50%;
+    }
+
+    .gallery__wrapper {
+        grid-gap: 1rem;
     }
 
     .main {
