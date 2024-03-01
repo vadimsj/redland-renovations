@@ -150,6 +150,10 @@ body {
     color: var(--text-color-alt);
 }
 
+.section__about-us > p {
+    font-weight: 400;
+}
+
 .section__contact-us {
     background-color: var(--theme-color-dark);
     box-shadow: 0 4px 6px #0000001a;
