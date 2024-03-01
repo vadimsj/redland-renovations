@@ -97,7 +97,7 @@ body {
 }
 
 .section__home {
-    padding: 1rem;
+    padding: .5rem;
 }
 
 .section__services {
@@ -335,7 +335,7 @@ textarea {
 
 .btn--primary-cta {
     position: relative;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .btn--primary-cta:hover .btn__icon {
