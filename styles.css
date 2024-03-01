@@ -22,6 +22,7 @@
     --font-size-l: 22px;
     --line-height: 1.6;
     --line-height-xl: 2;
+    --letter-spacing: 1px
 }
 
 * {
@@ -195,12 +196,17 @@ h4,
 h5 {
     text-wrap: balance;
     text-align: center;
+    letter-spacing: .5px;
 }
 
 h1,
 h2 {
     font-family: var(--font-family-h);
     font-weight: 400;
+}
+
+h2 {
+    text-decoration: under;
 }
 
 h3,
@@ -244,6 +250,7 @@ textarea,
 ul {
     font-family: var(--font-family-txt);
     line-height: var(--line-height);
+    font-weight: 600;
 }
 
 a,
