@@ -99,10 +99,6 @@ body {
     padding: 2rem 2rem 5rem;
 }
 
-.section > h2 {
-    margin: 1rem auto 0;
-}
-
 .section__home {
     padding: 1rem;
 }
@@ -111,6 +107,10 @@ body {
     font-weight: 600;
     padding: 2rem 4rem 4rem;
     background-color: var(--theme-color-dark);
+}
+
+.section__services > h2 {
+    margin: 1rem;
 }
 
 .section__gallery {
@@ -123,7 +123,7 @@ body {
 } /* Setting to alternate background color for gallery sections */
 
 .section__gallery > p {
-    margin: 1rem 2rem 3em;
+    margin: 1rem 2rem 2em;
 }
 
 .gallery__wrapper {
@@ -428,7 +428,7 @@ textarea {
     }
 
     .gallery__wrapper {
-        grid-gap: 1rem;
+        grid-gap: .5rem;
     }
 
     .section__contact-us {
