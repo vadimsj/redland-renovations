@@ -95,6 +95,10 @@ body {
     padding: 2rem 2rem 5rem;
 }
 
+.section > h2 {
+    margin: 1rem auto 0;
+}
+
 .section__home {
     padding: 1rem;
 }
@@ -141,6 +145,7 @@ body {
 .section__about-us {
     background-color: var(--theme-color-light-alt);
     color: var(--text-color-alt);
+    padding-bottom: 5rem;
 }
 
 .section__contact-us {
@@ -209,7 +214,6 @@ h1 {
 
 h2 {
     font-size: var(--font-size-h-s);
-    margin: 1rem auto;
 }
 
 h3 {
@@ -311,7 +315,7 @@ textarea {
 .btn { 
     display: block;
     width: 26ch;
-    margin: 2rem;
+    margin: 1rem;
     padding: .6em 1.25em;
     border-radius: 0;
     border-width: 0;
@@ -397,18 +401,18 @@ textarea {
         width: 16rem;
     }
 
-    .section {
-        padding: 2rem 5rem;
-    }
-
     .section__home {
         flex-direction: row-reverse;
         justify-content: space-around;
         padding: 0;
     }
     
+    .section__gallery {
+        padding: 2rem 6rem 1rem;
+    }
+
     .home__image {
-        margin: 6rem 1rem 1rem 5rem;
+        margin: 6rem 1rem 1rem 6rem;
         max-width: 50%;
     }
 
