@@ -244,6 +244,7 @@ textarea  {
 a,
 p,
 label,
+textarea,
 ul {
     font-size: var(--font-size-s);
     font-weight: 600;
