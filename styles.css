@@ -117,10 +117,9 @@ body {
 
 .gallery__wrapper {
     display: grid;
-    grid-gap: 1rem;
-
     grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
     grid-auto-flow: dense;
+    grid-gap: 1rem;
 }
 
 .gallery__frame:first-child {
@@ -346,7 +345,7 @@ input:focus, textarea:focus {
 
 @media (min-width:875px) {
     .gallery__wrapper {
-        grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+        grid-template-columns: repeat(6, minmax(12rem, 1fr));
     }
 }
 
