@@ -229,18 +229,14 @@ textarea  {
 }
 
 a,
-p {
+p,
+ul {
     font-size: var(--font-size-s);
 }
 
 label,
-ul,
 input, 
 textarea  { font-size: var(--font-size-xs);
-}
-
-ul {
-    line-height: var(--line-height-xl);
 }
 
 a {
