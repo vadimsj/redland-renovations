@@ -78,6 +78,7 @@ body {
 
 .main > p {
     margin: 1rem auto;
+    font-weight: 600;
 }
 
 .home__image {
@@ -266,6 +267,10 @@ a:active {
 
 .a--alt {
     color: var(--text-color-alt);
+}
+
+input {
+    font-weight: 600;
 }
 
 input::placeholder,
