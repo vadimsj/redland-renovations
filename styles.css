@@ -200,6 +200,7 @@ h5 {
 h1,
 h2 {
     font-family: var(--font-family-h);
+    font-weight: 400;
 }
 
 h3,
@@ -248,7 +249,6 @@ ul {
 a,
 p,
 label,
-textarea,
 ul {
     font-size: var(--font-size-s);
     font-weight: 600;
@@ -363,6 +363,7 @@ textarea {
 .btn--submit-msg {
     width: auto;
     margin-top: 3rem;
+    font-weight: 600;
 }
 
 /* --- Media queries ---- */
