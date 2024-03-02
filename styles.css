@@ -131,6 +131,10 @@ body {
     background-color: var(--theme-color-dark);
 } /* Setting to alternate background color for gallery sections */
 
+.section__gallery > h2 {
+    margin: 0 1rem;
+}
+
 .section__gallery > p {
     margin: 1rem 2rem 2em;
 }
