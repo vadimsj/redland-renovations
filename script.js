@@ -2,13 +2,13 @@
 /* Effect to add a shadow to the nav bar when scrolled */
 
 document.addEventListener('DOMContentLoaded', function() {
-    var headerNav = document.querySelector('.header__nav');
+    var header = document.querySelector('.header');
 
     window.addEventListener('scroll', function() {
         if (window.scrollY > 0) {
-            headerNav.classList.add('scrolled');
+            header.classList.add('scrolled');
         } else {
-            headerNav.classList.remove('scrolled');
+            header.classList.remove('scrolled');
         }
     });
 });

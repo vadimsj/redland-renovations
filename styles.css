@@ -398,6 +398,7 @@ textarea {
 }
 
 @media (min-width:875px) {
+    
     .gallery__wrapper {
         grid-template-columns: repeat(6, minmax(8rem, 1fr));
     }
