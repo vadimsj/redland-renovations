@@ -421,7 +421,7 @@ textarea {
 @media (min-width:600px) {
 
     .section {
-        padding: 2rem 3rem;
+        padding: 1.5rem 3rem;
     }
 
     .section__home {
@@ -430,6 +430,10 @@ textarea {
 
     .section__gallery:nth-child(even) .wrapper--gallery {
             direction: rtl;
+    }
+
+    .section__gallery .headline__frame {
+        margin-bottom: 1.5rem;
     }
 
     .contact-us__form {
