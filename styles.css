@@ -141,7 +141,7 @@ body {
 .headline__frame {
     border: solid 2px #000;
     padding: 1rem 2rem 2rem;
-    margin-bottom: 1rem;
+    margin: 1rem .5rem;
 }
 
 .headline__frame > p {
