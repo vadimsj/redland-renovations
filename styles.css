@@ -84,7 +84,7 @@ body {
 }
 
 .main > p {
-    margin: 0 1rem 1rem;
+    margin: .5rem 1rem .5rem;
     max-width: 45ch;
 }
 
