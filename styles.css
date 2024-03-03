@@ -396,10 +396,6 @@ textarea {
 /* --- Media queries ---- */
 
 @media (min-width:600px) {
-    
-    .logo--navbar-logo {
-        width: 14rem;
-    }
 
     .main > h1 {
         margin: 1rem;
@@ -433,29 +429,29 @@ textarea {
         align-items: center;
         gap: 3rem;
     }
+    
+    .header {
+        border: none;
+        box-shadow: 0 4px 6px #0000001a;
+    }
+    
+.logo--navbar-logo {
+    width: 14rem;
+    margin-bottom: 0;
+}
 
     .main {
         margin: 0 auto 1rem;
     }
 
     .home__frame {
-        max-width: 45vw;
+        max-width: 50vw;
         margin-top: 5rem;
     }
 }
 
 
 @media (min-width: 1250px) {
-
-    .header {
-        border: none;
-        box-shadow: 0 4px 6px #0000001a;
-    }
-        
-    .logo--navbar-logo {
-        width: 16rem;
-        margin-bottom: 0;
-    }
     
     .section {
         padding: 2rem 6rem;
@@ -475,10 +471,5 @@ textarea {
 
     .section__gallery {
         padding: 2rem 6rem;
-    }
-
-    .btn {
-        font-size: var(--font-size-s);
-        margin: 2rem;
     }
 }
