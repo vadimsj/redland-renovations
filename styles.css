@@ -93,7 +93,7 @@ body {
 }
 
 .headline__frame {
-    border: solid 3px var(--text-color-alt);
+    border: solid 2px var(--text-color-alt);
     padding: 1rem 2rem 2rem;
     margin: .5rem .5rem .5rem;
 }
@@ -148,10 +148,6 @@ body {
     border: solid 2px var(--theme-color-dark);
 }
 
-.section__gallery:nth-child(even) .headline__frame {
-    border: solid 3px var(--text-color-alt);
-}
-
 .wrapper--gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
@@ -177,7 +173,6 @@ body {
 }
 
 .section__about-us .headline__frame {
-    border-color: var(--text-color-alt);
     color: var(--text-color-alt);
     font-weight: var(--font-weight-light);
 }
@@ -189,7 +184,6 @@ body {
 }
 
 .section__contact-us .headline__frame {
-    border-color: var(--text-color-alt);
     border-width: 3px;
 }
 
