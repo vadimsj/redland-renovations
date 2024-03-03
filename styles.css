@@ -176,6 +176,10 @@ body {
     background-color: var(--theme-color-light-alt);
 }
 
+.section__about-us > .headline__frame > p {
+    font-weight: 400;
+}
+
 .section__about-us .headline__frame {
     color: var(--text-color-alt);
     font-weight: var(--font-weight-light);
