@@ -124,7 +124,7 @@ body {
 }
 
 .section__services {
-    padding: 1.5rem 1rem 3rem;
+    padding: 1.5rem 1rem 1.5rem;
     background-color: var(--theme-color-dark);
 }
 
@@ -141,7 +141,7 @@ body {
 } /* Setting to alternate background color for gallery sections */
 
 .section__gallery .headline__frame {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .section__gallery:nth-child(odd) .headline__frame {
