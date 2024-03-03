@@ -177,6 +177,10 @@ body {
     text-align: center;
 }
 
+.section__contact-us > p {
+    margin-top: 1rem;
+}
+
 .contact-us__form {
     display: flex;
     flex-direction: column;
