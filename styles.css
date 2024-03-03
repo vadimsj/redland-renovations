@@ -149,7 +149,7 @@ body {
 }
 
 .section__gallery:nth-child(odd) .headline__frame {
-    border: solid 2px var(--theme-color-dark);
+    border: solid 2px var(--theme-color-light-alt);
 }
 
 .wrapper--gallery {
