@@ -389,7 +389,7 @@ textarea {
 
 .btn--submit-msg {
     width: auto;
-    margin-top: 3rem;
+    margin: 3rem 1rem 2rem;
     font-weight: var(--font-weight-bold);
 }
 
@@ -413,7 +413,6 @@ textarea {
             direction: rtl;
     }
 }
-
 
 @media (min-width:875px) {
  
@@ -449,7 +448,6 @@ textarea {
         margin-top: 5rem;
     }
 }
-
 
 @media (min-width: 1250px) {
     
