@@ -181,6 +181,15 @@ body {
     text-align: center;
 }
 
+.section__contact-us .headline__frame {
+    border-color: var(--text-color-alt);
+    border-width: 3px;
+}
+
+.section__contact-us .headline__frame > h2 {
+    margin-top: .5rem;
+}
+
 .section__contact-us > p {
     margin-top: 1rem;
 }
