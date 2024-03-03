@@ -76,7 +76,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 5rem .5rem 1rem;
+    margin: 4rem .5rem 1rem;
     padding: .5rem;
     border: 2px solid #000;
     background-color: var(--theme-color-light);
@@ -128,7 +128,7 @@ body {
 }
 
 .section__services {
-    padding: 2rem 4rem 4rem;
+    padding: 2rem 1rem 4rem;
     background-color: var(--theme-color-dark);
 }
 
