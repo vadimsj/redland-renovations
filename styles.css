@@ -139,6 +139,7 @@ body {
 
 .section__gallery {
     align-items: center;
+    padding-bottom: .5rem;
 }
 
 .section__gallery:nth-child(even) {
