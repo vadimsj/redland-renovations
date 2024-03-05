@@ -76,14 +76,13 @@ body {
     box-shadow: 0 4px 6px #0000001a;
 }
 
-/* Section and Headline Styles */
+/* Section and Headline Frame Styles */
 
 .headline__frame {
     border: solid 2px var(--text-color-alt);
     padding: 1.5rem 2rem 2rem;
     margin: .5rem;
 }
-
 
 .headline__frame > p {
     margin-top: 1rem;
@@ -217,10 +216,6 @@ body {
     margin-top: 1rem;
 }
 
-.section__contact-us > p {
-    margin-top: 1rem;
-}
-
 .contact-us__form {
     display: flex;
     flex-direction: column;
@@ -276,7 +271,14 @@ h4,
 h5 {
     text-wrap: balance;
     text-align: center;
-    letter-spacing: 0.5px;
+    letter-spacing: var(--letter-spacing);
+}
+
+h3,
+h4,
+h5 {
+    font-family: var(--font-family-txt);
+    font-size: var(--font-size-h-xs);
 }
 
 h1,
@@ -285,16 +287,24 @@ h2 {
     font-weight: var(--font-weight-light);
 }
 
-h3,
-h4,
-h5 {
-    font-family: var(--font-family-txt);
-}
-
 h4,
 h5 {
     font-weight: var(--font-weight-xlight);
+    font-size: var(--font-size-xs);
 }
+
+h1 {
+    font-size: var(--font-size-h-m);
+}
+
+h2 {
+    font-size: var(--font-size-h-s);
+}
+
+h3 {
+    font-weight: var(--font-weight-light);
+}
+
 
 /* Font Styles */
 
@@ -306,6 +316,7 @@ ul {
     line-height: var(--line-height);
     font-weight: var(--font-weight-bold);
     font-size: var(--font-size-s);
+    letter-spacing: var(--letter-spacing);
 }
 
 /* Link Styles */
@@ -498,4 +509,5 @@ ul {
     .main {
         padding: 1rem;
     }
+
 }
