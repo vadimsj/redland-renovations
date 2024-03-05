@@ -89,7 +89,7 @@ body {
 }
 
 .main > h1 {
-    margin: 1rem 1rem 0;
+    margin: 1rem 1rem .5rem;
 }
 
 .headline__frame {
@@ -100,7 +100,7 @@ body {
 
 
 .headline__frame > p {
-    margin-top: 0rem;
+    margin-top: 0;
 }
 
 .headline__frame > ul {
@@ -143,7 +143,7 @@ body {
 
 .section__gallery:nth-child(even) {
     background-color: var(--theme-color-dark);
-} /* Setting to alternate background color for gallery sections */
+} /* Property to alternate background color for gallery sections */
 
 .section__gallery .headline__frame {
     margin-bottom: 1.5rem;
@@ -419,11 +419,11 @@ textarea {
 /* --- Media queries ---- */
 
 @media (min-width:600px) {
-
+/*
     .main > h1 {
         margin-bottom: .5rem;
     }
-
+*/
     .section {
         padding: 1.5rem 3rem;
     }
@@ -434,7 +434,7 @@ textarea {
 
     .section__gallery:nth-child(even) .wrapper--gallery {
             direction: rtl;
-    }
+    } /* property to alternate direction of the images flow between gallery sections */
 
     .section__gallery .headline__frame {
         margin-bottom: 1.5rem;
@@ -449,7 +449,7 @@ textarea {
  
     .wrapper--gallery {
         grid-template-columns: repeat(6, minmax(8rem, 1fr));
-    }
+    } /* property to fix the number of the gallery columns on the large screens to 6 */
 }
 
 @media (min-width:980px) {
