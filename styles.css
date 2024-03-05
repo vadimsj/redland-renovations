@@ -39,6 +39,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    min-width: 20rem;
+}
+
 /* --- Layout --- */
 
 /* Logo Styles */
@@ -53,10 +57,6 @@ html {
 
 .logo--footer-logo {
     filter: saturate(0%) sepia(50%);
-}
-
-body {
-    min-width: 20rem;
 }
 
 /* Header Styles */
