@@ -98,13 +98,13 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: var(--theme-color-light);
-    padding: 1rem .5rem;
+    padding: 1rem;
 }
 
 /* Home Page Styles */
 
 .section__home {
-    padding-bottom: .5rem;
+    padding: .5rem;
 }
 
 .main { 
@@ -138,7 +138,6 @@ body {
 /* Services Page Styles */
 
 .section__services {
-    padding: 1.5rem 1rem 1.5rem;
     background-color: var(--theme-color-dark);
 }
 
@@ -150,7 +149,7 @@ body {
 
 .section__gallery {
     align-items: center;
-    padding-bottom: .5rem;
+    padding: 1rem .5rem .5rem;
 }
 
 .section__gallery:nth-child(even) {
@@ -158,7 +157,6 @@ body {
 } /* Property to alternate background color for gallery sections */
 
 .section__gallery .headline__frame {
-    margin-bottom: 1.5rem;
     border: none;
 }
 
@@ -305,7 +303,6 @@ h3 {
     font-weight: var(--font-weight-light);
 }
 
-
 /* Font Styles */
 
 a,
@@ -418,7 +415,7 @@ ul {
 /* --- */
 
 .btn:hover {
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .btn:active {
@@ -449,7 +446,7 @@ ul {
     }
 
     .section__gallery:nth-child(even) .wrapper--gallery {
-            direction: rtl;
+        direction: rtl;
     } /* Property to alternate direction of the images flow between gallery sections */
 
     .section__gallery .headline__frame {
@@ -458,7 +455,7 @@ ul {
 
     .contact-us__form {
         min-width: 40ch;
-}
+    }
 }
 
 @media (min-width:875px) {
@@ -509,5 +506,4 @@ ul {
     .main {
         padding: 1rem;
     }
-
 }
