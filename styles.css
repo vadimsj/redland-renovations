@@ -3,9 +3,9 @@
 :root{
     --theme-color-light: #fff;
     --theme-color-light-alt: #cd6123;
-    --theme-color-dark: #eee;
-    --theme-color-dark-alt: #000;
-    --text-color: #000;
+    --theme-color-dark: #eeeeee;
+    --theme-color-dark-alt: #1b1b1b;
+    --text-color: #1b1b1b;
     --text-color-alt: #fff;
     --text-color-alt2: #808a99;
     --text-color-alt3: #626262;
