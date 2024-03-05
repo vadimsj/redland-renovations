@@ -192,6 +192,7 @@ body {
 
 .section__contact-us .headline__frame {
     border-width: 3px;
+    max-width: 84ch;
 }
 
 .section__contact-us .headline__frame > h2 {
