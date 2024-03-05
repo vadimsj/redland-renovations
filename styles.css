@@ -146,10 +146,7 @@ body {
 
 .section__gallery .headline__frame {
     margin-bottom: 1.5rem;
-}
-
-.section__gallery:nth-child(odd) .headline__frame {
-    border: solid 2px var(--theme-color-light-alt);
+    border: none;
 }
 
 .wrapper--gallery {
@@ -218,6 +215,10 @@ body {
     padding: 2rem;
     background-color: var(--theme-color-dark-alt);
     color: var(--text-color-alt);
+}
+
+.aside > h3 {
+    font-size: var(--font-size-s);
 }
 
 .footer {
