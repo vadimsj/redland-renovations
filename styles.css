@@ -168,7 +168,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
     grid-auto-flow: dense;
     grid-gap: .5rem;
-}
+} /* Wrapper that arranges the flow of the images */
 
 .gallery__frame:first-child {
     grid-row: span 2;
@@ -439,7 +439,7 @@ ul {
 
     .section__gallery:nth-child(even) .wrapper--gallery {
             direction: rtl;
-    } /* property to alternate direction of the images flow between gallery sections */
+    } /* Property to alternate direction of the images flow between gallery sections */
 
     .section__gallery .headline__frame {
         margin-bottom: 1.5rem;
@@ -454,7 +454,7 @@ ul {
  
     .wrapper--gallery {
         grid-template-columns: repeat(6, minmax(8rem, 1fr));
-    } /* property to fix the number of the gallery columns on the large screens to 6 */
+    } /* Wrapper that arranges the flow of the images, restricting the number of columns to 6 */
 }
 
 @media (min-width:980px) {
