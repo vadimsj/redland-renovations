@@ -89,7 +89,7 @@ body {
 }
 
 .main > h1 {
-    margin: 1rem;
+    margin: 1rem 1rem .5rem;
 }
 
 .headline__frame {
@@ -98,8 +98,9 @@ body {
     margin: .5rem;
 }
 
+
 .headline__frame > p {
-    margin-top: 1rem;
+    margin-top: 0rem;
 }
 
 .headline__frame > ul {
@@ -437,6 +438,7 @@ textarea {
 
     .contact-us__form {
         min-width: 40ch;
+}
 }
 
 @media (min-width:875px) {
