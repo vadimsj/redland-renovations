@@ -585,6 +585,7 @@ ul {
     margin: 0;
     outline: none;
     pointer-events: none;
+    border-color: var(--text-color);
   }
   
   .hamburger-menu:has(input:checked)::before {
