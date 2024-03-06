@@ -450,12 +450,16 @@ ul {
     }
 }
 
-.header > *,
+.logo,
 .home__frame > *,
+.main > *,
 .headline__frame > *,
+.section__services > *,
 .gallery__frame > *,
 .headline__frame > *,
+.section__about-us > *,
 .aside > *,
+.section__contact-us > *,
 .footer > * {
     animation: transitionIn .75s forwards;
 }
