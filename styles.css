@@ -409,6 +409,7 @@ ul {
     border: 2px solid var(--theme-color-light-alt);
     background-color: var(--theme-color-light);
     color: var(--theme-color-light-alt);
+    min-width: 26.5ch;
 }
 
 /* Effet on the main cta button to move the icon on hover" */
@@ -423,7 +424,7 @@ ul {
 }
 
 .btn--primary-cta:hover .btn__icon {
-    transform: translateX(+7px);
+    transform: translateX(+5px);
 }
 /* --- */
 
