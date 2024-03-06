@@ -450,13 +450,13 @@ ul {
     }
 }
 
-.logo,
-.home__frame,
-.headline__frame,
-.gallery__frame,
-.headline__frame,
-.aside > h3,
-.form {
+.header > *,
+.home__frame > *,
+.headline__frame > *,
+.gallery__frame > *,
+.headline__frame > *,
+.aside > *,
+.footer > * {
     animation: transitionIn .75s forwards;
 }
 /* --- */
