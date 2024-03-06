@@ -386,6 +386,17 @@ ul {
     white-space: nowrap;
 }
 
+.hidden {
+    opacity: 0;
+    transform: scale(.85);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    transform: scale(1);
+}
+
 /* --- Buttons -- */
 
 .btn { 
@@ -434,36 +445,6 @@ ul {
     margin: 3rem 1rem 2rem;
     font-weight: var(--font-weight-bold);
 }
-
-/* --- Keyframes --- */
-
-/* Property to animate how the content is loaded on the screen */
-@keyframes transitionIn {
-    from {
-        opacity: 0;
-        transform: scale(.75);
-    }
-
-    to {
-        opacity: 1;
-        transform: scale(1);
-    }
-}
-
-.logo,
-.home__frame > *,
-.main > *,
-.headline__frame > *,
-.section__services > *,
-.gallery__frame > *,
-.headline__frame > *,
-.section__about-us > *,
-.aside > *,
-.section__contact-us > *,
-.footer > * {
-    animation: transitionIn .75s forwards;
-}
-/* --- */
 
 /* --- Media queries ---- */
 
