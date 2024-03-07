@@ -1,42 +1,43 @@
 /* -- Global styles -- */
 
 :root{
-    /* Theme variables */
-    --theme-color-light: #fff;
-    --theme-color-light-alt: #cd6123;
-    --theme-color-dark: #eeeeee;
-    --theme-color-dark-alt: #1b1b1b;
-    --text-color: #1b1b1b;
-    --text-color-alt: #fff;
-    --text-color-alt2: #808a99;
-    --text-color-alt3: #626262;
-    --border-color-light: #b8c0cc;
-    --font-family-h: 'Suez One', serif;
-    --font-family-txt: 'Inter', sans-serif;
-    --font-family-arrow-icon: 'Quicksand', sans-serif;
-    --font-size-h-xs: 16px;
-    --font-size-h-s: 22px;
-    --font-size-h-m: 24px;
-    --font-size-h-l: 36px;
-    --font-size-xs: 14px;
-    --font-size-s: 14px;
-    --font-size-m: 20px;
-    --font-size-l: 24px;
-    --font-weight-xlight: 200;
-    --font-weight-light: 400;
-    --font-weight-bold: 600;
-    --line-height: 1.6;
-    --line-height-xl: 2;
-    --letter-spacing: .5px;
+/* Theme variables */
+--theme-color-light: #fff;
+--theme-color-light-alt: #cd6123;
+--theme-color-dark: #eeeeee;
+--theme-color-dark-alt: #1b1b1b;
+--text-color: #1b1b1b;
+--text-color-alt: #fff;
+--text-color-alt2: #808a99;
+--text-color-alt3: #626262;
+--border-color-light: #b8c0cc;
+--font-family-h: 'Suez One', serif;
+--font-family-txt: 'Inter', sans-serif;
+--font-family-arrow-icon: 'Quicksand', sans-serif;
+--font-size-h-xs: 16px;
+--font-size-h-s: 22px;
+--font-size-h-m: 24px;
+--font-size-h-l: 36px;
+--font-size-xs: 14px;
+--font-size-s: 14px;
+--font-size-m: 20px;
+--font-size-l: 24px;
+--font-weight-xlight: 200;
+--font-weight-light: 400;
+--font-weight-bold: 600;
+--line-height: 1.6;
+--line-height-xl: 2;
+--letter-spacing: .5px;
+
 /* Navigation variables */
-    --bar-width: 35px;
-    --bar-height: 4px;
-    --hamburger-gap: 6px;
-    --foreground: var(--text-color);
-    --background: var(--text-color-alt);
-    --hamburger-margin: .75rem;
-    --animation-timing: 200ms ease-in-out;
-    --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
+--bar-width: 35px;
+--bar-height: 4px;
+--hamburger-gap: 6px;
+--foreground: var(--text-color);
+--background: var(--text-color-alt);
+--hamburger-margin: .75rem;
+--animation-timing: 200ms ease-in-out;
+--hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
 }
 
 *,
