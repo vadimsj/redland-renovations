@@ -1,5 +1,5 @@
 
-/* Function to add a shadow to the nav bar when the page is scrolled */
+/* Function to add a shadow to the nav bar when the header is scrolled */
 
 document.addEventListener('DOMContentLoaded', function() {
     var header = document.querySelector('.header');
@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-/* Function to animate content, to appear on the page as the content comes into viewport */
+/* Function to display the content on the page as it enters into viewport */
 
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
