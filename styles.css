@@ -21,7 +21,7 @@
     --font-size-xs: 14px;
     --font-size-s: 14px;
     --font-size-m: 20px;
-    --font-size-l: 22px;
+    --font-size-l: 24px;
     --font-weight-xlight: 200;
     --font-weight-light: 400;
     --font-weight-bold: 600;
@@ -400,10 +400,10 @@ ul {
 .arrow-icon {
     display: inline-block;
     font-family: var(--font-family-arrow-icon);
-    font-size: var(--font-size-m);
+    font-size: var(--font-size-l);
     letter-spacing: -1px;
     line-height: 0;
-    transform: scaleX(.7) translateY(2px);
+    transform: scaleX(.7) translateY(3px);
     transition: transform 0.3s ease-in-out;
 }
 
@@ -453,7 +453,7 @@ ul {
 }
 
 .btn--primary-cta:hover .arrow-icon {
-    transform: scaleX(.7) translateY(2px) translateX(7px);
+    transform: scaleX(.7) translateY(3px) translateX(7px);
 }
 
 .btn--primary-cta:active .arrow-icon { 
