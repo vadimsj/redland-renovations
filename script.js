@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-/* Function to display the content on the page as it enters into viewport */
+/* Function to display the content on the page as it enters into the viewport */
 
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
