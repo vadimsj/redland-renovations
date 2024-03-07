@@ -1,6 +1,7 @@
 /* -- Global styles -- */
 
 :root{
+    /* Theme variables */
     --theme-color-light: #fff;
     --theme-color-light-alt: #cd6123;
     --theme-color-dark: #eeeeee;
@@ -26,15 +27,15 @@
     --line-height: 1.6;
     --line-height-xl: 2;
     --letter-spacing: .5px;
-
-  --bar-width: 35px;
-  --bar-height: 4px;
-  --hamburger-gap: 6px;
-  --foreground: #333;
-  --background: white;
-  --hamburger-margin: .75rem;
-  --animation-timing: 200ms ease-in-out;
-  --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
+/* Navigation variables */
+    --bar-width: 35px;
+    --bar-height: 4px;
+    --hamburger-gap: 6px;
+    --foreground: var(--text-color);
+    --background: var(--text-color-alt);
+    --hamburger-margin: .75rem;
+    --animation-timing: 200ms ease-in-out;
+    --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
 }
 
 *,
@@ -91,7 +92,7 @@ body {
     box-shadow: 0 4px 6px #0000001a;
 }
 
-/* Section and Headline Frame Styles */
+/* Section and Frame Styles */
 
 .headline__frame {
     border: solid 2px var(--text-color-alt);
@@ -459,12 +460,12 @@ ul {
 .btn--submit-msg {
     width: auto;
     margin: 3rem 1rem 2rem;
-    font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-light);
 }
 
 /* --- Media queries ---- */
 
-/* Navbar Media Queries */
+/* Navbar Properties */
 @media (max-width:600px) {
     .hamburger-menu {
         --x-width: calc(var(--hamburger-height) * 1.41421356237);
@@ -518,6 +519,7 @@ ul {
     .hamburger-menu:has(input:checked)::before {
         rotate: 45deg;
         width: var(--x-width);
+    
         translate: 0 calc(var(--bar-height) / -2);
     }
       
@@ -592,7 +594,7 @@ ul {
 }
 /* --- */
 
-/* Layout Media Querries */
+/* Layout Properties */
 @media (min-width:600px) {
     .section {
         padding: 1.5rem 3rem;
