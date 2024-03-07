@@ -396,6 +396,15 @@ ul {
     line-height: var(--line-height-xl);
 }
 
+.arrow-icon {
+    display: inline-block;
+    font-size: var(--font-size-l);
+    letter-spacing: -5px;
+    line-height: 0;
+    transform: scaleX(.6) translateY(2px);
+    transition: transform 0.3s ease-in-out;
+}
+
 /* Special Class */
 
 .span--nobreak {
@@ -411,7 +420,7 @@ ul {
 .show {
     opacity: 1;
     transform: scale(1);
-}
+} 
 
 /* --- Buttons -- */
 
@@ -428,22 +437,6 @@ ul {
     min-width: 26.5ch;
 }
 
-/* Effet on the main cta button to move the icon on hover" */
-.btn__icon {
-    transition: transform 0.3s ease-in-out;
-}
-
-.btn--primary-cta {
-    position: relative;
-    margin: 1.5rem;
-    background-color: var(--theme-color-light);
-}
-
-.btn--primary-cta:hover .btn__icon {
-    transform: translateX(+5px);
-}
-/* --- */
-
 .btn:hover {
     cursor: pointer;
 }
@@ -453,14 +446,17 @@ ul {
     border-color: var(--theme-color-dark-alt);
 }
 
-.btn--primary-cta:active .btn__icon { 
+.btn--primary-cta:hover .arrow-icon {
+    transform: scaleX(.6) translateY(2px) translateX(7px);
+}
+
+.btn--primary-cta:active .arrow-icon { 
     color: var(--theme-color-dark-alt);
 }
 
 .btn--submit-msg {
     width: auto;
     margin: 3rem 1rem 2rem;
-    font-weight: var(--font-weight-light);
 }
 
 /* --- Media queries ---- */
@@ -663,9 +659,3 @@ ul {
     }
 }
 /* --- */
-
-
-
-
-
-
