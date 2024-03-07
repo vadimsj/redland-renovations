@@ -564,6 +564,10 @@ ul {
     .navbar-link > a {
         font-size: var(--font-size-m);
     }
+
+    .navbar-link > a:hover {
+        cursor: pointer;
+    }
 }
 
 @media (min-width:600px) {
