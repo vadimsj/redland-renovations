@@ -13,6 +13,7 @@
     --border-color-light: #b8c0cc;
     --font-family-h: 'Suez One', serif;
     --font-family-txt: 'Inter', sans-serif;
+    --font-family-arrow-icon: 'Quicksand', sans-serif;
     --font-size-h-xs: 16px;
     --font-size-h-s: 22px;
     --font-size-h-m: 24px;
@@ -398,10 +399,11 @@ ul {
 
 .arrow-icon {
     display: inline-block;
-    font-size: var(--font-size-l);
-    letter-spacing: -5px;
+    font-family: var(--font-family-arrow-icon);
+    font-size: var(--font-size-m);
+    letter-spacing: -1px;
     line-height: 0;
-    transform: scaleX(.6) translateY(2px);
+    transform: scaleX(.7) translateY(2px);
     transition: transform 0.3s ease-in-out;
 }
 
@@ -446,8 +448,12 @@ ul {
     border-color: var(--theme-color-dark-alt);
 }
 
+.btn--primary-cta {
+    padding-left: 1.5rem;
+}
+
 .btn--primary-cta:hover .arrow-icon {
-    transform: scaleX(.6) translateY(2px) translateX(7px);
+    transform: scaleX(.7) translateY(2px) translateX(7px);
 }
 
 .btn--primary-cta:active .arrow-icon { 
