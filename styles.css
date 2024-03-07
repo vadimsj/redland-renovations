@@ -95,17 +95,17 @@ body {
 
 /* Section and Frame Styles */
 
-.headline__frame {
+.frame {
     border: solid 2px var(--text-color-alt);
     padding: 1.5rem 2rem 2rem;
     margin: .5rem;
 }
 
-.headline__frame > p {
+.frame > p {
     margin-top: 1rem;
 }
 
-.headline__frame > ul {
+.frame > ul {
     margin: 1rem
 }
 
@@ -173,7 +173,7 @@ body {
     background-color: var(--theme-color-dark);
 } /* Property to alternate background color for gallery sections */
 
-.section__gallery .headline__frame {
+.section__gallery .frame {
     border: none;
 }
 
@@ -203,11 +203,11 @@ body {
     background-color: var(--theme-color-light-alt);
 }
 
-.section__about-us > .headline__frame > p {
+.section__about-us > .frame > p {
     font-weight: 400;
 }
 
-.section__about-us .headline__frame {
+.section__about-us .frame {
     color: var(--text-color-alt);
     font-weight: var(--font-weight-light);
 }
@@ -220,7 +220,7 @@ body {
     text-align: center;
 }
 
-.section__contact-us .headline__frame {
+.section__contact-us .frame {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -228,7 +228,7 @@ body {
     max-width: 70ch;
 }
 
-.section__contact-us .headline__frame > h2 {
+.section__contact-us .frame > h2 {
     margin-top: 1rem;
 }
 
@@ -611,7 +611,7 @@ ul {
         direction: rtl;
     } /* Property to alternate direction of the images flow between the gallery sections */
 
-    .section__gallery .headline__frame {
+    .section__gallery .frame {
         margin-bottom: 1.5rem;
     }
 
