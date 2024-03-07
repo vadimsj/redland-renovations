@@ -74,26 +74,6 @@ body {
     filter: saturate(0%) sepia(50%);
 }
 
-/* Header Styles */
-
-.header { 
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    z-index: 1;
-    width: 100%;
-    border: none;
-    box-shadow: none;
-    background-color: var(--theme-color-light);
-    transition: box-shadow 0.3s ease-in-out;
-}
-
-.header.scrolled {
-    border: none;
-    box-shadow: 0 4px 6px #0000001a;
-}
-
 /* Section and Frame Styles */
 
 .frame {
@@ -117,6 +97,26 @@ body {
     align-items: center;
     background-color: var(--theme-color-light);
     padding: 1rem;
+}
+
+/* Header Styles */
+
+.header { 
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    z-index: 1;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    background-color: var(--theme-color-light);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.header.scrolled {
+    border: none;
+    box-shadow: 0 4px 6px #0000001a;
 }
 
 /* Home Page Styles */
@@ -543,6 +543,7 @@ ul {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+        text-align: center;
         position: fixed;
         top: 0;
         right: 0;
