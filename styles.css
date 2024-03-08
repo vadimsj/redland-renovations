@@ -1,6 +1,6 @@
 /* -- Global styles -- */
 
-:root{
+:root {
     /* Theme variables */
     --theme-color-light: #fff;
     --theme-color-light-alt: #cd6123;
@@ -17,11 +17,12 @@
     --font-size-h-xs: 16px;
     --font-size-h-s: 22px;
     --font-size-h-m: 24px;
-    --font-size-h-l: 36px;
+    --font-size-h-l: 32px;
     --font-size-xs: 14px;
     --font-size-s: 14px;
     --font-size-m: 20px;
     --font-size-l: 24px;
+    --font-size-xl: 28px;
     --font-weight-xlight: 200;
     --font-weight-light: 400;
     --font-weight-bold: 600;
@@ -130,7 +131,6 @@ body {
     align-items: center;
     margin: 5rem .5rem 1rem;
     padding: .5rem;
-    border: 2px solid #000;
     background-color: var(--theme-color-light);
     max-width: fit-content;
 }
@@ -305,7 +305,7 @@ h2 {
 
 h4,
 h5 {
-    font-weight: var(--font-weight-xlight);
+    font-weight: var(--font-weight-light);
     font-size: var(--font-size-xs);
 }
 
@@ -625,29 +625,47 @@ ul {
 
 @media (min-width:980px) {
     .section__home {
-        flex-direction: row-reverse;
-        justify-content: space-around;
+        flex-direction: row;
+        justify-content:space-between;
         align-items: center;
-        gap: 3rem;
-    }
-    
-    .header {
-        border: none;
-        box-shadow: 0 4px 6px #0000001a;
+        gap: 0;
+        padding: 0;
     }
     
     .logo--navbar-logo {
-    width: 14rem;
-    margin-bottom: 0;
+        width: 14rem;
+        margin-bottom: 0;
     }
-
+    
     .main {
         margin: 0 auto 1rem;
     }
+    
+    .main > p {
+        margin: 2rem;
+        font-size: var(--font-size-m);
+        max-width: 38ch;
+    }
+    
+    .main > a {
+        font-size: var(--font-size-m);
+    }
+
+    .main > h1 {
+        font-size: var(--font-size-h-l);
+    }
+
+    .arrow-icon {
+        font-size: var(--font-size-xl);
+    }
+
+    .btn--primary-cta {
+        padding-left: 2.5rem;
+    }
 
     .home__frame {
-        max-width: 50vw;
-        margin: 5rem 0 0 0;
+        width: 50vw;
+        margin: 5rem 0 3rem 0;
     }
 }
 
@@ -658,7 +676,7 @@ ul {
     }
 
     .section__home {
-        padding: 0.5rem 6rem;
+        padding: 0 ;
     }
 
     .main {
