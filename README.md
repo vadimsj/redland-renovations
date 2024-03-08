@@ -29,20 +29,14 @@
     As a Ruturning visitor, I would like to:
    1. Easily navigate through the website to access different pages and return to the home page if needed.
     2. Quickly contact the company or request a callback.
-   
-- C. Frequent User Goals
 
-    As a Frequent User, I would like to:
-   1. Easily navigate through the website to access different pages and return to the home page if needed.
-    2. Quickly contact the company or request a callback.
-
-- D. Website Owner Goals
+- C. Website Owner Goals
 
     As a website owner, I would like to:
   1. Introduce the company and it's services to the website visitors.
   2. Present essential company information in a user-friendly format.
   3. Showcase the company's portfolio of previously completed works.
-  4. Offer a convenient means for customers to get in touch.
+  4. Offer a various options for customers to get in touch.
   5. Capture the leads from incoming inquiries.
 
 
