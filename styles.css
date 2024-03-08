@@ -542,6 +542,7 @@ ul {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+        text-align: center;
         position: fixed;
         top: 0;
         right: 0;
