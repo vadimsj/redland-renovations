@@ -54,12 +54,12 @@
     - Expand the customer base and boost sales.
 
 - Scope
-    - Due to constraints of using HTML5 and CSS3, only ensure a simple but accessible layout.
+    - Due to constraints of set requirements, website is built predominantly using vanilla HTML5 and CSS3, minimaising the usage of JavaScript.
   
     - Feature requirements:
       - Website is static but responsive.
       - Website is intuitive and user-friendly.
-      -  Website is accessible on various devices.
+      - Website is accessible on various devices.
       - Website is accessible to audience of all ages and technical abilities.
       - Website is developed with a mobile-first approach.
 
