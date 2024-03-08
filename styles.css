@@ -17,9 +17,9 @@
     --font-size-h-xs: 16px;
     --font-size-h-s: 22px;
     --font-size-h-m: 24px;
-    --font-size-h-l: 32px;
+    --font-size-h-l: 30px;
     --font-size-xs: 14px;
-    --font-size-s: 14px;
+    --font-size-s: 16px;
     --font-size-m: 20px;
     --font-size-l: 24px;
     --font-size-xl: 28px;
@@ -252,7 +252,7 @@ body {
 }
 
 .aside > h3 {
-    font-size: var(--font-size-s);
+    font-size: var(--font-size-h-xs);
 }
 
 /* Footer Styles */
@@ -449,7 +449,7 @@ ul {
 }
 
 .btn--primary-cta {
-    padding-left: 1.5rem;
+    padding-left: 2rem;
 }
 
 .btn--primary-cta:hover .arrow-icon {
@@ -662,24 +662,11 @@ ul {
     
     .main > p {
         margin: 2rem;
-        font-size: var(--font-size-m);
         max-width: 38ch;
-    }
-    
-    .main > a {
-        font-size: var(--font-size-m);
     }
     
     .main > h1 {
         font-size: var(--font-size-h-l);
-    }
-    
-    .arrow-icon {
-        font-size: var(--font-size-xl);
-    }
-    
-    .btn--primary-cta {
-        padding-left: 2.5rem;
     }
 }
 /* --- */
