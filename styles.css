@@ -634,35 +634,12 @@ ul {
     
     .logo--navbar-logo {
         width: 14rem;
-        margin-bottom: 0;
     }
     
     .main {
         margin: 0 auto 1rem;
     }
     
-    .main > p {
-        margin: 2rem;
-        font-size: var(--font-size-m);
-        max-width: 38ch;
-    }
-    
-    .main > a {
-        font-size: var(--font-size-m);
-    }
-
-    .main > h1 {
-        font-size: var(--font-size-h-l);
-    }
-
-    .arrow-icon {
-        font-size: var(--font-size-xl);
-    }
-
-    .btn--primary-cta {
-        padding-left: 2.5rem;
-    }
-
     .home__frame {
         width: 50vw;
         margin: 5rem 0 3rem 0;
@@ -674,13 +651,35 @@ ul {
     .section {
         padding: 2rem 6rem;
     }
-
+    
     .section__home {
         padding: 0 ;
     }
-
+    
     .main {
         padding: 1rem;
+    }
+    
+    .main > p {
+        margin: 2rem;
+        font-size: var(--font-size-m);
+        max-width: 38ch;
+    }
+    
+    .main > a {
+        font-size: var(--font-size-m);
+    }
+    
+    .main > h1 {
+        font-size: var(--font-size-h-l);
+    }
+    
+    .arrow-icon {
+        font-size: var(--font-size-xl);
+    }
+    
+    .btn--primary-cta {
+        padding-left: 2.5rem;
     }
 }
 /* --- */
