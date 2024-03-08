@@ -642,7 +642,7 @@ ul {
     
     .home__frame {
         width: 50vw;
-        margin: 5rem 0 3rem 0;
+        margin: 5rem 0 2rem 0;
     }
 }
 
@@ -653,7 +653,7 @@ ul {
     }
     
     .section__home {
-        padding: 0 ;
+        padding: 0;
     }
     
     .main {
