@@ -620,7 +620,7 @@ ul {
  
     .wrapper--gallery {
         grid-template-columns: repeat(6, minmax(8rem, 1fr));
-    } /* Wrapper that arranges the flow of the images, restricting the number of columns to 6 */
+    } /* Wrapper that arranges the flow of the images in the gallery section, restricting the number of columns to 6 */
     }
 }
 
