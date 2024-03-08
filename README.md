@@ -4,9 +4,9 @@
 
 - This website has been built to improve the existing website for Redland Renovations, which serves as a portfolio and point of contact for a property renovation company in Bristol, UK.
 
--  The website intended to function as an introductory presentation of the business for prospective visitors.
+-  The website intended to function as a landing page for prospective visitors.
 
--  It features essential information about the company and aims to motivate visitors to reach out.
+-  It features essential information about the company and its services, and aims to motivate visitors to reach out.
 
 - The main purpose of the website is to convert prospective visitors into leads and capture their contact details.
 
@@ -163,14 +163,13 @@ The live link can be found here - https://vadimsj.github.io/redland-renovations
 
 ## Credits 
 
+Hamburger menu navigation was completed following the tutorial from Web Dev Simplified - https://youtu.be/dAIVbLrAb_U?feature=shared
+
+Intersection observer was implemented following the tutorial from Beyond Fireship - https://youtu.be/T33NN_pPeNI?feature=shared
+
 ### Content 
 
-- Text for the Home page was taken from 
-- Instructions on how to implement ... on the ... page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
+- Photos and text content was provided by the owner.
+  
 ### Media
-
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
 
