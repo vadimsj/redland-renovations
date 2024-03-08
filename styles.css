@@ -380,6 +380,7 @@ input::placeholder,
 textarea::placeholder {
     font-family: var(--font-family-txt);
     font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-xlight);
 }
 
 input:focus,
