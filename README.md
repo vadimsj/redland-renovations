@@ -4,7 +4,7 @@
 
 - This website has been built to improve the existing website for Redland Renovations, which serves as a portfolio and point of contact for a property renovation company in Bristol, UK.
 
--  The website intended to function as a landing page for prospective visitors.
+-  The website intended to function as a landing page for the prospective visitors.
 
 -  It features essential information about the company and its services, and aims to motivate visitors to reach out.
 
