@@ -564,6 +564,10 @@ ul {
         translate: 0;
     }
 
+    .navbar-link {
+        margin: 2rem;
+    }
+
     .navbar-link > a {
         font-size: var(--font-size-m);
     }
