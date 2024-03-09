@@ -210,6 +210,7 @@ body {
 .section__about-us .frame {
     color: var(--text-color-alt);
     font-weight: var(--font-weight-light);
+    max-width: 70ch;
 }
 
 /* Contact Us Page Styles */
