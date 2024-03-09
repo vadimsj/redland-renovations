@@ -63,6 +63,7 @@ body {
 
 .logo {
     width: 10rem;
+    display: inline-block
 }
 
 .logo--navbar-logo {
@@ -238,6 +239,19 @@ body {
     align-items: center;
     margin-top: 2rem;
     min-width: 30ch;
+}
+
+
+.section__thank-you {
+    justify-content: space-between;
+}
+
+.section__thank-you .logo {
+    margin-top: 2rem;
+}
+.section__thank-you > h1,
+.section__thank-you > h3 {
+    margin: 1rem;
 }
 
 /* Aside Styles */
@@ -429,7 +443,6 @@ ul {
 
 .btn { 
     display: block;
-    width: 26ch;
     margin: 1rem;
     padding: .6em 1.25em;
     border-radius: 0;
@@ -437,7 +450,6 @@ ul {
     border: 2px solid var(--theme-color-light-alt);
     background-color: var(--theme-color-light);
     color: var(--theme-color-light-alt);
-    min-width: 26.5ch;
 }
 
 .btn:hover {
