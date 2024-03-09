@@ -299,13 +299,13 @@
      <p>Telephone Scott on <a href="tel:+447976007007"><span class="span--nobreak"> 07976 007 007</span></a> or email <a href="mailto:info@redlandrenovations.co.uk">info@redlandrenovations.co.uk</a></p>
      <form action="thank-you.html" method="post" class="contact-us__form hidden" id="contact-form">
          <label for="name">Name:</label>
-         <input type="text" title="Enter your name" id="name" name="name" placeholder="Your name" pattern="[A-Za-z]+" required>
+         <input type="text" title="Enter your name, only letters can be used in this field" id="name" name="name" placeholder="Your name" pattern="[A-Za-z]+" required>
  
          <label for="email">Email:</label>
-         <input type="email" title="Enter your email" id="email" name="email" placeholder="Your email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" oninput="toggleRequiredFields()" required>
+         <input type="email" title="Enter a valid email address" id="email" name="email" placeholder="Your email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" oninput="toggleRequiredFields()" required>
  
          <label for="telephone">Telephone:</label>
-         <input type="tel" title="Enter your telephone number" id="telephone" name="telephone" placeholder="Your telephone" pattern="[0-9]+" oninput="toggleRequiredFields(); formatPhoneNumber()" required>
+         <input type="tel" title="Enter your telephone number, only numbers can be used in this field" id="telephone" name="telephone" placeholder="Your telephone" pattern="[0-9]+" oninput="toggleRequiredFields(); formatPhoneNumber()" required>
  
          <label for="message">Message:</label>
          <textarea id="message" title="Enter your message" name="message" placeholder="Enter your message" required></textarea>
