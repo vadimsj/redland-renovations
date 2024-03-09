@@ -33,12 +33,12 @@ function formatPhoneNumber() {
     let phoneNumberValue = phoneNumberInput.value;
 
     // Remove any non-digit characters
-    let formattedNumber = phoneNumberValue.replace(/\D/g, '');
+    let formattedNumber = phoneNumberValue.replace(/[^\d+]/g, '');
 
-    // Check if the phone number starts with "07"
-    if (formattedNumber.startsWith("07")) {
-      // Replace "07" with "+44"
-      formattedNumber = formattedNumber.replace(/^07/, "+44");
+    // Check if the phone number starts with "07" and has exactly 11 digits
+    if (/^07\d{9}$/.test(formattedNumber)) {
+        // Replace "07" with "+44"
+        formattedNumber = formattedNumber.replace(/^07/, "+44");
     }
 
     // Update the input field value
