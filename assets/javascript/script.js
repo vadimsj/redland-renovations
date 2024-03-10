@@ -1,7 +1,7 @@
 
 /* Function to add a shadow to the nav bar when the header is scrolled */
 document.addEventListener('DOMContentLoaded', function() {
-    let header = document.querySelector('.header');
+    var header = document.querySelector('.header');
 
     window.addEventListener('scroll', function() {
         if (window.scrollY > 0) {
