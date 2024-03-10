@@ -305,7 +305,7 @@
          <input type="email" title="Enter a valid email address" id="email" name="email" placeholder="Your email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" oninput="toggleRequiredFields()" required>
  
          <label for="telephone">Telephone:</label>
-         <input type="tel" title="Enter your telephone number, only numbers can be used in this field" id="telephone" name="telephone" placeholder="Your telephone" pattern="[0-9]+" oninput="toggleRequiredFields(); formatPhoneNumber()" required>
+         <input type="tel" title="Enter your telephone number, only numbers can be used in this field" id="telephone" name="telephone" placeholder="Your telephone" pattern="[0-9+]+" oninput="toggleRequiredFields(); formatPhoneNumber()" required>
  
          <label for="message">Message:</label>
          <textarea id="message" title="Enter your message" name="message" placeholder="Enter your message" required></textarea>

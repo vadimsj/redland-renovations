@@ -43,3 +43,21 @@ function toggleRequiredFields() {
     phoneInput.setAttribute("required", "required");
   }
 }
+
+/* Function to auto format mobile phone numbers to start with +44 */
+function formatPhoneNumber() {
+    let phoneNumberInput = document.getElementById("telephone");
+    let phoneNumberValue = phoneNumberInput.value;
+
+    // Remove any non-digit characters
+    let formattedNumber = phoneNumberValue.replace(/[^\d+]/g, '');
+
+    // Check if the phone number starts with "07" and has exactly 11 digits
+    if (/^07\d{9}$/.test(formattedNumber)) {
+        // Replace "07" with "+44"
+        formattedNumber = formattedNumber.replace(/^07/, "+44");
+    }
+
+    // Update the input field value
+    phoneNumberInput.value = formattedNumber;
+  }
