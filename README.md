@@ -164,7 +164,7 @@ The live link can be found here - https://vadimsj.github.io/redland-renovations
 
 ## Credits 
 
-Hamburger menu navigation was completed following the tutorial from Web Dev Simplified - https://youtu.be/dAIVbLrAb_U?feature=shared
+Hamburger menu navigation was implemented following the tutorial from Web Dev Simplified - https://youtu.be/dAIVbLrAb_U?feature=shared
 
 Intersection observer was implemented following the tutorial from Beyond Fireship - https://youtu.be/T33NN_pPeNI?feature=shared
 

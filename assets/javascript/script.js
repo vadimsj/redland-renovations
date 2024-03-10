@@ -29,19 +29,11 @@ hiddenElements.forEach((el) => observer.observe(el));
 
 /* Function to set either phone number or email to be required in the form */
 function toggleRequiredFields() {
-  let emailInput = document.getElementById("email");
-  let phoneInput = document.getElementById("telephone");
+    let emailInput = document.getElementById("email");
+    let phoneInput = document.getElementById("telephone");
 
-  if (phoneInput.value.trim() !== "") {
-    emailInput.removeAttribute("required");
-    phoneInput.setAttribute("required", "required");
-  } else if (emailInput.value.trim() !== "") {
-    phoneInput.removeAttribute("required");
-    emailInput.setAttribute("required", "required");
-  } else {
-    emailInput.setAttribute("required", "required");
-    phoneInput.setAttribute("required", "required");
-  }
+    emailInput.required = phoneInput.value.trim() === "";
+    phoneInput.required = emailInput.value.trim() === "";
 }
 
 /* Function to auto format mobile phone numbers to start with +44 */
