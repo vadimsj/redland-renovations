@@ -112,11 +112,18 @@
 
         Link to google fonts: https://fonts.google.com/specimen/Inter?preview.text=Inter&query=Inter&stroke=Sans+Serif
 
+    - Arrow icon was created using the "Quicksand" font, a sans-serif typeface.
+
+        ![Font for headings](assets/docs/font-preview-quicksand-sans-serif.png)
+
+      Link to google fonts: https://fonts.google.com/specimen/Quicksand?query=quicksand
+
     - Code to link google fonts in HTML:
-    ```html
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Suez+One&display=swap" rel="stylesheet">
+```html
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Quicksand:wght@300..700&family=Suez+One&display=swap" rel="stylesheet">
+```
 
   - Imagery
 
