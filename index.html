@@ -17,13 +17,13 @@
 
 <header class="header">
     <div>
-        <a href="#home" title="Go to Home page" aria-label="Go to Home page">
+        <a href="#home" role="button" title="Go to Home page" aria-label="Go to Home page">
          <img src="./assets/images/redland-renovations-logo.png" alt="Logo" class="logo logo--navbar-logo hidden">
         </a>
     </div>
 
     <label class="hamburger-menu" title="Open/Close Menu" aria-label="Hamburger Menu">
-        <input type="checkbox"/>
+        <input type="checkbox" role="checkbox" aria-checked="true|false"/>
     </label>
 
     <figure class="sidebar">
@@ -40,7 +40,7 @@
      <main class="main">
          <h1>Property renovations in Bristol</h1>
          <p>We undertake various renovation projects in Bristol and surrounding areas, and have extensive experience in property refurbishment from groundworks to roofing and everything<span class="span--nobreak"> in-between.</span></p>
-         <a href="#contact-us" class="btn btn--primary-cta hidden" title="Go to Contact Us page" aria-label="Go to Contact Us page"><span class="span--nobreak">Book a Free Consulation</span><span class="arrow-icon">>></span></a>
+         <a href="#contact-us" role="button" class="btn btn--primary-cta hidden" title="Go to Contact Us page" aria-label="Go to Contact Us page"><span class="span--nobreak">Book a Free Consulation</span><span class="arrow-icon">>></span></a>
      </main>
     </div>
 
@@ -312,7 +312,7 @@
          <label for="message">Message:</label>
          <textarea id="message" title="Enter your message" name="message" placeholder="Enter your message" aria-label="Enter your Message" required></textarea>
  
-         <input type="submit" value="Send Request" class="btn btn--submit-msg hidden" title="Submit Message" aria-label="Submit Message">
+         <input type="submit" value="Send Request" role="button" class="btn btn--submit-msg hidden" title="Submit Message" aria-label="Submit Message">
      </form>
     </div>
  </section>
