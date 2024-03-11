@@ -1,35 +1,37 @@
 /* Function to add a shadow to the nav bar when the header is scrolled */
-document.addEventListener('DOMContentLoaded', function() {
-    var header = document.querySelector('.header');
+document.addEventListener("DOMContentLoaded", function() {
+    const header = document.querySelector(".header");
 
-    window.addEventListener('scroll', function() {
+    window.addEventListener("scroll", function() {
         if (window.scrollY > 0) {
-            header.classList.add('scrolled');
+            header.classList.add("scrolled");
         } else {
-            header.classList.remove('scrolled');
+            header.classList.remove("scrolled");
         }
     });
 });
 
 /* Function to display the content on the page as it enters into the viewport */
-const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-        console.log(entry)
+const observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+        console.log(entry);
         if (entry.isIntersecting) {
-            entry.target.classList.add('show');
+            entry.target.classList.add("show");
         } else {
-            entry.target.classList.remove('show');
+            entry.target.classList.remove("show");
         }
     });
 });
 
-const hiddenElements = document.querySelectorAll('.hidden');
-hiddenElements.forEach((el) => observer.observe(el));
+const hiddenElements = document.querySelectorAll(".hidden");
+hiddenElements.forEach(function(el) {
+    observer.observe(el);
+});
 
 /* Function to set either phone number or email to be required in the form */
 function toggleRequiredFields() {
-    let emailInput = document.getElementById("email");
-    let phoneInput = document.getElementById("telephone");
+    const emailInput = document.getElementById("email");
+    const phoneInput = document.getElementById("telephone");
 
     emailInput.required = phoneInput.value.trim() === "";
     phoneInput.required = emailInput.value.trim() === "";
@@ -37,11 +39,11 @@ function toggleRequiredFields() {
 
 /* Function to auto format mobile phone numbers to start with +44 */
 function formatPhoneNumber() {
-    let phoneNumberInput = document.getElementById("telephone");
-    let phoneNumberValue = phoneNumberInput.value;
+    const phoneNumberInput = document.getElementById("telephone");
+    const phoneNumberValue = phoneNumberInput.value;
 
     // Remove any non-digit characters
-    let formattedNumber = phoneNumberValue.replace(/[^\d+]/g, '');
+    let formattedNumber = phoneNumberValue.replace(/[^\d+]/g, "");
 
     // Check if the phone number starts with "07" and has exactly 11 digits
     if (/^07\d{9}$/.test(formattedNumber)) {
