@@ -50,7 +50,7 @@
 }
 
 *:focus-visible {
-    outline: 3px solid var(--theme-color-light-alt);
+    outline: 2px solid var(--theme-color-light-alt);
 }
 
 html {
