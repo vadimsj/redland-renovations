@@ -1,4 +1,3 @@
-
 /* Function to add a shadow to the nav bar when the header is scrolled */
 document.addEventListener('DOMContentLoaded', function() {
     var header = document.querySelector('.header');
