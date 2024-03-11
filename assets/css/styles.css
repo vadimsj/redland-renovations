@@ -49,6 +49,10 @@
     scroll-margin-top: 4rem;
 }
 
+*:focus-visible {
+    outline: 3px solid var(--theme-color-light-alt);
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -398,10 +402,6 @@ textarea::placeholder {
 input:focus,
 textarea:focus {
     border-color: var(--text-color-alt2);
-}
-
-:focus {
-    outline: 3px solid var(--theme-color-light-alt);
 }
 
 /* Text Styles */
