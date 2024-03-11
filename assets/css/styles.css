@@ -125,7 +125,7 @@ body {
     padding: .5rem;
 }
 
-.main { 
+.main-headline { 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -135,11 +135,11 @@ body {
     max-width: fit-content;
 }
 
-.main > h1 {
+.main-headline > h1 {
     margin: 0 1rem .5rem;
 }
 
-.main > p {
+.main-headline > p {
     margin: 1rem;
     max-width: 45ch;
 }
@@ -651,7 +651,7 @@ ul {
         width: 14rem;
     }
     
-    .main {
+    .main-headline {
         margin: 0 auto;
     }
     
@@ -671,16 +671,16 @@ ul {
         padding: 0;
     }
     
-    .main {
+    .main-headline {
         padding: 1rem;
     }
     
-    .main > p {
+    .main-headline > p {
         margin: 2rem;
         max-width: 38ch;
     }
     
-    .main > h1 {
+    .main-headline > h1 {
         font-size: var(--font-size-h-l);
     }
 }
