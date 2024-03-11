@@ -400,6 +400,10 @@ textarea:focus {
     border-color: var(--text-color-alt2);
 }
 
+:focus {
+    outline: 3px solid var(--theme-color-light-alt);
+}
+
 /* Text Styles */
 
 p {
@@ -457,6 +461,10 @@ ul {
 .btn:active {
     color: var(--theme-color-dark-alt);
     border-color: var(--theme-color-dark-alt);
+}
+
+.btn--logo {
+    display: inline-block;
 }
 
 .btn--primary-cta {
