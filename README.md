@@ -1,6 +1,8 @@
 # Redland Renovations
 
-[Live website preview](https://vadimsj.github.io/redland-renovations)
+  ![Wireframes](assets/docs/website-preview-thumbnail.png)
+
+  [Live website preview](https://vadimsj.github.io/redland-renovations)
 
 - This website has been built to improve the existing website for Redland Renovations, which serves as a portfolio and point of contact for a property renovation company in Bristol, UK.
 
