@@ -50,6 +50,12 @@ function formatPhoneNumber() {
         formattedNumber = formattedNumber.replace(/^07/, "+44");
     }
 
+    // Check if the phone number starts with "44" and has exactly 12 digits
+    if (/^44\d{10}$/.test(formattedNumber)) {
+        // Replace "44" with "+44"
+        formattedNumber = formattedNumber.replace(/^44/, "+44");
+    }
+
     // Update the input field value
     phoneNumberInput.value = formattedNumber;
-  }
+}
