@@ -274,15 +274,17 @@ body {
     bottom: 0;
     z-index: -1;
     color: var(--text-color-alt3);
-    padding: 3rem 5rem 2rem;
+    padding: 3rem 5rem 6rem;
 }
 
-.footer > h4 {
-    margin: .2rem 2rem;
+.footer > p {
+    margin: .5rem 2rem;
+    font-weight: var(--font-weight-light);
+    font-size: var(--font-size-xs);
 }
 
-.footer > h5 {
-    margin: 2rem 2rem 3rem;
+.footer > p:last-child {
+    margin-top: 2rem;
 }
 
 /* -- Typography -- */
