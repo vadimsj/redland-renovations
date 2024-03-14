@@ -71,7 +71,7 @@ body {
 }
 
 .logo--navbar-logo {
-    margin: 1rem 3% .5rem;
+    margin: 1rem 1rem .5rem;
 }
 
 .logo--footer-logo {
@@ -616,6 +616,11 @@ ul {
         flex-direction: row;
         align-items: center;
     }
+
+    
+    .logo--navbar-logo {
+        margin: 1rem 3% .5rem;
+}
     
     .navbar-link {
         margin: 0 2rem;
