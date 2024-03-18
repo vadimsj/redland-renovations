@@ -12,21 +12,23 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 /* Function to display the content on the page as it enters into the viewport */
-const observer = new IntersectionObserver(function(entries) {
-    entries.forEach(function(entry) {
-        console.log(entry);
-        if (entry.isIntersecting) {
-            entry.target.classList.add("show");
-        } else {
-            entry.target.classList.remove("show");
-        }
+/* (Code implemented following the Beyond Fireship Tutorial) */
+    const observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+            console.log(entry);
+            if (entry.isIntersecting) {
+                entry.target.classList.add("show");
+            } else {
+                entry.target.classList.remove("show");
+            }
+        });
     });
-});
 
-const hiddenElements = document.querySelectorAll(".hidden");
-hiddenElements.forEach(function(el) {
-    observer.observe(el);
-});
+    const hiddenElements = document.querySelectorAll(".hidden");
+    hiddenElements.forEach(function(el) {
+        observer.observe(el);
+    });
+/* -- */
 
 /* Function to set either phone number or email to be required in the form */
 function toggleRequiredFields() {
