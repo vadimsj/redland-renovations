@@ -99,7 +99,8 @@
 - Surface
 
   - Color Scheme
-        ![Color scheme](assets/docs/color-scheme-preview.png)
+  
+  <img src="assets/docs/color-scheme-preview.png" alt="Color scheme preview" width="450px">
 
   - Typography
     - Headings are formatted using the 'Suez One' font, a serif typeface.
@@ -128,11 +129,15 @@
 ```
 
   - Imagery
+    - Logo
+  
+    <img src="assets/docs/image-preview/logo-preview.png" alt="Color scheme preview" width="200px">
+  
     - Hero Image
   ![Hero image](assets/docs/image-preview/hero-image-preview.png)
   
-  - Roofing & lof extensions
-  [Roofing works images](assets/docs/image-preview/roofing-image-preview.png)
+  - Roofing & loft extensions
+  ![Roofing works images](assets/docs/image-preview/roofing-image-preview.png)
 
   - Plastering, rendering, insulation & stonemasonry
   ![Rendering works images](assets/docs/image-preview/plastering-image-preview.png)
@@ -156,17 +161,17 @@
 
 ### Existing Features
 
-  - Header
+  - Header + Navigation bar
 
 ![Feature](assets/docs/features/header.png)
 
   - Hamburger menu
 
-![Feature](assets/docs/features/hamburger-menu.png)
+<img src="assets/docs/features/hamburger-menu.png" alt="Hamburger menu preview image" width="350px">
 
   - Menu Sidebar
 
-![Feature](assets/docs/features/menu-sidebar.png)
+<img src="assets/docs/features/menu-sidebar.png" alt="Sidebar preview image" width="350px">
 
   - Home Page
 
@@ -181,10 +186,14 @@
 ![Feature](assets/docs/features/cta-bar.png)
 
   - Gallery Sections
+  
+    - Desktop layout
 
-![Feature](assets/docs/features/gallery-section-desktop.png)
+      ![Feature](assets/docs/features/gallery-section-desktop.png)
 
-![Feature](assets/docs/features/gallery-section-mobile.png)
+    - Mobile layout
+
+    <img src="assets/docs/features/gallery-section-mobile.png" alt="Gallery section mobile layout preview" width="400px">
 
   - About us section
 
