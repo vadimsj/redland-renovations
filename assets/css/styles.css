@@ -589,8 +589,8 @@ ul {
         }
     /* --- */
 
+    /* Large screen Navbar properties */
     @media (min-width:600px) {
-        /* Large screen Navbar properties */
         .hamburger-menu {
             display: none;
         }
