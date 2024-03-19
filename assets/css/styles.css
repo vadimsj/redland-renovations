@@ -67,7 +67,6 @@ body {
 /* --- Layout --- */
 
 /* Logo Styles */
-
 .logo {
     width: 10rem;
     display: inline-block;
@@ -82,7 +81,6 @@ body {
 }
 
 /* Header Styles */
-
 .header { 
     position: fixed;
     display: flex;
@@ -102,7 +100,6 @@ body {
 }
 
 /* Section and Frame Styles */
-
 .frame {
     border: solid 2px var(--text-color-alt);
     padding: 1.5rem 2rem 2rem;
@@ -127,7 +124,6 @@ body {
 }
 
 /* Home Page Styles */
-
 .section__home {
     padding: .5rem;
 }
@@ -160,7 +156,6 @@ body {
 } 
 
 /* Services Page Styles */
-
 .section__services {
     background-color: var(--theme-color-dark);
 }
@@ -170,7 +165,6 @@ body {
 }
 
 /* Gallery Page Styles */
-
 .section__gallery {
     align-items: center;
     padding: 1rem .5rem .5rem;
@@ -205,7 +199,6 @@ body {
 }
 
 /* About Us Page Styles */
-
 .section__about-us {
     background-color: var(--theme-color-light-alt);
 }
@@ -221,7 +214,6 @@ body {
 }
 
 /* Contact Us Page Styles */
-
 .section__contact-us {
     background-color: var(--theme-color-dark);
     box-shadow: 0 4px 6px #0000001a;
@@ -261,7 +253,6 @@ body {
 }
 
 /* Aside Styles */
-
 .aside {
     display: flex;
     flex-direction: column;
@@ -276,7 +267,6 @@ body {
 }
 
 /* Footer Styles */
-
 .footer {
     display: flex;
     flex-direction: column;
@@ -302,7 +292,6 @@ body {
 /* -- Typography -- */
 
 /* Headings */
-
 h1, 
 h2,
 h3,
@@ -345,7 +334,6 @@ h3 {
 }
 
 /* Font Styles */
-
 a,
 p,
 label,
@@ -358,7 +346,6 @@ ul {
 }
 
 /* Link Styles */
-
 a {
     color: var(--text-color);
     text-decoration: none;
@@ -377,7 +364,6 @@ a:active {
 }
 
 /* Input and Textarea Styles */
-
 label {
     align-self: flex-start;
     margin: 0.5rem 0.3rem 0;
@@ -412,7 +398,6 @@ textarea:focus {
 }
 
 /* Text Styles */
-
 p {
     max-width: 56ch;
 }
@@ -432,7 +417,6 @@ ul {
 }
 
 /* Special Class */
-
 .span--nobreak {
     white-space: nowrap;
 }
@@ -449,7 +433,6 @@ ul {
 } 
 
 /* --- Buttons -- */
-
 .btn { 
     display: block;
     margin: 1rem;
