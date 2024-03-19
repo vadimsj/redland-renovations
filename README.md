@@ -128,51 +128,98 @@
 ```
 
   - Imagery
+    - Hero Image
+  ![Hero image](assets/docs/image-preview/hero-image-preview.png)
+  
+  - Roofing & lof extensions
+  [Roofing works images](assets/docs/image-preview/roofing-image-preview.png)
+
+  - Plastering, rendering, insulation & stonemasonry
+  ![Rendering works images](assets/docs/image-preview/plastering-image-preview.png)
+
+  - Kitchen installations
+  ![Kitchen installation images](assets/docs/image-preview/kitchen-image-preview.png)
+
+  - Gardening work
+  ![Gardening work images](assets/docs/image-preview/gardening-image-preview.png)
+
+  - Fencing & stone/brick wall
+  ![Fencing images](assets/docs/image-preview/fencing-image-preview.png)
+
+  - Heating systems
+  ![Heating images](assets/docs/image-preview/heating-image-preview.png)
+
+  - Driveways, patios & decking
+  ![Driveways images](assets/docs/image-preview/driveways-image-preview.png)
 
 ## Features 
 
 ### Existing Features
 
-- __Feature__
+  - Header
 
-  - Description
+![Feature](assets/docs/features/header.png)
 
-![Feature](https://)
+  - Hamburger menu
+
+![Feature](assets/docs/features/hamburger-menu.png)
+
+  - Menu Sidebar
+
+![Feature](assets/docs/features/menu-sidebar.png)
+
+  - Home Page
+
+![Feature](assets/docs/features/home-page.png)
+
+  - Services Section
+
+![Feature](assets/docs/features/services-section.png)
+
+  - Call to action bar
+
+![Feature](assets/docs/features/cta-bar.png)
+
+  - Gallery Sections
+
+![Feature](assets/docs/features/gallery-section-desktop.png)
+
+![Feature](assets/docs/features/gallery-section-mobile.png)
+
+  - About us section
+
+![Feature](assets/docs/features/aboutus-section.png)
+
+  - Unique selling proposition bar
+
+![Feature](assets/docs/features/usp-bar.png)
+
+  - Contact us section
+
+![Feature](assets/docs/features/contactus-section.png)
+
+  - Footer
+
+![Feature](assets/docs/features/footer.png)
 
 
 ### Features Left to Implement
 
-- Another feature idea
+- Image slider showcasing images from the gallery sections full screen - given the specific scope of this project, it was decided not to implement this feature, as it would require JavaScript to achieve the desired effectiveness.
 
 ## Testing 
 
-### Validator Testing 
-
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://)
-
-### Unfixed Bugs
-
-## Deployment
-
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
-
-The live link can be found here - https://vadimsj.github.io/redland-renovations
+Testing results can be found in [testing.md](./testing.md).
 
 ## Credits 
 
-Hamburger menu navigation was implemented following the tutorial from Web Dev Simplified - https://youtu.be/dAIVbLrAb_U?feature=shared
+Hamburger menu navigation was implemented following the tutorial from Web Dev Simplified: https://youtu.be/dAIVbLrAb_U?feature=shared
 
-Intersection observer was implemented following the tutorial from Beyond Fireship - https://youtu.be/T33NN_pPeNI?feature=shared
+Intersection observer was implemented following the tutorial from Beyond Fireship:
+ https://youtu.be/T33NN_pPeNI?feature=shared
 
-### Content 
+## Content 
 
-- Photos and text content was provided by the owner.
-  
-### Media
+- Photos and text content were taken from the existing Redland Renovations website.
 
+- Font styles and colors were taken from the existing Redland Renovations website.
