@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 /* Function to display the content on the page as it enters into the viewport */
-/* (Code implemented following the Beyond Fireship Tutorial) */
+/* (Code implemented following the Beyond Fireship tutorial) */
     const observer = new IntersectionObserver(function(entries) {
         entries.forEach(function(entry) {
             console.log(entry);
