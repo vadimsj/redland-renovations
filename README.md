@@ -223,6 +223,14 @@
 
       <img src="assets/docs/features/footer.png" alt="Footer preview" width="1000px">
 
+  - Thank you page
+
+      <img src="assets/docs/features/thankyou-page.png" alt="Thank you page preview" width="1000px">
+
+  - Error 404 page
+
+      <img src="assets/docs/features/page-404.png" alt="Page 404 preview" width="1000px">
+
 
 ### Features Left to Implement
 
