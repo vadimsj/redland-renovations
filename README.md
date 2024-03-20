@@ -121,8 +121,6 @@
 
         Link to google fonts: https://fonts.google.com/specimen/Quicksand?query=quicksand
 
-    - Code to link google fonts in HTML:
-
   - Imagery
     - Logo
   
@@ -159,15 +157,15 @@
 
   - Header + Navigation bar
 
-![Feature](assets/docs/features/header.png)
+    <img src="assets/docs/features/header.png" alt="Header preview" width="1000px">
 
   - Hamburger menu
 
-<img src="assets/docs/features/hamburger-menu.png" alt="Hamburger menu preview image" width="350px">
+    <img src="assets/docs/features/hamburger-menu.png" alt="Hamburger menu preview image" width="350px">
 
   - Menu Sidebar
 
-<img src="assets/docs/features/menu-sidebar.png" alt="Sidebar preview image" width="350px">
+    <img src="assets/docs/features/menu-sidebar.png" alt="Sidebar preview image" width="350px">
 
   - Home Page
 
