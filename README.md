@@ -290,19 +290,19 @@ Testing results can be found in [testing.md](./testing.md).
 ## Deployment
 
 - Navigate to the [repository](https://github.com/vadimsj/redland-renovations).
-- Click on Settings in the header menu.
-- Click on Pages on the menu on the left to open GitHub Pages window.
-- From the drop down menu under source select deploy from branch.
-- From the drop down menu under branch select main (or select another branch for GitHub to deploy).
-- Click Save.
+- Click on "Settings" in the header menu.
+- Click on "Pages" on the menu on the left to open GitHub Pages window.
+- From the drop down menu under source select "deploy from branch".
+- From the drop down menu under branch select "main" (or select another branch for GitHub to deploy).
+- Click "Save".
 
 ### Creating a fork
 
 - Navigate to the [repository](https://github.com/vadimsj/redland-renovations).
-- In the top-right corner of the page click on the fork button and select create a fork.
+- In the top-right corner of the page click on the fork button and select "create a fork".
 - You can change the name of the fork and add description.
 - Choose to copy only the main branch or all branches to the new fork.
-- Click Create a Fork. A repository should appear in your GitHub.
+- Click "Create a Fork". A repository should appear in your GitHub.
 
 ### Cloning repository
 
