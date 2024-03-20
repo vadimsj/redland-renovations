@@ -122,22 +122,19 @@
       Link to google fonts: https://fonts.google.com/specimen/Quicksand?query=quicksand
 
     - Code to link google fonts in HTML:
-```html
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Quicksand:wght@300..700&family=Suez+One&display=swap" rel="stylesheet">
-```
 
   - Imagery
     - Logo
   
-    <img src="assets/docs/image-preview/logo-preview.png" alt="Color scheme preview" width="200px">
+      <img src="assets/docs/image-preview/logo-preview.png" alt="Color scheme preview" width="200px">
   
     - Hero Image
-  ![Hero image](assets/docs/image-preview/hero-image-preview.png)
+
+      <img src="assets/docs/image-preview/hero-image-preview.png" alt="Hero image" width="500px">
   
-  - Roofing & loft extensions
-  ![Roofing works images](assets/docs/image-preview/roofing-image-preview.png)
+    - Roofing & loft extensions
+  ![Roofing works images]()
+        <img src="assets/docs/image-preview/roofing-image-preview.png" alt="Roofing images preview" width="1000px">
 
   - Plastering, rendering, insulation & stonemasonry
   ![Rendering works images](assets/docs/image-preview/plastering-image-preview.png)
@@ -216,9 +213,11 @@
 
 - Image slider showcasing images from the gallery sections full screen - given the specific scope of this project, it was decided not to implement this feature, as it would require JavaScript to achieve the desired effectiveness.
 
-## Testing 
+## Content 
 
-Testing results can be found in [testing.md](./testing.md).
+- Photos and text content were taken from the existing Redland Renovations website.
+
+- Font styles and colors were taken from the existing Redland Renovations website.
 
 ## Credits 
 
@@ -227,8 +226,6 @@ Hamburger menu navigation was implemented following the tutorial from Web Dev Si
 Intersection observer was implemented following the tutorial from Beyond Fireship:
  https://youtu.be/T33NN_pPeNI?feature=shared
 
-## Content 
+## Testing 
 
-- Photos and text content were taken from the existing Redland Renovations website.
-
-- Font styles and colors were taken from the existing Redland Renovations website.
+Testing results can be found in [testing.md](./testing.md).
