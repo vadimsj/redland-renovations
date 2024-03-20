@@ -306,7 +306,7 @@ Testing results can be found in [testing.md](./testing.md).
 
 ### Cloning repository
 
-Open terminal and at your working directory and type:
+Open terminal at your working directory and type:
 ```html
 sudo git clone https://github.com/vadimsj/redland-renovations.git
 ```
