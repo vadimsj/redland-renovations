@@ -289,7 +289,7 @@ Testing results can be found in [testing.md](./testing.md).
 
 ## Deployment
 
-- Navigate to the [repository](https://github.com/vadimsj/redland-renovations).
+- Navigate to the root project repository in GitHub.
 - Click on "Settings" in the header menu.
 - Click on "Pages" on the menu on the left to open GitHub Pages window.
 - From the drop down menu under source select "deploy from branch".
