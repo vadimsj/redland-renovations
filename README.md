@@ -4,7 +4,7 @@
 
   [Live website preview](https://vadimsj.github.io/redland-renovations)
 
-## Table of Contents
+### Table of Contents
 - [Summary](#summary)
 - [User Experience (UX)](#user-experience-ux)
   - [User Stories](#user-stories)
@@ -12,8 +12,8 @@
     - [Strategy](#strategy)
     - [Scope](#scope)
     - [Structure](#structure)
-    - [Skeleton](#skeleton)
-    - [Surface](#surface)
+    - [Wireframes](#wireframes)
+    - [Design](#design)
   - [Features](#features)
     - [Existing Features](#existing-features)
     - [Features Left to Implement](#features-left-to-implement)
@@ -32,7 +32,7 @@
 
 - The main purpose of the website is to convert prospective visitors into leads and capture their contact details.
 
-## User Eperience (UX)
+## User Experience (UX)
 
 ### User stories
 
@@ -62,9 +62,9 @@
   5. Capture the leads from incoming inquiries.
 
 
-### UX Planes
+## UX Planes
 
-- Strategy
+### Strategy
   - Project Goals
     - Design a website that is simple yet intuitive to use and accessible to audience of all ages and technical abilities.
     - Build a fully responsive website accessible from all devices.
@@ -75,25 +75,25 @@
     - Improve the online presence and corporate image of the company.
     - Expand the customer base and boost sales.
 
-- Scope
-    - Due to constraints of set requirements, website is built predominantly using vanilla HTML5 and CSS3, minimaising the usage of JavaScript.
+### Scope
+  - Due to constraints of set requirements, website is built predominantly using vanilla HTML5 and CSS3, minimaising the usage of JavaScript.
   
-    - Feature requirements:
-      - Website is static but responsive.
-      - Website is intuitive and user-friendly.
-      - Website is accessible on various devices.
-      - Website is accessible to audience of all ages and technical abilities.
-      - Website is developed with a mobile-first approach.
+  - Feature requirements:
+    - Website is static but responsive.
+    - Website is intuitive and user-friendly.
+    - Website is accessible on various devices.
+    - Website is accessible to audience of all ages and technical abilities.
+    - Website is developed with a mobile-first approach.
 
-   -  Content requirements:
-      -  Key information about the company is easily accessible.
-      -  Website is visually engaging, featuring a multitude of images across its pages.
-      - Content is presented in a format that is easy for users to understand and absorb.
-      - Website is presented in a professional yet friendly manner.
-      - Website has only essential content and serves solely as an introductory presentation.
-      - Website instills confidence and prompts visitors to initiate contact with the company.
+-  Content requirements:
+   -  Key information about the company is easily accessible.
+   -  Website is visually engaging, featuring a multitude of images across its pages.
+   - Content is presented in a format that is easy for users to understand and absorb.
+   - Website is presented in a professional yet friendly manner.
+   - Website has only essential content and serves solely as an introductory presentation.
+   - Website instills confidence and prompts visitors to initiate contact with the company.
 
-- Structure
+### Structure
   - Website is designed as a single landing page.
   - Website has single primary call-to-action for its visitors. 
   - Website is structured to guide visitors towards the primary call-to-action.
@@ -110,13 +110,11 @@
     - Gallery
     - Contact
 
-- Skeleton
-
-  - Wireframes
+### Wireframes
 
   ![Wireframes](assets/docs/redland-renovations-wireframes.png)
 
-- Surface
+### Design
 
   - Color Scheme
   
@@ -170,7 +168,7 @@
 
 ## Features 
 
-### Existing Features
+  ### Existing Features:
 
   - Header + Navigation bar
 
@@ -232,11 +230,11 @@
       <img src="assets/docs/features/page-404.png" alt="Page 404 preview" width="1000px">
 
 
-### Features Left to Implement
+### Features Left to Implement:
 
 - Image slider showcasing images from the gallery sections full screen - given the specific scope of this project, it was decided not to implement this feature, as it would require JavaScript to achieve the desired effectiveness.
 
-### Content 
+## Content 
 
 - Photos and text content were taken from the existing Redland Renovations website.
 
@@ -265,6 +263,8 @@ JavaScript -
 GitHub -
 
 Git -
+
+VS Code -
 
 Balsamiq -
 
