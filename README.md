@@ -4,11 +4,31 @@
 
   [Live website preview](https://vadimsj.github.io/redland-renovations)
 
+## Table of Contents
+- [Summary](#summary)
+- [User Experience (UX)](#user-experience-ux)
+  - [User Stories](#user-stories)
+  - [UX Planes](#ux-planes)
+    - [Strategy](#strategy)
+    - [Scope](#scope)
+    - [Structure](#structure)
+    - [Skeleton](#skeleton)
+    - [Surface](#surface)
+  - [Features](#features)
+    - [Existing Features](#existing-features)
+    - [Features Left to Implement](#features-left-to-implement)
+  - [Content](#content)
+- [Credits](#credits)
+- [Testing](#testing)
+- [Technologies Used](#technologies-used)
+
+## Summary
+
 - This website has been built to improve the existing website for Redland Renovations, which serves as a portfolio and point of contact for a property renovation company in Bristol, UK.
 
 -  The website intended to function as a landing page for the prospective visitors.
 
--  It features essential information about the company and its services, and aims to motivate visitors to reach out.
+-  It features essential information about the company and its services, and aims to motivate visitors to reach out. 
 
 - The main purpose of the website is to convert prospective visitors into leads and capture their contact details.
 
@@ -42,7 +62,7 @@
   5. Capture the leads from incoming inquiries.
 
 
-## UX Planes
+### UX Planes
 
 - Strategy
   - Project Goals
@@ -103,24 +123,21 @@
     <img src="assets/docs/color-scheme-preview.png" alt="Color scheme preview" width="450px">
 
   - Typography
-    - Headings are formatted using the 'Suez One' font, a serif typeface.
+    - Headings are formatted using the ['Suez One' font, a serif typeface](https://fonts.google.com/specimen/Suez+One?query=suez).
 
       <img src="assets/docs/font-preview-suez-one-serif.png" alt="Font for headings preview" width="500px">
-
-        Link to google fonts: https://fonts.google.com/specimen/Suez+One?query=suez
+        
   
-    -  Text content is formatted using the 'Inter' font, a sans-serif typeface.
+    -  Text content is formatted using the ['Inter' font, a sans-serif typeface](https://fonts.google.com/specimen/Inter?preview.text=Inter&query=Inter&stroke=Sans+Serif).
 
         <img src="assets/docs/font-preview-inter-sans-serif.png" alt="Font for text preview" width="500px">
+        
 
-        Link to google fonts: https://fonts.google.com/specimen/Inter?preview.text=Inter&query=Inter&stroke=Sans+Serif
-
-    - Arrow icon was created using the "Quicksand" font, a sans-serif typeface.
+    - Arrow icon was created using the ["Quicksand" font, a sans-serif typeface](https://fonts.google.com/specimen/Quicksand?query=quicksand)
+.
 
         <img src="assets/docs/font-preview-quicksand-sans-serif.png" alt="Font for arrow icon preview" width="500px">
-
-        Link to google fonts: https://fonts.google.com/specimen/Quicksand?query=quicksand
-
+        
   - Imagery
     - Logo
   
@@ -186,7 +203,7 @@
       <img src="assets/docs/features/gallery-section-desktop.png" alt="Gallery section desktop layout preview" width="1000px">
       
 
-    - Mobile layout
+    - Mobile layout (alternative side)
 
       <img src="assets/docs/features/gallery-section-mobile.png" alt="Gallery section mobile layout preview" width="400px">
 
@@ -211,7 +228,7 @@
 
 - Image slider showcasing images from the gallery sections full screen - given the specific scope of this project, it was decided not to implement this feature, as it would require JavaScript to achieve the desired effectiveness.
 
-## Content 
+### Content 
 
 - Photos and text content were taken from the existing Redland Renovations website.
 
@@ -219,11 +236,45 @@
 
 ## Credits 
 
-Hamburger menu navigation was implemented following the tutorial from Web Dev Simplified: https://youtu.be/dAIVbLrAb_U?feature=shared
+ - [Code Institute Template](https://github.com/Code-Institute-Org/gitpod-full-template) was used as a starting point for this project. 
 
-Intersection observer was implemented following the tutorial from Beyond Fireship:
- https://youtu.be/T33NN_pPeNI?feature=shared
+- Hamburger menu navigation was implemented following the tutorial from [Web Dev Simplified](https://youtu.be/dAIVbLrAb_U?feature=shared).
+
+- Intersection observer was implemented following the tutorial from [Beyond Fireship](https://youtu.be/T33NN_pPeNI?feature=shared).
 
 ## Testing 
 
 Testing results can be found in [testing.md](./testing.md).
+
+## Technologies used
+
+HTML -
+
+CSS -
+
+JavaScript -
+
+GitHub -
+
+Git -
+
+Balsamiq -
+
+Google fonts -
+
+Google Vhrom Lighthouse -
+
+Google Chrome Developer Tools -
+
+Mozilla Developer Tools -
+
+W3C HTML Validator -
+
+W3C CSS Validator -
+
+Online Convert -
+
+Coolors.co -
+
+ui.dev/amiresponsive - 
+
