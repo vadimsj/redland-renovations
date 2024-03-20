@@ -257,35 +257,35 @@ Testing results can be found in [testing.md](./testing.md).
 
 ## Technologies used
 
-- HTML - was used to provide structure for this project.
+- [HTML](https://web.dev/learn/html/overview/) - was used to provide structure for this project.
 
-- CSS - was used to style the HTML elements.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - was used to style the HTML elements.
 
-- JavaScript - was used to add additional styling effects and form validation functions. 
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - was used to add additional styling effects and form validation functions. 
 
-- GitHub - is the hosting site used to store the code for the website.
+- [GitHub](https://github.com/) - is the hosting site used to store the code for the website.
 
-- Git - was used as a version control software to commit and push the code to the GitHub repository.
+- [Git](https://git-scm.com/) - was used as a version control software to commit and push the code to the GitHub repository.
 
-- VS Code - was used as local IDE.
+- [VS Code](https://code.visualstudio.com/) - was used as local IDE.
 
-- Balsamiq - was used to create the wireframes for the website.
+- [Balsamiq](https://balsamiq.com/) - was used to create the wireframes for the website.
 
-- Google fonts - was used to import fonts.
+- [Google fonts](https://fonts.google.com/) - was used to import fonts.
 
-- Coolors.co - was used to display the colour scheme.
+- [Coolors.co](https://coolors.co/) - was used to display the colour scheme.
 
-- Google Chrome Developer Tools - was used during testing, debugging and making the website responsive.
+- [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/overview/) - was used during testing, debugging and making the website responsive.
 
-- Mozilla Developer Tools - was used during testing, debugging and making the website responsive.
+- [Mozilla Developer Tools](https://firefox-source-docs.mozilla.org/devtools-user/) - was used during testing, debugging and making the website responsive.
 
-- Google Chrome Lighthouse - was used during the testing of the website.
+- [Google Chrome Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) - was used during the testing of the website.
 
-- W3C HTML Validator - was used to check for errors in the HTML code.
+- [W3C HTML Validator](https://validator.w3.org/) - was used to check for errors in the HTML code.
 
-- W3C CSS Validator - was used to check for errors in the CSS code.
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - was used to check for errors in the CSS code.
 
-- Ui.dev/amiresponsive - was used to generate website preview thumbnail.
+- [ui.dev/amiresponsive](https://ui.dev/amiresponsive) - was used to generate website preview thumbnail.
 
 ## Deployment
 
