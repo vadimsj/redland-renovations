@@ -99,11 +99,12 @@
   - Website is structured to guide visitors towards the primary call-to-action.
 
   - Website is divided into the following sections or pages:
-    -  Home
-    -  Services
-    -  Gallery
-    -  About Us
-    -  Contact
+    - Home
+    - Services
+    - Gallery
+    - About Us
+    - Contact
+    - Footer
 
   - Website features a navigation bar with the following links:
     - Services
