@@ -272,17 +272,16 @@ Testing results can be found in [testing.md](./testing.md).
 
 - Google fonts - was used to import fonts.
 
-- Google Chrome Lighthouse - was used during the testing of the website.
+- Coolors.co - was used to display the colour scheme.
 
 - Google Chrome Developer Tools - was used during testing, debugging and making the website responsive.
 
 - Mozilla Developer Tools - was used during testing, debugging and making the website responsive.
 
+- Google Chrome Lighthouse - was used during the testing of the website.
+
 - W3C HTML Validator - was used to check for errors in the HTML code.
 
 - W3C CSS Validator - was used to check for errors in the CSS code.
 
-- Coolors.co - was used to display the colour scheme.
-
 - Ui.dev/amiresponsive - was used to generate website preview thumbnail.
-
