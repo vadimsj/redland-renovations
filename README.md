@@ -1,6 +1,6 @@
 # Redland Renovations
 
-  ![Wireframes](assets/docs/website-preview-thumbnail.png)
+  ![Website preview thumbnail](assets/docs/website-preview-thumbnail.png)
 
   [Live website preview](https://vadimsj.github.io/redland-renovations)
 
@@ -100,26 +100,26 @@
 
   - Color Scheme
   
-  <img src="assets/docs/color-scheme-preview.png" alt="Color scheme preview" width="450px">
+    <img src="assets/docs/color-scheme-preview.png" alt="Color scheme preview" width="450px">
 
   - Typography
     - Headings are formatted using the 'Suez One' font, a serif typeface.
 
-        ![Font for headings](assets/docs/font-preview-suez-one-serif.png)
+      <img src="assets/docs/font-preview-suez-one-serif.png" alt="Font for headings preview" width="500px">
 
         Link to google fonts: https://fonts.google.com/specimen/Suez+One?query=suez
-
-    -  Text content is formatted using the 'Inter' font, a sans-serif typeface.
   
-        ![Font for headings](assets/docs/font-preview-inter-sans-serif.png)
+    -  Text content is formatted using the 'Inter' font, a sans-serif typeface.
+
+        <img src="assets/docs/font-preview-inter-sans-serif.png" alt="Font for text preview" width="500px">
 
         Link to google fonts: https://fonts.google.com/specimen/Inter?preview.text=Inter&query=Inter&stroke=Sans+Serif
 
     - Arrow icon was created using the "Quicksand" font, a sans-serif typeface.
 
-        ![Font for headings](assets/docs/font-preview-quicksand-sans-serif.png)
+        <img src="assets/docs/font-preview-quicksand-sans-serif.png" alt="Font for arrow icon preview" width="500px">
 
-      Link to google fonts: https://fonts.google.com/specimen/Quicksand?query=quicksand
+        Link to google fonts: https://fonts.google.com/specimen/Quicksand?query=quicksand
 
     - Code to link google fonts in HTML:
 
@@ -133,26 +133,25 @@
       <img src="assets/docs/image-preview/hero-image-preview.png" alt="Hero image" width="500px">
   
     - Roofing & loft extensions
-  ![Roofing works images]()
         <img src="assets/docs/image-preview/roofing-image-preview.png" alt="Roofing images preview" width="1000px">
 
-  - Plastering, rendering, insulation & stonemasonry
-  ![Rendering works images](assets/docs/image-preview/plastering-image-preview.png)
+    - Plastering, rendering, insulation & stonemasonry
+        <img src="assets/docs/image-preview/plastering-image-preview.png" alt="Rendering images preview" width="1000px">
 
-  - Kitchen installations
-  ![Kitchen installation images](assets/docs/image-preview/kitchen-image-preview.png)
+    - Kitchen installations
+        <img src="assets/docs/image-preview/kitchen-image-preview.png" alt="Kitchen images preview" width="1000px">
 
-  - Gardening work
-  ![Gardening work images](assets/docs/image-preview/gardening-image-preview.png)
+    - Gardening work
+        <img src="assets/docs/image-preview/gardening-image-preview.png" alt="Gardening images preview" width="1000px">
 
-  - Fencing & stone/brick wall
-  ![Fencing images](assets/docs/image-preview/fencing-image-preview.png)
+    - Fencing & stone/brick wall
+        <img src="assets/docs/image-preview/fencing-image-preview.png" alt="Fencing images preview" width="1000px">
 
-  - Heating systems
-  ![Heating images](assets/docs/image-preview/heating-image-preview.png)
+    - Heating systems
+        <img src="assets/docs/image-preview/heating-image-preview.png" alt="Heating images preview" width="1000px">
 
-  - Driveways, patios & decking
-  ![Driveways images](assets/docs/image-preview/driveways-image-preview.png)
+    - Driveways, patios & decking
+        <img src="assets/docs/image-preview/driveways-image-preview.png" alt="Driveways images preview" width="1000px">
 
 ## Features 
 
@@ -172,41 +171,42 @@
 
   - Home Page
 
-![Feature](assets/docs/features/home-page.png)
+    <img src="assets/docs/features/home-page.png" alt="Services section preview" width="1000px">
 
   - Services Section
 
-![Feature](assets/docs/features/services-section.png)
+    <img src="assets/docs/features/services-section.png" alt="Services section preview" width="1000px">
 
   - Call to action bar
 
-![Feature](assets/docs/features/cta-bar.png)
+    <img src="assets/docs/features/cta-bar.png" alt="Cta bar preview" width="1000px">
 
   - Gallery Sections
   
     - Desktop layout
 
-      ![Feature](assets/docs/features/gallery-section-desktop.png)
+      <img src="assets/docs/features/gallery-section-desktop.png" alt="Gallery section desktop layout preview" width="1000px">
+      
 
     - Mobile layout
 
-    <img src="assets/docs/features/gallery-section-mobile.png" alt="Gallery section mobile layout preview" width="400px">
+      <img src="assets/docs/features/gallery-section-mobile.png" alt="Gallery section mobile layout preview" width="400px">
 
   - About us section
 
-![Feature](assets/docs/features/aboutus-section.png)
+      <img src="assets/docs/features/aboutus-section.png" alt="About us section preview" width="1000px">
 
   - Unique selling proposition bar
 
-![Feature](assets/docs/features/usp-bar.png)
+      <img src="assets/docs/features/usp-bar.png" alt="Usp bar preview" width="1000px">
 
   - Contact us section
 
-![Feature](assets/docs/features/contactus-section.png)
+      <img src="assets/docs/features/contactus-section.png" alt="Contact us section preview" width="1000px">
 
   - Footer
 
-![Feature](assets/docs/features/footer.png)
+      <img src="assets/docs/features/footer.png" alt="Footer preview" width="1000px">
 
 
 ### Features Left to Implement
