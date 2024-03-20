@@ -107,6 +107,7 @@
     - Footer
 
   - Website features a navigation bar with the following links:
+    - Home Page (Button hidden in Logo)
     - Services
     - Gallery
     - Contact
@@ -255,35 +256,33 @@ Testing results can be found in [testing.md](./testing.md).
 
 ## Technologies used
 
-HTML -
+- HTML - was used to provide structure for this project.
 
-CSS -
+- CSS - was used to style the HTML elements.
 
-JavaScript -
+- JavaScript - was used to add additional styling effects and form validation functions. 
 
-GitHub -
+- GitHub - is the hosting site used to store the code for the website.
 
-Git -
+- Git - was used as a version control software to commit and push the code to the GitHub repository.
 
-VS Code -
+- VS Code - was used as local IDE.
 
-Balsamiq -
+- Balsamiq - was used to create the wireframes for the website.
 
-Google fonts -
+- Google fonts - was used to import fonts.
 
-Google Vhrom Lighthouse -
+- Google Chrome Lighthouse - was used during the testing of the website.
 
-Google Chrome Developer Tools -
+- Google Chrome Developer Tools - was used during testing, debugging and making the website responsive.
 
-Mozilla Developer Tools -
+- Mozilla Developer Tools - was used during testing, debugging and making the website responsive.
 
-W3C HTML Validator -
+- W3C HTML Validator - was used to check for errors in the HTML code.
 
-W3C CSS Validator -
+- W3C CSS Validator - was used to check for errors in the CSS code.
 
-Online Convert -
+- Coolors.co - was used to display the colour scheme.
 
-Coolors.co -
-
-ui.dev/amiresponsive - 
+- Ui.dev/amiresponsive - was used to generate website preview thumbnail.
 
