@@ -6,8 +6,8 @@
 
 ### Table of Contents
 - [Summary](#summary)
-- [User Experience (UX)](#user-experience-ux)
-  - [User Stories](#user-stories)
+- [User experience (UX)](#user-experience-ux)
+  - [User stories](#user-stories)
   - [UX Planes](#ux-planes)
     - [Strategy](#strategy)
     - [Scope](#scope)
@@ -15,12 +15,12 @@
     - [Wireframes](#wireframes)
     - [Design](#design)
   - [Features](#features)
-    - [Existing Features](#existing-features)
-    - [Features Left to Implement](#features-left-to-implement)
+    - [Existing features](#existing-features)
+    - [Features left to implement](#features-left-to-implement)
   - [Content](#content)
 - [Credits](#credits)
 - [Testing](#testing)
-- [Technologies Used](#technologies-used)
+- [Technologies used](#technologies-used)
 - [Deployment](#deployment)
 
 ## Summary
@@ -33,7 +33,7 @@
 
 - The main purpose of the website is to convert prospective visitors into leads and capture their contact details.
 
-## User Experience (UX)
+## User experience (UX)
 
 ### User stories
 
@@ -233,7 +233,7 @@
       <img src="assets/docs/features/page-404.png" alt="Page 404 preview" width="1000px">
 
 
-### Features Left to Implement:
+### Features left to implement:
 
 - Image slider showcasing images from the gallery sections full screen - given the specific scope of this project, it was decided not to implement this feature, as it would require JavaScript to achieve the desired effectiveness.
 
@@ -304,7 +304,7 @@ Testing results can be found in [testing.md](./testing.md).
 - Choose to copy only the main branch or all branches to the new fork.
 - Click Create a Fork. A repository should appear in your GitHub.
 
-### Cloning Repository
+### Cloning repository
 
 Open terminal and at your working directory and type:
 ```html
