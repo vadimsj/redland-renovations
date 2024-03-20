@@ -134,8 +134,7 @@
         <img src="assets/docs/font-preview-inter-sans-serif.png" alt="Font for text preview" width="500px">
         
 
-    - Arrow icon was created using the ["Quicksand" font, a sans-serif typeface](https://fonts.google.com/specimen/Quicksand?query=quicksand)
-.
+    - Arrow icon was created using the ["Quicksand" font, a sans-serif typeface](https://fonts.google.com/specimen/Quicksand?query=quicksand).
 
         <img src="assets/docs/font-preview-quicksand-sans-serif.png" alt="Font for arrow icon preview" width="500px">
         
