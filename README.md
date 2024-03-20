@@ -21,6 +21,7 @@
 - [Credits](#credits)
 - [Testing](#testing)
 - [Technologies Used](#technologies-used)
+- [Deployment](#deployment)
 
 ## Summary
 
@@ -285,3 +286,27 @@ Testing results can be found in [testing.md](./testing.md).
 - W3C CSS Validator - was used to check for errors in the CSS code.
 
 - Ui.dev/amiresponsive - was used to generate website preview thumbnail.
+
+## Deployment
+
+- Navigate to the [repository](https://github.com/vadimsj/redland-renovations).
+- Click on Settings in the header menu.
+- Click on Pages on the menu on the left to open GitHub Pages window.
+- From the drop down menu under source select deploy from branch.
+- From the drop down menu under branch select main (or select another branch for GitHub to deploy).
+- Click Save.
+
+### Creating a fork
+
+- Navigate to the [repository](https://github.com/vadimsj/redland-renovations).
+- In the top-right corner of the page click on the fork button and select create a fork.
+- You can change the name of the fork and add description.
+- Choose to copy only the main branch or all branches to the new fork.
+- Click Create a Fork. A repository should appear in your GitHub.
+
+### Cloning Repository
+
+Open terminal and at your working directory and type:
+```html
+sudo git clone https://github.com/vadimsj/redland-renovations.git
+```
