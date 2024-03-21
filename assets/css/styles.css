@@ -455,6 +455,7 @@ ul {
 
 .btn--logo {
     display: inline-block;
+    width: fit-content;
 }
 
 .btn--primary-cta {
