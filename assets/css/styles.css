@@ -434,7 +434,7 @@ ul {
 
 /* --- Buttons -- */
 .btn { 
-    display: block;
+    display: inline-block;
     margin: 1rem;
     padding: .6em 1.25em;
     border-radius: 0;
@@ -463,7 +463,7 @@ ul {
 
 .btn--primary-cta:hover .arrow-icon {
     transform: scaleX(.7) translateY(3px) translateX(7px);
-}
+} /* animation to move arrow icon on hover */
 
 .btn--primary-cta:active .arrow-icon { 
     color: var(--theme-color-dark-alt);
