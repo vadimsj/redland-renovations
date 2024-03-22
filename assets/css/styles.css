@@ -151,7 +151,6 @@ body {
     display: inline-block;
     width: 100%;
     aspect-ratio: 600 / 480;
-
     object-fit: cover;
     object-position: center;
 } 
@@ -159,6 +158,7 @@ body {
 /* Services Page Styles */
 .section__services {
     background-color: var(--theme-color-dark);
+    min-height: 80vh;
 }
 
 .section__services > h2 {
