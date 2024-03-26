@@ -159,6 +159,7 @@ body {
 /* Services Page Styles */
 .section__services {
     background-color: var(--theme-color-dark);
+    min-height:620px;
 }
 
 .section__services > h2 {
