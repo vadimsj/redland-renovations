@@ -4,6 +4,28 @@
 
 [Github repository](https://github.com/vadimsj/redland-renovations)
 
+### Table of Contents:
+
+[Main page testing](#main-page-testing)
+
+ - [Lighthouse performance testing](#lighthouse-performance-testing)
+ - [Validator testing](#validator-testing)
+ - [Accessibility testing](#accessibility-testing)
+ - [User story testing](#user-story-testing)
+ - [Feature testing](#feature-testing)
+ - [Unfixed Bugs](#unfixed-bugs)
+
+[Thank you page testing](#thank-you-page-testing)
+
+ - [Lighthouse performance testing](#lighthouse-performance-testing-1)
+ - [Validator testing](#validator-testing-1)
+ - [Accessibility testing](#accessibility-testing-1)
+
+[Page 404 testing](#page-404-testing)
+
+ - [Lighthouse performance testing](#lighthouse-performance-testing-2)
+ - [Validator testing](#validator-testing-2)
+ - [Accessibility testing](#accessibility-testing-2)
 
 ## Main page testing
 
@@ -75,7 +97,7 @@
 
   <img src="assets/docs/testing/404-page-tests/w3c-html-page404.png" alt="w3c html test result" width="500px">
 
-  ### Accessibility testing
+### Accessibility testing
 
 - Wave.webaim [Web Accessibility Evaluation Tool](https://wave.webaim.org/)
 
