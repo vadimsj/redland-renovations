@@ -3,7 +3,7 @@
 :root {
     /* Theme variables */
     --theme-color-light: #fff;
-    --theme-color-light-alt: #BB562A;
+    --theme-color-light-alt: #bb562a;
     --theme-color-dark: #eeeeee;
     --theme-color-dark-alt: #1b1b1b;
     --text-color: #1b1b1b;
@@ -241,8 +241,9 @@ body {
     min-width: 30ch;
 }
 
-.section__thank-you .logo {
-    margin-top: 2rem;
+.section__thank-you .logo,
+.section__page-404 .logo {
+    margin: 2rem;
 }
 
 .section__thank-you > h1,
