@@ -7,6 +7,8 @@
 
 ## Main page testing
 
+### Lighthouse performance testing
+
 ### Validator testing 
 
 - HTML [W3C validator](https://validator.w3.org/nu/)
@@ -42,6 +44,8 @@
 
 ## Thank you page testing
 
+### Lighthouse performance testing
+
 ### Validator testing 
 
 - HTML [W3C validator](https://validator.w3.org/nu/)
@@ -60,6 +64,8 @@
 
 
 ## Page 404 testing
+
+### Lighthouse performance testing
 
 ### Validator testing 
 
