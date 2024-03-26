@@ -5,20 +5,74 @@
 [Github repository](https://github.com/vadimsj/redland-renovations)
 
 
-### Validator Testing 
+## Main page testing
 
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://)
+### Validator testing 
+
+- HTML [W3C validator](https://validator.w3.org/nu/)
+  - No errors were returned. 
+
+  <img src="assets/docs/testing/main-page-tests/w3c-html-main.png" alt="w3c html test result" width="500px">
+
+- CSS [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
+  - Test returned 8 errors. These errors are expected and do not affect the performance of the website.
+    
+    Errors can be sorted into the following 2 categories:
+
+      A. Errors related to the validator not recognizing new CSS properties.
+
+      B. Errors due to the validator being unable to parse the hidden sidebar.
+
+  <img src="assets/docs/testing/main-page-tests/w3css-errors.png" alt="w3c css test result" width="1000px">
+
+### Accessibility testing
+
+- Wave.webaim [Web Accessibility Evaluation Tool](https://wave.webaim.org/)
+
+  - No errors were returned.
+
+  <img src="assets/docs/testing/main-page-tests/wave-main.png" alt="wave.webaim test result" width="250px">
+
+### User story testing
+
+### Feature testing
 
 ### Unfixed Bugs
 
-## Deployment
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+## Thank you page testing
 
-The live link can be found here - https://vadimsj.github.io/redland-renovations
+### Validator testing 
+
+- HTML [W3C validator](https://validator.w3.org/nu/)
+
+  - No errors were returned. 
+
+  <img src="assets/docs/testing/thankyou-page-tests/w3c-html-thankyou.png" alt="w3c html test result" width="500px">
+
+### Accessibility testing
+
+- Wave.webaim [Web Accessibility Evaluation Tool](https://wave.webaim.org/)
+
+  - No errors were returned.
+
+  <img src="assets/docs/testing/thankyou-page-tests/wave-test-thankyou.png" alt="wave.webaim test result" width="250px">
+
+
+## Page 404 testing
+
+### Validator testing 
+
+- HTML [W3C validator](https://validator.w3.org/nu/)
+
+  - No errors were returned.
+
+  <img src="assets/docs/testing/404-page-tests/w3c-html-page404.png" alt="w3c html test result" width="500px">
+
+  ### Accessibility testing
+
+- Wave.webaim [Web Accessibility Evaluation Tool](https://wave.webaim.org/)
+
+  - No errors were returned.
+
+  <img src="assets/docs/testing/404-page-tests/wave-test-page404.png" alt="wave.webaim test result" width="250px">
