@@ -297,7 +297,7 @@ Testing results can be found in [testing.md](./testing.md).
 
 ### Creating a fork
 
-- Navigate to the [repository](https://github.com/vadimsj/redland-renovations).
+- Navigate to the Redland Renovations root [repository](https://github.com/vadimsj/redland-renovations).
 - In the top-right corner of the page click on the fork button and select "create a fork".
 - You can change the name of the fork and add description.
 - Choose to copy only the main branch or all branches to the new fork.
