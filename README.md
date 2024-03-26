@@ -272,6 +272,8 @@ Testing results can be found in [testing.md](./testing.md).
 
 - [Google fonts](https://fonts.google.com/) - was used to import fonts.
 
+- [favicon.io](https://favicon.io/) - was used to generate favicon.
+
 - [Coolors.co](https://coolors.co/) - was used to display the colour scheme.
 
 - [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/overview/) - was used during testing, debugging and making the website responsive.
@@ -283,6 +285,8 @@ Testing results can be found in [testing.md](./testing.md).
 - [W3C HTML Validator](https://validator.w3.org/) - was used to check for errors in the HTML code.
 
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - was used to check for errors in the CSS code.
+
+- [Wave.webaim](https://wave.webaim.org/) - Was used during the testing accessibilty of the website.
 
 - [ui.dev/amiresponsive](https://ui.dev/amiresponsive) - was used to generate website preview thumbnail.
 
