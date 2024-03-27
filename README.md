@@ -61,7 +61,7 @@
   2. Present essential company information in a user-friendly format.
   3. Showcase the company's portfolio of previously completed works.
   4. Offer a various options for customers to get in touch.
-  5. Capture the leads from incoming inquiries.
+  5. Capture the leads from incoming inquiries. (out of scope for this project)
 
 
 ## UX Planes
@@ -78,7 +78,7 @@
     - Expand the customer base and boost sales.
 
 ### Scope
-  - Due to constraints of set requirements, website is built predominantly using vanilla HTML5 and CSS3, minimaising the usage of JavaScript.
+  - Due to constraints of set requirements, website is built predominantly using vanilla HTML5 and CSS3, minimaising the usage of JavaScript. Backend functions are out of scope for this project and will require further development.
   
   - Feature requirements:
     - Website is static but responsive.
@@ -236,6 +236,8 @@
 ### Features left to implement:
 
 - Image slider showcasing images from the gallery sections full screen - given the specific scope of this project, it was decided not to implement this feature, as it would require JavaScript to achieve the desired effectiveness.
+
+- Connect the form to google sheets or other CRM system.
 
 ## Content 
 
