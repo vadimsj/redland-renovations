@@ -95,6 +95,7 @@
 - B. Returning Visitor Goals
 
     As a Ruturning visitor, I would like to:
+
     1. Easily navigate through the website to access different pages and return to the home page if needed.
 
     - The website features a navigation bar for quick access to necessary sections.
@@ -106,11 +107,26 @@
 - C. Website Owner Goals
 
     As a website owner, I would like to:
+
   1. Introduce the company and it's services to the website visitors.
+
   2. Present essential company information in a user-friendly format.
+
+    - The content is logically organized and presented in a consecutive manner. The website's usability is intuitive, ensuring it doesn't overwhelm visitors with excessive information.
+
   3. Showcase the company's portfolio of previously completed works.
+
+    - The website features a responsive gallery.
+
   4. Offer a various options for customers to get in touch.
+
+  - The primary call to action leads directly to contact form that allows to submit the message directly
+
+  - The website features additional call to action bar with the phone number and email.
+
   5. Capture the leads from incoming inquiries.
+
+  - Feature not yet implemented due to being out of scope for the project.
 
 
 ### Feature testing
