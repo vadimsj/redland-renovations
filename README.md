@@ -280,7 +280,7 @@ Testing results can be found in [testing.md](./testing.md).
 
 - [Mozilla Developer Tools](https://firefox-source-docs.mozilla.org/devtools-user/) - was used during testing, debugging and making the website responsive.
 
-- [Google Chrome Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) - was used during the testing of the website.
+- [PageSpeed Insights (Lighthouse)](https://pagespeed.web.dev/) - was used during the performance testing of the website.
 
 - [W3C HTML Validator](https://validator.w3.org/) - was used to check for errors in the HTML code.
 

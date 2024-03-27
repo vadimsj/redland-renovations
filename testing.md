@@ -7,7 +7,7 @@
 ### Table of Contents:
 
 - [Main page testing](#main-page-testing)
-  - [Lighthouse performance testing](#lighthouse-performance-testing)
+  - [PageSpeed performance testing](#pagespeed-performance-testing)
   - [Validator testing](#validator-testing)
   - [Accessibility testing](#accessibility-testing)
   - [User story testing](#user-story-testing)
@@ -15,18 +15,20 @@
   - [Unfixed Bugs](#unfixed-bugs)
 
 - [Thank you page testing](#thank-you-page-testing)
-  - [Lighthouse performance testing](#lighthouse-performance-testing-1)
+  - [PageSpeed performance testing](#pagespeed-performance-testing-1)
   - [Validator testing](#validator-testing-1)
   - [Accessibility testing](#accessibility-testing-1)
 
 - [Page 404 testing](#page-404-testing)
-  - [Lighthouse performance testing](#lighthouse-performance-testing-2)
+  - [PageSpeed performance testing](#pagespeed-performance-testing-2)
   - [Validator testing](#validator-testing-2)
   - [Accessibility testing](#accessibility-testing-2)
 
 ## Main page testing
 
-### Lighthouse performance testing
+### PageSpeed performance testing
+
+- [PageSpeed Insights (Lighthouse)](https://pagespeed.web.dev/)
 
 ### Validator testing 
 
@@ -67,7 +69,7 @@
 
 ## Thank you page testing
 
-### Lighthouse performance testing
+### PageSpeed performance testing
 
 ### Validator testing 
 
@@ -90,7 +92,7 @@
 
 ## Page 404 testing
 
-### Lighthouse performance testing
+### PageSpeed performance testing
 
 ### Validator testing 
 
