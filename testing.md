@@ -62,6 +62,39 @@
 
 ### User story testing
 
+- A. First Time Visitor Goals
+
+    As a first-time visitor, I would like to:
+  1. Identify the nature of the business and specialization of the company.
+
+    - The home page features a large heading, "Property Renovations in Bristol," clearly identifying the nature of the business and its area of operation.
+
+    - Below the heading, there is a paragraph providing further details about the services offered.
+    
+    - The home page also includes an image featuring a property typical of the Redland area.
+
+  2. Locate where the company is based and its areas of operation.
+  3. Determine what services the company offers and the scope of work undertaken.
+  4. Explore the company's portfolio showcasing previously completed projects.
+  5. Find essential information about the company.
+  6. Contact the company.
+
+- B. Returning Visitor Goals
+
+    As a Ruturning visitor, I would like to:
+    1. Easily navigate through the website to access different pages and return to the home page if needed.
+    2. Quickly contact the company or request a callback.
+
+- C. Website Owner Goals
+
+    As a website owner, I would like to:
+  1. Introduce the company and it's services to the website visitors.
+  2. Present essential company information in a user-friendly format.
+  3. Showcase the company's portfolio of previously completed works.
+  4. Offer a various options for customers to get in touch.
+  5. Capture the leads from incoming inquiries.
+
+
 ### Feature testing
 
 ### Unfixed Bugs

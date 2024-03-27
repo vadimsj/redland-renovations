@@ -40,6 +40,7 @@
 - A. First Time Visitor Goals
 
     As a first-time visitor, I would like to:
+
   1. Identify the nature of the business and specialization of the company.
   2. Locate where the company is based and its areas of operation.
   3. Determine what services the company offers and the scope of work undertaken.
