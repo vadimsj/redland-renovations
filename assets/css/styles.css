@@ -341,6 +341,7 @@ h3 {
 /* Text Styles */
 a,
 p,
+label,
 ul {
     font-family: var(--font-family-txt);
     line-height: var(--line-height);
@@ -355,13 +356,6 @@ p {
 
 ul {
     line-height: var(--line-height-xl);
-}
-
-label {
-    font-family: var(--font-family-txt);
-    line-height: var(--line-height);
-    font-size: var(--font-size-s);
-    letter-spacing: var(--letter-spacing);
 }
 
 /* Icon Styles */
