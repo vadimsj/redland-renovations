@@ -62,3 +62,29 @@ function formatPhoneNumber() {
     // Update the input field value
     phoneNumberInput.value = formattedNumber;
 }
+
+
+
+// Function to change theme color meta tag when hamburger menu is open
+function changeThemeColor() {
+    // Select the hamburger menu checkbox
+    const checkbox = document.querySelector('.hamburger-menu input[type="checkbox"]');
+    
+    // Select the theme color meta tag
+    const themeColorMeta = document.querySelector('meta[name="theme-color"]');
+    
+    // Add event listener to checkbox
+    checkbox.addEventListener('change', function() {
+        // Check if checkbox is checked
+        if (this.checked) {
+            // Change content attribute of theme color meta tag to #eee
+            themeColorMeta.setAttribute('content', '#eee');
+        } else {
+            // Change content attribute of theme color meta tag to #fff when menu is closed
+            themeColorMeta.setAttribute('content', '#fff');
+        }
+    });
+}
+
+// Call the function to initiate the event listener
+changeThemeColor();
