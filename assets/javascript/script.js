@@ -79,7 +79,7 @@ function changeThemeColor() {
             themeColorMeta.setAttribute("content", this.checked ? "#eee" : "#fff");
         });
     } else {
-        console.error("Required elements not found.");
+        console.log("Required elements not found.");
     }
 }
 
