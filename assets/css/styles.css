@@ -72,7 +72,7 @@ body {
 .logo {
     width: 10rem;
     aspect-ratio: 350 / 80;
-    display: block;
+    display: inline-block;
 }
 
 .logo--navbar-logo {
