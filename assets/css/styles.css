@@ -75,12 +75,8 @@ body {
     display: block;
 }
 
-.logo:focus {
-    outline: 12px solid blue; 
-}
-
 .logo--navbar-logo {
-    margin: 1rem .75rem .5rem;
+    margin: 1rem .75rem 1rem;
 }
 
 .logo--footer-logo {
