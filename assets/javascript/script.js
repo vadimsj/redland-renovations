@@ -71,22 +71,19 @@ function changeThemeColor() {
     // Select the theme color meta tag
     const themeColorMeta = document.querySelector('meta[name="theme-color"]');
     
-    // Check if the checkbox element exists
-    if (checkbox) {
+    // Check if both checkbox and themeColorMeta exist
+    if (checkbox && themeColorMeta) {
         // Add event listener to checkbox
         checkbox.addEventListener("change", function() {
-            // Check if checkbox is checked
-            if (this.checked) {
-                // Change content attribute of theme color meta tag to #eee
-                themeColorMeta.setAttribute("content", "#eee");
-            } else {
-                // Change content attribute of theme color meta tag to #fff when menu is closed
-                themeColorMeta.setAttribute("content", "#fff");
-            }
+            // Change content attribute of theme color meta tag based on checkbox state
+            themeColorMeta.setAttribute("content", this.checked ? "#eee" : "#fff");
         });
+    } else {
+        console.error("Required elements not found.");
     }
 }
 
 // Call the function to initiate the event listener
 changeThemeColor();
+
 
