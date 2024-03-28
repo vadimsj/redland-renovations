@@ -72,7 +72,11 @@ body {
 .logo {
     width: 10rem;
     aspect-ratio: 350 / 80;
-    display: inline-block;
+    display: block;
+}
+
+.logo:focus {
+    outline: 12px solid blue; 
 }
 
 .logo--navbar-logo {
