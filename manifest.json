@@ -23,6 +23,12 @@
             "purpose": "any"
         },
         {
+            "src": "/assets/images/appimages/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
             "src": "/assets/images/appimages/windows11/Square150x150Logo.scale-125.png",
             "sizes": "188x188",
             "type": "image/png"
