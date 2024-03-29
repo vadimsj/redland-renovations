@@ -1,0 +1,12 @@
+{
+    "name": "Redland Renovation",
+    "short_name": "RedlandRenovations",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#fff",
+    "theme-color": "#fff",
+    "orientation": "portrait-primary",
+    "icons": [
+        {}
+    ]
+}
