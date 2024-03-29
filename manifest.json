@@ -8,6 +8,10 @@
     "orientation": "portrait-primary",
     "icons": [
         {
+            "src": "assets/images/appimages/icon-maskable-620x620.png",
+            "sizes": "620x620"
+        },
+        {
             "src": "assets/images/appimages/windows11/Square150x150Logo.scale-125.png",
             "sizes": "188x188"
         },
