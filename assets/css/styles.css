@@ -284,7 +284,7 @@ body {
     bottom: 0;
     z-index: -1;
     color: var(--text-color-alt3);
-    padding: 3rem 5rem 6rem;
+    padding: 3rem 5rem 1rem;
 }
 
 .footer > p {
