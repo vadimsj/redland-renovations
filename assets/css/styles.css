@@ -72,7 +72,6 @@ body {
 .logo {
     width: 10rem;
     aspect-ratio: 350 / 80;
-    display: block;
 }
 
 .logo--navbar-logo {
@@ -81,6 +80,10 @@ body {
 
 .logo--footer-logo {
     filter: saturate(0%) sepia(50%);
+}
+
+.wrapper--logo-btn {
+    width: fit-content;
 }
 
 /* Header Styles */
@@ -611,6 +614,7 @@ textarea:focus {
 
         .logo--navbar-logo {
             margin: 1rem;
+            display: block;
         }
 
         .navbar-link {
