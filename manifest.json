@@ -8,15 +8,16 @@
     "theme_color": "#fff",
     "orientation": "portrait-primary",
     "lang": "en",
+    "prefer_related_applications": "true",
     "icons": [
         {
-            "src": "/assets/images/appimages/icon-maskable-620x620.png",
+            "src": "/assets/images/appimages/icon-620x620.png",
             "sizes": "620x620",
             "type": "image/png",
             "purpose": "maskable"
         },
         {
-            "src": "/assets/images/appimages/icon-maskable-620x620.png",
+            "src": "/assets/images/appimages/icon-620x620.png",
             "sizes": "620x620",
             "type": "image/png",
             "purpose": "any"
