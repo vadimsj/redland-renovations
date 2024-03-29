@@ -8,19 +8,13 @@
     "theme_color": "#fff",
     "orientation": "portrait-primary",
     "lang": "en",
-    "prefer_related_applications": "true",
+    "prefer_related_applications": true,
     "icons": [
         {
             "src": "/assets/images/appimages/icon-512x512.png",
             "sizes": "512x512",
             "type": "image/png",
             "purpose": "maskable"
-        },
-        {
-            "src": "/assets/images/appimages/icon-512x512.png",
-            "sizes": "512x512",
-            "type": "image/png",
-            "purpose": "any"
         },
         {
             "src": "/assets/images/appimages/windows11/Square150x150Logo.scale-125.png",
