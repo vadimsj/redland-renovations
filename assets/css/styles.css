@@ -289,12 +289,13 @@ body {
 
 .footer > p {
     margin: .5rem 2rem;
-    font-weight: var(--font-weight-light);
+    font-weight: var(--font-weight-bold);
     font-size: var(--font-size-xs);
 }
 
 .footer > p:last-child {
     margin-top: 2rem;
+    font-weight: var(--font-weight-light);
 }
 
 /* -- Typography -- */
