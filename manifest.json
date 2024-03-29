@@ -8,7 +8,7 @@
     "theme_color": "#fff",
     "orientation": "portrait-primary",
     "lang": "en",
-    "prefer_related_applications": true,
+    "prefer_related_applications": false,
     "icons": [
         {
             "src": "/assets/images/appimages/icon-512x512.png",
