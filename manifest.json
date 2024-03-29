@@ -2,7 +2,7 @@
     "name": "Redland Renovation",
     "short_name": "RedlandRenovations",
     "description": "Property renovations in Bristol",
-    "start_url": "/index.html",
+    "start_url": "https://vadimsj.github.io/redland-renovations/",
     "display": "standalone",
     "background_color": "#fff",
     "theme_color": "#fff",
