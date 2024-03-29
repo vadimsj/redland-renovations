@@ -17,6 +17,12 @@
             "purpose": "maskable"
         },
         {
+            "src": "/assets/images/appimages/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
             "src": "/assets/images/appimages/windows11/Square150x150Logo.scale-125.png",
             "sizes": "188x188",
             "type": "image/png"
