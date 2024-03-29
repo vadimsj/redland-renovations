@@ -1,11 +1,13 @@
 {
     "name": "Redland Renovation",
     "short_name": "RedlandRenovations",
+    "description": "Property renovations in Bristol",
     "start_url": "/index.html",
     "display": "standalone",
     "background_color": "#fff",
     "theme_color": "#fff",
     "orientation": "portrait-primary",
+    "lang": "en",
     "icons": [
         {
             "src": "/assets/images/appimages/icon-maskable-620x620.png",
