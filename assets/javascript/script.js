@@ -1,16 +1,3 @@
-// Wait for the DOMContentLoaded event before executing the function
-document.addEventListener("DOMContentLoaded", function() {
-    // Select all <img> elements on the page
-    var images = document.querySelectorAll("img");
-    // Loop through each <img> element
-    images.forEach(function(img) {
-        // Set the loading attribute of the image to "lazy"
-        img.loading = "lazy";
-    });
-});
-
-
-
 /* Function to add a shadow to the nav bar when the header is scrolled */
 document.addEventListener("DOMContentLoaded", function() {
     const header = document.querySelector(".header");
