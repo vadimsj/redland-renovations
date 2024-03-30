@@ -2,9 +2,7 @@
 
   ![Website preview thumbnail](assets/docs/website-preview-thumbnail.png)
 
-  <img src="assets/docs/icons/html5-icon.png" alt="html5 logo" height="50px">
-  <img src="assets/docs/icons/css3-icon.png" alt="css3 logo" height="50px">
-  <img src="assets/docs/icons/js-icon.png" alt="Hamburger menu preview image" height="50px">
+  <img src="assets/docs/tech-icons.png" alt="html5 logo" height="50px">
 
 <br>
 
@@ -122,28 +120,28 @@
 
 ### Wireframes
 
-  ![Wireframes](assets/docs/redland-renovations-wireframes.png)
+  ![Wireframes](assets/docs/design/redland-renovations-wireframes.png)
 
 ### Design
 
   - Color Scheme
   
-    <img src="assets/docs/color-scheme-preview.png" alt="Color scheme preview" width="450px">
+    <img src="assets/docs/design/color-scheme-preview.png" alt="Color scheme preview" width="450px">
 
   - Typography
     - Headings are formatted using the ['Suez One' font, a serif typeface](https://fonts.google.com/specimen/Suez+One?query=suez).
 
-      <img src="assets/docs/font-preview-suez-one-serif.png" alt="Font for headings preview" width="500px">
+      <img src="assets/docs/design/font-preview-suez-one-serif.png" alt="Font for headings preview" width="500px">
         
   
     -  Text content is formatted using the ['Inter' font, a sans-serif typeface](https://fonts.google.com/specimen/Inter?preview.text=Inter&query=Inter&stroke=Sans+Serif).
 
-        <img src="assets/docs/font-preview-inter-sans-serif.png" alt="Font for text preview" width="500px">
+        <img src="assets/docs/design/font-preview-inter-sans-serif.png" alt="Font for text preview" width="500px">
         
 
     - Arrow icon was created using the ["Quicksand" font, a sans-serif typeface](https://fonts.google.com/specimen/Quicksand?query=quicksand).
 
-        <img src="assets/docs/font-preview-quicksand-sans-serif.png" alt="Font for arrow icon preview" width="500px">
+        <img src="assets/docs/design/font-preview-quicksand-sans-serif.png" alt="Font for arrow icon preview" width="500px">
         
   - Imagery
     - Logo
