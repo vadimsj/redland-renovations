@@ -1,8 +1,8 @@
 # Redland Renovations
 
-  ![Website preview thumbnail](assets/docs/website-preview-thumbnail.png)
+  ![Website preview thumbnail](assets/docs/thumbnails/website-preview-thumbnail.png)
 
-  <img src="assets/docs/tech-icons.png" alt="html5 logo" height="50px">
+  <img src="assets/docs/thumbnails/tech-icons.png" alt="html5 logo" height="50px">
 
 <br>
 
