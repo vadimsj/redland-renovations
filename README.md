@@ -2,6 +2,12 @@
 
   ![Website preview thumbnail](assets/docs/website-preview-thumbnail.png)
 
+  <img src="assets/docs/icons/html5-icon.png" alt="html5 logo" height="50px">
+  <img src="assets/docs/icons/css3-icon.png" alt="css3 logo" height="50px">
+  <img src="assets/docs/icons/js-icon.png" alt="Hamburger menu preview image" height="50px">
+
+<br>
+
   [Live website preview](https://vadimsj.github.io/redland-renovations)
 
 ### Table of Contents
