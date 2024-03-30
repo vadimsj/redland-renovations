@@ -1,16 +1,3 @@
-/* Function to add a shadow to the nav bar when the header is scrolled */
-document.addEventListener("DOMContentLoaded", function() {
-    const header = document.querySelector(".header");
-
-    window.addEventListener("scroll", function() {
-        if (window.scrollY > 0) {
-            header.classList.add("scrolled");
-        } else {
-            header.classList.remove("scrolled");
-        }
-    });
-});
-
 /* Function to display the content on the page as it enters into the viewport */
 /* (Code implemented following the Beyond Fireship tutorial) */
     const observer = new IntersectionObserver(function(entries) {
@@ -23,6 +10,19 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
     });
+
+/* Function to add a shadow to the nav bar when the header is scrolled */
+document.addEventListener("DOMContentLoaded", function() {
+    const header = document.querySelector(".header");
+
+    window.addEventListener("scroll", function() {
+        if (window.scrollY > 0) {
+            header.classList.add("scrolled");
+        } else {
+            header.classList.remove("scrolled");
+        }
+    });
+});
 
     const hiddenElements = document.querySelectorAll(".hidden");
     hiddenElements.forEach(function(el) {
@@ -85,5 +85,3 @@ function changeThemeColor() {
 
 // Call the function to initiate the event listener
 changeThemeColor();
-
-
