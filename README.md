@@ -184,39 +184,93 @@
 
  ### Features 
 
-#### Existing Features:
+#### Existing Features: 
+
 - Header + Navigation bar
-  <img src="assets/docs/features/header.png" alt="Header preview" width="1000px">
+
+<img src="assets/docs/features/header.png" alt="Header preview" width="1000px">
+
+<br>
+
 - Hamburger menu
-  <img src="assets/docs/features/hamburger-menu.png" alt="Hamburger menu preview image" width="350px">
+
+<img src="assets/docs/features/hamburger-menu.png" alt="Hamburger menu preview image" width="350px">
+
+<br>
+
 - Menu Sidebar
-  <img src="assets/docs/features/menu-sidebar.png" alt="Sidebar preview image" width="350px">
+
+<img src="assets/docs/features/menu-sidebar.png" alt="Sidebar preview image" width="350px">
+
+<br>
+
 - Home Page
-  <img src="assets/docs/features/home-page.png" alt="Services section preview" width="1000px">
+
+<img src="assets/docs/features/home-page.png" alt="Services section preview" width="1000px">
+
+<br>
+
 - Services Section
-  <img src="assets/docs/features/services-section.png" alt="Services section preview" width="1000px">
+
+<img src="assets/docs/features/services-section.png" alt="Services section preview" width="1000px">
+
+<br>
+
 - Call to action bar
-  <img src="assets/docs/features/cta-bar.png" alt="Cta bar preview" width="1000px">
+
+<img src="assets/docs/features/cta-bar.png" alt="Cta bar preview" width="1000px">
+
+<br>
+
 - Gallery Sections
 
   - Desktop layout
-    <img src="assets/docs/features/gallery-section-desktop.png" alt="Gallery section desktop layout preview" width="1000px">
-    
-  - Mobile layout (alternative side)
-    <img src="assets/docs/features/gallery-section-mobile.png" alt="Gallery section mobile layout preview" width="400px">
-- About us section
-    <img src="assets/docs/features/aboutus-section.png" alt="About us section preview" width="1000px">
-- Unique selling proposition bar
-    <img src="assets/docs/features/usp-bar.png" alt="Usp bar preview" width="1000px">
-- Contact us section
-    <img src="assets/docs/features/contactus-section.png" alt="Contact us section preview" width="1000px">
-- Footer
-    <img src="assets/docs/features/footer.png" alt="Footer preview" width="1000px">
-- Thank you page
-    <img src="assets/docs/features/thankyou-page.png" alt="Thank you page preview" width="1000px">
-- Error 404 page
-    <img src="assets/docs/features/page-404.png" alt="Page 404 preview" width="1000px">
 
+  <img src="assets/docs/features/gallery-section-desktop.png" alt="Gallery section desktop layout preview" width="1000px">
+
+  <br>
+
+  - Mobile layout (alternative side)
+
+  <img src="assets/docs/features/gallery-section-mobile.png" alt="Gallery section mobile layout preview" width="400px">
+
+  <br>
+
+- About us section
+
+  <img src="assets/docs/features/aboutus-section.png" alt="About us section preview" width="1000px">
+
+  <br>
+
+- Unique selling proposition bar
+
+  <img src="assets/docs/features/usp-bar.png" alt="Usp bar preview" width="1000px">
+
+  <br>
+
+- Contact us section
+
+  <img src="assets/docs/features/contactus-section.png" alt="Contact us section preview" width="1000px">
+
+  <br>
+
+- Footer
+
+  <img src="assets/docs/features/footer.png" alt="Footer preview" width="1000px">
+
+  <br>
+
+- Thank you page
+
+  <img src="assets/docs/features/thankyou-page.png" alt="Thank you page preview" width="1000px">
+
+  <br>
+
+- Error 404 page
+
+  <img src="assets/docs/features/page-404.png" alt="Page 404 preview" width="1000px">
+
+  <br>
 
 #### Features left to implement:
 
