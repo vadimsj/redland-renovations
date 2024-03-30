@@ -120,7 +120,20 @@
 
 ### Wireframes
 
-  ![Wireframes](assets/docs/design/redland-renovations-wireframes.png)
+  <details>
+  <summary>Mobile</summary>
+
+  ![Wireframes](assets/docs/design/redland-renovations-wireframes-mobile.png)
+
+  </details>
+
+  <details>
+
+  <summary>Desktop</summary>
+
+  ![Wireframes](assets/docs/design/redland-renovations-wireframes-desktop.png)
+
+  </details>
 
 ### Design
 
@@ -143,101 +156,69 @@
 
         <img src="assets/docs/design/font-preview-quicksand-sans-serif.png" alt="Font for arrow icon preview" width="500px">
         
-  - Imagery
-    - Logo
-  
-      <img src="assets/docs/image-preview/logo-preview.png" alt="Color scheme preview" width="200px">
-  
-    - Hero Image
+  <details>
+  - <summary>Imagery</summary>
 
-      <img src="assets/docs/image-preview/hero-image-preview.png" alt="Hero image" width="500px">
-  
-    - Roofing & loft extensions
-        <img src="assets/docs/image-preview/roofing-image-preview.png" alt="Roofing images preview" width="1000px">
+  - Logo
 
-    - Plastering, rendering, insulation & stonemasonry
-        <img src="assets/docs/image-preview/plastering-image-preview.png" alt="Rendering images preview" width="1000px">
+    <img src="assets/docs/image-preview/logo-preview.png" alt="Color scheme preview" width="200px">
 
-    - Kitchen installations
-        <img src="assets/docs/image-preview/kitchen-image-preview.png" alt="Kitchen images preview" width="1000px">
+  - Hero Image
+    <img src="assets/docs/image-preview/hero-image-preview.png" alt="Hero image" width="500px">
 
-    - Gardening work
-        <img src="assets/docs/image-preview/gardening-image-preview.png" alt="Gardening images preview" width="1000px">
+  - Roofing & loft extensions
+      <img src="assets/docs/image-preview/roofing-image-preview.png" alt="Roofing images preview" width="1000px">
+  - Plastering, rendering, insulation & stonemasonry
+      <img src="assets/docs/image-preview/plastering-image-preview.png" alt="Rendering images preview" width="1000px">
+  - Kitchen installations
+      <img src="assets/docs/image-preview/kitchen-image-preview.png" alt="Kitchen images preview" width="1000px">
+  - Gardening work
+      <img src="assets/docs/image-preview/gardening-image-preview.png" alt="Gardening images preview" width="1000px">
+  - Fencing & stone/brick wall
+      <img src="assets/docs/image-preview/fencing-image-preview.png" alt="Fencing images preview" width="1000px">
+  - Heating systems
+      <img src="assets/docs/image-preview/heating-image-preview.png" alt="Heating images preview" width="1000px">
+  - Driveways, patios & decking
+      <img src="assets/docs/image-preview/driveways-image-preview.png" alt="Driveways images preview" width="1000px">
+      </details>
 
-    - Fencing & stone/brick wall
-        <img src="assets/docs/image-preview/fencing-image-preview.png" alt="Fencing images preview" width="1000px">
+ ### Features 
 
-    - Heating systems
-        <img src="assets/docs/image-preview/heating-image-preview.png" alt="Heating images preview" width="1000px">
+#### Existing Features:
+- Header + Navigation bar
+  <img src="assets/docs/features/header.png" alt="Header preview" width="1000px">
+- Hamburger menu
+  <img src="assets/docs/features/hamburger-menu.png" alt="Hamburger menu preview image" width="350px">
+- Menu Sidebar
+  <img src="assets/docs/features/menu-sidebar.png" alt="Sidebar preview image" width="350px">
+- Home Page
+  <img src="assets/docs/features/home-page.png" alt="Services section preview" width="1000px">
+- Services Section
+  <img src="assets/docs/features/services-section.png" alt="Services section preview" width="1000px">
+- Call to action bar
+  <img src="assets/docs/features/cta-bar.png" alt="Cta bar preview" width="1000px">
+- Gallery Sections
 
-    - Driveways, patios & decking
-        <img src="assets/docs/image-preview/driveways-image-preview.png" alt="Driveways images preview" width="1000px">
-
-## Features 
-
-  ### Existing Features:
-
-  - Header + Navigation bar
-
-    <img src="assets/docs/features/header.png" alt="Header preview" width="1000px">
-
-  - Hamburger menu
-
-    <img src="assets/docs/features/hamburger-menu.png" alt="Hamburger menu preview image" width="350px">
-
-  - Menu Sidebar
-
-    <img src="assets/docs/features/menu-sidebar.png" alt="Sidebar preview image" width="350px">
-
-  - Home Page
-
-    <img src="assets/docs/features/home-page.png" alt="Services section preview" width="1000px">
-
-  - Services Section
-
-    <img src="assets/docs/features/services-section.png" alt="Services section preview" width="1000px">
-
-  - Call to action bar
-
-    <img src="assets/docs/features/cta-bar.png" alt="Cta bar preview" width="1000px">
-
-  - Gallery Sections
-  
-    - Desktop layout
-
-      <img src="assets/docs/features/gallery-section-desktop.png" alt="Gallery section desktop layout preview" width="1000px">
-      
-
-    - Mobile layout (alternative side)
-
-      <img src="assets/docs/features/gallery-section-mobile.png" alt="Gallery section mobile layout preview" width="400px">
-
-  - About us section
-
-      <img src="assets/docs/features/aboutus-section.png" alt="About us section preview" width="1000px">
-
-  - Unique selling proposition bar
-
-      <img src="assets/docs/features/usp-bar.png" alt="Usp bar preview" width="1000px">
-
-  - Contact us section
-
-      <img src="assets/docs/features/contactus-section.png" alt="Contact us section preview" width="1000px">
-
-  - Footer
-
-      <img src="assets/docs/features/footer.png" alt="Footer preview" width="1000px">
-
-  - Thank you page
-
-      <img src="assets/docs/features/thankyou-page.png" alt="Thank you page preview" width="1000px">
-
-  - Error 404 page
-
-      <img src="assets/docs/features/page-404.png" alt="Page 404 preview" width="1000px">
+  - Desktop layout
+    <img src="assets/docs/features/gallery-section-desktop.png" alt="Gallery section desktop layout preview" width="1000px">
+    
+  - Mobile layout (alternative side)
+    <img src="assets/docs/features/gallery-section-mobile.png" alt="Gallery section mobile layout preview" width="400px">
+- About us section
+    <img src="assets/docs/features/aboutus-section.png" alt="About us section preview" width="1000px">
+- Unique selling proposition bar
+    <img src="assets/docs/features/usp-bar.png" alt="Usp bar preview" width="1000px">
+- Contact us section
+    <img src="assets/docs/features/contactus-section.png" alt="Contact us section preview" width="1000px">
+- Footer
+    <img src="assets/docs/features/footer.png" alt="Footer preview" width="1000px">
+- Thank you page
+    <img src="assets/docs/features/thankyou-page.png" alt="Thank you page preview" width="1000px">
+- Error 404 page
+    <img src="assets/docs/features/page-404.png" alt="Page 404 preview" width="1000px">
 
 
-### Features left to implement:
+#### Features left to implement:
 
 - Image slider showcasing images from the gallery sections full screen - given the specific scope of this project, it was decided not to implement this feature, as it would require JavaScript to achieve the desired effectiveness.
 
