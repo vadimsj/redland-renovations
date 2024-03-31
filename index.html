@@ -325,16 +325,16 @@
     <!-- Contact us form -->
     <form action="thank-you.html" method="get" class="contact-us__form hidden" id="contact-form" aria-label="Contact Form">
         <label for="name">Name:</label>
-        <input type="text" title="Enter your name, only letters can be used in this field" id="name" name="name" placeholder="Your name" pattern="[A-Za-z]+" aria-label="Your Name" required>
+        <input type="text" title="Enter your name, only letters can be used in this field" id="name" name="name" pattern="[A-Za-z]+" aria-label="Your Name" required>
 
         <label for="email">Email:</label>
-        <input type="email" title="Enter a valid email address" id="email" name="email" placeholder="Your email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" oninput="toggleRequiredFields()" aria-label="Enter your Email" required>
+        <input type="email" title="Enter a valid email address" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" oninput="toggleRequiredFields()" aria-label="Enter your Email" required>
 
         <label for="telephone">Telephone:</label>
-        <input type="tel" title="Enter your telephone number, only numbers can be used in this field" id="telephone" name="telephone" placeholder="Your telephone" pattern="[0-9+]+" oninput="toggleRequiredFields(); formatPhoneNumber()" aria-label="Enter your Telephone" required>
+        <input type="tel" title="Enter your telephone number, only numbers can be used in this field" id="telephone" name="telephone" pattern="[0-9+]+" oninput="toggleRequiredFields(); formatPhoneNumber()" aria-label="Enter your Telephone" required>
 
         <label for="message">Message:</label>
-        <textarea id="message" title="Enter your message" name="message" placeholder="Enter your message" aria-label="Enter your Message" required></textarea>
+        <textarea id="message" title="Enter your message" name="message" aria-label="Enter your Message" required></textarea>
 
         <input type="submit" value="Send Request" class="btn btn--submit-msg hidden" title="Submit Message" aria-label="Submit Message">
     </form>
