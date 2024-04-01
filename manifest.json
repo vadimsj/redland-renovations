@@ -2,7 +2,7 @@
     "name": "Redland Renovation",
     "short_name": "RedlandRenovations",
     "description": "Redland Renovations offers expert property renovation services in Bristol. From groundworks to roofing, we do it all. Call us for a free consultation!",
-    "start_url": "/index.html",
+    "start_url": "./index.html",
     "display": "standalone",
     "background_color": "#fff",
     "theme_color": "#fff",
