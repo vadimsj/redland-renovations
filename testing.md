@@ -1,4 +1,4 @@
-# Redland Renovations Testing Documentation
+# Redland Renovations Testing and Optimisation Documentation
 
 [Live website preview](https://vadimsj.github.io/redland-renovations)
 
@@ -23,6 +23,30 @@
   - [PageSpeed performance testing](#pagespeed-performance-testing-2)
   - [Validator testing](#validator-testing-2)
   - [Accessibility testing](#accessibility-testing-2)
+
+## Summary
+
+  - The website has been optimised for the following:
+    - Performance
+    - SEO
+    - Accessibility
+    - Best practices
+    - SEO
+    - iOS
+    - PWA
+
+  - The website has been tested the following tool:
+    - Google lighthouse extension
+    - WAVE Web Accessibility Evaluation Tool
+    - W3C Html validator
+    - W3C CSS Validator
+
+  - The website is tested and passed the following audits:
+    - Performance
+    - [Search Engine Optimization](https://developers.google.com/search/docs/essentials?visit_id=638475751569651797-112614076&rd=1)
+    - [Accessibility](https://webaim.org/intro/)
+    - Best Practices
+    - [Progressive Web App](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)
 
 ## Main page testing
 
