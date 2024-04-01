@@ -73,6 +73,7 @@ body {
 
 /* Logo Styles */
 .logo {
+    display: inline-block;
     width: 10rem;
     aspect-ratio: 1024 / 236;
 }
