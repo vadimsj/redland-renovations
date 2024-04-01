@@ -291,7 +291,7 @@ body {
 
 .footer > p {
     margin: .5rem 2rem 0;
-    font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-light);
     font-size: var(--font-size-xs);
 }
 

@@ -24,18 +24,20 @@
   - [Validator testing](#validator-testing-2)
   - [Accessibility testing](#accessibility-testing-2)
 
-## Summary
+### Summary
 
   - The website has been optimised for the following:
+
     - Performance
     - SEO
     - Accessibility
     - Best practices
     - SEO
-    - iOS
     - PWA
+    - iOS
 
   - Tools used for testing:
+
     - Google lighthouse extension
     - WAVE Web Accessibility Evaluation Tool
     - W3C Html validator
