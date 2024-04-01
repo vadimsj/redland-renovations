@@ -53,6 +53,7 @@
     margin: 0;
     padding: 0;
     scroll-margin-top: 4rem;
+    -webkit-tap-highlight-color: transparent;
 }
 
 *:focus-visible {
