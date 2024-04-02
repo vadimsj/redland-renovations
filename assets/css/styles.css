@@ -161,7 +161,7 @@ body {
 .hero-img {
     display: inline-block;
     width: 100%;
-    aspect-ratio: 1440 / 1100;
+    aspect-ratio: 4000 / 3055;
     object-fit: cover;
     object-position: center;
 } 
