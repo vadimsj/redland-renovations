@@ -143,7 +143,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 5rem .5rem 1rem;
+    margin: 5rem .5rem .5rem;
     padding: .5rem;
     background-color: var(--theme-color-light);
     max-width: fit-content;
@@ -154,7 +154,7 @@ body {
 }
 
 .main-headline > p {
-    margin: 1rem;
+    margin: 1rem 1rem .5rem;
     max-width: 45ch;
 }
 
@@ -457,7 +457,7 @@ textarea:focus {
 .btn { 
     display: inline-block;
     margin: 1rem;
-    padding: .6em 1.25em;
+    padding: .4em 1em;
     border-radius: 0;
     border-width: 0;
     border: 2px solid var(--theme-color-light-alt);
