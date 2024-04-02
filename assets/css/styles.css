@@ -75,7 +75,6 @@ body {
 .logo {
     display: inline-block;
     width: 10rem;
-    aspect-ratio: 1024 / 236;
 }
 
 .logo--navbar-logo {
