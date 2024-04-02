@@ -73,7 +73,7 @@ body {
 
 /* Logo Styles */
 .logo {
-    display: inline-block;
+    display: block;
     width: 10rem;
     aspect-ratio: 1024 / 236;
 }
@@ -161,6 +161,7 @@ body {
 .hero-img {
     display: inline-block;
     width: 100%;
+    min-width: 320px;
     height: auto;
     object-fit: cover;
     object-position: center;
