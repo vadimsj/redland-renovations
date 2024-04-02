@@ -418,7 +418,7 @@ textarea {
     border-color: var(--border-color-light);
     border-style: solid;
     outline: none;
-    font-size: var(--font-size-xs);
+    font-size: var(--font-size-s);
 }
 
 textarea {
@@ -475,7 +475,7 @@ textarea:focus {
 }
 
 .btn--primary-cta {
-    padding-left: 1.75rem;
+    padding-left: 1.4rem;
 }
 
 .btn--primary-cta:hover .arrow-icon {
@@ -490,6 +490,7 @@ textarea:focus {
     width: auto;
     margin: 3rem 1rem 2rem;
     font-weight: var(--font-weight-bold);
+    padding: .6em 1.2em;
 }
 
 /* --- Media queries ---- */
