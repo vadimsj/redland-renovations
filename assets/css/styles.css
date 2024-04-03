@@ -1,7 +1,5 @@
 /* --- Global styles --- */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Quicksand:wght@300..700&family=Suez+One&display=swap') all;
-
 :root {
     /* Theme variables */
     --theme-color-light: #fff;
@@ -143,14 +141,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 5rem .5rem .5rem;
+    margin: 4.5rem .5rem .5rem;
     padding: .5rem;
     background-color: var(--theme-color-light);
     max-width: fit-content;
 }
 
 .main-headline > h1 {
-    margin: 0 1rem .5rem;
+    margin: 0 1rem;
 }
 
 .main-headline > p {
