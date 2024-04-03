@@ -269,7 +269,7 @@
 
 #### Features left to implement:
 
-- Image slider showcasing images from the gallery sections full screen - given the specific scope of this project, it was decided not to implement this feature, as it would require JavaScript to achieve the desired effectiveness.
+- Image slider showcasing images from the gallery sections full screen - given the specific scope of this project, it was decided not to implement this feature.
 
 - Connect the form to google sheets or other CRM system.
 
