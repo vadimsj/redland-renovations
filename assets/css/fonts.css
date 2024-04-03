@@ -1,16 +1,8 @@
 @font-face {
-    src: url('https://ik.imagekit.io/vjimgkit/redland-renovations/fonts/Inter-SemiBold.woff2?updatedAt=1712175401448') format('woff2');
+    src: url('https://ik.imagekit.io/vjimgkit/redland-renovations/fonts/InterVariable.woff2?updatedAt=1712179165698') format('woff2');
     font-family: 'Inter';
     font-style: normal;
     font-weight: 100 900;
-    font-display: swap;
-}
-
-@font-face {
-    src: url('https://ik.imagekit.io/vjimgkit/redland-renovations/fonts/Quicksand-VariableFont_wght.ttf?updatedAt=1712164751373') format('woff2');
-    font-family: 'Quicksand';
-    font-style: normal;
-    font-weight: 300 700;
     font-display: swap;
 }
 
