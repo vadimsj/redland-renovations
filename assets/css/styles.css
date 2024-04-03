@@ -11,7 +11,7 @@
     --text-color-alt2: #808a99;
     --text-color-alt3: #626262;
     --border-color-light: #b8c0cc;
-    --font-family-h: 'Suez One', serif;
+    --font-family-h: 'Suez One', sans-serif;
     --font-family-txt: 'Inter', sans-serif;
     --font-family-arrow-icon: 'Quicksand', sans-serif;
     --font-size-h-xs: 16px;
@@ -440,11 +440,13 @@ textarea:focus {
     white-space: nowrap;
 }
 
+.hidden-load,
 .hidden {
     opacity: 0;
     transform: scale(.85);
     transition: all 1s;
 }
+
 
 .show {
     opacity: 1;
