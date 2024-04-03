@@ -1,14 +1,23 @@
 @font-face {
+    src: url('https://ik.imagekit.io/vjimgkit/redland-renovations/fonts/Inter-SemiBold.woff2?updatedAt=1712175401448') format('woff2');
     font-family: 'Inter';
-    src: url('https://ik.imagekit.io/vjimgkit/redland-renovations/fonts/inter-variablefont_slntwght-webfont.woff2?updatedAt=1712156694583') format('woff2');
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
 }
 
 @font-face {
+    src: url('https://ik.imagekit.io/vjimgkit/redland-renovations/fonts/Quicksand-VariableFont_wght.ttf?updatedAt=1712164751373') format('woff2');
     font-family: 'Quicksand';
-    src: url('https://ik.imagekit.io/vjimgkit/redland-renovations/fonts/quicksand-variablefont_wght-webfont.woff2?updatedAt=1712156694581') format('woff2');
+    font-style: normal;
+    font-weight: 300 700;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: 'Suez One';
     src: url('https://ik.imagekit.io/vjimgkit/redland-renovations/fonts/suezone-regular-webfont.woff2?updatedAt=1712156694585') format('woff2');
+    font-family: 'Suez One';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
 }
