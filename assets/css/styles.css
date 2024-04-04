@@ -424,10 +424,15 @@ textarea:focus {
 
 /* Icon Styles */
 
+.icon--link {
+    transform: translateY(5px);
+    margin: 0 .2rem;
+}
+
 .arrow-icon {
     transition: transform 0.3s ease;
     transform: translateY(1px);
-    margin-top: 10px;
+
 }
 
 /* Special Class */
@@ -452,7 +457,7 @@ textarea:focus {
 .btn { 
     display: inline-block;
     margin: 1rem;
-    padding: .4em 1em;
+    padding: .4em 1.2em;
     border-radius: 0;
     border-width: 0;
     border: 2px solid var(--theme-color-light-alt);
@@ -470,7 +475,7 @@ textarea:focus {
 }
 
 .btn--primary-cta {
-    padding: .2rem 1.4rem .5rem 1.5rem;
+    padding: .2rem 1.2rem .3rem 1.5rem;
 }
 
 .btn--primary-cta:hover .arrow-icon {
@@ -481,7 +486,6 @@ textarea:focus {
     width: auto;
     margin: 3rem 1rem 2rem;
     font-weight: var(--font-weight-regular);
-    padding: .6em 1.2em;
 }
 
 /* --- Media queries ---- */
