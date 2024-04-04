@@ -1,12 +1,4 @@
 @font-face {
-    src: url('https://ik.imagekit.io/vjimgkit/redland-renovations/fonts/InterVariable.woff2?updatedAt=1712179165698') format('woff2');
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 100 900;
-    font-display: swap;
-}
-
-@font-face {
     src: url('https://ik.imagekit.io/vjimgkit/redland-renovations/fonts/suezone-regular-webfont.woff2?updatedAt=1712156694585') format('woff2');
     font-family: 'Suez One';
     font-style: normal;

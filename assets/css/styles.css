@@ -12,7 +12,7 @@
     --text-color-alt3: #626262;
     --border-color-light: #b8c0cc;
     --font-family-h: 'Suez One', sans-serif;
-    --font-family-txt: 'Inter', sans-serif;
+    --font-family-txt: Arial, Helvetica, sans-serif;
     --font-size-h-xs: 16px;
     --font-size-h-s: 22px;
     --font-size-h-m: 24px;
@@ -27,7 +27,7 @@
     --font-weight-bold: 600;
     --line-height: 1.6;
     --line-height-xl: 2;
-    --letter-spacing: .5px;
+    --letter-spacing: .75px;
 
     /* Navigation variables */
     /* (Code implemented following the Web Dev Simplified tutorial) */
@@ -672,6 +672,7 @@ textarea:focus {
     .home__frame {
         width: 50vw;
         margin: 5rem 0 2rem;
+        display: flex;
     }
 }
 
