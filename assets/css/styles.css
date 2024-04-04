@@ -424,11 +424,6 @@ textarea:focus {
 
 /* Icon Styles */
 
-.icon--link {
-    transform: translateY(5px);
-    margin: 0 .2rem;
-}
-
 .arrow-icon {
     transition: transform 0.3s ease;
     transform: translateY(1px);
