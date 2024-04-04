@@ -19,11 +19,12 @@
     --font-size-h-l: 30px;
     --font-size-xxs: 10px;
     --font-size-xs: 14px;
-    --font-size-s: 16px;
+    --font-size-s: 18px;
     --font-size-m: 20px;
     --font-size-l: 24px;
     --font-size-xl: 28px;
     --font-weight-xlight: 200;
+    --font-weight-regular: 400;
     --font-weight-bold: 600;
     --line-height: 1.6;
     --line-height-xl: 2;
@@ -352,7 +353,7 @@ label,
 ul {
     font-family: var(--font-family-txt);
     line-height: var(--line-height);
-    font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-regular);
     font-size: var(--font-size-s);
     letter-spacing: var(--letter-spacing);
 }
@@ -479,7 +480,7 @@ textarea:focus {
 .btn--submit-msg {
     width: auto;
     margin: 3rem 1rem 2rem;
-    font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-regular);
     padding: .6em 1.2em;
 }
 
