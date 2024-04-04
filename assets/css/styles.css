@@ -424,7 +424,6 @@ textarea:focus {
 /* Icon Styles */
 
 .arrow-icon {
-    stroke: var(--theme-color-light-alt);
     transition: transform 0.3s ease;
     transform: translateY(1px);
     margin-top: 10px;
