@@ -1,4 +1,3 @@
-
 <svg 
     width="18" 
     height="14" 
@@ -6,11 +5,12 @@
     role="img" 
     fill="none" 
     xmlns="http://www.w3.org/2000/svg">
+ <title>Arrow icon</title>
  <g clip-path="url(#clip0_117_2)">
  <path d="M234.375 292L373.875 
              158.5L234.375 25M25.125 
              292L164.625 158.5L25.125 25" 
-     stroke="black" 
+     stroke="black"
      stroke-width="50" 
      stroke-linecap="round" 
      stroke-linejoin="round"/>
@@ -21,4 +21,6 @@
  </clipPath>
  </defs>
 </svg>
+
+
 

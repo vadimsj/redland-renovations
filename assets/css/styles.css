@@ -421,6 +421,15 @@ textarea:focus {
     border-color: var(--text-color-alt2);
 }
 
+/* Icon Styles */
+
+.arrow-icon {
+    stroke: var(--theme-color-light-alt);
+    transition: transform 0.3s ease;
+    transform: translateY(1px);
+    margin-top: 10px;
+}
+
 /* Special Class */
 .span--nobreak {
     white-space: nowrap;
@@ -461,7 +470,11 @@ textarea:focus {
 }
 
 .btn--primary-cta {
-    padding-left: 1.4rem;
+    padding: .2rem 1.5rem .5rem 1.5rem;
+}
+
+.btn--primary-cta:hover .arrow-icon {
+    transform: translateX(5px) translateY(1px);
 }
 
 .btn--submit-msg {
