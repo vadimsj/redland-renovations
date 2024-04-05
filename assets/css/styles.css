@@ -452,7 +452,7 @@ textarea:focus {
 .btn { 
     display: inline-block;
     margin: 1rem;
-    padding: .3em 1.4em;
+    padding: .4em 1.4em;
     border-radius: 0;
     border-width: 0;
     border: 2px solid var(--theme-color-light-alt);
