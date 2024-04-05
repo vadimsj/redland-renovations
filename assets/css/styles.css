@@ -452,25 +452,26 @@ textarea:focus {
 .btn { 
     display: inline-block;
     margin: 1rem;
-    padding: .4em 1.2em;
+    padding: .4em 1.4em;
     border-radius: 0;
     border-width: 0;
     border: 2px solid var(--theme-color-light-alt);
-    background-color: var(--theme-color-light);
-    color: var(--theme-color-light-alt);
+    background-color: var(--theme-color-light-alt);
+    color: var(--text-color-alt);
 }
 
 .btn:hover {
     cursor: pointer;
+    color: var(--text-color-alt)
 }
 
 .btn:active {
-    color: var(--theme-color-dark-alt);
-    border-color: var(--theme-color-dark-alt);
+    color: var(--text-color-alt);
+    border-color: var(--theme-color-light-alt);
 }
 
 .btn--primary-cta {
-    padding: .3rem 1.2rem .3rem 1.5rem;
+    padding-left: 1.7rem;
 }
 
 .btn--primary-cta:hover .arrow-icon {
