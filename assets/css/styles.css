@@ -15,8 +15,8 @@
     --font-family-txt: Arial, Helvetica, sans-serif;
     --font-size-h-xs: 16px;
     --font-size-h-s: 22px;
-    --font-size-h-m: 24px;
-    --font-size-h-l: 30px;
+    --font-size-h-m: 26px;
+    --font-size-h-l: 40px;
     --font-size-xxs: 10px;
     --font-size-xs: 14px;
     --font-size-s: 18px;
@@ -452,7 +452,7 @@ textarea:focus {
 .btn { 
     display: inline-block;
     margin: 1rem;
-    padding: .4em 1.4em;
+    padding: .3em 1.3em;
     border-radius: 0;
     border-width: 0;
     border: 2px solid var(--theme-color-light-alt);
@@ -645,6 +645,10 @@ textarea:focus {
         margin-bottom: 1.5rem;
     }
 
+    h1 {
+        font-size: var(--font-size-h-l);
+    }
+
 @media (min-width:875px) {
 
     .gallery-grid {
@@ -697,9 +701,5 @@ textarea:focus {
     .main-headline > p {
         margin: 2rem;
         max-width: 38ch;
-    }
-    
-    .main-headline > h1 {
-        font-size: var(--font-size-h-l);
     }
 }
