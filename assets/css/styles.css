@@ -452,7 +452,7 @@ textarea:focus {
 .btn { 
     display: inline-block;
     margin: 1rem;
-    padding: .4em 1.4em;
+    padding: .5em 1.5em;
     border-radius: 0;
     border-width: 0;
     border: 2px solid var(--theme-color-light-alt);
@@ -471,7 +471,7 @@ textarea:focus {
 }
 
 .btn--primary-cta {
-    padding-left: 1.7rem;
+    padding-left: 1.6rem;
 }
 
 .btn--primary-cta:hover .arrow-icon {
