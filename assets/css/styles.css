@@ -16,7 +16,7 @@
     --font-size-h-xs: 16px;
     --font-size-h-s: 22px;
     --font-size-h-m: 26px;
-    --font-size-h-l: 32px;
+    --font-size-h-l: 30px;
     --font-size-xxs: 10px;
     --font-size-xs: 14px;
     --font-size-s: 16px;
@@ -698,30 +698,6 @@ textarea:focus {
     .main-headline > p {
         margin: 2rem;
         max-width: 38ch;
-    }
-
-    h1 {
-        font-size: var(--font-size-h-l);
-    }
-    
-    h3,
-    a,
-    p,
-    label,
-    ul  {
-        font-size: var(--font-size-l);
-    }
-    
-    h1 {
-        font-size: var(--font-size-h-l);
-    }   
-
-    h3,
-    a,
-    p,
-    label,
-    ul  {
-        font-size: var(--font-size-l);
     }
 }
 
