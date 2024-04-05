@@ -28,7 +28,7 @@
     --font-weight-bold: 600;
     --line-height: 1.6;
     --line-height-xl: 2;
-    --letter-spacing: .7px;
+    --letter-spacing: .6px;
 
     /* Navigation variables */
     /* (Code implemented following the Web Dev Simplified tutorial) */
@@ -449,7 +449,7 @@ textarea:focus {
     display: inline-block;
     margin: 1rem;
     padding: .4em 1.25em;
-    border-radius: 0;
+    border-radius: 4px;
     border-width: 0;
     border: none;
     background-color: var(--theme-color-light-alt);
@@ -478,6 +478,7 @@ textarea:focus {
 
 .btn--submit-msg {
     width: auto;
+    padding: .6rem 1.25.rem;
     margin: 3rem 1rem 2rem;
     font-weight: var(--font-weight-regular);
 }
