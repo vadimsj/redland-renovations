@@ -121,10 +121,6 @@ body {
     margin-top: 1rem;
 }
 
-.frame > ul {
-    margin: 1rem 2rem
-}
-
 .section {
     display: flex;
     flex-direction: column;
@@ -355,18 +351,16 @@ ul {
     font-weight: var(--font-weight-regular);
     font-size: var(--font-size-s);
     letter-spacing: var(--letter-spacing);
+    max-width: 415px;
 }
 
 label {
     color: var(--text-color-alt3);
 }
 
-p {
-    max-width: 415px;
-}
-
 ul {
     line-height: var(--line-height-xl);
+    margin-left: 1rem;
 }
 
 /* Link Styles */
