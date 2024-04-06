@@ -77,7 +77,7 @@ body {
 }
 
 .logo--navbar-logo {
-    margin: .5rem .75rem;
+    margin: .75rem;
 }
 
 .logo--footer-logo {
@@ -664,7 +664,6 @@ textarea:focus {
     
     .logo--navbar-logo {
         width: 12rem;
-        margin: .5rem;
     }
     
     .main-headline {
