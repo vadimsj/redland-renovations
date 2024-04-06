@@ -82,7 +82,7 @@ body {
 
 .logo--footer-logo {
     filter: saturate(0%) sepia(50%);
-    transform: translateZ(0); /* Important! This property required to fix svg rendering bug on iOS devices */
+    transform: translateZ(0); /* Important! This property required to fix the svg rendering bug on iOS devices */
     opacity: 0.6;
     width: 2.7rem;
     height: 2.7rem;
