@@ -115,6 +115,9 @@ body {
     border: solid 2px var(--text-color-alt);
     padding: 1.5rem 2rem 2rem;
     margin: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .frame > p {
@@ -170,6 +173,10 @@ body {
 
 .section__services > h2 {
     margin: 1.5rem;
+}
+
+.section__services .frame > ul {
+    margin: 1rem;
 }
 
 /* Gallery Page Styles */
@@ -360,7 +367,6 @@ label {
 
 ul {
     line-height: var(--line-height-xl);
-    margin-left: 1rem;
 }
 
 /* Link Styles */
