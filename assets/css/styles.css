@@ -82,6 +82,7 @@ body {
 
 .logo--footer-logo {
     filter: saturate(0%) sepia(50%);
+    transform: translateZ(0);
     opacity: 0.6;
     width: 2.7rem;
     height: 2.7rem;
