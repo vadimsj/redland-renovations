@@ -240,7 +240,7 @@ body {
 }
 
 .section__contact-us .frame > h2 {
-    margin-top: 1rem;
+    margin: 1rem;
 }
 
 .contact-us__form {
@@ -341,6 +341,7 @@ h2 {
 
 h3 {
     font-weight: var(--font-weight-light);
+    line-height: var(--line-height);
 }
 
 /* Text Styles */
@@ -362,7 +363,6 @@ label {
 
 p {
     max-width: 415px;
-    text-wrap: balance;
 }
 
 ul {
