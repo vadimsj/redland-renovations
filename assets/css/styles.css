@@ -77,6 +77,15 @@ body {
     height: auto;
 }
 
+.logo--sidebar-logo {
+    filter: saturate(0%) sepia(50%);
+    transform: translateZ(0); /* Important! This code is required to fix the svg rendering bug on iOS devices */
+    opacity: 0.6;
+    width: 2.2rem;
+    height: 2.2rem;
+    margin: 1rem;
+}
+
 .logo--navbar-logo {
     margin: .75rem;
 }
@@ -607,6 +616,11 @@ textarea:focus {
                 transition: var(--animation-timing-sidebar);
                 font-weight: var(--font-weight-bold);
             }
+
+            .navbar-link a:last-child {
+                display: flex;
+            }
+
         
             .navbar-link > a:hover {
                 cursor: pointer;
@@ -616,6 +630,8 @@ textarea:focus {
 
     /* Large screen Header and Navbar properties */
     @media (min-width:600px) {
+        
+        .logo--sidebar-logo,
         .hamburger-menu {
             display: none;
         }
