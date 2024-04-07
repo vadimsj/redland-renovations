@@ -603,9 +603,9 @@ textarea:focus {
                 transition-delay: calc(.15s * var(--i));
                 opacity: 1;
             }
-        
+
             .navbar-link {
-                margin: 2rem;
+                margin: 1rem;
             }
         
             .navbar-link > a {
@@ -620,7 +620,13 @@ textarea:focus {
             .navbar-link a:last-child {
                 display: flex;
             }
-
+            
+            .nav {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
         
             .navbar-link > a:hover {
                 cursor: pointer;
