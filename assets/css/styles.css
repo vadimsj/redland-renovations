@@ -40,6 +40,7 @@
         --hamburger-margin-right: .75rem;
         --hamburger-margin-top: .4rem;
         --animation-timing: 200ms ease-in-out;
+        --animation-timing-sidebar: .3s ease;
         --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
     /* -- */
 }
@@ -82,7 +83,7 @@ body {
 
 .logo--footer-logo {
     filter: saturate(0%) sepia(50%);
-    transform: translateZ(0); /* Important! This property required to fix the svg rendering bug on iOS devices */
+    transform: translateZ(0); /* Important! This code is required to fix the svg rendering bug on iOS devices */
     opacity: 0.6;
     width: 2.7rem;
     height: 2.7rem;
@@ -488,7 +489,7 @@ textarea:focus {
     font-weight: var(--font-weight-regular);
 }
 
-/* --- Media queries ---- */
+/* --- Break Points ---- */
 
 /* Navbar Properties */
     /* (Code implemented following the Web Dev Simplified tutorial) */
@@ -572,8 +573,11 @@ textarea:focus {
                 position: fixed;
                 top: 0;
                 right: 0;
+                /*
                 transition: top var(--animation-timing);
-                translate: -1000%;
+                */
+                transition: var(--animation-timing-sidebar);
+                transform: translateY(-100%);
                 padding-top: calc(var(--hamburger-height) + var(--hamburger-margin-top) + 1rem);
                 background-color: var(--theme-color-dark);
                 color: var(--text-color);
@@ -584,7 +588,7 @@ textarea:focus {
             }
         
             .hamburger-menu:has(input:checked) + .sidebar {
-                translate: 0;
+                transform: translateY(0);
             }
         
             .navbar-link {
