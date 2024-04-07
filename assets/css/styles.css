@@ -40,7 +40,7 @@
         --hamburger-margin-right: .75rem;
         --hamburger-margin-top: .4rem;
         --animation-timing: 200ms ease-in-out;
-        --animation-timing-sidebar: .3s ease;
+        --animation-timing-sidebar: .3s ease-in-out;
         --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
     /* -- */
 }
