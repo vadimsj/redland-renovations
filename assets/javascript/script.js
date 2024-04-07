@@ -30,6 +30,25 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+// Function to close the menu when a navbar link is clicked
+function closeMenuOnClick() {
+    // Get all navbar links
+    const navbarLinks = document.querySelectorAll(".navbar-link a");
+
+    // Loop through each navbar link
+    navbarLinks.forEach(link => {
+        // Add click event listener to the link
+        link.addEventListener("click", () => {
+            // Close the menu by unchecking the checkbox
+            const checkbox = document.querySelector('.hamburger-menu input[type="checkbox"]');
+            checkbox.checked = false;
+        });
+    });
+}
+
+// Call the function to add event listeners to navbar links
+closeMenuOnClick();
+
 /* Function to set either phone number or email to be required in the form */
 function toggleRequiredFields() {
     const emailInput = document.getElementById("email");
