@@ -78,10 +78,6 @@ body {
 }
 
 .logo--sidebar-logo {
-    /*
-    filter: saturate(0%) sepia(50%);
-    transform: translateZ(0); /* Important! This code is required to fix the svg rendering bug on iOS devices *//*
-    opacity: 0.6; */
     width: 2.2rem;
     height: 2.2rem;
     margin: 1rem;
@@ -94,7 +90,7 @@ body {
         transform: translateY(0);
     }
     100% {
-        transform: translateY(-5px); 
+        transform: translateY(-6px); 
     }
 }
 
@@ -103,9 +99,7 @@ body {
 }
 
 .logo--footer-logo {
-    /*
     filter: saturate(0%) sepia(50%);
-    */
     transform: translateZ(0); /* Important! This code is required to fix the svg rendering bug on iOS devices */
     opacity: 0.6;
     width: 2.7rem;
