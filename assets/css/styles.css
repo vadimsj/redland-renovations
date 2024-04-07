@@ -548,7 +548,6 @@ textarea:focus {
             .hamburger-menu:has(input:checked)::before {
                 rotate: 45deg;
                 width: var(--x-width);
-            
                 translate: 0 calc(var(--bar-height) / -2);
             }
         
@@ -573,12 +572,14 @@ textarea:focus {
                 position: fixed;
                 top: 0;
                 right: 0;
+                transition: var(--animation-timing-sidebar);
                 /*
                 transition: top var(--animation-timing);
                 */
                 transition: var(--animation-timing-sidebar);
                 transform: translateY(-100%);
                 padding-top: calc(var(--hamburger-height) + var(--hamburger-margin-top) + 1rem);
+                padding-bottom: 1rem;
                 background-color: var(--theme-color-dark);
                 color: var(--text-color);
                 box-shadow: 0 4px 6px #0000001a;
@@ -590,6 +591,12 @@ textarea:focus {
             .hamburger-menu:has(input:checked) + .sidebar {
                 transform: translateY(0);
             }
+
+            .hamburger-menu:has(input:checked) + .sidebar a {
+                transform: translateY(0);
+                transition-delay: calc(.15s * var(--i));
+                opacity: 1;
+            }
         
             .navbar-link {
                 margin: 2rem;
@@ -597,6 +604,10 @@ textarea:focus {
         
             .navbar-link > a {
                 font-size: var(--font-size-m);
+                transform: translateY(-50px);
+                display: block;
+                opacity: 0;
+                transition: var(--animation-timing-sidebar);
             }
         
             .navbar-link > a:hover {
