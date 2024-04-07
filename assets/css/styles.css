@@ -608,6 +608,7 @@ textarea:focus {
                 display: block;
                 opacity: 0;
                 transition: var(--animation-timing-sidebar);
+                font-weight: var(--font-weight-bold);
             }
         
             .navbar-link > a:hover {
