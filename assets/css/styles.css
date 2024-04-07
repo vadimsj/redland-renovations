@@ -102,8 +102,8 @@ body {
     filter: saturate(0%) sepia(50%);
     transform: translateZ(0); /* Important! This code is required to fix the svg rendering bug on iOS devices that causes blurry image if filter is applied */
     opacity: 0.6;
-    width: 2.7rem;
-    height: 2.7rem;
+    width: 2.2rem;
+    height: 2.2rem;
     margin: 1rem;
 }
 
