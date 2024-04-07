@@ -283,7 +283,7 @@
 
  - [Code Institute Template](https://github.com/Code-Institute-Org/gitpod-full-template) was used as a starting point for this project. 
 
-- Hamburger menu navigation was implemented following the tutorial from [Web Dev Simplified](https://youtu.be/dAIVbLrAb_U?feature=shared).
+- Hamburger menu navigation was implemented following the tutorial from [Web Dev Simplified](https://youtu.be/dAIVbLrAb_U?feature=shared) and [Codehal](https://youtu.be/yE9DLIoDwCg?si=tdUV7CXiDz9H3GQ7).
 
 - Intersection observer was implemented following the tutorial from [Beyond Fireship](https://youtu.be/T33NN_pPeNI?feature=shared).
 

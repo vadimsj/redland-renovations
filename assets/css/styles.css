@@ -492,7 +492,7 @@ textarea:focus {
 /* --- Break Points ---- */
 
 /* Navbar Properties */
-    /* (Code implemented following the Web Dev Simplified tutorial) */
+    /* (Code implemented following the Web Dev Simplified and Codehal tutorial ((c) - readme -> credits))) */
 
         @media (max-width:600px) {
             /* Hamburger Menu properties  */
