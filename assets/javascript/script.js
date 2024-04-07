@@ -90,12 +90,23 @@ function changeThemeColor() {
     // Select the theme color meta tag
     const themeColorMeta = document.querySelector('meta[name="theme-color"]');
     
+    // Select all navbar links
+    const navbarLinks = document.querySelectorAll(".navbar-link a");
+
     // Check if both checkbox and themeColorMeta exist
     if (checkbox && themeColorMeta) {
         // Add event listener to checkbox
         checkbox.addEventListener("change", function() {
             // Change content attribute of theme color meta tag based on checkbox state
             themeColorMeta.setAttribute("content", this.checked ? "#eee" : "#fff");
+        });
+
+        // Add event listener to each navbar link
+        navbarLinks.forEach(link => {
+            link.addEventListener("click", function() {
+                // Change content attribute of theme color meta tag to default color when a link is clicked
+                themeColorMeta.setAttribute("content", "#fff");
+            });
         });
     } else {
         console.log("Required elements not found.");
