@@ -573,11 +573,8 @@ textarea:focus {
                 top: 0;
                 right: 0;
                 transition: var(--animation-timing-sidebar);
-                /*
-                transition: top var(--animation-timing);
-                */
                 transition: var(--animation-timing-sidebar);
-                transform: translateY(-105%);
+                transform: translateY(-110%);
                 padding-top: calc(var(--hamburger-height) + var(--hamburger-margin-top) + 1rem);
                 padding-bottom: 1rem;
                 background-color: var(--theme-color-dark);
