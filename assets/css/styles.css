@@ -617,7 +617,7 @@ textarea:focus {
                 transition: var(--animation-timing-sidebar);
                 transform: translateY(-110%);
                 padding-top: calc(var(--hamburger-height) + var(--hamburger-margin-top) + 1rem);
-                padding-bottom: 1rem;
+                padding-bottom: 2rem;
                 background-color: var(--theme-color-dark);
                 color: var(--text-color);
                 box-shadow: 0 4px 6px #0000001a;
