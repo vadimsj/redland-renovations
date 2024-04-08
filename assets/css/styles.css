@@ -38,7 +38,7 @@
         --foreground: var(--text-color);
         --background: var(--text-color-alt);
         --hamburger-margin-top: 1rem;
-        --hamburger-margin-right: .75rem;
+        --hamburger-margin-right: 1rem;
         --hamburger-margin-bottom: 1rem;
         --hamburger-margin-left: 1rem;
         --animation-timing: 200ms ease-in-out;
