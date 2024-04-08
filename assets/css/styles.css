@@ -78,7 +78,7 @@ body {
 }
 
 .logo--sidebar-logo {
-    filter: drop-shadow(2px 2px 2px rgb(0 0 0 / 0.4));
+    filter: drop-shadow(1px 2px 2px rgb(0 0 0 / 0.4));
     width: 2.2rem;
     height: 2.2rem;
     margin: 1rem;
