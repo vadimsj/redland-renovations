@@ -1,4 +1,4 @@
-/* Function to display the content on the page as it enters into the viewport */
+/* -- Function to display the content on the page as it enters into the viewport -- */
     /* (Code implemented following the Beyond Fireship tutorial) */
         const observer = new IntersectionObserver(function(entries) {
             entries.forEach(function(entry) {
@@ -17,7 +17,7 @@
             });
     /* -- */
 
-/* Function to add a shadow to the nav bar when the header is scrolled */
+/* -- Function to add a shadow to the nav bar when the header is scrolled -- */
 document.addEventListener("DOMContentLoaded", function() {
     const header = document.querySelector(".header");
 
@@ -30,8 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-
-
+/* -- Hero image zooming effect -- */
 // Define a function to handle the scroll event
 function handleScroll() {
     // Get the hero image element
@@ -53,15 +52,7 @@ function handleScroll() {
 // Add scroll event listener to the window and call the handleScroll function
 window.addEventListener("scroll", handleScroll);
 
-// Initial call to handle
-
-
-
-
-
-
-
-// Function to close the menu when a navbar link is clicked
+/* -- Function to close the menu when a navbar link is clicked -- */
 function closeMenuOnClick() {
     // Get all navbar links
     const navbarLinks = document.querySelectorAll(".navbar-link a");
@@ -80,7 +71,7 @@ function closeMenuOnClick() {
 // Call the function to add event listeners to navbar links
 closeMenuOnClick();
 
-/* Function to set either phone number or email to be required in the form */
+/* -- Function to set either phone number or email to be required in the form -- */
 function toggleRequiredFields() {
     const emailInput = document.getElementById("email");
     const phoneInput = document.getElementById("telephone");
