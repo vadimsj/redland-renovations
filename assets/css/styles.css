@@ -651,6 +651,10 @@ textarea:focus {
     /* Large screen Header and Navbar properties */
     @media (min-width:700px) {
 
+        .hamburger-menu {
+            display: none;
+        }
+        
         .nav {
             display: flex;
             flex-direction: row;
