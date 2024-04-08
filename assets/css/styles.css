@@ -77,24 +77,6 @@ body {
     height: auto;
 }
 
-.logo--sidebar-logo {
-    filter: drop-shadow(1px 2px 2px rgb(0 0 0 / 0.4));
-    width: 2.2rem;
-    height: 2.2rem;
-    margin: 1rem;
-    margin: 1rem;
-    animation: floatAnimation 2s ease-in-out infinite alternate;
-}
-
-@keyframes floatAnimation {
-    0% {
-        transform: translateY(0);
-    }
-    100% {
-        transform: translateY(-6px); 
-    }
-}
-
 .logo--navbar-logo {
     margin: .75rem;
 }
@@ -668,11 +650,6 @@ textarea:focus {
 
     /* Large screen Header and Navbar properties */
     @media (min-width:700px) {
-        
-        .logo--sidebar-logo,
-        .hamburger-menu {
-            display: none;
-        }
 
         .nav {
             display: flex;
