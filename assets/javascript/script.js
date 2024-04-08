@@ -80,7 +80,7 @@ function toggleRequiredFields() {
     phoneInput.required = emailInput.value.trim() === "";
 }
 
-/* Function to change theme color meta tag when hamburger menu is open */
+/* -- Function to change theme color meta tag when hamburger menu is open -- */
 function changeThemeColor() {
     // Select the hamburger menu checkbox
     const checkbox = document.querySelector('.hamburger-menu input[type="checkbox"]');
