@@ -287,6 +287,8 @@
 
 - Intersection observer was implemented following the tutorial from [Beyond Fireship](https://youtu.be/T33NN_pPeNI?feature=shared).
 
+- Text reveal effect was implemented following the tutorial from [WebStylePress](https://youtu.be/v_aEkNm6xec?si=DMN5NkE6uMworW03).
+
 ## Testing 
 
 Testing results can be found in [testing.md](./testing.md).

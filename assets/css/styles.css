@@ -307,7 +307,6 @@ body {
 }
 
 .footer > p {
-    font-weight: var(--font-weight-light);
     font-size: var(--font-size-xs);
 }
 
@@ -374,7 +373,7 @@ h2 {
 
 h4,
 h5 {
-    font-weight: var(--font-weight-light);
+    font-weight: var(--font-weight-regular);
     font-size: var(--font-size-xs);
 }
 
