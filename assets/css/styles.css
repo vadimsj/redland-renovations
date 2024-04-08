@@ -163,12 +163,22 @@ body {
 }
 
 .hero-img {
-    display: inline-block;
+    display: block;
     width: 100%;
     min-width: 320px;
     height: auto;
     object-fit: cover;
     object-position: center;
+    transition: transform;   
+}
+
+    
+.home__frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    object-position: top;
+    overflow: hidden;
 }
 
 /* Services Page Styles */
@@ -477,6 +487,10 @@ textarea:focus {
     transform: scale(1);
 } 
 
+.zoom-in {
+    transform: scale(1.1);
+}
+
 /* --- Buttons -- */
 .btn { 
     display: inline-block;
@@ -728,9 +742,6 @@ textarea:focus {
     .home__frame {
         width: 50vw;
         margin: 2rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
 
     .hero-img {

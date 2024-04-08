@@ -30,6 +30,37 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+
+
+// Define a function to handle the scroll event
+function handleScroll() {
+    // Get the hero image element
+    const heroImage = document.querySelector(".hero-img");
+
+    // Calculate the scale factor based on the scroll position
+    const scaleFactor = 1 + window.scrollY * 0.0005; // Adjust multiplier for desired zoom effect
+
+    // Apply the scale transformation to the hero image using CSS transform property
+    heroImage.style.transform = `scale(${scaleFactor})`;
+
+    // Determine if the user has scrolled beyond a certain threshold
+    const isZoomedIn = window.scrollY > 100; // Adjust scroll position threshold as needed
+
+    // Toggle the zoom-in class based on the scroll position
+    heroImage.classList.toggle("zoom-in", isZoomedIn);
+}
+
+// Add scroll event listener to the window and call the handleScroll function
+window.addEventListener("scroll", handleScroll);
+
+// Initial call to handle
+
+
+
+
+
+
+
 // Function to close the menu when a navbar link is clicked
 function closeMenuOnClick() {
     // Get all navbar links
