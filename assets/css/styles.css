@@ -239,13 +239,8 @@ body {
     background-color: var(--theme-color-light-alt);
 }
 
-.section__about-us > .frame > p {
-    font-weight: 400;
-}
-
 .section__about-us .frame {
     color: var(--text-color-alt);
-    font-weight: var(--font-weight-light);
     max-width: 70ch;
 }
 
@@ -286,7 +281,6 @@ body {
 .section__page-404 > h1,
 .section__page-404 > p {
     margin: 1rem;
-    font-weight: var(--font-weight-light);
 }
 
 /* Aside Styles */
@@ -327,28 +321,32 @@ body {
 
 /* Headings */
 
-h1,
-h2,
-h3,
-h4,
-h5,
-p,
-ul {
-    animation: CSSscrollReveal ease-in-out both;
-    animation-timeline: view();
-    animation-range: entry 50% cover 30%;
-}
+    /* Text reveal effect (Code implemented following the tutorial from WebStylePress (c) readme > credits) */
 
-@keyframes CSSscrollReveal {
-    from {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
+       h1,
+       h2,
+       h3,
+       h4,
+       h5,
+       p,
+       ul {
+           animation: CSSscrollReveal ease-in-out both;
+           animation-timeline: view();
+           animation-range: entry 50% cover 30%;
+       }
+
+       @keyframes CSSscrollReveal {
+           from {
+               opacity: 0;
+               transform: translateY(30px);
+           }
+           to {
+               opacity: 1;
+               transform: translateY(0);
+           }
+       }
+    /* -- */
+
 
 h1, 
 h2,
@@ -373,6 +371,7 @@ h2 {
     font-weight: var(--font-weight-regular);
 }
 
+
 h4,
 h5 {
     font-weight: var(--font-weight-light);
@@ -388,8 +387,8 @@ h2 {
 }
 
 h3 {
-    font-weight: var(--font-weight-light);
     line-height: var(--line-height);
+    font-weight: var(--font-weight-regular);
 }
 
 /* Text Styles */
@@ -418,6 +417,7 @@ ul {
 a {
     color: var(--text-color);
     text-decoration: none;
+    font-weight: var(--font-weight-regular);
 }
 
 a:hover {
@@ -534,7 +534,7 @@ textarea:focus {
 /* --- Break Points ---- */
 
 /* Navbar Properties */
-    /* (Code implemented following the Web Dev Simplified and Codehal tutorial ((c) - readme -> credits))) */
+    /* Hamburger menu and sliding sidebar (Code implemented following the tutorial from Web Dev Simplified and Codehal (c) - readme > credits) */
 
         @media (max-width:600px) {
             /* Hamburger Menu properties  */
