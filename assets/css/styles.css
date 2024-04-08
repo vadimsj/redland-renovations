@@ -37,8 +37,10 @@
         --hamburger-gap: 6px;
         --foreground: var(--text-color);
         --background: var(--text-color-alt);
+        --hamburger-margin-top: 1rem;
         --hamburger-margin-right: .75rem;
-        --hamburger-margin-top: .4rem;
+        --hamburger-margin-bottom: 1rem;
+        --hamburger-margin-left: 1rem;
         --animation-timing: 200ms ease-in-out;
         --animation-timing-sidebar: .3s ease-in-out;
         --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
@@ -528,11 +530,15 @@ textarea:focus {
                 gap: var(--hamburger-gap);
                 width: max-content;
                 position: absolute;
-                top: var(--hamburger-margin-top);
-                right: var(--hamburger-margin-right);
+                top: 0;
+                right: 0;
                 z-index: 4;
                 cursor: pointer;
                 position: fixed;
+                margin-top: var(--hamburger-margin-top);
+                margin-right: var(--hamburger-margin-right);
+                margin-bottom: var(--hamburger-margin-bottom);
+                margin-left: var(--hamburger-margin-left);
             }
         
             .hamburger-menu:has(input:checked) {
