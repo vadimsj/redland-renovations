@@ -58,30 +58,6 @@ function toggleRequiredFields() {
     phoneInput.required = emailInput.value.trim() === "";
 }
 
-/* Function to auto format mobile phone numbers to start with +44 */
-function formatPhoneNumber() {
-    const phoneNumberInput = document.getElementById("telephone");
-    const phoneNumberValue = phoneNumberInput.value;
-
-    // Remove any non-digit characters
-    let formattedNumber = phoneNumberValue.replace(/[^\d+]/g, "");
-
-    // Check if the phone number starts with "07" and has exactly 11 digits
-    if (/^07\d{9}$/.test(formattedNumber)) {
-        // Replace "07" with "+44"
-        formattedNumber = formattedNumber.replace(/^07/, "+44");
-    }
-
-    // Check if the phone number starts with "44" and has exactly 12 digits
-    if (/^44\d{10}$/.test(formattedNumber)) {
-        // Replace "44" with "+44"
-        formattedNumber = formattedNumber.replace(/^44/, "+44");
-    }
-
-    // Update the input field value
-    phoneNumberInput.value = formattedNumber;
-}
-
 /* Function to change theme color meta tag when hamburger menu is open */
 function changeThemeColor() {
     // Select the hamburger menu checkbox
