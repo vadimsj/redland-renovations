@@ -400,7 +400,7 @@ label,
 ul {
     font-family: var(--font-family-txt);
     line-height: var(--line-height);
-    font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-regular);
     font-size: var(--font-size-s);
     letter-spacing: var(--letter-spacing);
     max-width: 415px;
