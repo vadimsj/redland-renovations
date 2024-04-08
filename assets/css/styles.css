@@ -263,6 +263,8 @@ body {
 .section__page-404 > h1,
 .section__page-404 > p {
     margin: 1rem;
+    text-align: center;
+    text-wrap: balance;
 }
 
 /* Aside Styles */
