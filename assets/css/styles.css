@@ -336,13 +336,13 @@ ul,
 a {
     animation: CSSscrollReveal ease-in-out both;
     animation-timeline: view();
-    animation-range: entry 50% cover 50%;
+    animation-range: entry 30% cover 30%;
 }
 
 @keyframes CSSscrollReveal {
     from {
         opacity: 0;
-        transform: translateY(50px);
+        transform: translateY(30px);
     }
     to {
         opacity: 1;
