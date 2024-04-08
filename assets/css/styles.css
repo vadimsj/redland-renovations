@@ -77,7 +77,7 @@ body {
     height: auto;
 }
 
-.logo--navbar-logo {
+.logo--header-logo {
     margin: .75rem;
 }
 
@@ -654,7 +654,7 @@ textarea:focus {
         .hamburger-menu {
             display: none;
         }
-        
+
         .nav {
             display: flex;
             flex-direction: row;
@@ -665,10 +665,6 @@ textarea:focus {
             display: flex;
             flex-direction: row;
             align-items: center;
-        }
-
-        .logo--navbar-logo {
-            display: block;
         }
 
         .navbar-link {
@@ -712,7 +708,7 @@ textarea:focus {
         padding: 0;
     }
     
-    .logo--navbar-logo {
+    .logo--header-logo {
         width: 12rem;
     }
     
