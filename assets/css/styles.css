@@ -327,7 +327,6 @@ body {
 
        h1,
        h2,
-       h3,
        h4,
        h5,
        p,
@@ -510,7 +509,7 @@ textarea:focus {
     }
 }
 
-
+/* Text line reveal effect */
 
 .scroll-reveal .line-reveal,
 .scroll-reveal .line-reveal > * {
@@ -523,9 +522,8 @@ textarea:focus {
     animation-timeline: view();
 }
 
-
 .scroll-reveal .line-reveal {
-    animation-range-start: cover 10vh;
+    animation-range-start: cover 0vh;
     animation-range-end: cover 60vh;
 
 }
