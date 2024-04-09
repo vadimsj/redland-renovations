@@ -291,6 +291,11 @@ body {
   
 }
 
+.aside > h3 {
+    min-width: 320px;
+    max-width: 50ch;
+}
+
 /* Footer Styles */
 .footer {
     display: flex;
