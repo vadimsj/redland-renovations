@@ -485,7 +485,7 @@ textarea:focus {
 }
 
 
-    /* Text reveal effect (Code implemented following the tutorial from WebStylePress (c) readme > credits) */
+    /* - Text reveal effect (Code implemented following the tutorial from WebStylePress (c) readme > credits) - */
 
     h1,
     h2,
@@ -510,7 +510,7 @@ textarea:focus {
      }
  /* -- */
 
-/* Text line reveal effect */
+/* - Text line reveal effect - */
 
 .scroll-reveal .line-reveal,
 .scroll-reveal .line-reveal > * {
@@ -524,7 +524,7 @@ textarea:focus {
 }
 
 .scroll-reveal .line-reveal {
-    animation-range-start: cover 10vh;
+    animation-range-start: cover 15vh;
     animation-range-end: cover 70vh;
 
 }
