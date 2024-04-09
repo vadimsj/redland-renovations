@@ -288,7 +288,7 @@ body {
     background-color: var(--theme-color-dark-alt);
     align-items: center;
     padding: 2rem;
-    color: var(--text-color-alt);
+  
 }
 
 /* Footer Styles */
@@ -425,7 +425,8 @@ a:active {
 }
 
 .a--alt {
-    color: var(--text-color-alt);
+    color: var(--theme-color-light-alt);
+    font-weight: var(--font-weight-regular);
 }
 
 /* Input and Textarea Styles */
@@ -501,6 +502,44 @@ textarea:focus {
     }
     100% {
         opacity: 0;
+    }
+}
+
+
+
+.scroll-reveal .line-reveal,
+.scroll-reveal .line-reveal > * {
+    color: hsl(0 0% 100% / 0.2);
+    background-clip: text;
+    background-repeat: no-repeat;
+    background-size: 0 100%;
+    background-image: linear-gradient(90deg, #fff, #fff);
+    animation: scroll-reveal linear forwards;
+    animation-timeline: view();
+}
+
+
+.scroll-reveal .line-reveal {
+    animation-range-start: cover 10vh;
+    animation-range-end: cover 60vh;
+
+}
+
+.scroll-reveal .line-reveal > .phone-link {
+    animation-range-start: cover 50vh;
+    animation-range-end: cover 60vh;
+
+}
+
+.scroll-reveal .line-reveal > .email-link {
+    animation-range-start: cover 50vh;
+    animation-range-end: cover 60vh;
+}
+
+
+@keyframes scroll-reveal {
+    to {
+        background-size: 100% 100%;
     }
 }
 
