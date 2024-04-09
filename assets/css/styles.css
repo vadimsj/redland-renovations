@@ -501,7 +501,7 @@ textarea:focus {
     @keyframes CSSscrollReveal {
         from {
             opacity: 0;
-            transform: translateY(70px);
+            transform: translateY(50px);
         }
         to {
             opacity: 1;
