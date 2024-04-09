@@ -113,3 +113,40 @@ function changeThemeColor() {
 
 // Call the function to initiate the event listener
 changeThemeColor();
+
+
+
+
+
+
+
+
+
+
+/* -- Function to hide main headline on scroll -- */
+
+// Select the .main-headline element
+const mainHeadline = document.querySelector('.main-headline');
+
+// Define the scroll event listener
+window.addEventListener('scroll', () => {
+    // Calculate the threshold for scrolling 50% of the element's size
+    const threshold = mainHeadline.offsetTop + mainHeadline.offsetHeight / 4;
+    
+    // Check if the scroll position is beyond the threshold
+    if (window.scrollY > threshold) {
+        // Add the fade-out class to trigger the opacity transition
+        mainHeadline.classList.add('fade-out');
+    } else {
+        // Remove the fade-out class to reset the opacity
+        mainHeadline.classList.remove('fade-out');
+    }
+});
+
+
+
+
+
+
+
+
