@@ -131,8 +131,8 @@ function hideOnScroll(selector) {
         const elementTop = bounding.top + window.scrollY;
         const elementBottom = elementTop + bounding.height;
 
-        // Calculate the threshold for fading out the element when it's 60% out of the viewport
-        const threshold = viewportBottom - ((viewportBottom - viewportTop) * 0.6);
+        // Calculate the threshold for fading out the element when it's 70% out of the viewport
+        const threshold = viewportBottom - ((viewportBottom - viewportTop) * 0.7);
 
         // Check if the element is below the threshold
         if (elementBottom < threshold) {
