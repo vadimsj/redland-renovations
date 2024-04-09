@@ -115,33 +115,42 @@ function changeThemeColor() {
 changeThemeColor();
 
 
+/* -- Function to hide elements on scroll -- */
+function hideOnScroll(selector) {
+    // Select the element
+    const element = document.querySelector(selector);
+
+    // Define the scroll event listener
+    window.addEventListener("scroll", () => {
+        // Get the top and bottom positions of the viewport
+        const viewportTop = window.scrollY + 3 * parseFloat(getComputedStyle(document.documentElement).fontSize); // 3rem from the top
+        const viewportBottom = viewportTop + window.innerHeight;
+
+        // Get the top and bottom positions of the element relative to the viewport
+        const bounding = element.getBoundingClientRect();
+        const elementTop = bounding.top + window.scrollY;
+        const elementBottom = elementTop + bounding.height;
+
+        // Calculate the threshold for fading out the element when it's 60% out of the viewport
+        const threshold = viewportBottom - ((viewportBottom - viewportTop) * 0.6);
+
+        // Check if the element is below the threshold
+        if (elementBottom < threshold) {
+            // Add the fade-out class to trigger the opacity transition
+            element.classList.add("fade-out");
+        } else {
+            // Remove the fade-out class to reset the opacity
+            element.classList.remove("fade-out");
+        }
+    });
+}
+
+// Call the function with different selectors for each element
+hideOnScroll(".main-headline");
+hideOnScroll(".hero-img");
+hideOnScroll(".faded");
 
 
-
-
-
-
-
-
-/* -- Function to hide main headline on scroll -- */
-
-// Select the .main-headline element
-const mainHeadline = document.querySelector('.main-headline');
-
-// Define the scroll event listener
-window.addEventListener('scroll', () => {
-    // Calculate the threshold for scrolling 50% of the element's size
-    const threshold = mainHeadline.offsetTop + mainHeadline.offsetHeight / 4;
-    
-    // Check if the scroll position is beyond the threshold
-    if (window.scrollY > threshold) {
-        // Add the fade-out class to trigger the opacity transition
-        mainHeadline.classList.add('fade-out');
-    } else {
-        // Remove the fade-out class to reset the opacity
-        mainHeadline.classList.remove('fade-out');
-    }
-});
 
 
 
