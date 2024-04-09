@@ -323,31 +323,6 @@ body {
 
 /* Headings */
 
-    /* Text reveal effect (Code implemented following the tutorial from WebStylePress (c) readme > credits) */
-
-       h1,
-       h2,
-       h3,
-       h5,
-       p,
-       ul {
-           animation: CSSscrollReveal ease-in both;
-           animation-timeline: view();
-           animation-range: entry 50% cover 20%;
-        }
-
-       @keyframes CSSscrollReveal {
-           from {
-               opacity: 0;
-               transform: translateY(50px);
-           }
-           to {
-               opacity: 1;
-               transform: translateY(0);
-           }
-        }
-    /* -- */
-
 h1, 
 h2,
 h3,
@@ -474,7 +449,7 @@ textarea:focus {
     transform: translateY(1px);
 }
 
-/* Special Class */
+/* Special Effects */
 .span--nobreak {
     white-space: nowrap;
 }
@@ -508,6 +483,32 @@ textarea:focus {
         opacity: 0;
     }
 }
+
+
+    /* Text reveal effect (Code implemented following the tutorial from WebStylePress (c) readme > credits) */
+
+    h1,
+    h2,
+    h5,
+    p,
+    ul,
+    .revealed {
+        animation: CSSscrollReveal ease-in both;
+        animation-timeline: view();
+        animation-range: entry 50% cover 20%;
+     }
+
+    @keyframes CSSscrollReveal {
+        from {
+            opacity: 0;
+            transform: translateY(50px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+     }
+ /* -- */
 
 /* Text line reveal effect */
 
