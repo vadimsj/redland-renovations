@@ -291,9 +291,9 @@ body {
   
 }
 
-.aside > h3 {
+.aside > h4 {
     min-width: 320px;
-    max-width: 50ch;
+    max-width: 60ch;
 }
 
 /* Footer Styles */
@@ -331,7 +331,7 @@ body {
        h5,
        p,
        ul {
-           animation: CSSscrollReveal ease-in-out both;
+           animation: CSSscrollReveal ease-in both;
            animation-timeline: view();
            animation-range: entry 50% cover 50%;
         }
@@ -523,7 +523,7 @@ textarea:focus {
 }
 
 .scroll-reveal .line-reveal {
-    animation-range-start: cover 0vh;
+    animation-range-start: cover 10vh;
     animation-range-end: cover 60vh;
 
 }
