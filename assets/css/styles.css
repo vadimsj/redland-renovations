@@ -512,7 +512,7 @@ textarea:focus {
         .section__services .frame * {
             animation: CSSscrollReveal ease-in both;
             animation-timeline: view();
-            animation-range: entry 60% cover 23%;
+            animation-range: entry 60% cover 25%;
          }
       
         @keyframes CSSscrollReveal {
