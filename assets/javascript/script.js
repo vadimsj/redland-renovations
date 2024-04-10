@@ -114,9 +114,8 @@ function changeThemeColor() {
 // Call the function to initiate the event listener
 changeThemeColor();
 
-
 /* -- Function to hide elements on scroll -- */
-function hideOnScroll(selector) {
+function hideOnScroll(selector, thresholdPercentage) {
     // Select the element
     const element = document.querySelector(selector);
 
@@ -131,8 +130,8 @@ function hideOnScroll(selector) {
         const elementTop = bounding.top + window.scrollY;
         const elementBottom = elementTop + bounding.height;
 
-        // Calculate the threshold for fading out the element when it's 65% out of the viewport
-        const threshold = viewportBottom - ((viewportBottom - viewportTop) * 0.65);
+        // Calculate the threshold for fading out the element based on the provided percentage
+        const threshold = viewportBottom - ((viewportBottom - viewportTop) * thresholdPercentage);
 
         // Check if the element is below the threshold
         if (elementBottom < threshold) {
@@ -145,10 +144,11 @@ function hideOnScroll(selector) {
     });
 }
 
-// Call the function with different selectors for each element
-hideOnScroll(".main-headline");
-hideOnScroll(".hero-img");
-hideOnScroll(".faded");
+// Call the function with different selectors for each element and threshold percentages
+hideOnScroll(".main-headline", 0.65); // Example threshold percentage: 65%
+hideOnScroll(".hero-img", 0.65); // Example threshold percentage: 65%
+hideOnScroll(".fading65", 0.65); // Example threshold percentage: 35%
+hideOnScroll(".fading75", 0.75); 
 
 
 
