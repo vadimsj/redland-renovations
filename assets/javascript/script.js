@@ -148,13 +148,7 @@ function hideOnScroll(selector, thresholdPercentage) {
 hideOnScroll(".main-headline", 0.65); // Example threshold percentage: 65%
 hideOnScroll(".hero-img", 0.65); // Example threshold percentage: 65%
 hideOnScroll(".fading65", 0.65); // Example threshold percentage: 35%
-hideOnScroll(".fading75", 0.75); 
-
-
-
-
-
-
-
-
+hideOnScroll(".frame__about-us", 0.75); 
+hideOnScroll(".aside__cta-bar", 0.75); 
+hideOnScroll(".frame__usp-bar", 0.85); 
 
