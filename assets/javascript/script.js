@@ -123,7 +123,7 @@ function hideOnScroll(selector) {
     // Define the scroll event listener
     window.addEventListener("scroll", () => {
         // Get the top and bottom positions of the viewport
-        const viewportTop = window.scrollY + 3 * parseFloat(getComputedStyle(document.documentElement).fontSize); // 3rem from the top
+        const viewportTop = window.scrollY + 3 * parseFloat(getComputedStyle(document.documentElement).fontSize); // 3rem from the top to account for navbar
         const viewportBottom = viewportTop + window.innerHeight;
 
         // Get the top and bottom positions of the element relative to the viewport
@@ -149,7 +149,6 @@ function hideOnScroll(selector) {
 hideOnScroll(".main-headline");
 hideOnScroll(".hero-img");
 hideOnScroll(".faded");
-
 
 
 
