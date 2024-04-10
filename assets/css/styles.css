@@ -541,20 +541,20 @@ textarea:focus {
 }
 
 .scroll-reveal .line-reveal {
-    animation-range-start: cover 15vh;
+    animation-range-start: cover 20vh;
     animation-range-end: cover 70vh;
 
 }
 
 .scroll-reveal .line-reveal > .phone-link {
-    animation-range-start: cover 50vh;
-    animation-range-end: cover 60vh;
+    animation-range-start: cover 60vh;
+    animation-range-end: cover 70vh;
 
 }
 
 .scroll-reveal .line-reveal > .email-link {
-    animation-range-start: cover 50vh;
-    animation-range-end: cover 60vh;
+    animation-range-start: cover 60vh;
+    animation-range-end: cover 70vh;
 }
 
 
