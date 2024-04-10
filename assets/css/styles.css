@@ -625,9 +625,37 @@ textarea:focus {
     font-weight: var(--font-weight-regular);
 }
 
-/* --- Break Points ---- */
+/* Button toggle visibility for images */
+.button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+}
 
-/* Navbar Properties */
+.btn--toggle-img {
+    background-color: var(--theme-color-dark-alt);
+    border: none;
+    margin: .5rem;
+}
+
+
+.hidden-checkbox {
+    display: none;
+    }
+    .folded {
+    display: none;
+    }
+    #folding-btn--heating:checked ~ .gallery__frame > .folded,
+    #folding-btn--gardening:checked ~ .gallery__frame > .folded,
+    #folding-btn--rendering:checked ~ .gallery__frame > .folded,
+    #folding-btn--driveways:checked ~ .gallery__frame > .folded  {
+    display: block;
+    }
+
+
+
+/* -- Navbar Properties -- */
     /* Hamburger menu and sliding sidebar (Code implemented following the tutorial from Web Dev Simplified and Codehal (c) - readme > credits) */
 
         @media (max-width:700px) {
@@ -789,6 +817,21 @@ textarea:focus {
         }
     }
 
+/* -- Brak Points -- */
+
+
+@media (min-width:420px) {
+    
+    .btn--toggle-img { 
+        display: none;
+    }
+
+    .folded {
+        display: block;
+    }
+
+}
+
 /* Large Screen Layout Properties */
 @media (min-width:700px) {
 
@@ -867,4 +910,6 @@ textarea:focus {
         max-width: 38ch;
     }
 }
+
+
 
