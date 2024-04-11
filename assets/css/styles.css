@@ -629,7 +629,7 @@ textarea:focus {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     width: 100%;
 }
 
@@ -641,7 +641,7 @@ textarea:focus {
     gap: .1rem;
     width: 2rem;
     height: 1.5rem;
-    background-color: var(--theme-color-dark-alt);
+    background-color: #ffffff00;
     position: relative;
 }
 
