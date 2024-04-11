@@ -639,26 +639,35 @@ textarea:focus {
     margin: 0 .5rem .5rem;
 }
 
+.btn--toggle-img span,
+.btn--toggle-img span::before,
+.btn--toggle-img span::after {
+    display: block;
+    background-color: #1b1b1b;
+}
+
 .hidden-checkbox {
     display: none;
-    }
-    .folded {
-    display: none;
-    }
-    #folding-btn--heating:checked ~ .gallery__frame > .folded,
-    #folding-btn--gardening:checked ~ .gallery__frame > .folded,
-    #folding-btn--rendering:checked ~ .gallery__frame > .folded,
-    #folding-btn--driveways:checked ~ .gallery__frame > .folded {
-    display: block;
-    }
+}
 
-    /* Add margin to the last 2 gallery frames (exclusding first 5) when the images are unfolded */
-    #folding-btn--heating:checked ~ .gallery__frame:nth-last-child(-n+2):not(:nth-child(-n+5)),
-    #folding-btn--gardening:checked ~ .gallery__frame:nth-last-child(-n+2):not(:nth-child(-n+5)),
-    #folding-btn--rendering:checked ~ .gallery__frame:nth-last-child(-n+2):not(:nth-child(-n+5)),
-    #folding-btn--driveways:checked ~ .gallery__frame:nth-last-child(-n+2):not(:nth-child(-n+5)) {
+.folded {
+    display: none
+}
+
+#folding-btn--heating:checked ~ .gallery__frame > .folded,
+#folding-btn--gardening:checked ~ .gallery__frame > .folded,
+#folding-btn--rendering:checked ~ .gallery__frame > .folded,
+#folding-btn--driveways:checked ~ .gallery__frame > .folded {
+    display: block;
+}
+
+/* Add margin to the last 2 gallery frames (exclusding first 5) when the images are unfolded */
+#folding-btn--heating:checked ~ .gallery__frame:nth-last-child(-n+2):not(:nth-child(-n+5)),
+#folding-btn--gardening:checked ~ .gallery__frame:nth-last-child(-n+2):not(:nth-child(-n+5)),
+#folding-btn--rendering:checked ~ .gallery__frame:nth-last-child(-n+2):not(:nth-child(-n+5)),
+#folding-btn--driveways:checked ~ .gallery__frame:nth-last-child(-n+2):not(:nth-child(-n+5)) {
     margin-bottom: 1rem;
-    }
+}
 
 /* -- Navbar Properties -- */
     /* Hamburger menu and sliding sidebar (Code implemented following the tutorial from Web Dev Simplified and Codehal (c) - readme > credits) */
@@ -745,7 +754,6 @@ textarea:focus {
                 position: fixed;
                 top: 0;
                 right: 0;
-                transition: var(--animation-timing-sidebar);
                 transition: var(--animation-timing-sidebar);
                 transform: translateY(-110%);
                 padding-top: calc(var(--hamburger-height) + var(--hamburger-margin-top) + 1rem);
