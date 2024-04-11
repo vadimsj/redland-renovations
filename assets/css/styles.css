@@ -639,7 +639,6 @@ textarea:focus {
     margin: .5rem;
 }
 
-
 .hidden-checkbox {
     display: none;
     }
@@ -649,11 +648,17 @@ textarea:focus {
     #folding-btn--heating:checked ~ .gallery__frame > .folded,
     #folding-btn--gardening:checked ~ .gallery__frame > .folded,
     #folding-btn--rendering:checked ~ .gallery__frame > .folded,
-    #folding-btn--driveways:checked ~ .gallery__frame > .folded  {
+    #folding-btn--driveways:checked ~ .gallery__frame > .folded {
     display: block;
     }
 
-
+    /* Add margin to the last 2 gallery frames (exclusding first 5) when the images are unfolded */
+    #folding-btn--heating:checked ~ .gallery__frame:nth-last-child(-n+2):not(:nth-child(-n+5)),
+    #folding-btn--gardening:checked ~ .gallery__frame:nth-last-child(-n+2):not(:nth-child(-n+5)),
+    #folding-btn--rendering:checked ~ .gallery__frame:nth-last-child(-n+2):not(:nth-child(-n+5)),
+    #folding-btn--driveways:checked ~ .gallery__frame:nth-last-child(-n+2):not(:nth-child(-n+5)) {
+    margin-bottom: .5rem;
+    }
 
 /* -- Navbar Properties -- */
     /* Hamburger menu and sliding sidebar (Code implemented following the tutorial from Web Dev Simplified and Codehal (c) - readme > credits) */
@@ -817,7 +822,7 @@ textarea:focus {
         }
     }
 
-/* -- Brak Points -- */
+/* -- Break Points -- */
 
 
 @media (min-width:420px) {
