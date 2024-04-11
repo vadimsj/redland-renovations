@@ -444,7 +444,7 @@ textarea:focus {
 
 /* Icon Styles */
 
-.arrow-icon {
+.icon-double-arrow-right {
     transition: transform 0.3s ease;
     transform: translateY(1px);
 }
@@ -613,7 +613,7 @@ textarea:focus {
     padding-left: 1.6rem;
 }
 
-.btn--primary-cta:hover .arrow-icon {
+.btn--primary-cta:hover .icon-double-arrow-right {
     transform: translateX(5px) translateY(1px);
 }
 
