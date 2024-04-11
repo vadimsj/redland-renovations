@@ -596,7 +596,6 @@ textarea:focus {
     border: none;
     background-color: var(--theme-color-light-alt);
     border: solid 2px var(--theme-color-light-alt);
-    
     color: var(--text-color-alt);
 }
 
@@ -646,7 +645,7 @@ textarea:focus {
     background-color: #1b1b1b;
 }
 
-.hidden-checkbox {
+.fold-img {
     display: none;
 }
 
@@ -654,19 +653,14 @@ textarea:focus {
     display: none
 }
 
-#folding-btn--heating:checked ~ .gallery__frame > .folded,
-#folding-btn--gardening:checked ~ .gallery__frame > .folded,
+#folding-btn--roofing:checked ~ .gallery__frame > .folded,
 #folding-btn--rendering:checked ~ .gallery__frame > .folded,
+#folding-btn--kitchen:checked ~ .gallery__frame > .folded,
+#folding-btn--gardening:checked ~ .gallery__frame > .folded,
+#folding-btn--fencing:checked ~ .gallery__frame > .folded,
+#folding-btn--heating:checked ~ .gallery__frame > .folded,
 #folding-btn--driveways:checked ~ .gallery__frame > .folded {
     display: block;
-}
-
-/* Add margin to the last 2 gallery frames (exclusding first 5) when the images are unfolded */
-#folding-btn--heating:checked ~ .gallery__frame:nth-last-child(-n+2):not(:nth-child(-n+5)),
-#folding-btn--gardening:checked ~ .gallery__frame:nth-last-child(-n+2):not(:nth-child(-n+5)),
-#folding-btn--rendering:checked ~ .gallery__frame:nth-last-child(-n+2):not(:nth-child(-n+5)),
-#folding-btn--driveways:checked ~ .gallery__frame:nth-last-child(-n+2):not(:nth-child(-n+5)) {
-    margin-bottom: 1rem;
 }
 
 /* -- Navbar Properties -- */
@@ -832,6 +826,18 @@ textarea:focus {
 
 /* -- Break Points -- */
 
+@media (max-width:420px) {
+    /* Add margin to the last 2 gallery frames (exclusding first 5) when the images are unfolded */
+    #folding-btn--roofing:checked ~ .gallery__frame:nth-last-child(-n+2):not(:nth-child(-n+5)),
+    #folding-btn--rendering:checked ~ .gallery__frame:nth-last-child(-n+2):not(:nth-child(-n+5)),
+    #folding-btn--kitchen:checked ~ .gallery__frame:nth-last-child(-n+2):not(:nth-child(-n+5)),
+    #folding-btn--gardening:checked ~ .gallery__frame:nth-last-child(-n+2):not(:nth-child(-n+5)),
+    #folding-btn--fencing:checked ~ .gallery__frame:nth-last-child(-n+2):not(:nth-child(-n+5)),
+    #folding-btn--heating:checked ~ .gallery__frame:nth-last-child(-n+2):not(:nth-child(-n+5)),
+    #folding-btn--driveways:checked ~ .gallery__frame:nth-last-child(-n+2):not(:nth-child(-n+5)) {
+        margin-bottom: 1rem;
+    }
+}
 
 @media (min-width:420px) {
     
