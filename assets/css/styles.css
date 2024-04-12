@@ -625,7 +625,7 @@ textarea:focus {
 }
 
 /* Button toggle visibility for images */
-.button-container {
+.frame__toggle-img {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -690,23 +690,23 @@ textarea:focus {
 
 
 
-#folding-btn--roofing:checked ~ .button-container .btn--toggle-img::before,
-#folding-btn--rendering:checked ~ .button-container .btn--toggle-img::before,
-#folding-btn--kitchen:checked ~ .button-container .btn--toggle-img::before,
-#folding-btn--gardening:checked ~ .button-container .btn--toggle-img::before,
-#folding-btn--fencing:checked ~ .button-container .btn--toggle-img::before,
-#folding-btn--heating:checked ~ .button-container .btn--toggle-img::before,
-#folding-btn--driveways:checked ~ .button-container .btn--toggle-img::before {
+#folding-btn--roofing:checked ~ .frame__toggle-img .btn--toggle-img::before,
+#folding-btn--rendering:checked ~ .frame__toggle-img .btn--toggle-img::before,
+#folding-btn--kitchen:checked ~ .frame__toggle-img .btn--toggle-img::before,
+#folding-btn--gardening:checked ~ .frame__toggle-img .btn--toggle-img::before,
+#folding-btn--fencing:checked ~ .frame__toggle-img .btn--toggle-img::before,
+#folding-btn--heating:checked ~ .frame__toggle-img .btn--toggle-img::before,
+#folding-btn--driveways:checked ~ .frame__toggle-img .btn--toggle-img::before {
     display: none;
 }
 
-#folding-btn--roofing:checked ~ .button-container .btn--toggle-img::after,
-#folding-btn--rendering:checked ~ .button-container .btn--toggle-img::after,
-#folding-btn--kitchen:checked ~ .button-container .btn--toggle-img::after,
-#folding-btn--gardening:checked ~ .button-container .btn--toggle-img::after,
-#folding-btn--fencing:checked ~ .button-container .btn--toggle-img::after,
-#folding-btn--heating:checked ~ .button-container .btn--toggle-img::after,
-#folding-btn--driveways:checked ~ .button-container .btn--toggle-img::after {
+#folding-btn--roofing:checked ~ .frame__toggle-img .btn--toggle-img::after,
+#folding-btn--rendering:checked ~ .frame__toggle-img .btn--toggle-img::after,
+#folding-btn--kitchen:checked ~ .frame__toggle-img .btn--toggle-img::after,
+#folding-btn--gardening:checked ~ .frame__toggle-img .btn--toggle-img::after,
+#folding-btn--fencing:checked ~ .frame__toggle-img .btn--toggle-img::after,
+#folding-btn--heating:checked ~ .frame__toggle-img .btn--toggle-img::after,
+#folding-btn--driveways:checked ~ .frame__toggle-img .btn--toggle-img::after {
     display: block;
 }
 
