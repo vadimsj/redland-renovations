@@ -27,7 +27,7 @@
     --font-weight-regular: 400;
     --font-weight-bold: 600;
     --line-height: 1.6;
-    --line-height-xl: 2;
+    --line-height-s: 1.4;
     --letter-spacing: .6px;
 
     /* Navigation variables */
@@ -188,12 +188,12 @@ body {
     background-color: var(--theme-color-dark);
 }
 
-.section__services > h2 {
-    margin: 1.5rem;
+.section__services h2 {
+    margin: 1rem;
 }
 
 .section__services .frame > ul {
-    margin: 1rem;
+    margin: 0 1rem;
 }
 
 /* Gallery Page Styles */
@@ -389,7 +389,13 @@ label {
 }
 
 ul {
-    line-height: var(--line-height-xl);
+    line-height: var(--line-height-s);
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-bottom: 1rem;
 }
 
 /* Link Styles */
