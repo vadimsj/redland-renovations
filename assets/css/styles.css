@@ -53,7 +53,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    scroll-margin-top: 3rem;
+    scroll-margin-top: 3.5rem;
     -webkit-tap-highlight-color: transparent;
 }
 
@@ -667,7 +667,7 @@ textarea:focus {
     font-weight: var(--font-weight-regular);
 }
 
-/* Button toggle visibility for images */
+/* Button to toggle visibility for images */
 .frame__toggle-img {
     display: flex;
     flex-direction: row;
@@ -723,8 +723,6 @@ textarea:focus {
     transition: transform 1s ease-in-out;
 }
 
-
-
 .gallery__frame:has(.folded) {
         display: none;
 }
@@ -752,10 +750,6 @@ textarea:focus {
     }
 
 }
-
-
-
-
 
 /* Reveal folded images  */
 #folding-btn--roofing:checked ~ .gallery-grid .gallery__frame:has(.folded),

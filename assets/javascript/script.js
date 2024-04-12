@@ -149,11 +149,11 @@ function hideOnScroll(selector, thresholdPercentage) {
 }
 
 // Call the function with different selectors for each element and threshold percentages
-hideOnScroll(".main-headline", 0.65); // Example threshold percentage: 65%
-hideOnScroll(".hero-img", 0.65); // Example threshold percentage: 65%
+hideOnScroll(".main-headline", 0.80); // Example threshold percentage: 65%
+hideOnScroll(".hero-img", 0.75); // Example threshold percentage: 65%
 hideOnScroll(".headline-services", 0.65); // Example threshold percentage: 35%
 hideOnScroll(".frame__cta-bar", 0.85); 
-hideOnScroll(".headline-roofing", 0.7);
+hideOnScroll(".headline-roofing", 0.85);
 hideOnScroll(".headline-rendering", 0.7);
 hideOnScroll(".headline-kitchen", 0.7);
 hideOnScroll(".headline-gardening", 0.7);
@@ -161,6 +161,6 @@ hideOnScroll(".headline-fencing", 0.7);
 hideOnScroll(".headline-heating", 0.7);
 hideOnScroll(".headline-driveways", 0.7);
 hideOnScroll(".frame__usp-bar", 0.85); 
-hideOnScroll(".frame__about-us", 0.75);
+hideOnScroll(".frame__about-us", 0.85);
 hideOnScroll(".frame__toggle-img", 0.85);
 
