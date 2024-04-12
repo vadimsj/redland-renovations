@@ -114,41 +114,53 @@ function changeThemeColor() {
 // Call the function to initiate the event listener
 changeThemeColor();
 
+
 /* -- Function to hide elements on scroll -- */
 function hideOnScroll(selector, thresholdPercentage) {
-    // Select the element
-    const element = document.querySelector(selector);
+    // Select all elements that match the selector
+    const elements = document.querySelectorAll(selector);
 
-    // Define the scroll event listener
-    window.addEventListener("scroll", () => {
-        // Get the top and bottom positions of the viewport
-        const viewportTop = window.scrollY + 3 * parseFloat(getComputedStyle(document.documentElement).fontSize); // 3rem from the top to account for navbar
-        const viewportBottom = viewportTop + window.innerHeight;
+    // Loop through each element
+    elements.forEach(element => {
+        // Define the scroll event listener for each element
+        window.addEventListener("scroll", () => {
+            // Get the top and bottom positions of the viewport
+            const viewportTop = window.scrollY + 3 * parseFloat(getComputedStyle(document.documentElement).fontSize); // 3rem from the top to account for navbar
+            const viewportBottom = viewportTop + window.innerHeight;
 
-        // Get the top and bottom positions of the element relative to the viewport
-        const bounding = element.getBoundingClientRect();
-        const elementTop = bounding.top + window.scrollY;
-        const elementBottom = elementTop + bounding.height;
+            // Get the top and bottom positions of the element relative to the viewport
+            const bounding = element.getBoundingClientRect();
+            const elementTop = bounding.top + window.scrollY;
+            const elementBottom = elementTop + bounding.height;
 
-        // Calculate the threshold for fading out the element based on the provided percentage
-        const threshold = viewportBottom - ((viewportBottom - viewportTop) * thresholdPercentage);
+            // Calculate the threshold for fading out the element based on the provided percentage
+            const threshold = viewportBottom - ((viewportBottom - viewportTop) * thresholdPercentage);
 
-        // Check if the element is below the threshold
-        if (elementBottom < threshold) {
-            // Add the fade-out class to trigger the opacity transition
-            element.classList.add("fade-out");
-        } else {
-            // Remove the fade-out class to reset the opacity
-            element.classList.remove("fade-out");
-        }
+            // Check if the element is below the threshold
+            if (elementBottom < threshold) {
+                // Add the fade-out class to trigger the opacity transition
+                element.classList.add("fade-out");
+            } else {
+                // Remove the fade-out class to reset the opacity
+                element.classList.remove("fade-out");
+            }
+        });
     });
 }
 
 // Call the function with different selectors for each element and threshold percentages
 hideOnScroll(".main-headline", 0.65); // Example threshold percentage: 65%
 hideOnScroll(".hero-img", 0.65); // Example threshold percentage: 65%
-hideOnScroll(".fading65", 0.65); // Example threshold percentage: 35%
-hideOnScroll(".frame__about-us", 0.75); 
+hideOnScroll(".headline-services", 0.65); // Example threshold percentage: 35%
 hideOnScroll(".frame__cta-bar", 0.85); 
+hideOnScroll(".headline-roofing", 0.7);
+hideOnScroll(".headline-rendering", 0.7);
+hideOnScroll(".headline-kitchen", 0.7);
+hideOnScroll(".headline-gardening", 0.7);
+hideOnScroll(".headline-fencing", 0.7);
+hideOnScroll(".headline-heating", 0.7);
+hideOnScroll(".headline-driveways", 0.7);
 hideOnScroll(".frame__usp-bar", 0.85); 
+hideOnScroll(".frame__about-us", 0.75);
+hideOnScroll(".btn--toggle-img", 0.85);
 
