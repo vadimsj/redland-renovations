@@ -634,15 +634,18 @@ textarea:focus {
 }
 
 .btn--toggle-img {
-    border: none;
-    margin: 0 1rem .5rem;
     display: flex;
     flex-direction: column;
-    gap: .1rem;
-    width: 2rem;
-    height: 1.5rem;
-    background-color: #ffffff00;
     position: relative;
+    margin: 0 1rem .5rem;
+    padding: 1em;
+    gap: .1rem;
+    width: 1.5em;
+    height: 1.5em;
+    background-color: #1b1b1b;
+    border: none;
+    border-radius: 50%;
+    
 }
 
 .btn--toggle-img::before {
