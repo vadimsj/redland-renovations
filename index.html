@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Browser Meta Data -->
+<!-- Browser meta data -->
 <meta name="author" content="vadimsj.eth">
 <meta charset="UTF-8">
 <meta name="description" content="Redland Renovations offers expert property renovation services in Bristol. From groundworks to roofing, we do it all. Call us for a free consultation!">
@@ -12,11 +12,11 @@
 <link rel="apple-touch-icon" href="./assets/images/icons/touch.png">
 <!-- PWA Manifest -->
 <link rel="manifest" href="manifest.json">
-<!-- Display properties -->
+<!-- iOS display properties -->
 <meta name="theme-color" content="#fff"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<!-- Hero Image preload -->
+<!-- Hero image preload -->
 <link rel="preload" href="./assets/images/hero/hero-950.webp" as="image" type="image/webp" fetchpriority="high">
 <!-- Styles and fonts -->
 <link rel="preload" href="./assets/css/fonts.css" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
@@ -28,42 +28,45 @@
 <body>
 <!-- Header -->
 <header class="header">
-    <!-- Logo Home button -->
-        <a class="wrapper--logo-btn" href="#home" title="Go to Home page" aria-label="Go to Home page">
-         <img src="./assets/images/icons/logo-full.svg"
-              width="350"
-              height="81" 
-              alt="Redland Renovations full scale logo" 
-              class="logo logo--header-logo hidden" 
-              fetchpriority="high">
-        </a>
-    
-    <!-- Hamburger menu (Code implemented following the Web Dev Simplified and Codehal tutorial ((c) - readme -> credits)) -->
-        <label class="hamburger-menu" title="Open/Close Menu" aria-label="Hamburger Menu">
-            <input type="checkbox"/>
-        </label>
 
-        <div class="sidebar">
-        <nav class="nav">
-            <div class="navbar-link"><a href="#services" title="Go to Services page" aria-label="Go to Services page" style="--i:0" >Services</a></div>
-            <div class="navbar-link"><a href="#gallery" title="Go to Gallery page" aria-label="Go to Gallery page" style="--i:1">Gallery</a></div>
-            <div class="navbar-link"><a href="#about-us" title="Go to About us page" aria-label="Go to About us page" style="--i:2">About us</a></div>
-            <div class="navbar-link"><a href="#contact-us" title="Go to Contact us page" aria-label="Go to Contact us page" style="--i:3">Contact</a></div>
-        </nav>
-    </div>
+    <!-- Logo / Home button -->
+    <a class="wrapper--logo-btn" href="#home" title="Go to Home page" aria-label="Go to Home page">
+    <img src="./assets/images/icons/logo-full.svg"
+         width="350"
+         height="81" 
+         alt="Redland Renovations full scale logo" 
+         class="logo logo--header-logo hidden" 
+         fetchpriority="high"></a>
+
+    <!-- Hamburger menu (Code implemented following the Web Dev Simplified and Codehal tutorials ((c) - readme -> credits)) -->
+     <label class="hamburger-menu" title="Open/Close Menu" aria-label="Hamburger Menu">
+         <input type="checkbox"/>
+     </label>
+
+    <!-- Navigation links -->
+     <div class="sidebar">
+     <nav class="nav">
+         <div class="navbar-link"><a href="#services" title="Go to Services page" aria-label="Go to Services page" style="--i:0" >Services</a></div>
+         <div class="navbar-link"><a href="#gallery" title="Go to Gallery page" aria-label="Go to Gallery page" style="--i:1">Gallery</a></div>
+         <div class="navbar-link"><a href="#about-us" title="Go to About us page" aria-label="Go to About us page" style="--i:2">About us</a></div>
+         <div class="navbar-link"><a href="#contact-us" title="Go to Contact us page" aria-label="Go to Contact us page" style="--i:3">Contact</a></div>
+     </nav>
+     </div>
     <!-- *** -->
+
 </header>
 
 <!-- Home Page -->
 <main class="section section__home" id="home">
-    <div class="home__frame hidden">
 
     <!-- Main Headline -->
+    <div class="home__frame hidden">
     <article class="main-headline">
         <h1><span class="span--nobreak">Property renovations</span>
             <br>
             <span class="span--nobreak">in Bristol</span></h1>
         <p>We undertake various renovation projects in Bristol and surrounding areas, and have extensive experience in property refurbishment from groundworks to roofing and everything<span class="span--nobreak"> in-between.</span></p>
+        
         <!-- Call to action button -->
         <a href="#contact-us" 
            class="btn btn--primary-cta hidden" 
@@ -74,8 +77,7 @@
                 class="icon-double-arrow-right"
                 width="18"
                 height="14"
-                alt=""></span>
-        </a>
+                alt=""></span></a>
     </article>
     </div>
     
@@ -92,12 +94,17 @@
              fetchpriority="high" 
              alt="Renovated house in Redland, Bristol">
     </div>
+
 </main>
 
 <!-- Services Section -->
 <section class="section section__services" id="services">
+
+    <!-- Headline -->
    <div class="frame hidden headline-services">
     <h2>Services provided</h2> 
+
+    <!-- Services list -->
     <ul>
        <li>Property renovation</li>
        <li>Groundworks and drainage</li>
@@ -114,6 +121,7 @@
        <li>Electrical works</li>
     </ul>
    </div>
+
 </section>
 
 <!-- Call to Action bar -->
@@ -127,13 +135,14 @@
 
 <!-- Gallery Section Roofing -->
 <section class="section section__gallery" id="gallery">
+
     <!-- Gallery headline -->
     <div class="frame hidden headline-roofing">
-     <h2>Roofing & loft extensions</h2>
-     <p>We cover all aspects of roofing including loft-extensions, flat roofs, rebuilds, <span class="span--nobreak">re-tiling and also fascias,</span> lead work, soffits and guttering.</p>
+        <h2>Roofing & loft extensions</h2>
+        <p>We cover all aspects of roofing including loft-extensions, flat roofs, rebuilds, <span class="span--nobreak">re-tiling and also fascias,</span> lead work, soffits and guttering.</p>
     </div>
 
-    <!-- Label for button to toggle visibility of additional images  -->     
+    <!-- Input for button to toggle visibility of additional images  -->     
     <input type="checkbox" id="folding-btn--roofing" class="fold-img">
 
     <!-- Gallery images -->
@@ -167,21 +176,23 @@
         </div>
    </div>
 
-       <!-- Button to toggle visibility of additional images -->
-       <div class="frame__toggle-img">
+    <!-- Button to toggle visibility of additional images -->
+    <div class="frame__toggle-img">
         <label for="folding-btn--roofing" class="btn btn--toggle-img revealed" title="Show more/less photos"><span></span></label>
     </div>
+
 </section>
 
 <!-- Gallery Section Rendering -->
 <section class="section section__gallery">
+
     <!-- Gallery headline -->
    <div class="frame hidden headline-rendering">
-    <h2>Plastering, rendering, insulation & stonemasonry</h2>
-    <p>Plastering, insulation, all types of external rendering and stonework.</p>
+        <h2>Plastering, rendering, insulation & stonemasonry</h2>
+        <p>Plastering, insulation, all types of external rendering and stonework.</p>
    </div>
    
-    <!-- Label for button to toggle visibility of additional images  -->     
+    <!-- Input for button to toggle visibility of additional images  -->     
     <input type="checkbox" id="folding-btn--rendering" class="fold-img">
 
    <!-- Gallery images -->
@@ -219,17 +230,19 @@
     <div class="frame__toggle-img">
         <label for="folding-btn--rendering" class="btn btn--toggle-img revealed" title="Show more/less photos"><span></span></label>
     </div>
+
 </section>
 
 <!-- Gallery Section Kitchen -->
 <section class="section section__gallery">
+
     <!-- Gallery headline -->
    <div class="frame hidden headline-kitchen">
     <h2>Kitchen installations</h2>
     <p>Our experienced carpenters can remodel or replace your existing kitchen, or build you a brand new one.</p>
    </div>
 
-    <!-- Label for button to toggle visibility of additional images  -->        
+    <!-- Input for button to toggle visibility of additional images  -->        
     <input type="checkbox" id="folding-btn--kitchen" class="fold-img">
 
    <!-- Gallery images -->
@@ -267,17 +280,19 @@
     <div class="frame__toggle-img">
         <label for="folding-btn--kitchen" class="btn btn--toggle-img revealed" title="Show more/less photos"><span></span></label>
     </div>
+
 </section>
 
 <!-- Gallery Section Gardening -->
 <section class="section section__gallery">
+
     <!-- Gallery headline -->
    <div class="frame hidden headline-gardening">
-    <h2>Gardening work</h2>
-    <p>Garden works, tree surgery, new turf laid, fencing & decking, flower beds, etc.</p>
+        <h2>Gardening work</h2>
+        <p>Garden works, tree surgery, new turf laid, fencing & decking, flower beds, etc.</p>
    </div>
 
-   <!-- Label for button to toggle visibility of additional images  -->     
+   <!-- Input for button to toggle visibility of additional images  -->     
    <input type="checkbox" id="folding-btn--gardening" class="fold-img">
 
    <!-- Gallery images -->
@@ -315,17 +330,19 @@
     <div class="frame__toggle-img">
         <label for="folding-btn--gardening" class="btn btn--toggle-img revealed" title="Show more/less photos"><span></span></label>
     </div>
+
 </section>
 
 <!-- Gallery Section Fencing -->
 <section class="section section__gallery">
+
     <!-- Gallery headline -->
    <div class="frame hidden headline-fencing">
-    <h2>Fencing & stone/brick wall</h2>
-    <p>All types of fencing and external wall work undertaken.</p>
+        <h2>Fencing & stone/brick wall</h2>
+        <p>All types of fencing and external wall work undertaken.</p>
    </div>
    
-    <!-- Label for button to toggle visibility of additional images  -->     
+    <!-- Input for button to toggle visibility of additional images  -->     
     <input type="checkbox" id="folding-btn--fencing" class="fold-img">
 
     <!-- Gallery images -->
@@ -363,17 +380,19 @@
     <div class="frame__toggle-img">
         <label for="folding-btn--fencing" class="btn btn--toggle-img revealed" title="Show more/less photos"><span></span></label>
     </div>
+
 </section>
 
 <!-- Gallery Section Heating -->
 <section class="section section__gallery">
+
     <!-- Gallery headline -->
    <div class="frame hidden headline-heating">
     <h2>Heating systems</h2>
-    <p>All heating systems including central heating, boiler install/service, underfloor heating and heat pumps.</p>
+        <p>All heating systems including central heating, boiler install/service, underfloor heating and heat pumps.</p>
    </div>
    
-   <!-- Label for button to toggle visibility of additional images  -->     
+   <!-- Input for button to toggle visibility of additional images  -->     
    <input type="checkbox" id="folding-btn--heating" class="fold-img">
 
     <!-- Gallery images -->
@@ -411,17 +430,19 @@
     <div class="frame__toggle-img">
         <label for="folding-btn--heating" class="btn btn--toggle-img revealed" title="Show more/less photos"><span></span></label>
     </div>
+
 </section>
 
 <!-- Gallery Section Driveways -->
 <section class="section section__gallery">
+
     <!-- Gallery headline -->
    <div class="frame hidden headline-driveways">
-    <h2>Driveways, patios & decking</h2>
-    <p>All types of groundworks, drainage, patio, driveways, decking and garden furniture.</p>
+        <h2>Driveways, patios & decking</h2>
+        <p>All types of groundworks, drainage, patio, driveways, decking and garden furniture.</p>
    </div>
 
-   <!-- Label for button to toggle visibility of additional images  -->     
+   <!-- Input for button to toggle visibility of additional images  -->     
    <input type="checkbox" id="folding-btn--driveways" class="fold-img">
 
     <!-- Gallery images -->
@@ -459,57 +480,68 @@
     <div class="frame__toggle-img">
         <label for="folding-btn--driveways" class="btn btn--toggle-img revealed" title="Show more/less photos"><span></span></label>
     </div>
+
 </section>
 
 <!-- About us section -->
 <section class="section section__about-us" id="about-us">
    <div class="frame frame__about-us hidden">
-    <h2>About us</h2>
-    <p>Redland Renovations is a Bristol-based company providing high-quality property renovation and building works. With years of experience and a commitment to excellence, we are your go-to choice for all your property needs.</p>
+        <h2>About us</h2>
+        <p>Redland Renovations is a Bristol-based company providing high-quality property renovation and building works. With years of experience and a commitment to excellence, we are your go-to choice for all your property needs.</p>
    </div>
 </section>
 
 <!-- Unique selling proposition bar -->
 <aside class="aside scroll-reveal">
     <div class="frame__usp-bar">
-    <h3 class="hidden"><span class="line-reveal">Over 20 years of experience in transforming homes and living spaces</span></h3>
+        <h3 class="hidden"><span class="line-reveal">Over 20 years of experience in transforming homes and living spaces</span></h3>
     </div>
 </aside>
 
 <!-- Contact us section -->
 <section class="section section__contact-us" id="contact-us">
-   <div class="frame hidden">
-    <h2>Contact us</h2>
-    <h3 class="revealed" >Telephone Scott on <a href="tel:+447976007007" title="Call 07976 007 007" aria-label="Call 07976007007"><span class="span--nobreak"> 07976 007 007</span></a> or email <a href="mailto:info@redlandrenovations.co.uk" title="Email to info@redlandrenovations.co.uk" aria-label="Email to info@redlandrenovations.co.uk">info@redlandrenovations.co.uk</a></h3>
+    <div class="frame hidden">
 
-    <!-- Contact us form -->
-    <form action="thank-you.html" method="get" class="contact-us__form hidden" id="contact-form" aria-label="Contact Form">
-        <label for="name">Name:</label>
-        <input type="text" title="Enter your name, only letters can be used in this field" id="name" name="name" pattern="[^\d]+( [^\d]+)*" aria-label="Your Name" required>
+        <!-- Contact us headline -->
+        <h2>Contact us</h2>
+        <h3 class="revealed" >Telephone Scott on <a href="tel:+447976007007" title="Call 07976 007 007" aria-label="Call 07976007007"><span class="span--nobreak"> 07976 007 007</span></a> or email <a href="mailto:info@redlandrenovations.co.uk" title="Email to info@redlandrenovations.co.uk" aria-label="Email to info@redlandrenovations.co.uk">info@redlandrenovations.co.uk</a></h3>
 
-        <label for="email">Email:</label>
-        <input type="email" title="Enter a valid email address" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" oninput="toggleRequiredFields()" aria-label="Enter your Email" required>
+        <!-- Contact us form -->
+        <form action="thank-you.html" method="get" class="contact-us__form hidden" id="contact-form" aria-label="Contact Form">
+            <label for="name">Name:</label>
+            <input type="text" title="Enter your name, only letters can be used in this field" id="name" name="name" pattern="[^\d]+( [^\d]+)*" aria-label="Your Name" required>
 
-        <label for="telephone">Telephone:</label>
-        <input type="tel" title="Enter your telephone number, only numbers can be used in this field" id="telephone" name="telephone" pattern="[0-9+]+" oninput="toggleRequiredFields(); formatPhoneNumber()" aria-label="Enter your Telephone" required>
+            <label for="email">Email:</label>
+            <input type="email" title="Enter a valid email address" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" oninput="toggleRequiredFields()" aria-label="Enter your Email" required>
 
-        <label for="message">Message:</label>
-        <textarea id="message" title="Enter your message" name="message" aria-label="Enter your Message" required></textarea>
+            <label for="telephone">Telephone:</label>
+            <input type="tel" title="Enter your telephone number, only numbers can be used in this field" id="telephone" name="telephone" pattern="[0-9+]+" oninput="toggleRequiredFields(); formatPhoneNumber()" aria-label="Enter your Telephone" required>
 
-        <input type="submit" value="Send Request" class="btn btn--submit-msg  revealed" title="Submit Message" aria-label="Submit Message">
-    </form>
-   </div>
+            <label for="message">Message:</label>
+            <textarea id="message" title="Enter your message" name="message" aria-label="Enter your Message" required></textarea>
+
+            <input type="submit" value="Send Request" class="btn btn--submit-msg  revealed" title="Submit Message" aria-label="Submit Message">
+        </form>
+
+    </div>
 </section>
 
 <!-- Footer -->
 <footer class="footer">
+
+    <!-- Footer logo -->
     <img src="./assets/images/icons/logo-mini.svg"
          width="25"
          height="25" 
          alt="Redland Renovations mini logo" 
          class="logo logo--footer-logo">
+
+    <!-- Footer paragraph -->    
     <p><span class="span--nobreak">8 Auburn Road, Redland,</span> <span class="span--nobreak">Bristol, BS6 6LS, United Kingdom</span></p>
+
+    <!-- Copyright -->
     <p><span class="span--nobreak">Copyright © 2024 Redland Renovations. All rights reserved.</span></p>
+    
 </footer>
 </body>
 </html>
