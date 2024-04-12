@@ -725,9 +725,9 @@ textarea:focus {
 #folding-btn--rendering:checked ~ .gallery-grid .gallery__frame:has(.folded),
 #folding-btn--kitchen:checked ~ .gallery-grid .gallery__frame:has(.folded),
 #folding-btn--gardening:checked ~ .gallery-grid .gallery__frame:has(.folded),
-#folding-btn--fencing:checked ~ .gallery__frame:has(.folded),
-#folding-btn--heating:checked ~ .gallery__frame:has(.folded),
-#folding-btn--driveways:checked ~ .gallery__frame:has(.folded) {
+#folding-btn--fencing:checked ~ .gallery-grid .gallery__frame:has(.folded),
+#folding-btn--heating:checked ~ .gallery-grid .gallery__frame:has(.folded),
+#folding-btn--driveways:checked ~ .gallery-grid .gallery__frame:has(.folded) {
     display: block;
 }
 
