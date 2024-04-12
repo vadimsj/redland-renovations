@@ -222,10 +222,6 @@ body {
     grid-column: span 2;
 }
 
-.gallery__frame:has(.folded) {
-    display: none;
-}
-
 .img {
     height: 100%;
     width: 100%;
@@ -727,6 +723,41 @@ textarea:focus {
     transition: transform 1s ease-in-out;
 }
 
+
+
+.gallery__frame:has(.folded) {
+        display: none;
+}
+
+    
+@media (min-width:420px) {
+    
+    .folded {
+        display: block;
+        transform: scale(1, 1);
+    }
+
+    .gallery-grid > :nth-child(6) {
+        display: block;
+    }
+}
+
+@media (min-width:875px) {
+    .gallery__frame:has(.folded) {
+        display: block;
+    }
+
+    .btn--toggle-img {
+        display: none;
+    }
+
+}
+
+
+
+
+
+/* Reveal folded images  */
 #folding-btn--roofing:checked ~ .gallery-grid .gallery__frame:has(.folded),
 #folding-btn--rendering:checked ~ .gallery-grid .gallery__frame:has(.folded),
 #folding-btn--kitchen:checked ~ .gallery-grid .gallery__frame:has(.folded),
@@ -737,6 +768,8 @@ textarea:focus {
     display: block;
 }
 
+
+/* Transform scale of the revealed images */
 #folding-btn--roofing:checked ~ .gallery-grid .gallery__frame > .folded,
 #folding-btn--rendering:checked ~ .gallery-grid .gallery__frame > .folded,
 #folding-btn--kitchen:checked ~ .gallery-grid .gallery__frame > .folded,
@@ -747,6 +780,7 @@ textarea:focus {
     transform: scale(1, 1);
 }
 
+/* Toggle image button icon folded */
 #folding-btn--roofing:checked ~ .frame__toggle-img .btn--toggle-img::before,
 #folding-btn--rendering:checked ~ .frame__toggle-img .btn--toggle-img::before,
 #folding-btn--kitchen:checked ~ .frame__toggle-img .btn--toggle-img::before,
@@ -757,6 +791,8 @@ textarea:focus {
     display: none;
 }
 
+
+/* Toggle image button icon unfolded */
 #folding-btn--roofing:checked ~ .frame__toggle-img .btn--toggle-img::after,
 #folding-btn--rendering:checked ~ .frame__toggle-img .btn--toggle-img::after,
 #folding-btn--kitchen:checked ~ .frame__toggle-img .btn--toggle-img::after,
@@ -931,17 +967,6 @@ textarea:focus {
 
 /* -- Break Points -- */
 
-@media (min-width:420px) {
-    
-    .btn--toggle-img { 
-        display: none;
-    }
-
-    .folded {
-        display: block;
-    }
-
-}
 
 /* Large Screen Layout Properties */
 @media (min-width:700px) {
