@@ -496,7 +496,7 @@ textarea:focus {
        .revealed {
            animation: CSSscrollReveal ease-in both;
            animation-timeline: view();
-           animation-range: entry 50% cover 20%;
+           animation-range: entry 50% cover 17.5%;
            transition: all 1.5s;
         }
 
@@ -565,6 +565,25 @@ textarea:focus {
                 transform: translateY(0);
             }
         }
+
+        .btn--toggle-img {
+            animation: CSSscrollReveal ease-in both;
+            animation-timeline: view();
+            animation-range: entry 50% cover 10%;
+            transition: all 1.5s;
+         }
+      
+        @keyframes CSSscrollReveal {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
     /* -- */
 
 /* - Text line reveal effect (Code implemented following the tutorial from Kevin Powell ((c) - readme > credits) - */
