@@ -931,8 +931,8 @@ textarea:focus {
 
         .gallery-grid > :nth-child(6) {
             display: block;
-        }
-    } /* Set the image #6 in the gallery visible for the tablet layout */ 
+        } /* Set the image #6 in the gallery visible for the tablet layout */ 
+    } 
 
 @media (min-width:700px) {
 
@@ -954,6 +954,7 @@ textarea:focus {
 }
 
 @media (min-width:875px) {
+    
     .gallery-grid {
         grid-template-columns: repeat(6, minmax(8rem, 1fr));
     } /* Grid that arranges the flow of the images in the gallery section, restricting the number of columns to 6 */
