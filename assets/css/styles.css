@@ -626,7 +626,7 @@ textarea:focus {
 }
 
 /* --- Buttons -- */
-
+/* Global button styles */
 .btn { 
     display: inline-block;
     margin: 1rem;
@@ -649,6 +649,7 @@ textarea:focus {
     border-color: var(--theme-color-light-alt);
 }
 
+/* Primary call-to-action button */
 .btn--primary-cta {
     padding-left: 1.6rem;
 }
@@ -657,6 +658,7 @@ textarea:focus {
     transform: translateX(5px) translateY(1px);
 }
 
+/* Submit message in the form button */
 .btn--submit-msg {
     width: auto;
     padding: .6rem 1.25rem;
@@ -665,7 +667,6 @@ textarea:focus {
 }
 
 /* Button to toggle visibility for images */
-
 .section__gallery input[type="checkbox"] {
     display: none;
 }
@@ -931,7 +932,7 @@ textarea:focus {
         .gallery-grid > :nth-child(6) {
             display: block;
         }
-    } /* Set image #6 in the gallery visible for the tablet layout */ 
+    } /* Set the image #6 in the gallery visible for the tablet layout */ 
 
 @media (min-width:700px) {
 
@@ -959,7 +960,7 @@ textarea:focus {
 
     .gallery__frame:has(.folded) {
         display: block;
-    } /* Set all images in the gallery visible for the desktop layout */
+    } /* Set all images in the gallery visible for the large/desktop layout */
 
     .btn--toggle-img {
         display: none;
@@ -974,7 +975,7 @@ textarea:focus {
         justify-content:space-between;
         align-items: center;
         padding: 0;
-    } /* Set the horizontal layout of the home page on the desktop screen */
+    } /* Set the home page to horizontal on the large/desktop screen */
     
     .logo--header-logo {
         width: 12rem;
