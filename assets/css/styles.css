@@ -256,7 +256,6 @@ body {
     flex-direction: column;
     align-items: center;
     border-width: 3px;
-    max-width: 70ch;
 }
 
 .section__contact-us .frame > h2 {
@@ -335,6 +334,7 @@ h5 {
     text-wrap: balance;
     text-align: center;
     letter-spacing: var(--letter-spacing);
+    max-width: 415px;
 }
 
 h3,
