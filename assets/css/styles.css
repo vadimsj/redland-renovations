@@ -742,7 +742,7 @@ textarea:focus {
     display: block;
 }
 
-/* Transform scale of the revealed images on click */
+/* Transform the scale of the revealed images on click */
 #folding-btn--roofing:checked ~ .gallery-grid .gallery__frame > .folded,
 #folding-btn--rendering:checked ~ .gallery-grid .gallery__frame > .folded,
 #folding-btn--kitchen:checked ~ .gallery-grid .gallery__frame > .folded,
@@ -778,6 +778,7 @@ textarea:focus {
 
 
 /* -- Navbar Properties -- */
+
     /* Hamburger menu and sliding sidebar (Code implemented following the tutorial from Web Dev Simplified and Codehal (c) - readme > credits) */
         @media (max-width:700px) {
             /* Hamburger Menu properties  */
@@ -914,37 +915,35 @@ textarea:focus {
         }
     /* --- */
 
-    /* Large screen Header and Navbar properties */
-    @media (min-width:700px) {
+/* Large screen Header and Navbar properties */
+@media (min-width:700px) {
 
-        .hamburger-menu {
-            display: none;
-        }
-
-        .nav {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-        }
-
-        .header {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-        }
-
-        .navbar-link {
-            margin: 0 2rem;
-        }
+    .hamburger-menu {
+        display: none;
     }
+
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .navbar-link {
+        margin: 0 2rem;
+    }
+}
 
 /* -- Break Points -- */
 
-
-
 @media (min-width:420px) {
 
-        /* Set image #6 in gallery visible */ 
+        /* Set image #6 in the gallery visible for the tablet layout */ 
         .gallery-grid > :nth-child(6) {
             display: block;
         }
@@ -977,7 +976,7 @@ textarea:focus {
         grid-template-columns: repeat(6, minmax(8rem, 1fr));
     } 
 
-    /* Set all images in the gallery visible */
+    /* Set all images in the gallery visible for the desktop layout */
     .gallery__frame:has(.folded) {
         display: block;
     }
@@ -989,7 +988,8 @@ textarea:focus {
 }
 
 @media (min-width:980px) {
-
+    
+    /* Change the layout for the home page on the desktop screen */
     .section__home {
         flex-direction: row;
         justify-content:space-between;
