@@ -938,6 +938,10 @@ textarea:focus {
         } /* Set the image #6 in the gallery visible for the tablet layout */ 
     } 
 
+    li {
+        margin-bottom: 1.5rem;
+    }
+
 @media (min-width:700px) {
 
     .section {
