@@ -928,6 +928,10 @@ textarea:focus {
 /* -- Break Points -- */
 
 @media (min-width:420px) {
+
+        .section__home {
+            padding-bottom: 1rem;
+        }
     
         .hero-img {
             max-width: 500px;
@@ -945,7 +949,7 @@ textarea:focus {
     }
 
     .section__home {
-        padding: 0.5rem 3rem;
+        padding: 1rem 3rem;
     }
 
     .section__gallery:nth-child(even) .gallery-grid {
