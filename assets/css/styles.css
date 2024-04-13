@@ -665,6 +665,15 @@ textarea:focus {
 }
 
 /* Button to toggle visibility for images */
+
+.section__gallery input[type="checkbox"] {
+    display: none;
+}
+
+.gallery__frame:has(.folded) {
+    display: none;
+}
+
 .frame__toggle-img {
     display: flex;
     flex-direction: row;
@@ -696,7 +705,7 @@ textarea:focus {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -55%);
-}
+} /* Unfolded button content */
 
 
 .btn--toggle-img::after {
@@ -708,17 +717,9 @@ textarea:focus {
     left: 50%;
     transform: translate(-50%, -62%); 
     display: none;
-}
+} /* Folded button content */
 
-.section__gallery input[type="checkbox"] {
-    display: none;
-}
 
-.gallery__frame:has(.folded) {
-    display: none;
-}
-
-/* Reveal folded images on click  */
 #folding-btn--roofing:checked ~ .gallery-grid .gallery__frame:has(.folded),
 #folding-btn--rendering:checked ~ .gallery-grid .gallery__frame:has(.folded),
 #folding-btn--kitchen:checked ~ .gallery-grid .gallery__frame:has(.folded),
@@ -727,9 +728,8 @@ textarea:focus {
 #folding-btn--heating:checked ~ .gallery-grid .gallery__frame:has(.folded),
 #folding-btn--driveways:checked ~ .gallery-grid .gallery__frame:has(.folded) {
     display: block;
-}
+} /* Reveal folded images on click  */
 
-/* Transform the scale of the revealed images on click */
 #folding-btn--roofing:checked ~ .gallery-grid .gallery__frame > .folded,
 #folding-btn--rendering:checked ~ .gallery-grid .gallery__frame > .folded,
 #folding-btn--kitchen:checked ~ .gallery-grid .gallery__frame > .folded,
@@ -738,9 +738,8 @@ textarea:focus {
 #folding-btn--heating:checked ~ .gallery-grid .gallery__frame > .folded,
 #folding-btn--driveways:checked ~ .gallery-grid .gallery__frame > .folded {
     transform: scale(1, 1);
-}
+} /* Transform the scale of the revealed images on click */
 
-/* Button icon folded */
 #folding-btn--roofing:checked ~ .frame__toggle-img .btn--toggle-img::before,
 #folding-btn--rendering:checked ~ .frame__toggle-img .btn--toggle-img::before,
 #folding-btn--kitchen:checked ~ .frame__toggle-img .btn--toggle-img::before,
@@ -749,10 +748,9 @@ textarea:focus {
 #folding-btn--heating:checked ~ .frame__toggle-img .btn--toggle-img::before,
 #folding-btn--driveways:checked ~ .frame__toggle-img .btn--toggle-img::before {
     display: none;
-}
+} /* Hide icon for the folded button */
 
 
-/* Button icon unfolded */
 #folding-btn--roofing:checked ~ .frame__toggle-img .btn--toggle-img::after,
 #folding-btn--rendering:checked ~ .frame__toggle-img .btn--toggle-img::after,
 #folding-btn--kitchen:checked ~ .frame__toggle-img .btn--toggle-img::after,
@@ -761,7 +759,7 @@ textarea:focus {
 #folding-btn--heating:checked ~ .frame__toggle-img .btn--toggle-img::after,
 #folding-btn--driveways:checked ~ .frame__toggle-img .btn--toggle-img::after {
     display: block;
-}
+} /* Display icon for the unfolded button */
 
 
 /* -- Navbar Properties -- */
