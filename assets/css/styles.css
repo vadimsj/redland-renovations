@@ -394,7 +394,7 @@ ul {
 
 li {
     display: inline-block;
-    margin-bottom: .7rem;
+    margin-bottom: 1.5rem;
 }
 
 /* Link Styles */
@@ -936,10 +936,6 @@ textarea:focus {
         .gallery-grid > :nth-child(6) {
             display: block;
         } /* Set the image #6 in the gallery visible for the tablet layout */ 
-    } 
-
-    li {
-        margin-bottom: 1.5rem;
     }
 
 @media (min-width:700px) {
