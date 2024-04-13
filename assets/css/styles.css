@@ -622,7 +622,7 @@ textarea:focus {
 .fade-out {
     opacity: 0;
     transition: opacity 0.5s ease;
-} /* Class to fade out the content from the page when its leaving the viewport */
+} /* Class to fade-out the content from the page when its leaving the viewport */
 
 @keyframes fadeOut {
     0% {
@@ -633,7 +633,7 @@ textarea:focus {
     }
 }
 
-/*  Content reveal on scroll effect (Code implemented following the tutorial from WebStylePress ((c) - readme > credits)  */
+/*  Content reveal-on-scroll effect (Code implemented following the tutorial from WebStylePress ((c) - readme > credits)  */
    h1,
    h2,
    h3,
@@ -727,7 +727,7 @@ textarea:focus {
     }
 /* -- */
 
-/* Text highlight on scroll effect (Code implemented following the tutorial from Kevin Powell ((c) - readme > credits) */
+/* Text highlight-on-scroll effect (Code implemented following the tutorial from Kevin Powell ((c) - readme > credits) */
     .scroll-reveal .line-reveal,
     .scroll-reveal .line-reveal > * {
         color: hsl(0 0% 100% / 0.2);
