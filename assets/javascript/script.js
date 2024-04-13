@@ -161,6 +161,6 @@ hideOnScroll(".headline-fencing", 0.7);
 hideOnScroll(".headline-heating", 0.7);
 hideOnScroll(".headline-driveways", 0.7);
 hideOnScroll(".frame__usp-bar", 0.85); 
-hideOnScroll(".frame__about-us", 0.85);
+hideOnScroll(".frame__about-us", 0.8);
 hideOnScroll(".frame__toggle-img", 0.85);
 

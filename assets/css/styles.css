@@ -459,11 +459,14 @@ textarea:focus {
     transform: translateY(1px);
 }
 
-/* Special Effects */
+/* -- Special effects and animations -- */
+
+/* Span used for control of the text breaking */
 .span--nobreak {
     white-space: nowrap;
 }
 
+/* Class used to set content invisible until it enters the intersection observer */
 .hidden-load,
 .hidden {
     opacity: 0;
@@ -471,15 +474,18 @@ textarea:focus {
     transition: all .5s;
 }
 
+/* Class used to set content visible as it enters the intersection observer */
 .show {
     opacity: 1;
     transform: scale(1);
 } 
 
+/* class used to zoom-in on scroll hero image */
 .zoom-in {
     transform: scale(1.1);
 }
 
+/* Class used to fade out content from page as it leaves the viewport */
 .fade-out {
     opacity: 0;
     transition: opacity 0.5s ease;
@@ -494,7 +500,7 @@ textarea:focus {
     }
 }
 
-    /* - Text reveal effect (Code implemented following the tutorial from WebStylePress ((c) - readme > credits) - */
+    /* - Content reveal on scroll effect (Code implemented following the tutorial from WebStylePress ((c) - readme > credits) - */
 
        h1,
        h2,
@@ -596,7 +602,7 @@ textarea:focus {
 
     /* -- */
 
-/* - Text line reveal effect (Code implemented following the tutorial from Kevin Powell ((c) - readme > credits) - */
+/* - Text highlight on scroll effect (Code implemented following the tutorial from Kevin Powell ((c) - readme > credits) - */
 
 .scroll-reveal .line-reveal,
 .scroll-reveal .line-reveal > * {
@@ -717,45 +723,15 @@ textarea:focus {
     display: none;
 }
 
-.fold-img {
+.section__gallery input[type="checkbox"] {
     display: none;
 }
 
-.folded {
-    transform: scale(0, 0);
-    transform-origin: top;
-    transition: transform 1s ease-in-out;
-}
-
 .gallery__frame:has(.folded) {
-        display: none;
+    display: none;
 }
 
-    
-@media (min-width:420px) {
-    
-    .folded {
-        display: block;
-        transform: scale(1, 1);
-    }
-
-    .gallery-grid > :nth-child(6) {
-        display: block;
-    }
-}
-
-@media (min-width:875px) {
-    .gallery__frame:has(.folded) {
-        display: block;
-    }
-
-    .btn--toggle-img {
-        display: none;
-    }
-
-}
-
-/* Reveal folded images  */
+/* Reveal folded images on click  */
 #folding-btn--roofing:checked ~ .gallery-grid .gallery__frame:has(.folded),
 #folding-btn--rendering:checked ~ .gallery-grid .gallery__frame:has(.folded),
 #folding-btn--kitchen:checked ~ .gallery-grid .gallery__frame:has(.folded),
@@ -766,8 +742,7 @@ textarea:focus {
     display: block;
 }
 
-
-/* Transform scale of the revealed images */
+/* Transform scale of the revealed images on click */
 #folding-btn--roofing:checked ~ .gallery-grid .gallery__frame > .folded,
 #folding-btn--rendering:checked ~ .gallery-grid .gallery__frame > .folded,
 #folding-btn--kitchen:checked ~ .gallery-grid .gallery__frame > .folded,
@@ -778,7 +753,7 @@ textarea:focus {
     transform: scale(1, 1);
 }
 
-/* Toggle image button icon folded */
+/* Button icon folded */
 #folding-btn--roofing:checked ~ .frame__toggle-img .btn--toggle-img::before,
 #folding-btn--rendering:checked ~ .frame__toggle-img .btn--toggle-img::before,
 #folding-btn--kitchen:checked ~ .frame__toggle-img .btn--toggle-img::before,
@@ -790,7 +765,7 @@ textarea:focus {
 }
 
 
-/* Toggle image button icon unfolded */
+/* Button icon unfolded */
 #folding-btn--roofing:checked ~ .frame__toggle-img .btn--toggle-img::after,
 #folding-btn--rendering:checked ~ .frame__toggle-img .btn--toggle-img::after,
 #folding-btn--kitchen:checked ~ .frame__toggle-img .btn--toggle-img::after,
@@ -804,7 +779,6 @@ textarea:focus {
 
 /* -- Navbar Properties -- */
     /* Hamburger menu and sliding sidebar (Code implemented following the tutorial from Web Dev Simplified and Codehal (c) - readme > credits) */
-
         @media (max-width:700px) {
             /* Hamburger Menu properties  */
             .hamburger-menu {
@@ -909,6 +883,7 @@ textarea:focus {
                 opacity: 1;
             }
 
+            /* Navbar links properties */
             .navbar-link {
                 margin: .75rem;
             }
@@ -966,7 +941,15 @@ textarea:focus {
 /* -- Break Points -- */
 
 
-/* Large Screen Layout Properties */
+
+@media (min-width:420px) {
+
+        /* Set image #6 in gallery visible */ 
+        .gallery-grid > :nth-child(6) {
+            display: block;
+        }
+    }
+
 @media (min-width:700px) {
 
     .section {
@@ -977,20 +960,32 @@ textarea:focus {
         padding: 0.5rem 3rem;
     }
 
+     /* Alternate direction of the images flow between the gallery sections */
     .section__gallery:nth-child(even) .gallery-grid {
         direction: rtl;
-    } /* Property to alternate direction of the images flow between the gallery sections */
+    }
 
     .section__gallery .frame {
         margin-bottom: 1.5rem;
     }
+}
 
 @media (min-width:875px) {
 
+    /* Grid that arranges the flow of the images in the gallery section, restricting the number of columns to 6 */
     .gallery-grid {
         grid-template-columns: repeat(6, minmax(8rem, 1fr));
-    } /* Grid that arranges the flow of the images in the gallery section, restricting the number of columns to 6 */
+    } 
+
+    /* Set all images in the gallery visible */
+    .gallery__frame:has(.folded) {
+        display: block;
     }
+
+    .btn--toggle-img {
+        display: none;
+    }
+
 }
 
 @media (min-width:980px) {
