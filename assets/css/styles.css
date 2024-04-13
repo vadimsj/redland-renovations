@@ -160,7 +160,7 @@ body {
 }
 
 .main-headline > p {
-    margin: 1rem 1rem .5rem;
+    margin: 1.5rem 1rem;
     max-width: 45ch;
 }
 
@@ -485,6 +485,7 @@ textarea:focus {
 /* Primary call-to-action button */
 .btn--primary-cta {
     padding-left: 1.6rem;
+    margin-bottom: 1.5rem;
 }
 
 .btn--primary-cta:hover .icon-double-arrow-right {
