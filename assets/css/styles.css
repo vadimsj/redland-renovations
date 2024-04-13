@@ -189,7 +189,7 @@ body {
 }
 
 .section__services h2 {
-    margin: 1rem 1rem 1.5rem;
+    margin: 1rem 1rem 2rem;
 }
 
 .section__services .frame {
@@ -980,13 +980,13 @@ textarea:focus {
     
     .section__home {
         flex-direction: row;
-        justify-content:space-between;
+        justify-content: center;
         align-items: center;
         padding: 0;
     } /* Set the home page to horizontal on the large/desktop screen */
     
     .hero-img {
-        max-width: auto;
+        max-width: 50rem;
     }
 
     .logo--header-logo {
@@ -1000,6 +1000,7 @@ textarea:focus {
     
     .home__frame {
         width: 50vw;
+        max-width: 50rem;
         margin: 2rem;
     }
 
