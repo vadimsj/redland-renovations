@@ -928,6 +928,10 @@ textarea:focus {
 /* -- Break Points -- */
 
 @media (min-width:420px) {
+    
+        .hero-img {
+            max-width: 500px;
+        }
 
         .gallery-grid > :nth-child(6) {
             display: block;
@@ -977,6 +981,10 @@ textarea:focus {
         padding: 0;
     } /* Set the home page to horizontal on the large/desktop screen */
     
+    .hero-img {
+        max-width: auto;
+    }
+
     .logo--header-logo {
         width: 12rem;
     }
@@ -1019,6 +1027,5 @@ textarea:focus {
         max-width: 38ch;
     }
 }
-
 
 
