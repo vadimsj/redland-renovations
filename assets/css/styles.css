@@ -458,6 +458,143 @@ textarea:focus {
 }
 
 
+/* --- Buttons -- */
+/* Global button styles */
+.btn { 
+    display: inline-block;
+    margin: 1rem;
+    padding: .4em 1.25em;
+    border-radius: 4px;
+    border-width: 0;
+    border: none;
+    background-color: var(--theme-color-light-alt);
+    border: solid 2px var(--theme-color-light-alt);
+    color: var(--text-color-alt);
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: var(--text-color-alt)
+}
+
+.btn:active {
+    color: var(--text-color-alt);
+    border-color: var(--theme-color-light-alt);
+}
+
+/* Primary call-to-action button */
+.btn--primary-cta {
+    padding-left: 1.6rem;
+}
+
+.btn--primary-cta:hover .icon-double-arrow-right {
+    transform: translateX(5px) translateY(1px);
+}
+
+/* Submit message in the form button */
+.btn--submit-msg {
+    width: auto;
+    padding: .6rem 1.25rem;
+    margin: 3rem 1rem 2rem;
+    font-weight: var(--font-weight-regular);
+}
+
+/* Button to toggle visibility for images */
+.section__gallery input[type="checkbox"] {
+    display: none;
+}
+
+.gallery__frame:has(.folded) {
+    display: none;
+}
+
+.frame__toggle-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.btn--toggle-img {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 2.5rem 1.5rem;
+    padding: 1em;
+    gap: .1rem;
+    width: 1.5em;
+    height: 1.5em;
+    background-color: #1b1b1b;
+    border: none;
+    border-radius: 50%;
+    
+}
+
+.btn--toggle-img::before {
+    content: url('../images/icons/icon-arrow-down.svg');
+    width: 11;
+    height: 6;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+} /* Unfolded button content */
+
+
+.btn--toggle-img::after {
+    content: url('../images/icons/icon-arrow-up.svg');
+    width: 11;
+    height: 6;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -62%); 
+    display: none;
+} /* Folded button content */
+
+
+#folding-btn--roofing:checked ~ .gallery-grid .gallery__frame:has(.folded),
+#folding-btn--rendering:checked ~ .gallery-grid .gallery__frame:has(.folded),
+#folding-btn--kitchen:checked ~ .gallery-grid .gallery__frame:has(.folded),
+#folding-btn--gardening:checked ~ .gallery-grid .gallery__frame:has(.folded),
+#folding-btn--fencing:checked ~ .gallery-grid .gallery__frame:has(.folded),
+#folding-btn--heating:checked ~ .gallery-grid .gallery__frame:has(.folded),
+#folding-btn--driveways:checked ~ .gallery-grid .gallery__frame:has(.folded) {
+    display: block;
+} /* Reveal folded images on click  */
+
+#folding-btn--roofing:checked ~ .gallery-grid .gallery__frame > .folded,
+#folding-btn--rendering:checked ~ .gallery-grid .gallery__frame > .folded,
+#folding-btn--kitchen:checked ~ .gallery-grid .gallery__frame > .folded,
+#folding-btn--gardening:checked ~ .gallery-grid .gallery__frame > .folded,
+#folding-btn--fencing:checked ~ .gallery-grid .gallery__frame > .folded,
+#folding-btn--heating:checked ~ .gallery-grid .gallery__frame > .folded,
+#folding-btn--driveways:checked ~ .gallery-grid .gallery__frame > .folded {
+    transform: scale(1, 1);
+} /* Transform the scale of the revealed images on click */
+
+#folding-btn--roofing:checked ~ .frame__toggle-img .btn--toggle-img::before,
+#folding-btn--rendering:checked ~ .frame__toggle-img .btn--toggle-img::before,
+#folding-btn--kitchen:checked ~ .frame__toggle-img .btn--toggle-img::before,
+#folding-btn--gardening:checked ~ .frame__toggle-img .btn--toggle-img::before,
+#folding-btn--fencing:checked ~ .frame__toggle-img .btn--toggle-img::before,
+#folding-btn--heating:checked ~ .frame__toggle-img .btn--toggle-img::before,
+#folding-btn--driveways:checked ~ .frame__toggle-img .btn--toggle-img::before {
+    display: none;
+} /* Hide icon for the folded button */
+
+
+#folding-btn--roofing:checked ~ .frame__toggle-img .btn--toggle-img::after,
+#folding-btn--rendering:checked ~ .frame__toggle-img .btn--toggle-img::after,
+#folding-btn--kitchen:checked ~ .frame__toggle-img .btn--toggle-img::after,
+#folding-btn--gardening:checked ~ .frame__toggle-img .btn--toggle-img::after,
+#folding-btn--fencing:checked ~ .frame__toggle-img .btn--toggle-img::after,
+#folding-btn--heating:checked ~ .frame__toggle-img .btn--toggle-img::after,
+#folding-btn--driveways:checked ~ .frame__toggle-img .btn--toggle-img::after {
+    display: block;
+} /* Display icon for the unfolded button */
+
 /* -- Special effects and animations -- */
 
 .span--nobreak {
@@ -624,143 +761,6 @@ textarea:focus {
         background-size: 100% 100%;
     }
 }
-
-/* --- Buttons -- */
-/* Global button styles */
-.btn { 
-    display: inline-block;
-    margin: 1rem;
-    padding: .4em 1.25em;
-    border-radius: 4px;
-    border-width: 0;
-    border: none;
-    background-color: var(--theme-color-light-alt);
-    border: solid 2px var(--theme-color-light-alt);
-    color: var(--text-color-alt);
-}
-
-.btn:hover {
-    cursor: pointer;
-    color: var(--text-color-alt)
-}
-
-.btn:active {
-    color: var(--text-color-alt);
-    border-color: var(--theme-color-light-alt);
-}
-
-/* Primary call-to-action button */
-.btn--primary-cta {
-    padding-left: 1.6rem;
-}
-
-.btn--primary-cta:hover .icon-double-arrow-right {
-    transform: translateX(5px) translateY(1px);
-}
-
-/* Submit message in the form button */
-.btn--submit-msg {
-    width: auto;
-    padding: .6rem 1.25rem;
-    margin: 3rem 1rem 2rem;
-    font-weight: var(--font-weight-regular);
-}
-
-/* Button to toggle visibility for images */
-.section__gallery input[type="checkbox"] {
-    display: none;
-}
-
-.gallery__frame:has(.folded) {
-    display: none;
-}
-
-.frame__toggle-img {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-
-.btn--toggle-img {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    margin: 1.5rem;
-    padding: 1em;
-    gap: .1rem;
-    width: 1.5em;
-    height: 1.5em;
-    background-color: #1b1b1b;
-    border: none;
-    border-radius: 50%;
-    
-}
-
-.btn--toggle-img::before {
-    content: url('../images/icons/icon-arrow-down.svg');
-    width: 11;
-    height: 6;
-    position: absolute; 
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -55%);
-} /* Unfolded button content */
-
-
-.btn--toggle-img::after {
-    content: url('../images/icons/icon-arrow-up.svg');
-    width: 11;
-    height: 6;
-    position: absolute; 
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -62%); 
-    display: none;
-} /* Folded button content */
-
-
-#folding-btn--roofing:checked ~ .gallery-grid .gallery__frame:has(.folded),
-#folding-btn--rendering:checked ~ .gallery-grid .gallery__frame:has(.folded),
-#folding-btn--kitchen:checked ~ .gallery-grid .gallery__frame:has(.folded),
-#folding-btn--gardening:checked ~ .gallery-grid .gallery__frame:has(.folded),
-#folding-btn--fencing:checked ~ .gallery-grid .gallery__frame:has(.folded),
-#folding-btn--heating:checked ~ .gallery-grid .gallery__frame:has(.folded),
-#folding-btn--driveways:checked ~ .gallery-grid .gallery__frame:has(.folded) {
-    display: block;
-} /* Reveal folded images on click  */
-
-#folding-btn--roofing:checked ~ .gallery-grid .gallery__frame > .folded,
-#folding-btn--rendering:checked ~ .gallery-grid .gallery__frame > .folded,
-#folding-btn--kitchen:checked ~ .gallery-grid .gallery__frame > .folded,
-#folding-btn--gardening:checked ~ .gallery-grid .gallery__frame > .folded,
-#folding-btn--fencing:checked ~ .gallery-grid .gallery__frame > .folded,
-#folding-btn--heating:checked ~ .gallery-grid .gallery__frame > .folded,
-#folding-btn--driveways:checked ~ .gallery-grid .gallery__frame > .folded {
-    transform: scale(1, 1);
-} /* Transform the scale of the revealed images on click */
-
-#folding-btn--roofing:checked ~ .frame__toggle-img .btn--toggle-img::before,
-#folding-btn--rendering:checked ~ .frame__toggle-img .btn--toggle-img::before,
-#folding-btn--kitchen:checked ~ .frame__toggle-img .btn--toggle-img::before,
-#folding-btn--gardening:checked ~ .frame__toggle-img .btn--toggle-img::before,
-#folding-btn--fencing:checked ~ .frame__toggle-img .btn--toggle-img::before,
-#folding-btn--heating:checked ~ .frame__toggle-img .btn--toggle-img::before,
-#folding-btn--driveways:checked ~ .frame__toggle-img .btn--toggle-img::before {
-    display: none;
-} /* Hide icon for the folded button */
-
-
-#folding-btn--roofing:checked ~ .frame__toggle-img .btn--toggle-img::after,
-#folding-btn--rendering:checked ~ .frame__toggle-img .btn--toggle-img::after,
-#folding-btn--kitchen:checked ~ .frame__toggle-img .btn--toggle-img::after,
-#folding-btn--gardening:checked ~ .frame__toggle-img .btn--toggle-img::after,
-#folding-btn--fencing:checked ~ .frame__toggle-img .btn--toggle-img::after,
-#folding-btn--heating:checked ~ .frame__toggle-img .btn--toggle-img::after,
-#folding-btn--driveways:checked ~ .frame__toggle-img .btn--toggle-img::after {
-    display: block;
-} /* Display icon for the unfolded button */
 
 
 /* -- Navbar Properties -- */
