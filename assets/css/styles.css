@@ -524,21 +524,21 @@ svg #dark-letter-2 {
 }
 
     /* Logo letter after state */ 
-svg:hover #light-letter-1 {
+a:hover #light-letter-1 {
     animation: logo-anim-lower 2s forwards;
     animation-delay: 0.25s;
 }
 
-svg:hover #dark-letter-1 {
+a:hover #dark-letter-1 {
     animation: logo-anim-lower 2s forwards;
 }
 
-svg:hover #light-letter-2 {
+a:hover #light-letter-2 {
     animation: logo-anim-upper 2s forwards;
     animation-delay: 0.25s;
 }
 
-svg:hover #dark-letter-2 {
+a:hover #dark-letter-2 {
     animation: logo-anim-upper 2s forwards;
 }
 
