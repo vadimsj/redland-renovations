@@ -479,7 +479,7 @@ svg {
 
 #light-letter-1,
 #light-letter-2 {
-    transition: all 1s ease-in-out .25s;
+    transition: all 1.5s ease-in-out .25s;
 }
 
 #dark-letter-1,
@@ -525,23 +525,23 @@ svg {
 
     /* Logo letter after state */ 
     a:hover #light-letter-1 {
-        animation: logo-anim-lower 1s forwards;
+        animation: logo-anim-lower 1.5s forwards;
         animation-delay: 0.25s;
     }
-    
+
     a:hover #dark-letter-1 {
-        animation: logo-anim-lower 1s forwards;
+        animation: logo-anim-lower 1.5s forwards;
     }
-    
+
     a:hover #light-letter-2 {
-        animation: logo-anim-upper 1s forwards;
+        animation: logo-anim-upper 1.5s forwards;
         animation-delay: 0.25s;
     }
-    
+
     a:hover #dark-letter-2 {
-        animation: logo-anim-upper 1s forwards;
+        animation: logo-anim-upper 1.5s forwards;
     }
-    
+
     /* - Double arrow icon - */
     .icon-double-arrow-right {
         transition: transform 0.3s ease;
