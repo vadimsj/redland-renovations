@@ -442,9 +442,14 @@ svg {
     height: auto;
 }
 
-.logo--header-logo {
-    margin: .75rem;
-    width: 2.75rem;
+.logo--mini-anim {
+    margin: .75rem .3rem .75rem .75rem;
+    width: 2.3rem;
+}
+
+.logo--name {
+    width: 6.5rem;
+    margin: .75rem .75rem .75rem 0;
 }
 
 .logo--footer-logo {
@@ -457,6 +462,8 @@ svg {
 }
 
 .wrapper--logo-btn {
+    display: flex;
+    flex-direction: row;
     width: fit-content;
 }
 
@@ -1074,10 +1081,6 @@ svg:hover #dark-letter-2 {
     .hero-img {
         max-width: 50rem;
     }
-
-    .logo--header-logo {
-        width: 3.5rem;
-    }
     
     .main-headline {
         margin: 0 auto;
@@ -1096,6 +1099,15 @@ svg:hover #dark-letter-2 {
 
     .btn--primary-cta {
         margin-top: 2rem;
+    }
+
+    .logo--mini-anim {
+        margin-right: .5rem;
+        width: 3rem;
+    }
+    
+    .logo--name {
+        width: 8.5rem;
     }
 }
 
