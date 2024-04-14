@@ -444,7 +444,7 @@ svg {
 
 .logo--header-logo {
     margin: .75rem;
-    width: 2.5rem;
+    width: 2.75rem;
 }
 
 .logo--footer-logo {
@@ -516,11 +516,10 @@ svg #dark-letter-2 {
     }
 }
 
-
-/* Logo letter after state */ 
+    /* Logo letter after state */ 
 svg:hover #light-letter-1 {
     animation: logo-anim-lower 2s forwards;
-    animation-delay: 0.25s; /* Add animation delay */
+    animation-delay: 0.25s;
 }
 
 svg:hover #dark-letter-1 {
@@ -529,13 +528,12 @@ svg:hover #dark-letter-1 {
 
 svg:hover #light-letter-2 {
     animation: logo-anim-upper 2s forwards;
-    animation-delay: 0.25s; /* Add animation delay */
+    animation-delay: 0.25s;
 }
 
 svg:hover #dark-letter-2 {
     animation: logo-anim-upper 2s forwards;
 }
-
 
 /* Double arrow icon*/
 .icon-double-arrow-right {
@@ -1078,7 +1076,7 @@ svg:hover #dark-letter-2 {
     }
 
     .logo--header-logo {
-        width: 3rem;
+        width: 3.5rem;
     }
     
     .main-headline {
