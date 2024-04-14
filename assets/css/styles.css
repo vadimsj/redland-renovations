@@ -74,7 +74,7 @@ body {
 
 /* --- Layout --- */
 
-/* Header Styles */
+/* - Header Styles - */
 .header { 
     position: fixed;
     display: flex;
@@ -93,7 +93,7 @@ body {
     box-shadow: 0 4px 6px #0000001a;
 }
 
-/* Section and Frame Styles */
+/* - Section and Frame Styles - */
 .frame {
     border: solid 2px var(--text-color-alt);
     padding: 1.5rem 2rem 2rem;
@@ -116,7 +116,7 @@ body {
     padding: 1rem;
 }
 
-/* Home Page Styles */
+/* - Home Page Styles - */
 .section__home {
     padding: .5rem;
 }
@@ -161,7 +161,7 @@ body {
     overflow: hidden;
 }
 
-/* Services Page Styles */
+/* - Services Page Styles - */
 .section__services {
     background-color: var(--theme-color-dark);
 }
@@ -178,7 +178,7 @@ body {
     margin: 0 1rem;
 }
 
-/* Gallery Page Styles */
+/* - Gallery Page Styles - */
 .section__gallery {
     align-items: center;
     padding: 1rem .5rem .5rem;
@@ -212,7 +212,7 @@ body {
     aspect-ratio: 1 / 1;
 }
 
-/* About Us Page Styles */
+/* - About Us Page Styles - */
 .section__about-us {
     background-color: var(--theme-color-light-alt);
 }
@@ -222,7 +222,7 @@ body {
     max-width: 70ch;
 }
 
-/* Contact Us Page Styles */
+/* - Contact Us Page Styles - */
 .section__contact-us {
     background-color: var(--theme-color-dark);
     box-shadow: 0 4px 6px #0000001a;
@@ -262,7 +262,7 @@ body {
     text-wrap: balance;
 }
 
-/* Aside Styles */
+/* - Aside Styles - */
 .aside {
     display: flex;
     flex-direction: column;
@@ -277,7 +277,7 @@ body {
     max-width: 60ch;
 }
 
-/* Footer Styles */
+/* - Footer Styles - */
 .footer {
     display: flex;
     flex-direction: column;
@@ -303,7 +303,7 @@ body {
 
 /* -- Typography -- */
 
-/* Headings */
+/* - Headings - */
 h1, 
 h2,
 h3,
@@ -348,7 +348,7 @@ h3 {
     font-weight: var(--font-weight-regular);
 }
 
-/* Text Styles */
+/* - Text Styles - */
 a,
 p,
 label,
@@ -375,7 +375,7 @@ li {
     margin-bottom: 1.5rem;
 }
 
-/* Link Styles */
+/* - Link Styles - */
 a {
     color: var(--text-color);
     text-decoration: none;
@@ -395,7 +395,7 @@ a:active {
     font-weight: var(--font-weight-regular);
 }
 
-/* Input and Textarea Styles */
+/* - Input and Textarea Styles - */
 label {
     align-self: flex-start;
     margin: 0.5rem 0.3rem 0;
@@ -429,7 +429,7 @@ textarea:focus {
     border-color: var(--text-color-alt2);
 }
 
-/* Icon Styles */
+/* - Icon Styles - */
 
 svg {
     cursor: pointer;
@@ -542,7 +542,7 @@ a:hover #dark-letter-2 {
     animation: logo-anim-upper 1s forwards;
 }
 
-/* Double arrow icon*/
+/* - Double arrow icon - */
 .icon-double-arrow-right {
     transition: transform 0.3s ease;
     transform: translateY(1px);
@@ -551,7 +551,7 @@ a:hover #dark-letter-2 {
 
 /* --- Buttons -- */
 
-/* Global button styles */
+/* - Global button styles - */
 .btn { 
     display: inline-block;
     margin: 1rem;
@@ -574,7 +574,7 @@ a:hover #dark-letter-2 {
     border-color: var(--theme-color-light-alt);
 }
 
-/* Primary call-to-action button */
+/* - Primary call-to-action button - */
 .btn--primary-cta {
     padding-left: 1.6rem;
     margin-bottom: 1.5rem;
@@ -584,7 +584,7 @@ a:hover #dark-letter-2 {
     transform: translateX(5px) translateY(1px);
 }
 
-/* Submit message in the form button */
+/* - Submit message in the form button - */
 .btn--submit-msg {
     width: auto;
     padding: .6rem 1.25rem;
@@ -592,7 +592,7 @@ a:hover #dark-letter-2 {
     font-weight: var(--font-weight-regular);
 }
 
-/* Button to toggle visibility for images */
+/* - Button to toggle visibility for images - */
 .section__gallery input[type="checkbox"] {
     display: none;
 }
@@ -688,7 +688,8 @@ a:hover #dark-letter-2 {
     display: block;
 } /* Display icon for the unfolded button */
 
-/* -- Special effects and animations -- */
+
+/* -- Special effects -- */
 
 .span--nobreak {
     white-space: nowrap;
@@ -725,7 +726,7 @@ a:hover #dark-letter-2 {
     }
 }
 
-/*  Content reveal-on-scroll effect (Code implemented following the tutorial from WebStylePress ((c) - readme > credits)  */
+/* Content reveal-on-scroll effect (Code implemented following the tutorial from WebStylePress ((c) - readme > credits)  */
    h1,
    h2,
    h3,
@@ -858,7 +859,7 @@ a:hover #dark-letter-2 {
 
 /* -- Navbar Properties -- */
 
-    /* Hamburger menu and sliding sidebar (Code implemented following the tutorial from Web Dev Simplified and Codehal (c) - readme > credits) */
+    /* - Hamburger menu and sliding sidebar (Code implemented following the tutorial from Web Dev Simplified and Codehal (c) - readme > credits) - */
         @media (max-width:700px) {
             /* Hamburger Menu properties  */
             .hamburger-menu {
@@ -994,7 +995,7 @@ a:hover #dark-letter-2 {
         }
     /* --- */
 
-/* Large screen Header and Navbar properties */
+/* - Large screen Header and Navbar properties - */
 @media (min-width:700px) {
 
     .hamburger-menu {
@@ -1077,7 +1078,7 @@ a:hover #dark-letter-2 {
         justify-content: center;
         align-items: center;
         padding: 0;
-    } /* Set the home page to horizontal on the large/desktop screen */
+    } /* Set the home page to horizontal view on the large/desktop screen */
     
     .hero-img {
         max-width: 50rem;
