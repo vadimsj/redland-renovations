@@ -2,6 +2,8 @@
 
 :root {
     /* Theme variables */
+    --logo-color-light: #9E2907;
+    --logo-color-dark:#0A0706;
     --theme-color-light: #fff;
     --theme-color-light-alt: #bb562a;
     --theme-color-dark: #eee;
@@ -71,30 +73,6 @@ body {
 
 
 /* --- Layout --- */
-
-/* Logo Styles */
-.logo {
-    display: block;
-    width: 10rem;
-    height: auto;
-}
-
-.logo--header-logo {
-    margin: .75rem;
-}
-
-.logo--footer-logo {
-    filter: saturate(0%) sepia(50%);
-    transform: translateZ(0); /* Important! This code is required to fix the svg rendering bug on iOS devices that causes blurry svg image if the css filter is applied */
-    opacity: 0.6;
-    width: 2.2rem;
-    height: 2.2rem;
-    margin: 1rem;
-}
-
-.wrapper--logo-btn {
-    width: fit-content;
-}
 
 /* Header Styles */
 .header { 
@@ -452,6 +430,114 @@ textarea:focus {
 }
 
 /* Icon Styles */
+
+svg {
+    cursor: pointer;
+    display: block;
+}
+
+/* Logo Styles */
+.logo {
+    width: 2.5rem;
+    height: auto;
+}
+
+.logo--header-logo {
+    margin: .75rem;
+    width: 2.5rem;
+}
+
+.logo--footer-logo {
+    filter: saturate(0%) sepia(50%);
+    transform: translateZ(0); /* Important! This code is required to fix the svg rendering bug on iOS devices that causes blurry svg image if the css filter is applied */
+    opacity: 0.6;
+    width: 2.2rem;
+    height: 2.2rem;
+    margin: 1rem;
+}
+
+.wrapper--logo-btn {
+    width: fit-content;
+}
+
+
+/* Logo icon animation */
+#light-group {
+    fill: var(--logo-color-light);
+}
+
+#dark-group {
+    fill: var(--logo-color-dark);
+}
+
+#light-letter-1,
+#light-letter-2 {
+    transition: all 2s ease .25s;
+}
+
+#dark-letter-1,
+#dark-letter-2 {
+    transition: all 2s ease;
+}
+
+    /* Logo letter initial state */
+svg #light-letter-1 {
+    transform: translateY(0);
+}
+
+svg #dark-letter-1 {
+    transform: translateY(0);
+}
+
+svg #light-letter-2 {
+    transform: translateY(-200%);
+}
+
+svg #dark-letter-2 {
+    transform: translateY(-200%);
+}
+
+   
+@keyframes logo-anim-upper {
+    from {
+        transform: translateY(-200%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes logo-anim-lower {
+    from {
+        transform: translateY(0);
+    } 
+    to {
+        transform: translateY(200%);
+    }
+}
+
+
+/* Logo letter after state */ 
+svg:hover #light-letter-1 {
+    animation: logo-anim-lower 2s forwards;
+    animation-delay: 0.25s; /* Add animation delay */
+}
+
+svg:hover #dark-letter-1 {
+    animation: logo-anim-lower 2s forwards;
+}
+
+svg:hover #light-letter-2 {
+    animation: logo-anim-upper 2s forwards;
+    animation-delay: 0.25s; /* Add animation delay */
+}
+
+svg:hover #dark-letter-2 {
+    animation: logo-anim-upper 2s forwards;
+}
+
+
+/* Double arrow icon*/
 .icon-double-arrow-right {
     transition: transform 0.3s ease;
     transform: translateY(1px);
@@ -459,6 +545,7 @@ textarea:focus {
 
 
 /* --- Buttons -- */
+
 /* Global button styles */
 .btn { 
     display: inline-block;
@@ -991,7 +1078,7 @@ textarea:focus {
     }
 
     .logo--header-logo {
-        width: 12rem;
+        width: 3rem;
     }
     
     .main-headline {
