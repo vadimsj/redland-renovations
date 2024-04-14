@@ -1131,6 +1131,10 @@ svg {
         margin: 2rem;
         max-width: 38ch;
     }
+
+    .footer {
+        position: relative;
+    }
 }
 
 
