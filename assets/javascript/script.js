@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-/* -- Hero image zooming effect -- */
+/* -- Hero image zoom-on-scroll effect -- */
 // Define a function to handle the scroll event
 function handleScroll() {
     // Get the hero image element
@@ -169,3 +169,37 @@ hideOnScroll(".frame__toggle-img", 0.77);
 hideOnScroll(".gallery-grid", 0.84);
 
 
+/* -- Function to animate logo when nav links and primary cta button clicked" -- */
+document.addEventListener("DOMContentLoaded", function() {
+    // Function to trigger logo animation
+    function triggerLogoAnimation() {
+        // Trigger animation by adding a CSS class to all logo elements
+        document.getElementById("light-letter-1").classList.add("animate-logo-light-1");
+        document.getElementById("dark-letter-1").classList.add("animate-logo-dark-1");
+        document.getElementById("light-letter-2").classList.add("animate-logo-light-2");
+        document.getElementById("dark-letter-2").classList.add("animate-logo-dark-2");
+
+        // Remove the animation classes after the animation completes
+        setTimeout(function() {
+            document.getElementById("light-letter-1").classList.remove("animate-logo-light-1");
+            document.getElementById("dark-letter-1").classList.remove("animate-logo-dark-1");
+            document.getElementById("light-letter-2").classList.remove("animate-logo-light-2");
+            document.getElementById("dark-letter-2").classList.remove("animate-logo-dark-2");
+        }, 1500); // Adjust the timing to match the duration of your animation (1.5s)
+    }
+
+    // Add event listener to <a> elements in the header
+    var headerLinks = document.querySelectorAll("header a");
+    headerLinks.forEach(function(link) {
+        link.addEventListener("click", triggerLogoAnimation);
+    });
+
+    // Add event listener to elements with class .btn--primary-cta
+    var primaryCtaButtons = document.querySelectorAll(".btn--primary-cta");
+    primaryCtaButtons.forEach(function(button) {
+        button.addEventListener("click", triggerLogoAnimation);
+    });
+});
+
+  
+  
