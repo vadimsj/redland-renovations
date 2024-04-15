@@ -219,7 +219,7 @@ body {
 .section__about-us .frame {
     color: var(--text-color-alt);
     max-width: 70ch;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 /* - Contact Us Page Styles - */
@@ -1069,10 +1069,6 @@ svg {
 
     .btn--toggle-img {
         margin-bottom: 2.5rem;
-    }
-
-    .section__about-us .frame {
-        padding: 2rem;
     }
 }
 
