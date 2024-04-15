@@ -1054,7 +1054,6 @@ svg {
     .section__gallery:nth-child(even) .gallery-grid {
         direction: rtl;
     } /* Alternate direction of the images flow between the gallery sections */
-
     
     .section .section__gallery {
         padding: 2rem 0;
@@ -1069,10 +1068,7 @@ svg {
         padding: 2rem 1rem;
     }
     
-
 }
-
-
 
 @media (min-width:431px) {
     .gallery-grid > :nth-child(6) {
