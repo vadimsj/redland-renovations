@@ -524,15 +524,12 @@ svg {
     }
 
     /* Logo letter after state */ 
-
-    
-    
     .animate-logo-light-1 {
         animation: logo-anim-lower 1.5s forwards .25s;
     }
     
     .animate-logo-light-2 {
-        animation: logo-anim-upper 1.5s forwards .25s; /* Change the delay here */
+        animation: logo-anim-upper 1.5s forwards .25s;
     }
     
     .animate-logo-dark-1 {
@@ -543,33 +540,11 @@ svg {
         animation: logo-anim-upper 1.5s forwards;
     }
     
-  
-/*
-
-    a:hover #light-letter-1 {
-        animation: logo-anim-lower 1.5s forwards;
-        animation-delay: 0.25s;
-    }
-
-    a:hover #dark-letter-1 {
-        animation: logo-anim-lower 1.5s forwards;
-    }
-
-    a:hover #light-letter-2 {
-        animation: logo-anim-upper 1.5s forwards;
-        animation-delay: 0.25s;
-    }
-
-    a:hover #dark-letter-2 {
-        animation: logo-anim-upper 1.5s forwards;
-    }
-     */
-
-    /* - Double arrow icon - */
-    .icon-double-arrow-right {
-        transition: transform 0.3s ease;
-        transform: translateY(1px);
-    }
+/* - Double arrow icon - */
+.icon-double-arrow-right {
+    transition: transform 0.3s ease;
+    transform: translateY(1px);
+}
 
 
 /* --- Buttons -- */
