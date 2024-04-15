@@ -1070,6 +1070,10 @@ svg {
     .btn--toggle-img {
         margin-bottom: 2.5rem;
     }
+
+    .section__about-us .frame {
+        padding: 2rem;
+    }
 }
 
 @media (min-width: 420px) and (max-width: 875px) {
