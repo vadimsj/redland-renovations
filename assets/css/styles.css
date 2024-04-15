@@ -1064,6 +1064,11 @@ svg {
     
 @media (min-width:875px) {
 
+        
+    .section {
+        padding: 2rem 12rem;
+    }
+
     .gallery-grid {
         grid-template-columns: repeat(6, minmax(8rem, 1fr));
     } /* Grid that arranges the flow of the images in the gallery section, restricting the number of columns to 6 */
@@ -1071,10 +1076,6 @@ svg {
     .gallery__frame:has(.folded) {
         display: block;
     } /* Set all images in the gallery visible for the large/desktop layout */
-
-    .btn--toggle-img {
-        display: none;
-    }
 
     .gallery-grid > :nth-child(7) {
         grid-row: span 1;
@@ -1115,10 +1116,14 @@ svg {
         grid-row: span 3;
         grid-column: span 3;
     }
+
+    .btn--toggle-img {
+        display: none;
+    }
 }
 
 @media (min-width:980px) {
-    
+
     .section__home {
         flex-direction: row;
         justify-content: center;
@@ -1165,10 +1170,6 @@ svg {
 }
 
 @media (min-width: 1400px) {
-
-    .section {
-        padding: 2rem 12rem;
-    }
     
     .section__home {
         padding: 0;
