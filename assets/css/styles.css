@@ -213,11 +213,13 @@ body {
 /* - About Us Page Styles - */
 .section__about-us {
     background-color: var(--theme-color-light-alt);
+    padding: 2rem 1rem;
 }
 
 .section__about-us .frame {
     color: var(--text-color-alt);
     max-width: 70ch;
+    padding: 1rem;
 }
 
 /* - Contact Us Page Styles - */
@@ -225,6 +227,7 @@ body {
     background-color: var(--theme-color-dark);
     box-shadow: 0 4px 6px #0000001a;
     text-align: center;
+    padding: 2rem 1rem;
 }
 
 .section__contact-us .frame {
@@ -1064,12 +1067,6 @@ svg {
         margin-bottom: 1.5rem;
     }
 
-
-    .section__contact-us,
-    .section__about-us {
-        padding: 2rem 1rem;
-    }
-    
     .btn--toggle-img {
         margin-bottom: 2.5rem;
     }
