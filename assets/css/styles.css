@@ -1062,6 +1062,7 @@ svg {
     }
 
     .gallery-grid {
+        max-width: 800px;
         grid-template-columns: repeat(6, minmax(8rem, 1fr));
     } /* Grid that arranges the flow of the images in the gallery section, restricting the number of columns to 6 */
 
@@ -1174,11 +1175,6 @@ svg {
     .main-headline > p {
         margin: 2rem;
         max-width: 38ch;
-    }
-
-    /* Gallery section tablet layout */
-    .gallery-grid {
-        max-width: 700px;
     }
 
     /* Footer desktop layout */
