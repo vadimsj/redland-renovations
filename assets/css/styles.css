@@ -164,7 +164,8 @@ body {
 
 /* - Services Page Styles - */
 .section__services {
-    background-color: var(--theme-color-dark);
+    background-color: var(--theme-color-dark); 
+    padding-bottom: 8rem;
 }
 
 .section__services h2 {
@@ -173,10 +174,6 @@ body {
 
 .section__services .frame {
     border: none;
-}
-
-.section__services .frame > ul {
-    margin: 0 1rem;
 }
 
 /* - Gallery Page Styles - */
@@ -1029,7 +1026,7 @@ svg {
     }
     
     .hero-img {
-        max-width: 650px;
+        max-width: 500px;
     }
 
 
@@ -1044,7 +1041,7 @@ svg {
 
 @media (min-width:700px) {
 
-    .section {
+    .section.section:not(.section__services) {
         padding: 1.5rem 3rem;
     }
 
@@ -1117,7 +1114,7 @@ svg {
 
 @media (min-width: 1400px) {
 
-    .section {
+    .section.section:not(.section__services) {
         padding: 2rem 6rem;
     }
     
