@@ -1047,9 +1047,6 @@ svg {
     .section__gallery {
         padding: 3rem 0;
     }
-    .gallery-grid { 
-        margin: 1rem;
-    }
 
     .section__gallery:nth-child(even) .gallery-grid {
         direction: rtl;
@@ -1058,10 +1055,15 @@ svg {
     .section .section__gallery {
         padding: 2rem 0;
     }
+
+    .gallery-grid { 
+        margin: 1rem;
+    }
     
     .section__gallery .frame {
         margin-bottom: 1.5rem;
     }
+
 
     .section__contact-us,
     .section__about-us {
@@ -1071,6 +1073,13 @@ svg {
     .btn--toggle-img {
         margin-bottom: 2.5rem;
     }
+}
+
+@media (min-width: 420px) and (max-width: 875px) {
+    .gallery__frame:nth-child(8) {
+        grid-row: span 2;
+        grid-column: span 2;
+    } /* Set the image #8 in the gallery to double size */
 }
 
 @media (min-width:431px) {
