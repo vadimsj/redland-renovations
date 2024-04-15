@@ -610,7 +610,7 @@ svg {
     display: flex;
     flex-direction: column;
     position: relative;
-    margin: 2.5rem 1.5rem;
+    margin: 2.5rem 1.5rem .5rem;
     padding: 1em;
     gap: .1rem;
     width: 1.5em;
@@ -1068,6 +1068,9 @@ svg {
         padding: 2rem 1rem;
     }
     
+    .btn--toggle-img {
+        margin-bottom: 2.5rem;
+    }
 }
 
 @media (min-width:431px) {
