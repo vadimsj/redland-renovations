@@ -1065,8 +1065,8 @@ svg {
 @media (min-width:875px) {
 
         
-    .section {
-        padding: 6rem 12rem 10rem;
+    .section__gallery {
+        padding: 6rem 12rem 8rem;
     }
 
     .gallery-grid {
