@@ -179,7 +179,7 @@ body {
 /* - Gallery Page Styles - */
 .section__gallery {
     align-items: center;
-    padding: 1rem .5rem 2.5rem;
+    padding: 2rem .5rem 3.5rem;
 }
 
 .section__gallery:nth-child(even) {
@@ -269,7 +269,7 @@ body {
     flex-direction: column;
     background-color: var(--theme-color-dark-alt);
     align-items: center;
-    padding: 2rem;
+    padding: 3rem;
   
 }
 
@@ -1089,10 +1089,6 @@ svg {
     .section__contact-us,
     .section__about-us {
         padding: 3rem 1rem;
-    }
-
-    .aside {
-        padding: 3rem;
     }
 }
     

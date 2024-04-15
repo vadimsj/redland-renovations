@@ -151,7 +151,7 @@ function hideOnScroll(selector, thresholdPercentage) {
 // Call the function with different selectors for each element and threshold percentages
 hideOnScroll(".main-headline", 0.75); // Example threshold percentage: 80%
 hideOnScroll(".hero-img", 0.72); 
-hideOnScroll(".headline-services", 0.60); 
+hideOnScroll(".headline-services", 0.6); 
 hideOnScroll(".frame__cta-bar", 0.85); 
 hideOnScroll(".headline-roofing", 0.8);
 hideOnScroll(".headline-rendering", 0.8);
@@ -165,7 +165,7 @@ hideOnScroll(".heating", 0.8);
 hideOnScroll(".headline-driveways", 0.8);
 hideOnScroll(".frame__usp-bar", 0.85); 
 hideOnScroll(".section__about-us .frame", 0.8);
-hideOnScroll(".frame__toggle-img", 0.72);
-hideOnScroll(".gallery-grid", 0.85);
+hideOnScroll(".frame__toggle-img", 0.77);
+hideOnScroll(".gallery-grid", 0.84);
 
 
