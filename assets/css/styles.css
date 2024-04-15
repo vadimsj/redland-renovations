@@ -990,6 +990,7 @@ svg {
 
 @media (min-width:420px) {
 
+    /* Home page tablet layout */
     .section__home {
         padding: 2rem 3rem;
     }
@@ -1010,10 +1011,12 @@ svg {
         max-width: 550px;
     }
 
+    /* Services list tablet layout */
     ul {
         margin-bottom: 2.5rem;
     }
 
+    /* Gallery section tablet layout */
     .section__gallery {
         padding: 4rem 0 3rem;
     }
@@ -1040,6 +1043,7 @@ svg {
 }
 
 @media (min-width: 420px) and (max-width: 875px) {
+    /* Gallery tablet layout */
     .gallery__frame:nth-child(8) {
         grid-row: span 2;
         grid-column: span 2;
@@ -1053,6 +1057,8 @@ svg {
 }
 
 @media (min-width:700px) {
+
+    /* Contact us tablet layout */
     .section__contact-us,
     .section__about-us {
         padding: 3rem 1rem;
@@ -1061,7 +1067,7 @@ svg {
     
 @media (min-width:875px) {
 
-        
+    /* Gallery desktop layout */
     .section__gallery {
         padding: 6rem 12rem 8rem;
     }
@@ -1121,6 +1127,7 @@ svg {
 
 @media (min-width:980px) {
 
+    /* Home page desktop layout */
     .section__home {
         flex-direction: row;
         justify-content: center;
@@ -1180,6 +1187,7 @@ svg {
         max-width: 38ch;
     }
 
+    /* Footer desktop layout */
     .footer {
         position: relative;
     }
