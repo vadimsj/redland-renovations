@@ -701,12 +701,12 @@ svg {
     opacity: 0;
     transform: scale(.85);
     transition: all .5s;
-} /* Class to set the content invisible until it is entered the intersection observer */
+} /* Class to set the content invisible until it is entered the vieport */
 
 .show {
     opacity: 1;
     transform: scale(1);
-} /* Class to set the content visible as it enters the intersection observer */
+} /* Class to set the content visible as it entered in the viewport */
 
 .zoom-in {
     transform: scale(1.1);
@@ -717,6 +717,7 @@ svg {
     transition: opacity 0.5s ease;
 } /* Class to fade-out the content from the page when its leaving the viewport */
 
+/* Animation to fade-out content */
 @keyframes fadeOut {
     0% {
         opacity: 1; 
