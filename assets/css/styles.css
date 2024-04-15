@@ -95,12 +95,12 @@ body {
 
 /* - Section and Frame Styles - */
 .frame {
-    border: solid 2px var(--text-color-alt);
-    padding: 1.5rem 2rem 2rem;
-    margin: .5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: solid 2px var(--text-color-alt);
+    padding: 1.5rem 2rem 2rem;
+    margin: .5rem;
 }
 
 .frame > p {
@@ -179,7 +179,7 @@ body {
 /* - Gallery Page Styles - */
 .section__gallery {
     align-items: center;
-    padding: 1rem .5rem .5rem;
+    padding: 1rem .5rem 2.5rem;
 }
 
 .section__gallery:nth-child(even) {
@@ -601,7 +601,6 @@ svg {
 
 .frame__toggle-img {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -1022,38 +1021,65 @@ svg {
 @media (min-width:420px) {
 
     .section__home {
-        padding-bottom: 1rem;
-    }
-    
-    .hero-img {
-        max-width: 500px;
+        padding-bottom: 1rem 3rem;
     }
 
+    .main-headline {
+        margin: 6.5rem 1rem 1rem;
+    }
+
+    .main-headline > p {
+        margin: 2rem;
+    }
+   
+    .btn--primary-cta {
+        margin-bottom: 2rem;
+    }
+
+    .hero-img {
+        max-width: 550px;
+    }
+
+    ul {
+        margin-bottom: 2.5rem;
+    }
+
+    .section__gallery {
+        padding: 3rem 0;
+    }
+    .gallery-grid { 
+        margin: 1rem;
+    }
 
     .section__gallery:nth-child(even) .gallery-grid {
         direction: rtl;
     } /* Alternate direction of the images flow between the gallery sections */
 
-    .gallery-grid > :nth-child(6) {
-        display: block;
-        } /* Set the image #6 in the gallery visible for the tablet layout */ 
+    
+    .section .section__gallery {
+        padding: 2rem 0;
     }
-
-@media (min-width:700px) {
-
-    .section.section:not(.section__services) {
-        padding: 1.5rem 3rem;
-    }
-
-    .section__home {
-        padding: 1rem 3rem;
-    }
-
+    
     .section__gallery .frame {
         margin-bottom: 1.5rem;
     }
+
+    .section__contact-us,
+    .section__about-us {
+        padding: 2rem 1rem;
+    }
+    
+
 }
 
+
+
+@media (min-width:431px) {
+    .gallery-grid > :nth-child(6) {
+        display: block;
+        } /* Set the image #6 in the gallery visible for the tablet layout */ 
+}
+    
 @media (min-width:875px) {
 
     .gallery-grid {
