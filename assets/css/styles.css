@@ -1084,7 +1084,7 @@ svg {
         justify-content: center;
         align-items: center;
         padding: 0;
-        background: linear-gradient(to top, #eee 15%, #fff 15%);
+        background: linear-gradient(to top, #eee 0%, #fff 15%);
     } /* Set the home page to horizontal view on the large/desktop screen */
     
     .hero-img {
@@ -1092,11 +1092,15 @@ svg {
     }
     
     .main-headline {
-        margin: 0 auto;
+        margin:;
         align-self: flex-start;
     }
 
     .home__frame {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
         width: 50vw;
         max-width: 50rem;
         margin: 2rem;
