@@ -152,7 +152,7 @@ function hideOnScroll(selector, thresholdPercentage) {
 hideOnScroll(".main-headline", 0.75); // Example threshold percentage: 80%
 hideOnScroll(".hero-img", 0.72); 
 hideOnScroll(".headline-services", 0.6); 
-hideOnScroll(".frame__cta-bar", 0.85); 
+hideOnScroll(".aside:has(.frame__cta-bar", 0.85); 
 hideOnScroll(".headline-roofing", 0.8);
 hideOnScroll(".headline-rendering", 0.8);
 hideOnScroll(".rendering", 0.8);
