@@ -1018,7 +1018,7 @@ svg {
     }
 
     .section__gallery {
-        padding: 3rem 0;
+        padding: 4rem 0 3rem;
     }
 
     .section__gallery:nth-child(even) .gallery-grid {
