@@ -1078,6 +1078,17 @@ svg {
         display: block;
         } /* Set the image #6 in the gallery visible for the tablet layout */ 
 }
+
+@media (min-width:700px) {
+    .section__contact-us,
+    .section__about-us {
+        padding: 3rem 1rem;
+    }
+
+    .aside {
+        padding: 3rem;
+    }
+}
     
 @media (min-width:875px) {
 
