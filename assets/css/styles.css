@@ -1177,8 +1177,8 @@ svg {
     }
 
     /* Gallery section tablet layout */
-    .section__gallery {
-        max-width: 1400px;
+    .gallery-grid {
+        max-width: 700px;
     }
 
     /* Footer desktop layout */
