@@ -468,7 +468,6 @@ svg {
     width: fit-content;
 }
 
-
 /* Logo icon animation */
 #light-group {
     fill: var(--logo-color-light);
@@ -476,16 +475,6 @@ svg {
 
 #dark-group {
     fill: var(--logo-color-dark);
-}
-
-#light-letter-1,
-#light-letter-2 {
-    transition: all 1.5s ease-in-out .25s;
-}
-
-#dark-letter-1,
-#dark-letter-2 {
-    transition: all 1.5s ease-in-out;
 }
 
     /* Logo letter initial state */
@@ -525,11 +514,11 @@ svg {
 
     /* Logo letter after state */ 
     .animate-logo-light-1 {
-        animation: logo-anim-lower 1.5s forwards .25s;
+        animation: logo-anim-lower 1.5s forwards .2s;
     }
     
     .animate-logo-light-2 {
-        animation: logo-anim-upper 1.5s forwards .25s;
+        animation: logo-anim-upper 1.5s forwards .2s;
     }
     
     .animate-logo-dark-1 {
