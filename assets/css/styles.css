@@ -1032,7 +1032,7 @@ svg {
 }
 
 @media (min-width: 420px) and (max-width: 875px) {
-    /* Gallery tablet layout */
+    /* Gallery grid tablet layout */
     .gallery__frame:nth-child(8) {
         grid-row: span 2;
         grid-column: span 2;
@@ -1056,7 +1056,7 @@ svg {
     
 @media (min-width:875px) {
 
-    /* Gallery desktop layout */
+    /* Gallery grid desktop layout */
     .section__gallery {
         padding: 6rem 12rem 8rem;
     }
@@ -1174,6 +1174,11 @@ svg {
     .main-headline > p {
         margin: 2rem;
         max-width: 38ch;
+    }
+
+    /* Gallery section tablet layout */
+    .section__gallery {
+        max-width: 1400px;
     }
 
     /* Footer desktop layout */
