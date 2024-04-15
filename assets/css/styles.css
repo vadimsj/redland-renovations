@@ -727,92 +727,56 @@ svg {
 }
 
 /* Content reveal-on-scroll effect (Code implemented following the tutorial from WebStylePress ((c) - readme > credits)  */
-   h1,
-   h2,
-   h3,
-   h4,
-   h5,
-   p,
-   ul,
-   .revealed {
+   
+    /* Headers and text reveal */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    p,
+    ul,
+    .revealed {
        animation: CSSscrollReveal ease-in both;
        animation-timeline: view();
        animation-range: entry 50% cover 17.5%;
        transition: all 1.5s;
     }
-   @keyframes CSSscrollReveal {
-       from {
-           opacity: 0;
-           transform: translateY(50px);
-       }
-       to {
-           opacity: 1;
-           transform: translateY(0);
-       }
-    }
-    /*
 
-  */
-
-
+    /* Section services text reveal */
     .section__services .frame * {
         animation: CSSscrollReveal ease-in both;
         animation-timeline: view();
-        animation-range: entry 60% cover 30%;
+        animation-range: entry 10% cover 25%;
         transition: all 2s;
-     }
-  
-    @keyframes CSSscrollReveal {
-        from {
-            opacity: 0;
-            transform: translateY(60px);
-        }
-        to {
-            opacity: 1;
-            transform: translateY(0);
-        }
-    }
+}
 
-
-
+    /* Section services h2 reveal */
     .section__services .frame h2 {
         animation: CSSscrollReveal ease-in both;
         animation-timeline: view();
         animation-range: entry 150% cover 50%;
         transition: all 2s;
-     }
+    }
 
-
-
-
-
-
+    /* Form submit message button reveal */
     .section__contact-us .contact-us__form > .btn--submit-msg {
         animation: CSSscrollReveal ease-in both;
         animation-timeline: view();
         animation-range: entry 50% cover 12.5%;
         transition: all 1.5s;
      }
-  
-    @keyframes CSSscrollReveal {
-        from {
-            opacity: 0;
-            transform: translateY(50px);
-        }
-        to {
-            opacity: 1;
-            transform: translateY(0);
-        }
-    }
 
+     /* Button toggle image reveal */
     .btn--toggle-img {
         animation: CSSscrollReveal ease-in both;
         animation-timeline: view();
         animation-range: entry 50% cover 10%;
         transition: all 1.5s;
      }
-  
-    @keyframes CSSscrollReveal {
+    
+     /*  Content reveal animaton */
+     @keyframes CSSscrollReveal {
         from {
             opacity: 0;
             transform: translateY(50px);
@@ -822,6 +786,7 @@ svg {
             transform: translateY(0);
         }
     }
+    
 /* -- */
 
 /* Text highlight-on-scroll effect (Code implemented following the tutorial from Kevin Powell ((c) - readme > credits) */
