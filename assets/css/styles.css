@@ -120,7 +120,7 @@ body {
 /* - Home Page Styles - */
 .section__home {
     padding: .5rem;
-    background-color: var(--theme-color-light);
+    background: var(--theme-color-grey-gradient);
 }
 
 .main-headline { 
@@ -165,7 +165,7 @@ body {
 /* - Services Page Styles - */
 .section__services {
     background-color: var(--theme-color-dark); 
-    padding-bottom: 6rem;
+`    padding-bottom: 6rem;
 }
 
 .section__services h2 {
