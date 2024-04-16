@@ -85,13 +85,14 @@ body {
     width: 100vw;
     border: none;
     box-shadow: none;
-    background-color: var(--theme-color-light);
+    background-color: none;
     transition: box-shadow 0.3s ease-in-out;
 }
 
 .header.scrolled {
     border: none;
     box-shadow: 0 4px 6px #0000001a;
+    background-color: var(--theme-color-light);
 }
 
 /* - Section and Frame Styles - */
@@ -120,7 +121,7 @@ body {
 /* - Home Page Styles - */
 .section__home {
     padding: .5rem;
-    background: var(--theme-color-grey-gradient)
+    background-image: linear-gradient(to top, #eeeeee, #f1f1f1, #f4f4f4, #f8f8f8, #fbfbfb, #fcfbfd, #fdfbfe, #fffbff, #fff7fb, #fff4f3, #fff3e8, #fff4df);
 }
 
 .main-headline { 
