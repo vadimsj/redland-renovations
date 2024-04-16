@@ -612,8 +612,6 @@ svg {
 
 .btn--toggle-img::before {
     content: url('../images/icons/icon-arrow-down.svg');
-    width: 11;
-    height: 6;
     position: absolute; 
     top: 50%;
     left: 50%;
@@ -623,8 +621,6 @@ svg {
 
 .btn--toggle-img::after {
     content: url('../images/icons/icon-arrow-up.svg');
-    width: 11;
-    height: 6;
     position: absolute; 
     top: 50%;
     left: 50%;
