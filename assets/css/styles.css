@@ -8,6 +8,7 @@
     --theme-color-light-alt: #bb562a;
     --theme-color-dark: #eee;
     --theme-color-dark-alt: #1b1b1b;
+    --theme-color-grey-gradient: linear-gradient(to top, #eee 0%, #fff 15%);
     --text-color: #1b1b1b;
     --text-color-alt: #fff;
     --text-color-alt2: #808a99;
@@ -119,7 +120,7 @@ body {
 /* - Home Page Styles - */
 .section__home {
     padding: .5rem;
-    background: linear-gradient(to top, #eee 0%, #fff 15%);
+    background: var(--theme-color-grey-gradient)
 }
 
 .main-headline { 
