@@ -47,7 +47,7 @@
 
 -  The website intended to function as a landing page for the prospective visitors.
 
--  It features essential information about the company and its services, and aims to motivate visitors to reach out. 
+-  It features essential information about the company, its services, and portfolio of images of the previous works. 
 
 - The main purpose of the website is to convert prospective visitors into leads and capture their contact details.
 
