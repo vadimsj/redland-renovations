@@ -160,7 +160,6 @@ body {
     align-items: center;
     object-position: bottom;
     overflow: hidden;
-
 }
 
 /* - Services Page Styles - */
@@ -1131,6 +1130,11 @@ svg {
         max-width: 50rem;
         margin: 2rem;
     }
+
+
+.home__frame:has(.hero-img) {
+    margin-right: 0;
+}
 
     .hero-img {
         margin-top: 2rem;
