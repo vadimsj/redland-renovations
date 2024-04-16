@@ -1,14 +1,14 @@
 # Redland Renovations
 
-<img src="assets/docs/thumbnails/iphone-thumbnail.png" alt="About us section preview" height="400">
-<img src="assets/docs/thumbnails/ipad-mini-thumbnail.png" alt="About us section preview" height="400">
-<img src="assets/docs/thumbnails/ipad-pro-thumbnail.png" alt="About us section preview" height="400">
-<img src="assets/docs/thumbnails/desktop-thumbnail.png" alt="About us section preview" height="400">
+<img src="assets/docs/thumbnails/iphone-thumbnail.png" alt="About us section preview" height="250">
+<img src="assets/docs/thumbnails/ipad-mini-thumbnail.png" alt="About us section preview" height="250">
+<img src="assets/docs/thumbnails/ipad-pro-thumbnail.png" alt="About us section preview" height="250">
+<img src="assets/docs/thumbnails/desktop-thumbnail.png" alt="About us section preview" height="250">
 
-<img src="assets/docs/thumbnails/gallery-phone-layout-thumbnail.png" alt="About us section preview" height="400">
-<img src="assets/docs/thumbnails/gallery-tablet-folded-layout-thumbnail.png" alt="About us section preview" height="400">
-<img src="assets/docs/thumbnails/gallery-tablet-unfolded-layout-thumbnail.png" alt="About us section preview" height="400">
-<img src="assets/docs/thumbnails/gallery-desktop-layout-thumbnail.png" alt="About us section preview" height="400">
+<img src="assets/docs/thumbnails/gallery-phone-layout-thumbnail.png" alt="About us section preview" height="250">
+<img src="assets/docs/thumbnails/gallery-tablet-folded-layout-thumbnail.png" alt="About us section preview" height="250">
+<img src="assets/docs/thumbnails/gallery-tablet-unfolded-layout-thumbnail.png" alt="About us section preview" height="250">
+<img src="assets/docs/thumbnails/gallery-desktop-layout-thumbnail.png" alt="About us section preview" height="250">
 
 <br>
 
