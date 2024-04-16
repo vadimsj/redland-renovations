@@ -142,7 +142,7 @@
     <img src="assets/docs/design/color-scheme-preview.png" alt="Color scheme preview" width="450px">
 
   - Typography
-    - Headings are formatted using the ['Suez One' font, a serif typeface](https://fonts.google.com/specimen/Suez+One?query=suez).
+    - Headings are formatted using the ['Suez One' font](https://fonts.google.com/specimen/Suez+One?query=suez).
 
       <img src="assets/docs/design/font-preview-suez-one-serif.png" alt="Font for headings preview" width="500px">
         
@@ -285,15 +285,17 @@
 
 - Hamburger menu navigation was implemented following the tutorial from [Web Dev Simplified](https://youtu.be/dAIVbLrAb_U?feature=shared) and [Codehal](https://youtu.be/yE9DLIoDwCg?si=tdUV7CXiDz9H3GQ7).
 
-- Intersection observer was implemented following the tutorial from [Beyond Fireship](https://youtu.be/T33NN_pPeNI?feature=shared).
+- Intersection observer to switch the visibility of the elements was implemented following the tutorial from [Beyond Fireship](https://youtu.be/T33NN_pPeNI?feature=shared).
 
-- Text reveal effect was implemented following the tutorial from [WebStylePress](https://youtu.be/v_aEkNm6xec?si=DMN5NkE6uMworW03).
+- Text reveal-on-scroll effect was implemented following the tutorial from [WebStylePress](https://youtu.be/v_aEkNm6xec?si=DMN5NkE6uMworW03).
+
+- Text highlight-on-scroll effect implemented following the tutorial from [Kevin Powell](https://youtu.be/d10GaL6F-lA?si=P76YRdT3HJW5hQUs)
 
 ## Testing 
 
 Testing results can be found in [testing.md](./testing.md).
 
-## Technologies used
+## Tools and technologies used
 
 - [HTML](https://web.dev/learn/html/overview/) - was used to provide structure for this project.
 
@@ -303,15 +305,31 @@ Testing results can be found in [testing.md](./testing.md).
 
 - [GitHub](https://github.com/) - is the hosting site used to store the code for the website.
 
+- [Cloudflare](https://www.cloudflare.com/) - was used as custom domain provider for demo website.
+
 - [Git](https://git-scm.com/) - was used as a version control software to commit and push the code to the GitHub repository.
 
 - [VS Code](https://code.visualstudio.com/) - was used as local IDE.
 
 - [Balsamiq](https://balsamiq.com/) - was used to create the wireframes for the website.
 
-- [Google fonts](https://fonts.google.com/) - was used to import fonts.
+- [Figma](https://www.figma.com/) - was used for svg editing.
 
-- [favicon.io](https://favicon.io/) - was used to generate favicon.
+- [Inkscape](https://inkscape.org/) - was used for svg editing.
+
+- [imageresizer.com](https://imageresizer.com/) - was used to resize and compress images.
+
+- [freeconvert.com](https://www.freeconvert.com/) - was used to convert the format of the files.
+
+- [cloudconvert.com](https://cloudconvert.com/) - was used to convert the format of the files.
+
+- [Google fonts](https://fonts.google.com/) - was used to source ['Suez One' font](https://fonts.google.com/specimen/Suez+One?query=suez).
+
+- [fontsquirrel.com](https://www.fontsquirrel.com/) - was used to compress font.
+
+- [screenspan.net](https://screenspan.net/) - was used to generate fallback font.
+
+- [svgrepo.com](https://www.svgrepo.com/) - was used to source arrow icons.
 
 - [Coolors.co](https://coolors.co/) - was used to display the colour scheme.
 
@@ -319,7 +337,7 @@ Testing results can be found in [testing.md](./testing.md).
 
 - [Mozilla Developer Tools](https://firefox-source-docs.mozilla.org/devtools-user/) - was used during testing, debugging and making the website responsive.
 
-- [PageSpeed Insights (Lighthouse)](https://pagespeed.web.dev/) - was used during the performance testing of the website.
+- [Google Lighthouse](https://developer.chrome.com/docs/lighthouse/overview) - was used during the performance testing of the website.
 
 - [W3C HTML Validator](https://validator.w3.org/) - was used to check for errors in the HTML code.
 
@@ -327,7 +345,6 @@ Testing results can be found in [testing.md](./testing.md).
 
 - [Wave.webaim](https://wave.webaim.org/) - Was used during the testing accessibilty of the website.
 
-- [ui.dev/amiresponsive](https://ui.dev/amiresponsive) - was used to generate website preview thumbnail.
 
 ## Deployment
 

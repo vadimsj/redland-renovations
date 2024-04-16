@@ -251,7 +251,7 @@ document.addEventListener("DOMContentLoaded", function() {
             document.getElementById("dark-letter-1").classList.remove("animate-logo-dark-1");
             document.getElementById("light-letter-2").classList.remove("animate-logo-light-2");
             document.getElementById("dark-letter-2").classList.remove("animate-logo-dark-2");
-        }, 1500); // Adjust the timing to match the duration of your animation (1.5s)
+        }, 1500); // Adjust the timing to match the duration animation (1.5s)
     }
 
     // Add event listener to <a> elements in the header
