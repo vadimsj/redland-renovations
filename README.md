@@ -1,9 +1,13 @@
-# Redland Renovations
+# Project Milestone 1 for Code Institute - User Centric Frontend Development
+
+<br>
 
 <img src="assets/docs/thumbnails/iphone-thumbnail.png" alt="About us section preview" height="250">
 <img src="assets/docs/thumbnails/ipad-mini-thumbnail.png" alt="About us section preview" height="250">
 <img src="assets/docs/thumbnails/ipad-pro-thumbnail.png" alt="About us section preview" height="250">
 <img src="assets/docs/thumbnails/desktop-thumbnail.png" alt="About us section preview" height="250">
+
+<br>
 
 <img src="assets/docs/thumbnails/gallery-phone-layout-thumbnail.png" alt="About us section preview" height="250">
 <img src="assets/docs/thumbnails/gallery-tablet-folded-layout-thumbnail.png" alt="About us section preview" height="250">
@@ -16,7 +20,7 @@
 
 <br>
 
-  [Live website preview](https://vadimsj.github.io/redland-renovations)
+[Live website preview](https://vadimsj.github.io/redland-renovations)
 
 ### Table of Contents
 - [Summary](#summary)
