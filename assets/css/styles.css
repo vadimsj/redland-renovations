@@ -581,11 +581,11 @@ svg {
 
 /* - Button to toggle visibility for images - */
 .section__gallery input[type="checkbox"] {
-    display: none;
+    display: none; /* Hide input element */
 }
 
 .gallery__frame:has(.folded) {
-    display: none;
+    display: none; /* Hide folded images */
 }
 
 .frame__toggle-img {
