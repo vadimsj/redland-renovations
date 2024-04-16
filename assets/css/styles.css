@@ -202,6 +202,11 @@ body {
     grid-column: span 2;
 } /* Set the first image in the gallery to double size */
 
+
+.gallery__frame:has(.folded) {
+    display: none; /* Hide folded images */
+}
+
 .img {
     height: 100%;
     width: 100%;
@@ -584,10 +589,6 @@ svg {
     display: none; /* Hide input element */
 }
 
-.gallery__frame:has(.folded) {
-    display: none; /* Hide folded images */
-}
-
 .frame__toggle-img {
     display: flex;
     align-items: center;
@@ -607,7 +608,6 @@ svg {
     background-color: #1b1b1b;
     border: none;
     border-radius: 50%;
-    
 }
 
 .btn--toggle-img::before {
@@ -632,7 +632,6 @@ svg {
     display: none;
 } /* Folded button content */
 
-
 #folding-btn--roofing:checked ~ .gallery-grid .gallery__frame:has(.folded),
 #folding-btn--rendering:checked ~ .gallery-grid .gallery__frame:has(.folded),
 #folding-btn--kitchen:checked ~ .gallery-grid .gallery__frame:has(.folded),
@@ -643,15 +642,6 @@ svg {
     display: block;
 } /* Reveal folded images on click  */
 
-#folding-btn--roofing:checked ~ .gallery-grid .gallery__frame > .folded,
-#folding-btn--rendering:checked ~ .gallery-grid .gallery__frame > .folded,
-#folding-btn--kitchen:checked ~ .gallery-grid .gallery__frame > .folded,
-#folding-btn--gardening:checked ~ .gallery-grid .gallery__frame > .folded,
-#folding-btn--fencing:checked ~ .gallery-grid .gallery__frame > .folded,
-#folding-btn--heating:checked ~ .gallery-grid .gallery__frame > .folded,
-#folding-btn--driveways:checked ~ .gallery-grid .gallery__frame > .folded {
-    transform: scale(1, 1);
-} /* Transform the scale of the revealed images on click */
 
 #folding-btn--roofing:checked ~ .frame__toggle-img .btn--toggle-img::before,
 #folding-btn--rendering:checked ~ .frame__toggle-img .btn--toggle-img::before,
