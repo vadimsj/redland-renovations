@@ -1018,6 +1018,7 @@ svg {
 }
 
 @media (min-width: 420px) and (max-width: 875px) {
+
     /* Gallery grid tablet layout */
     .gallery__frame:nth-child(8) {
         grid-row: span 2;
@@ -1026,6 +1027,7 @@ svg {
 }
 
 @media (min-width:431px) {
+
     .gallery-grid > :nth-child(6) {
         display: block;
         } /* Set the image #6 in the gallery visible for the tablet layout */ 
