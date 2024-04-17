@@ -775,7 +775,7 @@ svg {
     }
 
     .scroll-reveal .line-reveal {
-        animation-range-start: cover 10vh;
+        animation-range-start: cover 0vh;
         animation-range-end: cover 70vh;
     
     }
@@ -993,7 +993,7 @@ svg {
 
     /* Gallery section tablet layout */
     .section__gallery {
-        padding: 4rem .5 3rem;
+        padding: 4rem .5rem 3rem;
     }
 
     .section__gallery:nth-child(even) .gallery-grid {
