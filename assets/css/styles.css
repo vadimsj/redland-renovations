@@ -966,9 +966,7 @@ svg {
 @media (min-width:420px) {
 
     /* Home page tablet layout */
-    .section__home {
-        padding: 2rem 3rem;
-    }
+
 
     .main-headline {
         margin: 6.5rem 1rem 1rem;
