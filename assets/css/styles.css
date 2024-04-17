@@ -1050,10 +1050,11 @@ svg {
     }
 
     .gallery-grid {
-        max-width: 800px;
-        grid-template-columns: repeat(6, minmax(6rem, 1fr));
-    } /* Grid that arranges the flow of the images in the gallery section, restricting the number of columns to 6 */
-
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(8, 1fr)
+    } /* Grid set to 6 columns x 8 rows */
+    
+    
     .gallery__frame:has(.folded) {
         display: block;
     } /* Set all images in the gallery visible for the large/desktop layout */
