@@ -765,7 +765,7 @@ svg {
 /* Text highlight-on-scroll effect (Code implemented following the tutorial from Kevin Powell ((c) - readme > credits) */
     .scroll-reveal .line-reveal,
     .scroll-reveal .line-reveal > * {
-        color: hsl(0 0% 100% / 0.2);
+        color: hsl(0 0% 100% / 0.0);
         background-clip: text;
         background-repeat: no-repeat;
         background-size: 0 100%;
@@ -775,7 +775,7 @@ svg {
     }
 
     .scroll-reveal .line-reveal {
-        animation-range-start: cover 20vh;
+        animation-range-start: cover 10vh;
         animation-range-end: cover 70vh;
     
     }
