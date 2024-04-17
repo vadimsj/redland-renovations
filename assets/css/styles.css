@@ -165,7 +165,7 @@ body {
 /* - Services Page Styles - */
 .section__services {
     background-color: var(--theme-color-dark); 
-`    padding-bottom: 6rem;
+    padding-bottom: 6rem;
 }
 
 .section__services h2 {
@@ -1046,7 +1046,7 @@ svg {
 
     /* Gallery grid desktop layout */
     .section__gallery {
-        padding: 6rem 12rem 8rem;
+        padding: 6rem 6rem 7rem;
     }
 
     .gallery-grid {
@@ -1070,7 +1070,7 @@ svg {
 
     .gallery-grid > :nth-child(5) {
         grid-row: span 2;
-        grid-column: span 2;
+        grid-column: span 3;
     }
 
     .gallery-grid > :nth-child(4) {
