@@ -323,9 +323,7 @@ Testing results can be found in [testing.md](./testing.md).
 
 - [imageresizer.com](https://imageresizer.com/) - was used to resize and compress images.
 
-- [freeconvert.com](https://www.freeconvert.com/) - was used to convert the format of the files.
-
-- [cloudconvert.com](https://cloudconvert.com/) - was used to convert the format of the files.
+- [Pixelied](https://pixelied.com/) - was used to convert the format of the files.
 
 - [Google fonts](https://fonts.google.com/) - was used to source ['Suez One' font](https://fonts.google.com/specimen/Suez+One?query=suez).
 
