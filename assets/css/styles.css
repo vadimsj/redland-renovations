@@ -147,7 +147,6 @@ body {
     display: block;
     width: 100%;
     min-width: 320px;
-    height: auto;
     object-fit: cover;
     object-position: center;
     transition: transform;
