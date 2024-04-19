@@ -121,6 +121,7 @@ body {
 .section__home {
     padding: .5rem;
     background: var(--theme-color-grey-gradient);
+    align-items: stretch;
 }
 
 .main-headline { 
@@ -144,13 +145,14 @@ body {
 }
 
 .hero-img {
-    display: block;
+    display: inline-block;
     width: 100%;
+    height: auto;
     min-width: 320px;
+    max-width: 600px;
     object-fit: cover;
     object-position: center;
     transition: transform;
-    overflow: hidden;
 }
 
 .home__frame {
@@ -966,7 +968,6 @@ svg {
 
     /* Home page tablet layout */
 
-
     .main-headline {
         margin: 6.5rem 1rem 1rem;
     }
@@ -977,11 +978,6 @@ svg {
    
     .btn--primary-cta {
         margin-bottom: 2rem;
-    }
-
-    .hero-img {
-        max-width: 750px;
-        height: 100%;
     }
 
     /* Services list tablet layout */
