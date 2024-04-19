@@ -980,7 +980,8 @@ svg {
     }
 
     .hero-img {
-        max-width: 550px;
+        max-width: 750px;
+        height: 100%;
     }
 
     /* Services list tablet layout */
