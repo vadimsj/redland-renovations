@@ -1171,6 +1171,10 @@ svg {
         font-size: var(--font-size-h-xl);
     }
 
+    h2 {
+        font-size: var(--font-size-h-l);
+    }
+
     /* Footer desktop layout */
     .footer {
         position: relative;
