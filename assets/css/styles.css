@@ -799,27 +799,24 @@ svg {
     .scroll-reveal .line-reveal {
         animation-range-start: cover 0vh;
         animation-range-end: cover 70vh;
-    
     }
 
     .scroll-reveal .line-reveal > .phone-link {
         animation-range-start: cover 60vh;
         animation-range-end: cover 70vh;
-    
     }
 
     .scroll-reveal .line-reveal > .email-link {
         animation-range-start: cover 60vh;
         animation-range-end: cover 70vh;
     }
+    
+    @keyframes scroll-reveal {
+        to {
+            background-size: 100% 100%;
+        }
+    }    
 /* --- */
-
-@keyframes scroll-reveal {
-    to {
-        background-size: 100% 100%;
-    }
-}
-
 
 /* -- Navbar Properties -- */
 
