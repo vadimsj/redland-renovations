@@ -1192,22 +1192,4 @@ svg {
         font-size: var(--font-size-h-l);
     }
 
-    /* Footer desktop layout */
-    .footer {
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .footer > p {
-        margin: 0 1rem 3.5rem;
-    }
-
-    .footer > p:last-child {
-
-    }
-
-
 }
