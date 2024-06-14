@@ -81,7 +81,7 @@
     - Expand the customer base and boost sales.
 
 ### Scope
-  - Due to constraints of set requirements, website is built using vanilla HTML5, CSS3 and JavaScript. Backend development is out of scope for this project and will require further development.
+  - Due to constraints of set requirements, website is built using vanilla HTML5, CSS3 and JavaScript. Backend development is out of scope for this project.
   
   - Feature requirements:
     - Website is static but responsive.
