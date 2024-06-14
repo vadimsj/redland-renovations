@@ -6,10 +6,12 @@
     --logo-color-dark:#0A0706;
     --theme-color-light: #fff;
     --theme-color-light-alt: #bb562a;
+    --theme-color-light-alt2: #E2E0D4;
     --theme-color-dark: #eee;
     --theme-color-dark-alt: #1b1b1b;
-    --theme-color-grey-gradient: linear-gradient(to top, #eee 0%, #fff 15%);
-    --text-color: #1b1b1b;
+    --theme-color-dark-alt2: #5c5648;
+    --theme-color-grey-gradient: linear-gradient(to top, #E2E0D4 30%, #fff 30%);
+    --text-color: #2E2E2B;
     --text-color-alt: #fff;
     --text-color-alt2: #808a99;
     --text-color-alt3: #626262;
@@ -166,7 +168,7 @@ body {
 
 /* - Services Page Styles - */
 .section__services {
-    background-color: var(--theme-color-dark); 
+    background-color: var(--theme-color-light-alt2); 
     padding-bottom: 6rem;
 }
 
@@ -219,7 +221,7 @@ body {
 
 /* - About Us Page Styles - */
 .section__about-us {
-    background-color: var(--theme-color-light-alt);
+    background-color: var(--theme-color-dark-alt2);
     padding: 2rem 1rem;
 }
 
@@ -907,7 +909,7 @@ svg {
                 transform: translateY(-110%);
                 padding-top: calc(var(--hamburger-height) + var(--hamburger-margin-top) + 1rem);
                 padding-bottom: 3rem;
-                background-color: var(--theme-color-dark);
+                background-color: var(--theme-color-light-alt2);
                 color: var(--text-color);
                 box-shadow: 0 4px 6px #0000001a;
                 width: 100%;

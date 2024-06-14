@@ -137,8 +137,6 @@ function toggleRequiredFields() {
     phoneInput.required = isEmailEmpty;
 }
 
-
-
 /* -- Function to change theme color meta tag when hamburger menu is open -- */
 
 function changeThemeColor() {
@@ -164,7 +162,7 @@ function changeThemeColor() {
         navbarLinks.forEach(link => {
             link.addEventListener("click", function() {
                 // Change content attribute of theme color meta tag to default color when a link is clicked
-                themeColorMeta.setAttribute("content", "#fff");
+                themeColorMeta.setAttribute("content", "#2E2E2B");
             });
         });
 
@@ -215,7 +213,6 @@ function hideOnScroll(selector, thresholdPercentage) {
 
 // Call the function with different selectors for each element and threshold percentages
 hideOnScroll(".main-headline", 0.75); // Example threshold percentage: 75%
-hideOnScroll(".hero-img", 0.72); 
 hideOnScroll(".headline-services", 0.6); 
 hideOnScroll(".frame__cta-bar", 0.85); 
 hideOnScroll(".headline-roofing", 0.85);
