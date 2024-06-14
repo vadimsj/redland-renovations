@@ -151,7 +151,7 @@ function changeThemeColor() {
         // Function to update theme color meta tag
         function updateThemeColor() {
             // Change content attribute of theme color meta tag based on checkbox state
-            themeColorMeta.setAttribute("content", checkbox.checked ? "#e2e0d4" : "#fff");
+            themeColorMeta.setAttribute("content", checkbox.checked ? "#fff" : "#fff");
         }
 
         // Add event listener to checkbox
