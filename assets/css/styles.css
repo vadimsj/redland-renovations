@@ -1128,7 +1128,8 @@ svg {
         justify-content: center;
         align-items: center;
         padding: 0;
-    } /* Set the home page to horizontal view on the large/desktop screen */
+        background: var(--theme-color-light);
+    } 
     
     .hero-img {
         max-width: 50rem;
