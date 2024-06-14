@@ -151,7 +151,7 @@ function changeThemeColor() {
         // Function to update theme color meta tag
         function updateThemeColor() {
             // Change content attribute of theme color meta tag based on checkbox state
-            themeColorMeta.setAttribute("content", checkbox.checked ? "#fff" : "#e2e0d4");
+            themeColorMeta.setAttribute("content", checkbox.checked ? "#e2e0d4" : "#fff");
         }
 
         // Add event listener to checkbox
@@ -163,6 +163,10 @@ function changeThemeColor() {
             link.addEventListener("click", function() {
                 // Change content attribute of theme color meta tag to default color when a link is clicked
                 themeColorMeta.setAttribute("content", "#fff");
+                // Close the hamburger menu
+                checkbox.checked = false;
+                // Update theme color
+                updateThemeColor();
             });
         });
 
