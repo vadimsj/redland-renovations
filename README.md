@@ -2,11 +2,6 @@
 
 <br>
 
-<img src="assets/docs/thumbnails/thumbnails.png" alt="About us section preview" height="350">
-
-<br>
-
-<img src="assets/docs/thumbnails/tech-icons.png" alt="html5 logo" height="50px">
 
 <br>
 
@@ -86,7 +81,7 @@
     - Expand the customer base and boost sales.
 
 ### Scope
-  - Due to constraints of set requirements, website is built predominantly using vanilla HTML5 and CSS3, minimaising the usage of JavaScript. Backend functions are out of scope for this project and will require further development.
+  - Due to constraints of set requirements, website is built predominantly using vanilla HTML5 and CSS3 and JavaScript. Backend functions are out of scope for this project and will require further development.
   
   - Feature requirements:
     - Website is static but responsive.
@@ -120,6 +115,7 @@
     - Home Page (Button hidden in Logo)
     - Services
     - Gallery
+    - About us
     - Contact
 
 ### Wireframes
@@ -205,19 +201,19 @@
 
 - Home Page
 
-<img src="assets/docs/features/home-page.png" alt="Services section preview" width="1000px">
+<img src="#" alt="Services section preview" width="1000px">
 
 <br>
 
 - Services Section
 
-<img src="assets/docs/features/services-section.png" alt="Services section preview" width="1000px">
+<img src="#" alt="Services section preview" width="1000px">
 
 <br>
 
 - Call to action bar
 
-<img src="assets/docs/features/cta-bar.png" alt="Cta bar preview" width="1000px">
+<img src="#" alt="Cta bar preview" width="1000px">
 
 <br>
 
@@ -225,57 +221,55 @@
 
   - Desktop layout
 
-  <img src="assets/docs/features/gallery-section-desktop.png" alt="Gallery section desktop layout preview" width="1000px">
+  <img src="#" alt="Gallery section desktop layout preview" width="1000px">
 
   <br>
 
   - Mobile layout (alternative side)
 
-  <img src="assets/docs/features/gallery-section-mobile.png" alt="Gallery section mobile layout preview" width="400px">
+  <img src="#" alt="Gallery section mobile layout preview" width="400px">
 
   <br>
 
 - About us section
 
-  <img src="assets/docs/features/aboutus-section.png" alt="About us section preview" width="1000px">
+  <img src="#" alt="About us section preview" width="1000px">
 
   <br>
 
 - Unique selling proposition bar
 
-  <img src="assets/docs/features/usp-bar.png" alt="Usp bar preview" width="1000px">
+  <img src="#" alt="Usp bar preview" width="1000px">
 
   <br>
 
 - Contact us section
 
-  <img src="assets/docs/features/contactus-section.png" alt="Contact us section preview" width="1000px">
+  <img src="#" alt="Contact us section preview" width="1000px">
 
   <br>
 
 - Footer
 
-  <img src="assets/docs/features/footer.png" alt="Footer preview" width="1000px">
+  <img src="#" alt="Footer preview" width="1000px">
 
   <br>
 
 - Thank you page
 
-  <img src="assets/docs/features/thankyou-page.png" alt="Thank you page preview" width="1000px">
+  <img src="#" alt="Thank you page preview" width="1000px">
 
   <br>
 
 - Error 404 page
 
-  <img src="assets/docs/features/page-404.png" alt="Page 404 preview" width="1000px">
+  <img src="#" alt="Page 404 preview" width="1000px">
 
   <br>
 
 #### Features left to implement:
 
-- Image slider showcasing images from the gallery sections full screen - given the specific scope of this project, it was decided not to implement this feature.
-
-- Connect the form to google sheets or other CRM system.
+- Image slider showcasing images from the gallery sections full screen.
 
 ## Content 
 
