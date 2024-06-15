@@ -91,12 +91,10 @@
     - Website is developed with a mobile-first approach.
 
 -  Content requirements:
-   -  Key information about the company is easily accessible.
-   -  Website is visually engaging, featuring a multitude of images across its pages.
+   - Key information about the company is easily accessible.
+   - Website is visually engaging, featuring a multitude of images across its pages.
    - Content is presented in a format that is easy for users to understand and absorb.
    - Website is presented in a professional yet friendly manner.
-   - Website has only essential content and serves solely as an introductory presentation.
-   - Website instills confidence and prompts visitors to initiate contact with the company.
 
 ### Structure
   - Website is designed as a single landing page.
@@ -159,22 +157,23 @@
     <img src="assets/docs/image-preview/logo-preview.png" alt="Color scheme preview" width="200px">
 
   - Hero Image
+
     <img src="assets/docs/image-preview/hero-image-preview.png" alt="Hero image" width="500px">
 
   - Roofing & loft extensions
-      <img src="assets/docs/image-preview/roofing-image-preview.png" alt="Roofing images preview" width="1000px">
+      <img src="#" alt="Roofing images preview" width="1000px">
   - Plastering, rendering, insulation & stonemasonry
-      <img src="assets/docs/image-preview/plastering-image-preview.png" alt="Rendering images preview" width="1000px">
+      <img src="#" alt="Rendering images preview" width="1000px">
   - Kitchen installations
-      <img src="assets/docs/image-preview/kitchen-image-preview.png" alt="Kitchen images preview" width="1000px">
+      <img src="#" alt="Kitchen images preview" width="1000px">
   - Gardening work
-      <img src="assets/docs/image-preview/gardening-image-preview.png" alt="Gardening images preview" width="1000px">
+      <img src="#" alt="Gardening images preview" width="1000px">
   - Fencing & stone/brick wall
-      <img src="assets/docs/image-preview/fencing-image-preview.png" alt="Fencing images preview" width="1000px">
+      <img src="#" alt="Fencing images preview" width="1000px">
   - Heating systems
-      <img src="assets/docs/image-preview/heating-image-preview.png" alt="Heating images preview" width="1000px">
+      <img src="#" alt="Heating images preview" width="1000px">
   - Driveways, patios & decking
-      <img src="assets/docs/image-preview/driveways-image-preview.png" alt="Driveways images preview" width="1000px">
+      <img src="#" alt="Driveways images preview" width="1000px">
       </details>
 
  ### Features 
@@ -183,19 +182,19 @@
 
 - Header + Navigation bar
 
-<img src="assets/docs/features/header.png" alt="Header preview" width="1000px">
+<img src="#" alt="Header preview" width="1000px">
 
 <br>
 
 - Hamburger menu
 
-<img src="assets/docs/features/hamburger-menu.png" alt="Hamburger menu preview image" width="350px">
+<img src="#" alt="Hamburger menu preview image" width="350px">
 
 <br>
 
 - Menu Sidebar
 
-<img src="assets/docs/features/menu-sidebar.png" alt="Sidebar preview image" width="350px">
+<img src="#" alt="Sidebar preview image" width="350px">
 
 <br>
 
