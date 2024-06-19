@@ -91,45 +91,54 @@
 
 - Desktop
 
-  <img src="assets/docs/testing/main-page-tests/lighthouse-test-desktop.png" alt="Lighthouse desktop test result" width="500px">
+  <img src="assets/docs/testing/lighthouse-test-desktop.png" alt="Lighthouse desktop test result" width="500px">
 <br>
 
 - Mobile
 
-  <img src="assets/docs/testing/main-page-tests/lighthouse-test-mobile.png" alt="Lighthouse mobile test result" width="500px">
+  <img src="assets/docs/testing/lighthouse-test-mobile.png" alt="Lighthouse mobile test result" width="500px">
 <br>
 
 ### W3C Markup Validator testing 
 
   - index.html - No errors or warnings were returned.
 
-  <img src="assets/docs/testing/main-page-tests/w3c-html-test-index.png" alt="w3c html test result" width="500px">
+  <img src="assets/docs/testing/w3c-html-test-index.png" alt="w3c html test result" width="500px">
   <br>
 
   - thank-you.html - No errors or warnings were returned.
 
-  <img src="assets/docs/testing/main-page-tests/w3c-html-test-thankyou.png" alt="w3c html test result" width="500px">
+  <img src="assets/docs/testing/w3c-html-test-thankyou.png" alt="w3c html test result" width="500px">
   <br>
 
   - 404.html - No errors or warnings were returned.
 
-  <img src="assets/docs/testing/main-page-tests/w3c-html-test-404.png" alt="w3c html test result" width="500px">
+  <img src="assets/docs/testing/w3c-html-test-404.png" alt="w3c html test result" width="500px">
   <br>
 
 ### W3C CSS (Jigsaw) Validator testing 
 
   - No errors were returned, except those that were caused due to validator not recognising the modern css properties (listed below):
 
-  <img src="assets/docs/testing/main-page-tests/css-jigsaw-test-errors.png" alt="w3c css test result" width="1000px">
+  <img src="assets/docs/testing/css-jigsaw-test-errors.png" alt="w3c css test result" width="1000px">
   <br>
 
 ### Wave Web Accessibility testing
 
-  - No errors were returned.
+  - index.html - No errors were returned.
 
-  <img src="assets/docs/testing/main-page-tests/wave-main.png" alt="wave.webaim test result" width="250px">
+  <img src="assets/docs/testing/wave-main.png" alt="wave.webaim test result" width="250px">
   <br>
 
+  - thank-you.html - No errors were returned.
+
+  <img src="assets/docs/testing/wave-thankyou.png" alt="wave.webaim test result" width="250px">
+  <br>
+
+    - 404.html - No errors were returned.
+
+  <img src="assets/docs/testing/wave-404.png" alt="wave.webaim test result" width="250px">
+  <br>
 
 ## Manual testing
 
