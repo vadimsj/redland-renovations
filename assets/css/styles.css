@@ -297,19 +297,12 @@ body {
     bottom: 0;
     z-index: -1;
     color: var(--text-color-alt3);
-    padding: 1rem 5rem .25rem;
+    padding: 1rem 5rem 3rem;
 }
 
 .footer > p {
     font-size: var(--font-size-xs);
 }
-
-.footer > p:last-child {
-    margin-top: 2rem;
-    font-size: var(--font-size-xxs);
-    font-weight: var(--font-weight-light);
-}
-
 
 /* -- Typography -- */
 
