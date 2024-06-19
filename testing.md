@@ -118,9 +118,14 @@
 
 ### W3C CSS (Jigsaw) Validator testing 
 
-  - No errors were returned, except those that were caused due to validator not recognising the modern css properties (listed below):
+  - Validator returned a number of errors due to not recognising the modern css properties, but these errors can be ignored (listed below):
 
   <img src="assets/docs/testing/css-jigsaw-test-errors.png" alt="w3c css test result" width="1000px">
+  <br>
+
+  - Validator returned a number of warnings do to being unable to check dynamic variables or not recognising the properties, but these errors can be ignored (listed below):
+
+  <img src="assets/docs/testing/css-jigsaw-warnings.png" alt="w3c css test result" width="450px">
   <br>
 
 ### Wave Web Accessibility testing
@@ -135,7 +140,7 @@
   <img src="assets/docs/testing/wave-thankyou.png" alt="wave.webaim test result" width="250px">
   <br>
 
-    - 404.html - No errors were returned.
+  - 404.html - No errors were returned.
 
   <img src="assets/docs/testing/wave-404.png" alt="wave.webaim test result" width="250px">
   <br>
