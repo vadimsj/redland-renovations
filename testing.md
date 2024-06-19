@@ -101,14 +101,13 @@
 
 ### W3C Markup Validator testing 
 
-  - No errors were returned. 
-
-  <img src="assets/docs/testing/main-page-tests/w3c-html-main.png" alt="w3c html test result" width="500px">
-  <br>
+  - No errors or warnings were returned.
 
 ### W3C CSS (Jigsaw) Validator testing 
 
-  <img src="#" alt="w3c css test result" width="1000px">
+  - No errors were returned, except those that were caused due to validator not recognising the modern css properties (listed below):
+
+  <img src="assets/docs/testing/main-page-tests/css-jigsaw-test-errors.png" alt="w3c css test result" width="1000px">
   <br>
 
 ### Wave Web Accessibility testing
