@@ -182,87 +182,103 @@
 
 - Header + Navigation bar
 
-<img src="#" alt="Header preview" width="1000px">
+  - Desktop
 
-<br>
+    <img src="assets/docs/features/nav-desktop.png" alt="Desktop header preview" width="600px">
 
-- Hamburger menu
+  - Mobile
 
-<img src="#" alt="Hamburger menu preview image" width="350px">
+    <img src="assets/docs/features/nav-mobile.png" alt="Mobile header preview" width="200px">
 
-<br>
-
-- Menu Sidebar
-
-<img src="#" alt="Sidebar preview image" width="350px">
-
+    <img src="assets/docs/features/nav-mobile-sidebar.png" alt="Menu sidebar preview" width="200px">
 <br>
 
 - Home Page
 
-<img src="#" alt="Services section preview" width="1000px">
+  - Mobile
+
+    <img src="assets/docs/features/home-page-mobile.png" alt="Mobile home page preview" width="200px">
+
+
+  - Desktop
+
+    <img src="assets/docs/features/home-page-desktop.png" alt="Desktop page preview" width="600px">
 
 <br>
 
+
 - Services Section
 
-<img src="#" alt="Services section preview" width="1000px">
+<img src="assets/docs/features/services-page.png" alt="Services section preview" width="200px">
 
 <br>
 
 - Call to action bar
 
-<img src="#" alt="Cta bar preview" width="1000px">
+<img src="assets/docs/features/cta-bar.png" alt="Cta bar preview" width="200px">
 
 <br>
 
 - Gallery Sections
 
-  - Desktop layout
+  - Mobile layout folded
 
-  <img src="#" alt="Gallery section desktop layout preview" width="1000px">
+  <img src="assets/docs/features/gallery-mobile-folded.png" alt="Gallery section mobile layout folded preview" width="200px">
 
-  <br>
+  - Mobile layout expanded
 
-  - Mobile layout (alternative side)
+  <img src="assets/docs/features/gallery-mobile-expanded.png" alt="Gallery section mobile layout expanded preview" width="200px">
 
-  <img src="#" alt="Gallery section mobile layout preview" width="400px">
+    - Tablet layout folded
 
-  <br>
+  <img src="assets/docs/features/gallery-tablet-folded.png" alt="Gallery section tablet layout folded preview" width="280px">
+
+    - Tablet layout expanded
+
+  <img src="assets/docs/features/gallery-tablet-expanded.png" alt="Gallery section tablet layout expanded preview" width="280px">
+
+  - Desktop layout folded
+
+  <img src="assets/docs/features/gallery-desktop-folded.png" alt="Gallery section desktop layout folded preview" width="400px">
+
+    - Desktop layout expanded
+
+  <img src="assets/docs/features/gallery-desktop-expanded.png" alt="Gallery section desktop layout expanded preview" width="400px">
+
 
 - About us section
 
-  <img src="#" alt="About us section preview" width="1000px">
+  <img src="assets/docs/features/about-us.png" alt="About us section preview" width="200px">
 
   <br>
 
 - Unique selling proposition bar
 
-  <img src="#" alt="Usp bar preview" width="1000px">
+  <img src="assets/docs/features/usp-bar.png" alt="Usp bar preview" width="200px">
 
   <br>
 
-- Contact us section
+- Contact us form
 
-  <img src="#" alt="Contact us section preview" width="1000px">
+  <img src="assets/docs/features/contact-us-form.png" alt="Contact us section preview" width="200px">
 
   <br>
 
 - Footer
 
-  <img src="#" alt="Footer preview" width="1000px">
+  <img src="assets/docs/features/footer.png" alt="Footer preview" width="200px">
 
   <br>
 
 - Thank you page
 
-  <img src="#" alt="Thank you page preview" width="1000px">
+  <img src="assets/docs/features/thank-you-page.png" alt="Thank you page preview" width="200px">
 
   <br>
 
 - Error 404 page
 
-  <img src="#" alt="Page 404 preview" width="1000px">
+  <img src="assets/docs/features/404-page.png" alt="Page 404 preview" width="200px">
 
   <br>
 
