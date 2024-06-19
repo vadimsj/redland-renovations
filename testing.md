@@ -196,15 +196,52 @@
 
 ### Browser testing
 
-| Page | Browser | Result | Pass/Fail |
-| --- | --- | --- | --- |
+| Page/Section | Result | Pass/Fail |
+| --- | --- | --- |
 |  |  |  |  |  |
+ `Chrome` 
+| Home | Page displayed as expected | Pass |
+| Services | Page displayed as expected | Pass |
+| Call-to-action bar | Section displayed as expected | Pass |
+| Gallery | Page displayed as expected | Pass |
+| About us | Section displayed as expected | Pass |
+| USP bar | Section displayed as expected | Pass |
+| Contact us | Page displayed as expected | Pass |
+| footer | Section displayed as expected | Pass |
+|  |  |  |  |  |
+ `Firefox` 
+| Home | Page displayed as expected | Pass |
+| Services | Page displayed as expected | Pass |
+| Call-to-action bar | Section displayed as expected | Pass |
+| Gallery | Page displayed as expected | Pass |
+| About us | Section displayed as expected | Pass |
+| USP bar | Section displayed as expected | Pass |
+| Contact us | Page displayed as expected | Pass |
+| footer | Section displayed as expected | Pass |
+|  |  |  |  |  |
+ `Safari` 
+| Home | Page displayed as expected | Pass |
+| Services | Page displayed as expected | Pass |
+| Call-to-action bar | Section displayed as expected | Pass |
+| Gallery | Page displayed as expected | Pass |
+| About us | Section displayed as expected | Pass |
+| USP bar | Section displayed as expected | Pass |
+| Contact us | Page displayed as expected | Pass |
+| footer | Section displayed as expected | Pass |
+|  |  |  |  |  |
+
 
 ### Responsiveness testing
 
 | Device | Screen size | Result | Pass/Fail |
 | --- | --- | --- | --- |
 |  |  |  |  |  |
+| Samsung Galaxy S20 ultra | --- | Displayed as expected | Pass |
+| iPhone 12 | --- | Displayed as expected | Pass |
+| iPhome 14 pro max | --- | Displayed as expected | Pass |
+| iPad mini | --- | Displayed as expected | Pass |
+| iPad pro | --- | Displayed as expected | Pass |
+| Macbook air | --- | Displayed as expected | Pass |
 
 ### Unfixed Bugs
 
