@@ -305,6 +305,8 @@
 
 - Font styles and colors were taken from the existing Redland Renovations website.
 
+- Dummy images were take from [Pexels](https://www.pexels.com/).
+
 ## Credits 
 
  - [Code Institute Template](https://github.com/Code-Institute-Org/gitpod-full-template) was used as a starting point for this project. 
@@ -315,7 +317,7 @@
 
 - Text reveal-on-scroll effect was implemented following the tutorial from [WebStylePress](https://youtu.be/v_aEkNm6xec?si=DMN5NkE6uMworW03).
 
-- Text highlight-on-scroll effect implemented following the tutorial from [Kevin Powell](https://youtu.be/d10GaL6F-lA?si=P76YRdT3HJW5hQUs)
+- Text highlight-on-scroll effect implemented following the tutorial from [Kevin Powell](https://youtu.be/d10GaL6F-lA?si=P76YRdT3HJW5hQUs).
 
 ## Testing 
 
