@@ -101,7 +101,20 @@
 
 ### W3C Markup Validator testing 
 
-  - No errors or warnings were returned.
+  - index.html - No errors or warnings were returned.
+
+  <img src="assets/docs/testing/main-page-tests/w3c-html-test-index.png" alt="w3c html test result" width="500px">
+  <br>
+
+  - thank-you.html - No errors or warnings were returned.
+
+  <img src="assets/docs/testing/main-page-tests/w3c-html-test-thankyou.png" alt="w3c html test result" width="500px">
+  <br>
+
+  - 404.html - No errors or warnings were returned.
+
+  <img src="assets/docs/testing/main-page-tests/w3c-html-test-404.png" alt="w3c html test result" width="500px">
+  <br>
 
 ### W3C CSS (Jigsaw) Validator testing 
 
