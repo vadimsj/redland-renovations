@@ -536,7 +536,7 @@ svg {
     }
     
 /* - Double arrow icon - */
-.icon-double-arrow-right {
+.icon--double-arrow-right {
     transition: transform 0.3s ease;
     transform: translateY(1px);
 }
@@ -593,7 +593,7 @@ svg {
     }
   }
 
-.btn--primary-cta:hover .icon-double-arrow-right {
+.btn--primary-cta:hover .icon--double-arrow-right {
     transform: translateX(5px) translateY(1px);
 }
 
