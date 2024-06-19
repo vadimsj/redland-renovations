@@ -445,6 +445,10 @@ svg {
     height: auto;
 }
 
+.logo--full {
+    width: 200px;
+}
+
 .logo--mini-anim {
     margin: .75rem .3rem .75rem .75rem;
     width: 2.5rem;
