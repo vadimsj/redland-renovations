@@ -225,28 +225,39 @@
 
   - Mobile layout folded
 
-  <img src="assets/docs/features/gallery-mobile-folded.png" alt="Gallery section mobile layout folded preview" width="200px">
+    <img src="assets/docs/features/gallery-mobile-folded.png" alt="Gallery section mobile layout folded preview" width="200px">
+
+  <br>
 
   - Mobile layout expanded
 
-  <img src="assets/docs/features/gallery-mobile-expanded.png" alt="Gallery section mobile layout expanded preview" width="200px">
+    <img src="assets/docs/features/gallery-mobile-expanded.png" alt="Gallery section mobile layout expanded preview" width="200px">
+
+  <br>
 
     - Tablet layout folded
 
-  <img src="assets/docs/features/gallery-tablet-folded.png" alt="Gallery section tablet layout folded preview" width="280px">
+      <img src="assets/docs/features/gallery-tablet-folded.png" alt="Gallery section tablet layout folded preview" width="280px">
+
+  <br>
 
     - Tablet layout expanded
 
-  <img src="assets/docs/features/gallery-tablet-expanded.png" alt="Gallery section tablet layout expanded preview" width="280px">
+      <img src="assets/docs/features/gallery-tablet-expanded.png" alt="Gallery section tablet layout expanded preview" width="280px">
+
+  <br>
 
   - Desktop layout folded
 
-  <img src="assets/docs/features/gallery-desktop-folded.png" alt="Gallery section desktop layout folded preview" width="400px">
+    <img src="assets/docs/features/gallery-desktop-folded.png" alt="Gallery section desktop layout folded preview" width="400px">
+
+  <br>
 
     - Desktop layout expanded
 
-  <img src="assets/docs/features/gallery-desktop-expanded.png" alt="Gallery section desktop layout expanded preview" width="400px">
+      <img src="assets/docs/features/gallery-desktop-expanded.png" alt="Gallery section desktop layout expanded preview" width="400px">
 
+  <br>
 
 - About us section
 
