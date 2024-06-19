@@ -208,6 +208,8 @@
 | USP bar | Section displayed as expected | Pass |
 | Contact us | Page displayed as expected | Pass |
 | footer | Section displayed as expected | Pass |
+| Thank you | Page displayed as expected | Pass |
+| 404 | Page displayed as expected | Pass |
 |  |  |  |  |  |
  `Firefox` 
 | Home | Page displayed as expected | Pass |
@@ -218,6 +220,8 @@
 | USP bar | Section displayed as expected | Pass |
 | Contact us | Page displayed as expected | Pass |
 | footer | Section displayed as expected | Pass |
+| Thank you | Page displayed as expected | Pass |
+| 404 | Page displayed as expected | Pass |
 |  |  |  |  |  |
  `Safari` 
 | Home | Page displayed as expected | Pass |
@@ -228,6 +232,8 @@
 | USP bar | Section displayed as expected | Pass |
 | Contact us | Page displayed as expected | Pass |
 | footer | Section displayed as expected | Pass |
+| Thank you | Page displayed as expected | Pass |
+| 404 | Page displayed as expected | Pass |
 |  |  |  |  |  |
 
 
