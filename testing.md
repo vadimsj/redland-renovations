@@ -1,4 +1,4 @@
-# Redland Renovations Testing and Optimisation Documentation
+# Redland Renovations Testing Documentation
 
 [Live website preview](https://vadimsj.github.io/redland-renovations)
 
