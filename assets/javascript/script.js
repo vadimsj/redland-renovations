@@ -55,46 +55,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-/* -- Hero image zoom-on-scroll effect -- */
-
-// Define a function to handle the scroll event
-function handleScroll() {
-    // Get the hero image element
-    const heroImage = document.querySelector(".hero-img");
-
-    // Calculate the scale factor based on the scroll position
-    const scaleFactor = 1 + window.scrollY * 0.0005; // Adjust multiplier for desired zoom effect
-
-    // Apply the scale transformation to the hero image using CSS transform property
-    heroImage.style.transform = `scale(${scaleFactor})`;
-
-    // Determine if the user has scrolled beyond a certain threshold
-    const isZoomedIn = window.scrollY > 100; // Adjust scroll position threshold as needed
-
-    // Toggle the zoom-in class based on the scroll position
-    heroImage.classList.toggle("zoom-in", isZoomedIn);
-}
-
-// Add throttling to the scroll event listener to improve performance
-let isScrolling = false;
-
-window.addEventListener("scroll", function() {
-    if (!isScrolling) {
-        // Set isScrolling to true to prevent multiple event triggers
-        isScrolling = true;
-
-        // Request animation frame to improve performance
-        requestAnimationFrame(function() {
-            // Call the handleScroll function
-            handleScroll();
-
-            // Reset isScrolling after the scroll event has been processed
-            isScrolling = false;
-        });
-    }
-});
-
-
 /* -- Function to close the menu when a navbar link is clicked -- */
 
 function closeMenuOnClick() {
@@ -114,10 +74,6 @@ function closeMenuOnClick() {
 }
 
 // Call the function to close the menu when a navbar link is clicked
-closeMenuOnClick();
-
-
-// Call the function to add event listeners to navbar links
 closeMenuOnClick();
 
 

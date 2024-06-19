@@ -662,7 +662,6 @@ svg {
     display: block;
 } /* Reveal folded images on click  */
 
-
 #folding-btn--roofing:checked ~ .frame__toggle-img .btn--toggle-img::before,
 #folding-btn--rendering:checked ~ .frame__toggle-img .btn--toggle-img::before,
 #folding-btn--kitchen:checked ~ .frame__toggle-img .btn--toggle-img::before,
@@ -673,7 +672,6 @@ svg {
     display: none;
 } /* Hide icon for the folded button */
 
-
 #folding-btn--roofing:checked ~ .frame__toggle-img .btn--toggle-img::after,
 #folding-btn--rendering:checked ~ .frame__toggle-img .btn--toggle-img::after,
 #folding-btn--kitchen:checked ~ .frame__toggle-img .btn--toggle-img::after,
@@ -683,7 +681,6 @@ svg {
 #folding-btn--driveways:checked ~ .frame__toggle-img .btn--toggle-img::after {
     display: block;
 } /* Display icon for the unfolded button */
-
 
 /* -- Special effects -- */
 
@@ -703,10 +700,6 @@ svg {
     opacity: 1;
     transform: scale(1);
 } /* Class to set the content visible as it entered in the viewport */
-
-.zoom-in {
-    transform: scale(1.1);
-} /* class to animate zoom-in on scroll for hero image */
 
 .fade-out {
     opacity: 0;
@@ -1028,25 +1021,25 @@ svg {
     .gallery__frame:nth-child(8) {
         grid-row: span 2;
         grid-column: span 2;
-    } /* Set the image #8 in the gallery to double size */
+    } /* Set the image #8 in the gallery section to double size */
 
     .gallery-grid > :nth-child(6) {
         display: block;
-        } /* Set the image #6 in the gallery visible for the tablet layout */ 
+        } /* Set the image #6 in the gallery section visible */ 
 }
     
 @media (min-width:550px) {
 
-    /* Gallery grid desktop layout */
+    /* Gallery grid tablet/desktop layout */
+    .gallery-grid {
+        grid-template-columns: repeat(4, 1fr);
+ 
+        max-width: 800px;
+    } /* Grid set to 6 columns x 8 rows */
+
     .section__gallery {
         padding: 6rem 6rem 7rem;
     }
-
-    .gallery-grid {
-        grid-template-columns: repeat(4, 1fr);
-
-        max-width: 800px;
-    } /* Grid set to 6 columns x 8 rows */
 }
 
 @media (min-width:700px) {
@@ -1068,10 +1061,6 @@ svg {
         padding: 0;
         background: var(--theme-color-light);
     } 
-    
-    .hero-img {
-        max-width: 50rem;
-    }
     
     .main-headline {
         align-self: flex-start;
