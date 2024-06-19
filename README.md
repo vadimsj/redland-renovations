@@ -7,7 +7,7 @@
 
 [Live website preview](https://vadimsj.github.io/redland-renovations)
 
-### Table of Contents
+### Contents
 - [Summary](#summary)
 - [User experience (UX)](#user-experience-ux)
   - [User stories](#user-stories)
