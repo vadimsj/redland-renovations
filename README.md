@@ -180,17 +180,19 @@
 
 #### Existing Features: 
 
-- Header + Navigation bar
 
-  - Desktop
+- Header + Navigation bar desktop layout
 
     <img src="assets/docs/features/nav-desktop.png" alt="Desktop header preview" width="600px">
 
-  - Mobile
+<br>
+
+ - Header + Hamburger menu mobile layout
 
     <img src="assets/docs/features/nav-mobile.png" alt="Mobile header preview" width="200px">
 
     <img src="assets/docs/features/nav-mobile-sidebar.png" alt="Menu sidebar preview" width="200px">
+
 <br>
 
 - Home Page
