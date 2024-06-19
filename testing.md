@@ -242,12 +242,12 @@
 | Device | Screen size | Result | Pass/Fail |
 | --- | --- | --- | --- |
 |  |  |  |  |  |
-| Samsung Galaxy S20 ultra | --- | Displayed as expected | Pass |
-| iPhone 12 | --- | Displayed as expected | Pass |
-| iPhome 14 pro max | --- | Displayed as expected | Pass |
-| iPad mini | --- | Displayed as expected | Pass |
-| iPad pro | --- | Displayed as expected | Pass |
-| Macbook air | --- | Displayed as expected | Pass |
+| Samsung Galaxy S20 ultra | 412x915 | Displayed as expected | Pass |
+| iPhone 12 pro | 390x844 | Displayed as expected | Pass |
+| iPhome 14 pro max | 430x932 | Displayed as expected | Pass |
+| iPad mini | 768x1024 | Displayed as expected | Pass |
+| iPad pro | 1024x1366 | Displayed as expected | Pass |
+| Macbook air | 2560 × 1600 | Displayed as expected | Pass |
 
 ### Unfixed Bugs
 
