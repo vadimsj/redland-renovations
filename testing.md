@@ -6,28 +6,17 @@
 
 ### Contents:
 
+### Tools used for testing:
+
+- [Google Lighthouse extension](https://developer.chrome.com/docs/lighthouse/overview)
+- [W3C Html validator](https://validator.w3.org/nu/)
+- [W3C CSS (Jigsaw) Validator](https://jigsaw.w3.org/css-validator/)
+- [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/)
 
 
-### Summary
 
-  - The website has been optimised for the following:
 
-    - Performance
-    - SEO
-    - Accessibility
-    - Best practices
-    - SEO
-    - PWA
-    - iOS
-
-  - Tools used for testing:
-
-    - Google lighthouse extension
-    - WAVE Web Accessibility Evaluation Tool
-    - W3C Html validator
-    - W3C CSS Validator
-
-### User story testing
+## User story testing
 
 - A. First Time Visitor Goals
 
@@ -100,35 +89,37 @@
 
 ### Lighthouse performance testing
 
-- [Google Lighthouse](https://developer.chrome.com/docs/lighthouse/overview)
+- Desktop
 
-  <img src="#" alt="Lighthouse test result" width="500px">
+  <img src="assets/docs/testing/main-page-tests/lighthouse-test-desktop.png" alt="Lighthouse desktop test result" width="500px">
+<br>
+
+- Mobile
+
+  <img src="assets/docs/testing/main-page-tests/lighthouse-test-mobile.png" alt="Lighthouse mobile test result" width="500px">
+<br>
 
 ### W3C Markup Validator testing 
 
-- HTML [W3C validator](https://validator.w3.org/nu/)
   - No errors were returned. 
 
   <img src="assets/docs/testing/main-page-tests/w3c-html-main.png" alt="w3c html test result" width="500px">
+  <br>
 
 ### W3C CSS (Jigsaw) Validator testing 
 
-- CSS [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
-
   <img src="#" alt="w3c css test result" width="1000px">
+  <br>
 
 ### Wave Web Accessibility testing
-
-- Wave.webaim [Web Accessibility Evaluation Tool](https://wave.webaim.org/)
 
   - No errors were returned.
 
   <img src="assets/docs/testing/main-page-tests/wave-main.png" alt="wave.webaim test result" width="250px">
-<br>
+  <br>
 
 
 ## Manual testing
-
 
 ### Feature testing
 
