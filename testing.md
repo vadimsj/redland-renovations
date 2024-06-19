@@ -149,11 +149,54 @@
 
 ### Feature testing
 
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+|  |  |  |  |  |
+| `Navigation bar - mobile` |
+| Logo Home button | When clicked..  | Clicked .. | Opened.. | Pass |
+| Hamburger menu | When clicked..  | Clicked .. | Opened.. | Pass |
+| Services link | When clicked the user will be redirected to the services page.| Clicked link | Redirected to the services page. | Pass |
+| Gallery link | When clicked the user will be redirected to the first gllaery section. | Clicked link | Redirected to the first gallery section. | Pass |
+| About us link | When clicked the user will be redirected to the first gllaery section. | Clicked link | Redirected to the first gallery section. | Pass |
+| Contact us link | When clicked the user will be redirected to the Contact us section. | Clicked link | Redirected to the contact section | Pass |
+|  |  |  |  |  |
+| `Navigation bar - desktop` |
+| Services page link | When clicked the user will be redirected to the services page.| Clicked link | Redirected to the services page. | Pass |
+| Gallery link | When clicked the user will be redirected to the first gllaery section. | Clicked link | Redirected to the first gallery section. | Pass |
+| About us link | When clicked the user will be redirected to the first gllaery section. | Clicked link | Redirected to the first gallery section. | Pass |
+| Contact us link  | When clicked the user will be redirected to the Contact us section. | Clicked link | Redirected to the contact section | Pass |
+|  |  |  |  |  |
+| `Home page` |
+| Call-to-action button | Animated light reflection effect slides across the button every 8s | Observed the animation | Animation works as expected | Pass |
+| Call-to-action button | When clicked redirected to the Contact us page  | Clicked the button | Redirected to the Contact us page | Pass |
+| --- | When clicked..  | Clicked .. | Opened.. | Pass |
+|  |  |  |  |  |
+| `Services` |
+| --- | When clicked..  | Clicked .. | Opened.. | Pass |
+|  |  |  |  |  |
+| `Call-to-action bar` |
+| Text line reveal-on-scroll effect | When clicked..  | Clicked .. | Opened.. | Pass |
+|  |  |  |  |  |
+| `Gallery section` |
+| --- | When clicked..  | Clicked .. | Opened.. | Pass |
+|  |  |  |  |  |
+| `USP bar` |
+| Text line reveal-on-scroll effect | When clicked..  | Clicked .. | Opened.. | Pass |
+|  |  |  |  |  |
+| `Contact us page` |
+| Phone number | When clicked..  | Clicked .. | Opened.. | Pass |
+| Email address | When clicked..  | Clicked .. | Opened.. | Pass |
+| Form | When clicked..  | Clicked .. | Opened.. | Pass |
+| Submit button | When clicked..  | Clicked .. | Opened.. | Pass |
+| Parallax effect | When clicked..  | Clicked .. | Opened.. | Pass |
+| `Footer` |
+|  |  |  |  |  |
+| --- | When clicked..  | Clicked .. | Opened.. | Pass |
+
+
 ### Browser testing
 
 ### Responsiveness testing
 
 ### Unfixed Bugs
-
-
 
