@@ -305,7 +305,7 @@
 
 - Font styles and colors were taken from the existing Redland Renovations website.
 
-- Dummy images were take from [Pexels](https://www.pexels.com/).
+- Dummy images were taken from [Pexels](https://www.pexels.com/).
 
 ## Credits 
 
