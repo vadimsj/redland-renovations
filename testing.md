@@ -196,7 +196,17 @@
 
 ### Browser testing
 
+| Page | Browser | Result | Pass/Fail |
+| --- | --- | --- | --- |
+|  |  |  |  |  |
+
 ### Responsiveness testing
 
+| Device | Screen size | Result | Pass/Fail |
+| --- | --- | --- | --- |
+|  |  |  |  |  |
+
 ### Unfixed Bugs
+
+  - No bugs were found during the testing.
 
