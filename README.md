@@ -224,37 +224,37 @@
 
 - Gallery Sections
 
-  - Mobile layout folded
+  - Small screen layout folded
 
     <img src="assets/docs/features/gallery-mobile-folded.png" alt="Gallery section mobile layout folded preview" width="200px">
 
   <br>
 
-  - Mobile layout expanded
+  - Small screen layout expanded
 
     <img src="assets/docs/features/gallery-mobile-expanded.png" alt="Gallery section mobile layout expanded preview" width="200px">
 
   <br>
 
-    - Tablet layout folded
+    - Medium screen layout folded
 
       <img src="assets/docs/features/gallery-tablet-folded.png" alt="Gallery section tablet layout folded preview" width="280px">
 
   <br>
 
-    - Tablet layout expanded
+    - Medium screen layout expanded
 
       <img src="assets/docs/features/gallery-tablet-expanded.png" alt="Gallery section tablet layout expanded preview" width="280px">
 
   <br>
 
-  - Desktop layout folded
+  - Large screen layout folded
 
     <img src="assets/docs/features/gallery-desktop-folded.png" alt="Gallery section desktop layout folded preview" width="400px">
 
   <br>
 
-    - Desktop layout expanded
+    - Large screen layout expanded
 
       <img src="assets/docs/features/gallery-desktop-expanded.png" alt="Gallery section desktop layout expanded preview" width="400px">
 
@@ -298,7 +298,29 @@
 
 #### Features left to implement:
 
-- Image slider showcasing images from the gallery sections full screen.
+- Image slider showcasing images from the gallery sections full screen when those clicked.
+
+- Function to close the navbar automatically when the nav links are clicked.
+
+- Form validation function to set either phone number or email to be required in the form.
+
+- Function to change theme color meta tag when hamburger menu is open
+
+- Add visual effects:
+  
+  - drop shadow under navbar when the page is scrolled
+
+  - hide/reveal elements as they enter/leaving the viewport
+
+  - Fade out elements on scroll as they leaving the viewport
+
+  - Animate logo when nav links and primary cta button clicked
+
+  <br>
+  
+  Note: some of the JavaScript features has been already implemented, however the code was not tested and used only as a temporary measure, therefore is still considered as not completed.
+
+  <br>
 
 ## Content 
 
