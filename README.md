@@ -126,7 +126,7 @@
   <details>
   <summary>Mobile</summary>
 
-  ![Wireframes](assets/docs/design/redland-renovations-wireframes-mobile.png)
+   <img src="assets/docs/design/redland-renovations-wireframes-mobile.png" alt="Wireframes mobile layout preview" width="300px">
 
   </details>
 
@@ -134,7 +134,7 @@
 
   <summary>Desktop</summary>
 
-  ![Wireframes](assets/docs/design/redland-renovations-wireframes-desktop.png)
+  <img src="assets/docs/design/redland-renovations-wireframes-desktop.png" alt="Wireframes dektop layout preview" width="300px">
 
   </details>
 
