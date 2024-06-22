@@ -20,10 +20,10 @@
 
 ### A. First Time Visitor Goals
 
-  As a first-time visitor, I would like to:
+  **As a first-time visitor, I would like to:**
 
-  1. Identify the nature of the business and specialization of the company.
-  2. Locate where the company is based and its areas of operation.
+  **1. Identify the nature of the business and specialization of the company.**
+  **2. Locate where the company is based and its areas of operation.**
 
   - The home page features a large heading, "Property Renovations in Bristol," clearly identifying the nature of the business and its area of operation.
 
@@ -31,16 +31,16 @@
     
   - The home page also includes an image featuring a property typical of the Redland area.
 
-  3. Determine what services the company offers and the scope of work undertaken.
+  **3. Determine what services the company offers and the scope of work undertaken.**
 
   - A detailed list of services provided is featured on the second page below the home page.
 
-  4. Explore the company's portfolio showcasing previously completed projects.
+  **4. Explore the company's portfolio showcasing previously completed projects.**
 
   - Following the services list, there are galleries showcasing completed projects.
 
-  5. Find essential information about the company.
-  6. Contact the company.
+  **5. Find essential information about the company.**
+  **6. Contact the company.**
 
   - The primary call-to-action button on the home page leads visitors directly to the contact us page, where the phone number and email address are displayed.
 
@@ -52,13 +52,13 @@
 
 ### B. Returning Visitor Goals
 
-  As a Ruturning visitor, I would like to:
+  **As a Ruturning visitor, I would like to:**
 
-  1. Easily navigate through the website to access different pages and return to the home page if needed.
+  **1. Easily navigate through the website to access different pages and return to the home page if needed.**
 
   - The website features a navigation bar for quick access to necessary sections.
 
-  2. Quickly contact the company or request a callback.
+  **2. Quickly contact the company or request a callback.**
 
   - The primary call-to-action button on the home page leads directly to the contact form.
 
@@ -68,25 +68,25 @@
 
 <br>
 
-  As a website owner, I would like to:
+  **As a website owner, I would like to:**
 
-  1. Introduce the company and it's services to the website visitors.
+  **1. Introduce the company and it's services to the website visitors.**
 
-  2. Present essential company information in a user-friendly format.
+  **2. Present essential company information in a user-friendly format.**
 
   - The content is logically organized and presented in a consecutive manner. The website's usability is intuitive, ensuring it doesn't overwhelm visitors with excessive information.
 
-  3. Showcase the company's portfolio of previously completed works.
+  **3. Showcase the company's portfolio of previously completed works.**
 
   - The website features a responsive gallery.
 
-  4. Offer a various options for customers to get in touch.
+  **4. Offer a various options for customers to get in touch.**
 
   - The primary call to action leads directly to contact form that allows to submit the message directly
 
   - The website features additional call to action bar with the phone number and email.
 
-  5. Capture the leads from incoming inquiries.
+  **5. Capture the leads from incoming inquiries.**
 
   - Backend development for this feature is not yet implemented due to being out of scope for this project.
 
