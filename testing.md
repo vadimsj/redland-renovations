@@ -66,8 +66,6 @@
 
 ### C. Website Owner Goals
 
-<br>
-
   **As a website owner, I would like to:**
 
   **1. Introduce the company and it's services to the website visitors.**
