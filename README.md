@@ -61,10 +61,10 @@
 
     As a website owner, I would like to:
   1. Introduce the company and it's services to the website visitors.
-  2. Present essential company information in a user-friendly format.
+  2. Present essential information about the company in a user-friendly format.
   3. Showcase the company's portfolio of previously completed works.
   4. Offer a various options for customers to get in touch.
-  5. Capture the leads from incoming inquiries. (out of scope for this project)
+  5. Capture the leads from incoming inquiries.
 
 
 ## UX Planes
@@ -101,15 +101,20 @@
   - Website has single primary call-to-action for its visitors. 
   - Website is structured to guide visitors towards the primary call-to-action.
 
-  - Website is divided into the following sections or pages:
-    - Home
-    - Services
-    - Gallery
-    - About Us
-    - Contact
-    - Footer
+  - Main content is divided to the following pages and sections:
+    - Home page
+    - Services list
+    - Galleries
+    - About us section
+    - Contact form
 
-  - Website features a navigation bar with the following links:
+  - Additionally website features:
+    - Static navigation bar.
+    - Aside with additional call-to-action.
+    - Aside with unique selling proposition.
+    - Footer.
+
+  - Navigation bar features the following links:
     - Home Page (Button hidden in Logo)
     - Services
     - Gallery
@@ -308,17 +313,15 @@
 
 - Add visual effects:
   
-  - drop shadow under navbar when the page is scrolled
+  - Drop shadow under the navbar when the page is scrolled.
 
-  - hide/reveal elements as they enter/leaving the viewport
+  - Add visual effects to the elements on page, to make them appear or disppaer as they slide through the vieport.
 
-  - Fade out elements on scroll as they leaving the viewport
-
-  - Animate logo when nav links and primary cta button clicked
+  - Animate logo and set animation to be triggered if the navigation links or primary call-to-action buttons are clicked.
 
   <br>
   
-  Note: some of the JavaScript features has been already implemented, however the code was not tested and used only as a temporary measure, therefore is still considered as not completed.
+  Note: Some JavaScript features has already been implemented, however the code was not tested and used only as a temporary measure, therefore is still marked as "not completed".
 
   <br>
 
@@ -326,7 +329,7 @@
 
 - Photos and text content were taken from the existing Redland Renovations website.
 
-- Font styles and colors were taken from the existing Redland Renovations website.
+- Font styles and colors were taken from the existing Redland Renovations website. Additional colors were generated using [Coolors.co](https://coolors.co/).
 
 - Dummy images were taken from [Pexels](https://www.pexels.com/).
 
@@ -380,7 +383,7 @@ Testing results can be found in [testing.md](./testing.md).
 
 - [svgrepo.com](https://www.svgrepo.com/) - was used to source arrow icons.
 
-- [Coolors.co](https://coolors.co/) - was used to display the colour scheme.
+- [Coolors.co](https://coolors.co/) - was used to generate and display the colour scheme.
 
 - [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/overview/) - was used during testing, debugging and making the website responsive.
 
