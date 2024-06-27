@@ -157,19 +157,31 @@
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
 |  |  |  |  |  |
-| `Navigation bar - mobile` |
-| Logo Home button | When clicked..  | Clicked .. | Opened.. | Pass |
-| Hamburger menu | When clicked..  | Clicked .. | Opened.. | Pass |
-| Services link | When clicked the user will be redirected to the services page.| Clicked link | Redirected to the services page. | Pass |
-| Gallery link | When clicked the user will be redirected to the first gllaery section. | Clicked link | Redirected to the first gallery section. | Pass |
-| About us link | When clicked the user will be redirected to the first gllaery section. | Clicked link | Redirected to the first gallery section. | Pass |
-| Contact us link | When clicked the user will be redirected to the Contact us section. | Clicked link | Redirected to the contact section | Pass |
+| `Header + Navigation bar - mobile` |
+| Logo Home button | When clicked the user will be redirected to the home page | Clicked the button | Redirected to the home page | Pass |
+| Logo Home button | When clicked logo will play animation | Clicked the button | Animation played | Pass |
+| Hamburger menu | When clicked the navigation sidebar will slide out  | Clicked the menu icon | Navigation slid out | Pass |
+| Hamburger menu | When clicked the hamburger menu icon will change to orange X | Clicked the menu icon | The icon changed to orange X | Pass |
+| Services link | When clicked the user will be redirected to the services page | Clicked the link | Redirected to the services page | Pass |
+| Services link | On hover the link text color changes to orange | Hovered over the link | Link text color changed to orange | Pass |
+| Gallery link | When clicked the user will be redirected to the first gllaery section | Clicked the link | Redirected to the first gallery section | Pass |
+| Gallery link | On hover the link text color changes to orange | Hovered over the link | Link text color changed to orange | Pass |
+| About us link | When clicked the user will be redirected to the first gllaery section | Clicked the link | Redirected to the first gallery section | Pass |
+| About us link | On hover the link text color changes to orange | Hovered over the link | Link text color changed to orange | Pass |
+| Contact us link | When clicked the user will be redirected to the Contact us section. | Clicked the link | Redirected to the contact section | Pass |
+| Contact us link | On hover the link text color changes to orange | Hovered over the link | Link text color changed to orange | Pass |
 |  |  |  |  |  |
-| `Navigation bar - desktop` |
-| Services page link | When clicked the user will be redirected to the services page.| Clicked link | Redirected to the services page. | Pass |
+| `Header + Navigation bar - desktop` |
+| Logo Home button | When clicked the user will be redirected to the home page | Clicked the button | Redirected to the home page | Pass |
+| Logo Home button | When clicked logo will play animation | Clicked the button | Animation played | Pass |
+| Services link | When clicked the user will be redirected to the services page.| Clicked link | Redirected to the services page. | Pass |
+| Services link | On hover the link text color changes to orange | Hovered over the link | Link text color changed to orange | Pass |
 | Gallery link | When clicked the user will be redirected to the first gllaery section. | Clicked link | Redirected to the first gallery section. | Pass |
+| Gallery link | On hover the link text color changes to orange | Hovered over the link | Link text color changed to orange | Pass |
 | About us link | When clicked the user will be redirected to the first gllaery section. | Clicked link | Redirected to the first gallery section. | Pass |
+| About us link | On hover the link text color changes to orange | Hovered over the link | Link text color changed to orange | Pass |
 | Contact us link  | When clicked the user will be redirected to the Contact us section. | Clicked link | Redirected to the contact section | Pass |
+| Contact us link | On hover the link text color changes to orange | Hovered over the link | Link text color changed to orange | Pass |
 |  |  |  |  |  |
 | `Home page` |
 | Call-to-action button | Animated light reflection effect slides across the button every 8s | Observed the animation | Animation works as expected | Pass |

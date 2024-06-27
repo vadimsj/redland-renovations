@@ -191,7 +191,7 @@ hideOnScroll(".frame__toggle-img", 0.77);
 hideOnScroll(".gallery-grid", 0.84);
 
 
-/* -- Function to animate logo when nav links and primary cta button clicked" -- */
+/* -- Function to animate logo when nav links and primary cta button clicked -- */
 
 document.addEventListener("DOMContentLoaded", function() {
     // Function to trigger logo animation
