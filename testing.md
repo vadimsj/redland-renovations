@@ -23,6 +23,7 @@
   **As a first-time visitor, I would like to:**
 
   **1. Identify the nature of the business and specialization of the company.**
+
   **2. Locate where the company is based and its areas of operation.**
 
   - The home page features a large heading, "Property Renovations in Bristol," clearly identifying the nature of the business and its area of operation.
@@ -40,6 +41,7 @@
   - Following the services list, there are galleries showcasing completed projects.
 
   **5. Find essential information about the company.**
+
   **6. Contact the company.**
 
   - The primary call-to-action button on the home page leads visitors directly to the contact us page, where the phone number and email address are displayed.
@@ -158,30 +160,23 @@
 | --- | --- | --- | --- | --- |
 |  |  |  |  |  |
 | `Header + Navigation bar - mobile` |
-| Logo Home button | When clicked the user will be redirected to the home page | Clicked the button | Redirected to the home page | Pass |
-| Logo Home button | When clicked logo will play animation | Clicked the button | Animation played | Pass |
-| Hamburger menu | When clicked the navigation sidebar will slide out  | Clicked the menu icon | Navigation slid out | Pass |
-| Hamburger menu | When clicked the hamburger menu icon will change to orange X | Clicked the menu icon | The icon changed to orange X | Pass |
-| Services link | When clicked the user will be redirected to the services page | Clicked the link | Redirected to the services page | Pass |
-| Services link | On hover the link text color changes to orange | Hovered over the link | Link text color changed to orange | Pass |
-| Gallery link | When clicked the user will be redirected to the first gllaery section | Clicked the link | Redirected to the first gallery section | Pass |
-| Gallery link | On hover the link text color changes to orange | Hovered over the link | Link text color changed to orange | Pass |
-| About us link | When clicked the user will be redirected to the first gllaery section | Clicked the link | Redirected to the first gallery section | Pass |
-| About us link | On hover the link text color changes to orange | Hovered over the link | Link text color changed to orange | Pass |
-| Contact us link | When clicked the user will be redirected to the Contact us section. | Clicked the link | Redirected to the contact section | Pass |
-| Contact us link | On hover the link text color changes to orange | Hovered over the link | Link text color changed to orange | Pass |
+| Logo Home button | On click scrolls to the home page (smooth scroll) | Clicked the button | Redirected to the home page | Pass |
+| Logo Home button | On click logo will play the animation | Clicked the button | Animation played | Pass |
+| Hamburger menu | On click, the navigation sidebar slides out and the black hamburger menu icon changes to orange X icon | Clicked the Hamburger menu icon | Navigation sidebar slid out and the black Hamburger menu icon changed to orange X icon | Pass |
+| Hamburger menu | On click X icon, the sidebar menu is closed and the orange X icon changed to black Hamburger menu icon | Clicked the X icon | Sidebar menu closed and the orange X icon changed to black Hamburger menu icon | Pass |
+| Sidebar animation | Sidebar slides out smoothly and the navigation links sliding out following the sidebar, one after another | Clicked the Hamburger menu icon | Animation worked as expected | Pass |
+| Services link | On click scrolls to the services page (smooth scroll) | Clicked the link | Page scrolled to the services page | Pass |
+| Gallery link | On click scrolls to the first Gallery section (smooth scroll) | Clicked the link | Page scrolled to the first Gallery section | Pass |
+| About us link | On click scrolls to the About us section (smooth scroll) | Clicked the link | Page scrolled to the  About us section | Pass |
+| Contact us link | On click scrolls to the Contact us section (smooth scroll) | Clicked the link | Page scrolled to the Contact us section | Pass |
 |  |  |  |  |  |
 | `Header + Navigation bar - desktop` |
-| Logo Home button | When clicked the user will be redirected to the home page | Clicked the button | Redirected to the home page | Pass |
-| Logo Home button | When clicked logo will play animation | Clicked the button | Animation played | Pass |
-| Services link | When clicked the user will be redirected to the services page.| Clicked link | Redirected to the services page. | Pass |
-| Services link | On hover the link text color changes to orange | Hovered over the link | Link text color changed to orange | Pass |
-| Gallery link | When clicked the user will be redirected to the first gllaery section. | Clicked link | Redirected to the first gallery section. | Pass |
-| Gallery link | On hover the link text color changes to orange | Hovered over the link | Link text color changed to orange | Pass |
-| About us link | When clicked the user will be redirected to the first gllaery section. | Clicked link | Redirected to the first gallery section. | Pass |
-| About us link | On hover the link text color changes to orange | Hovered over the link | Link text color changed to orange | Pass |
-| Contact us link  | When clicked the user will be redirected to the Contact us section. | Clicked link | Redirected to the contact section | Pass |
-| Contact us link | On hover the link text color changes to orange | Hovered over the link | Link text color changed to orange | Pass |
+| Logo Home button | On click the user will be redirected to the home page | Clicked the button | Redirected to the home page | Pass |
+| Logo Home button | On click logo will play the animation | Clicked the button | Animation worked as expected | Pass |
+| Services link | On click scrolls to the services page (smooth scroll) | Clicked the link | Page scrolled to the Services page | Pass |
+| Gallery link | On click scrolls to the first Gallery section (smooth scroll) | Clicked the link | Page scrolled to the first Gallery section | Pass |
+| About us link | On click scrolls to the About us section (smooth scroll) | Clicked the link | Page scrolled to the About us section | Pass |
+| Contact us link | On click scrolls to the Contact us section (smooth scroll) | Clicked the link | Page scrolled to the Contact us section | Pass |
 |  |  |  |  |  |
 | `Home page` |
 | Call-to-action button | Animated light reflection effect slides across the button every 8s | Observed the animation | Animation works as expected | Pass |
