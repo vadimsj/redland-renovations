@@ -164,22 +164,8 @@
   - Hero Image
 
     <img src="assets/docs/image-preview/hero-image-preview.png" alt="Hero image" width="500px">
-
-  - Roofing & loft extensions
-      <img src="#" alt="Roofing images preview" width="1000px">
-  - Plastering, rendering, insulation & stonemasonry
-      <img src="#" alt="Rendering images preview" width="1000px">
-  - Kitchen installations
-      <img src="#" alt="Kitchen images preview" width="1000px">
-  - Gardening work
-      <img src="#" alt="Gardening images preview" width="1000px">
-  - Fencing & stone/brick wall
-      <img src="#" alt="Fencing images preview" width="1000px">
-  - Heating systems
-      <img src="#" alt="Heating images preview" width="1000px">
-  - Driveways, patios & decking
-      <img src="#" alt="Driveways images preview" width="1000px">
-      </details>
+    
+<br>
 
  ### Features 
 
