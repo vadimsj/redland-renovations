@@ -164,7 +164,7 @@
   - Hero Image
 
     <img src="assets/docs/image-preview/hero-image-preview.png" alt="Hero image" width="500px">
-    
+
 <br>
 
  ### Features 
@@ -199,7 +199,6 @@
     <img src="assets/docs/features/home-page-desktop.png" alt="Desktop page preview" width="600px">
 
 <br>
-
 
 - Services Section
 

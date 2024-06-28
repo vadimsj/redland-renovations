@@ -789,7 +789,7 @@ svg {
 
     .scroll-reveal .line-reveal {
         animation-range-start: cover 0vh;
-        animation-range-end: cover 70vh;
+        animation-range-end: cover 50vh;
     }
 
     .scroll-reveal .line-reveal > .phone-link {
