@@ -34,6 +34,7 @@
     --font-weight-bold: 600;
     --line-height: 1.6;
     --line-height-s: 1.4;
+    --line-height-l: 2.2;
     --letter-spacing: .6px;
 
     /* Navigation variables (Code implemented following the tutorial from Web Dev Simplified ((c) - readme > credits) */
@@ -347,7 +348,7 @@ h2 {
 }
 
 h3 {
-    line-height: var(--line-height);
+    line-height: var(--line-height-l);
     font-weight: var(--font-weight-regular);
 }
 
