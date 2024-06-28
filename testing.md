@@ -4,7 +4,32 @@
 
 [Github repository](https://github.com/vadimsj/redland-renovations)
 
+<hr>
+
 ### Contents:
+
+- [Tools used for testing](#tools-used-for-testing)
+- [User story testing](#user-story-testing)
+  - [A. First Time Visitor Goals](#a-first-time-visitor-goals)
+  - [B. Returning Visitor Goals](#b-returning-visitor-goals)
+  - [C. Website Owner Goals](#c-website-owner-goals)
+- [Automated testing](#automated-testing)
+  - [Lighthouse performance testing](#lighthouse-performance-testing)
+  - [W3C Markup Validator testing](#w3c-markup-validator-testing)
+  - [W3C CSS (Jigsaw) Validator testing](#w3c-css-jigsaw-validator-testing)
+  - [Wave Web Accessibility testing](#wave-web-accessibility-testing)
+- [Manual testing](#manual-testing)
+  - [Feature testing](#feature-testing)
+    - [index.html](#indexhtml)
+    - [thank-you.html](#thank-youhtml)
+    - [404.html](#404html)
+  - [Browser testing](#browser-testing)
+  - [Responsiveness testing](#responsiveness-testing)
+- [Unfixed Bugs](#unfixed-bugs)
+
+<br>
+
+<hr>
 
 ### Tools used for testing:
 
