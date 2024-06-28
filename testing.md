@@ -156,6 +156,8 @@
 
 ### Feature testing
 
+#### index.html
+
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
 |  |  |  |  |  |
@@ -179,32 +181,54 @@
 | Contact us link | On click scrolls to the Contact us section (smooth scroll) | Clicked the link | Page scrolled to the Contact us section | Pass |
 |  |  |  |  |  |
 | `Home page` |
-| Call-to-action button | Animated light reflection effect slides across the button every 8s | Observed the animation | Animation works as expected | Pass |
-| Call-to-action button | When clicked redirected to the Contact us page  | Clicked the button | Redirected to the Contact us page | Pass |
-| --- | When clicked..  | Clicked .. | Opened.. | Pass |
-|  |  |  |  |  |
-| `Services` |
-| --- | When clicked..  | Clicked .. | Opened.. | Pass |
+| Call-to-action button | Animated light reflection effect periodically slides across the button | Observed the animation | Animation works as expected | Pass |
+| Call-to-action button | On click scrolls to the Contact us section (smooth scroll) | Clicked the button | Page scrolled to the Contact us section | Pass |
+| Call-to-action button | On hover arrow icon on the button shifts right | Hovered over the button | Animation worked as expeted | Pass |
 |  |  |  |  |  |
 | `Call-to-action bar` |
-| Text line reveal-on-scroll effect | When clicked..  | Clicked .. | Opened.. | Pass |
+| Text line reveal-on-scroll effect | Text reveals line by line on scroll down | Scrolled the page | Animation worked as expected | Pass |
+| Phone number | On click opens the phone app with the pre-dialed number | Clicked the phone number | Phone app with the pre-dialed number opened | Pass |
+| Email address | On click opens the email client with the pre-entered email address | Clicked the email address | Opened the email client with the pre-entered email address | Pass |
 |  |  |  |  |  |
 | `Gallery section` |
-| --- | When clicked..  | Clicked .. | Opened.. | Pass |
+| Toggle fold images button | On click reveals/folds additional images in the gallery sections | Clicked the button | Revealed/folded images | Pass |
+| Toggle fold images button | On click changes the button icon from white arrow down when folded to orange arrow up unfolded | Clicked the button | The icon changed from white arrow up to orange arrow down | Pass |
 |  |  |  |  |  |
 | `USP bar` |
-| Text line reveal-on-scroll effect | When clicked..  | Clicked .. | Opened.. | Pass |
+| Text line reveal-on-scroll effect | Text reveals line by line on scroll down | Scrolled the page | Animation worked as expected | Pass |
 |  |  |  |  |  |
 | `Contact us page` |
-| Phone number | When clicked..  | Clicked .. | Opened.. | Pass |
-| Email address | When clicked..  | Clicked .. | Opened.. | Pass |
-| Form | When clicked..  | Clicked .. | Opened.. | Pass |
-| Submit button | When clicked..  | Clicked .. | Opened.. | Pass |
-| Parallax effect | When clicked..  | Clicked .. | Opened.. | Pass |
+| Phone number | On click opens the phone app with the pre-dialed number | Clicked the phone number | Phone app with the pre-dialed number opened | Pass |
+| Phone number | On hover text color changes to orange | Hovered over the phone number | Text color changed to orange | Pass |
+| Email address | On click opens the email client with the pre-entered email address | Clicked the email address | Opened the email client with the pre-entered email address | Pass |
+| Email address | On hover text color changes to orange | Hovered over the phone number | Text color changed to orange | Pass |
+| Form | Selected field in the form is highlighted with the orange outline | Selected the form filed | Selected field in the form highlighted with the orange outline | Pass |
+| Form | Requires a valid details for each field | Attempted to enter invalid details | Received a prompt alerting to entred the correct details | Pass |
+| Submit button | On successful submission redirects user to the Thank you page  | Clicked the button | Redirected to the Thank you page | Pass |
 | `Footer` |
 |  |  |  |  |  |
-| --- | When clicked..  | Clicked .. | Opened.. | Pass |
+| Parallax effect | Page appears to slide over the static footer on scroll | Scrolled the page | Footer displayed as expected | Pass |
+<br>
 
+#### thank-you.html
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+|  |  |  |  |  |
+| Call-to-action button | Animated light reflection effect periodically slides across the button | Observed the animation | Animation works as expected | Pass |
+| Call-to-action button | On hover arrow icon on the button shifts right | Hovered over the button | Animation worked as expeted | Pass |
+| Call-to-action button | On click redirects user to the Home page | Clicked the button | Redirected to the Home page | Pass |
+<br>
+
+#### 404.html
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+|  |  |  |  |  |
+| Call-to-action button | Animated light reflection effect periodically slides across the button | Observed the animation | Animation works as expected | Pass |
+| Call-to-action button | On hover arrow icon on the button shifts right | Hovered over the button | Animation worked as expeted | Pass |
+| Call-to-action button | On click redirects user to the Home page | Clicked the button | Redirected to the Home page | Pass |
+<br>
 
 ### Browser testing
 
