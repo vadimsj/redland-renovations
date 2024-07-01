@@ -211,7 +211,7 @@
 | Call-to-action button | On hover arrow icon on the button shifts right | Hovered over the button | Animation worked as expeted | Pass |
 |  |  |  |  |  |
 | `Call-to-action bar` |
-| Text line reveal-on-scroll effect | Text reveals line by line on scroll down | Scrolled the page | Animation worked as expected | Pass |
+| Text line reveal-on-scroll effect (limited support) | Text reveals line by line on scroll down | Scrolled the page | Animation worked as expected | Pass |
 | Phone number | On click opens the phone app with the pre-dialed number | Clicked the phone number | Phone app with the pre-dialed number opened | Pass |
 | Email address | On click opens the email client with the pre-entered email address | Clicked the email address | Opened the email client with the pre-entered email address | Pass |
 |  |  |  |  |  |
@@ -220,7 +220,7 @@
 | Toggle fold images button | On click changes the button icon from white arrow down when folded to orange arrow up unfolded | Clicked the button | The icon changed from white arrow up to orange arrow down | Pass |
 |  |  |  |  |  |
 | `USP bar` |
-| Text line reveal-on-scroll effect | Text reveals line by line on scroll down | Scrolled the page | Animation worked as expected | Pass |
+| Text line reveal-on-scroll effect (limited support) | Text reveals line by line on scroll down | Scrolled the page | Animation worked as expected | Pass |
 |  |  |  |  |  |
 | `Contact us page` |
 | Phone number | On click opens the phone app with the pre-dialed number | Clicked the phone number | Phone app with the pre-dialed number opened | Pass |
@@ -228,7 +228,7 @@
 | Email address | On click opens the email client with the pre-entered email address | Clicked the email address | Opened the email client with the pre-entered email address | Pass |
 | Email address | On hover text color changes to orange | Hovered over the phone number | Text color changed to orange | Pass |
 | Form | Selected field in the form is highlighted with the orange outline | Selected the form filed | Selected field in the form highlighted with the orange outline | Pass |
-| Form | Requires a valid details for each field | Attempted to enter invalid details | Received a prompt alerting to entred the correct details | Pass |
+| Form | Requires a valid details for each field | Attempted to enter invalid details | Received a prompt alerting to entred the valid details | Pass |
 | Submit button | On successful submission redirects user to the Thank you page  | Clicked the button | Redirected to the Thank you page | Pass |
 | `Footer` |
 |  |  |  |  |  |
