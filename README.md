@@ -163,6 +163,8 @@
   - Hero Image
 
     <img src="assets/docs/image-preview/hero-image-preview.png" alt="Hero image" width="500px">
+  
+  </details>
 
 <br>
 
@@ -287,17 +289,17 @@
 
 #### Features left to implement:
 
-- Image slider showcasing images from the gallery sections full screen when those clicked.
+- Image slider showcasing images from the gallery sections full screen when clicked.
 
 - Function to close the navbar automatically when the nav links are clicked.
 
 - Form validation function to set either phone number or email to be required in the form.
 
-- Function to change theme color meta tag when hamburger menu is open
+- Function to change the theme color meta tag when hamburger menu is open.
 
 - Add visual effects:
   
-  - Drop shadow under the navbar when the page is scrolled.
+  - Drop the shadow under the navbar when the page is scrolled.
 
   - Add visual effects to the elements on page, to make them appear or disppaer as they slide through the vieport.
 
@@ -305,7 +307,7 @@
 
   <br>
   
-  Note: Some JavaScript features has already been implemented, however the code was not tested and used only as a temporary measure, therefore is still marked as "not completed".
+  Note: Some JavaScript features has already been implemented, however the code was not tested and used only as a temporary measure, therefore still marked as "not completed".
 
   <br>
 
