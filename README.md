@@ -2,7 +2,6 @@
 
 <br>
 
-
 <br>
 
 [Live website preview](https://vadimsj.github.io/redland-renovations)
