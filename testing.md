@@ -71,7 +71,7 @@
 
   - The primary call-to-action button on the home page leads visitors directly to the contact us page, where the phone number and email address are displayed.
 
-  - The contact form allows visitors and to leave their own contact details and to submit messages directly.
+  - The contact form allows visitors to leave their own contact details and to submit messages directly.
 
   - Below the contact form, there is a footer with the company's address.
 
