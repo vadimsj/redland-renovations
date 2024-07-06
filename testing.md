@@ -73,7 +73,7 @@
 
   - The contact form allows visitors to leave their own contact details and to submit messages directly.
 
-  - Below the contact form, there is a footer with the company's address.
+  - Below the contact form, there is a footer with the company's registered address.
 
 <br>
 
