@@ -107,7 +107,7 @@
 
   **4. Offer a various options for customers to get in touch.**
 
-  - The primary call to action leads directly to contact form that allows to submit the message directly
+  - The primary call to action leads directly to contact form that allows to submit the message directly.
 
   - The website features additional call to action bar with the phone number and email.
 
