@@ -208,7 +208,7 @@
 | `Home page` |
 | Call-to-action button | Animated light reflection effect periodically slides across the button | Observed the animation | Animation works as expected | Pass |
 | Call-to-action button | On click scrolls to the Contact us section (smooth scroll) | Clicked the button | Page scrolled to the Contact us section | Pass |
-| Call-to-action button | On hover arrow icon on the button shifts right | Hovered over the button | Animation worked as expeted | Pass |
+| Call-to-action button | On hover the arrow icon on the button shifts right | Hovered over the button | Animation worked as expeted | Pass |
 |  |  |  |  |  |
 | `Call-to-action bar` |
 | Text line reveal-on-scroll effect (limited support) | Text reveals line by line on scroll down | Scrolled the page | Animation worked as expected | Pass |
@@ -241,7 +241,7 @@
 | --- | --- | --- | --- | --- |
 |  |  |  |  |  |
 | Call-to-action button | Animated light reflection effect periodically slides across the button | Observed the animation | Animation works as expected | Pass |
-| Call-to-action button | On hover arrow icon on the button shifts right | Hovered over the button | Animation worked as expeted | Pass |
+| Call-to-action button | On hover the arrow icon on the button shifts right | Hovered over the button | Animation worked as expeted | Pass |
 | Call-to-action button | On click redirects user to the Home page | Clicked the button | Redirected to the Home page | Pass |
 <br>
 
@@ -251,7 +251,7 @@
 | --- | --- | --- | --- | --- |
 |  |  |  |  |  |
 | Call-to-action button | Animated light reflection effect periodically slides across the button | Observed the animation | Animation works as expected | Pass |
-| Call-to-action button | On hover arrow icon on the button shifts right | Hovered over the button | Animation worked as expeted | Pass |
+| Call-to-action button | On hover the arrow icon on the button shifts right | Hovered over the button | Animation worked as expeted | Pass |
 | Call-to-action button | On click redirects user to the Home page | Clicked the button | Redirected to the Home page | Pass |
 <br>
 
