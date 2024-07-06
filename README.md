@@ -307,7 +307,7 @@
 
   <br>
   
-  Note: Some JavaScript features has already been implemented, however the code was not tested and used only as a temporary measure, therefore still marked as "not completed".
+  Note: Some JavaScript features has already been implemented, however the code was not tested and used only as a temporary measure, due to JavaScript being out of scope for this project.
 
   <br>
 
